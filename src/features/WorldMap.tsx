@@ -1,25 +1,90 @@
-import { Select, Checkbox } from '../ui/controls';
-import { useMemo, useState } from "react";
+import { Checkbox } from "../ui/controls";
+import {
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type PointerEvent as ReactPointerEvent,
+} from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import {
   areaById,
+  areas,
   familyById,
   locationById,
   locations,
   maps,
   markerById,
   spawns,
+  type Family,
+  type Marker,
+  type Spawn,
 } from "../data/static";
-import { dayNames, Icon } from "../ui/common";
+import { dayNames, elementNames, Icon } from "../ui/common";
+import { assetsForFormId } from "../ui/assets";
 import { useProfile } from "../storage/profile";
+import { elements, normalize, searchMatch } from "../domain/catalog/filter";
 
 const todayUTC = () => ((new Date().getUTCDay() + 6) % 7) + 1;
+const worldLocations = locations.filter((item) => item.mapId);
+const MIN_SCALE = 1;
+const MAX_SCALE = 3.2;
+
+function familyAvatar(family?: Family) {
+  const formId = family?.formIds[0];
+  if (!formId) return "";
+  return (
+    assetsForFormId(formId)?.avatarPath ||
+    assetsForFormId(formId)?.battlePath ||
+    ""
+  );
+}
+
+function clusterMarkers(
+  items: Marker[],
+  width: number,
+  height: number,
+  scale: number,
+  gap = 40,
+) {
+  const groups: { x: number; y: number; items: Marker[] }[] = [];
+  const limit = gap / Math.max(scale, 0.001);
+  for (const marker of items) {
+    const px = marker.x * width;
+    const py = marker.y * height;
+    const hit = groups.find((group) => {
+      const dx = group.x * width - px;
+      const dy = group.y * height - py;
+      return Math.hypot(dx, dy) <= limit;
+    });
+    if (hit) hit.items.push(marker);
+    else groups.push({ x: marker.x, y: marker.y, items: [marker] });
+  }
+  return groups.map((group) => ({
+    ...group,
+    x: group.items.reduce((sum, item) => sum + item.x, 0) / group.items.length,
+    y: group.items.reduce((sum, item) => sum + item.y, 0) / group.items.length,
+  }));
+}
+
 export default function WorldMap() {
   const [params, setParams] = useSearchParams();
-  const [day, setDay] = useState<number | null>(todayUTC());
-  const [onlyMissing, setOnlyMissing] = useState(false);
+  const [query, setQuery] = useState(params.get("q") || "");
+  const [day, setDay] = useState<number | null>(() => {
+    const raw = params.get("day");
+    if (raw === "all") return null;
+    if (raw && Number(raw) >= 1 && Number(raw) <= 7) return Number(raw);
+    return todayUTC();
+  });
+  const [caught, setCaught] = useState<"all" | "caught" | "missing">(
+    (params.get("caught") as "all" | "caught" | "missing") || "all",
+  );
+  const [elementFilter, setElementFilter] = useState(
+    params.get("element") || "",
+  );
+  const [areaFilter, setAreaFilter] = useState(params.get("area") || "");
   const [selected, setSelected] = useState(params.get("family") || "");
-  const [zoom, setZoom] = useState(1);
+  const [openCluster, setOpenCluster] = useState<string | null>(null);
   const [showList, setShowList] = useState(true);
   const { entries, patch } = useProfile();
   const locationId = locationById.has(params.get("location") || "")
@@ -27,47 +92,84 @@ export default function WorldMap() {
     : "location:forest";
   const location = locationById.get(locationId)!;
   const map = maps.find((item) => item.locationId === locationId);
-  const filtered = useMemo(
-    () =>
-      spawns.filter(
-        (item) =>
-          item.locationId === locationId &&
-          (day === null || item.schedule.weekdays?.includes(day)) &&
-          (!onlyMissing || !entries[item.familyId]?.everCaught),
-      ),
-    [locationId, day, onlyMissing, entries],
+  const locationAreas = useMemo(
+    () => areas.filter((item) => item.locationId === locationId),
+    [locationId],
   );
+  const filtered = useMemo(() => {
+    const needle = normalize(query);
+    return spawns.filter((item) => {
+      if (item.locationId !== locationId) return false;
+      if (areaFilter && item.areaId !== areaFilter) return false;
+      if (day !== null && !item.schedule.weekdays?.includes(day)) return false;
+      const family = familyById.get(item.familyId);
+      if (!family) return false;
+      if (elementFilter && !family.elements.includes(elementFilter))
+        return false;
+      if (caught === "missing" && entries[item.familyId]?.everCaught)
+        return false;
+      if (caught === "caught" && !entries[item.familyId]?.everCaught)
+        return false;
+      if (needle && !searchMatch(family, query)) return false;
+      return true;
+    });
+  }, [locationId, areaFilter, day, caught, elementFilter, query, entries]);
   const visibleMarkers = useMemo(
     () =>
       Array.from(new Set(filtered.flatMap((item) => item.markerIds)))
         .map((id) => markerById.get(id))
         .filter(
-          (item): item is NonNullable<typeof item> =>
-            !!item && item.mapId === map?.id,
+          (item): item is Marker => !!item && item.mapId === map?.id,
         ),
     [filtered, map?.id],
   );
   const grouped = useMemo(() => {
-    const groups = new Map<string, typeof filtered>();
+    const groups = new Map<string, Spawn[]>();
     for (const item of filtered) {
       const key = item.areaId || "unknown";
       groups.set(key, [...(groups.get(key) || []), item]);
     }
     return groups;
   }, [filtered]);
+  const writeParams = (next: {
+    location?: string;
+    family?: string;
+    area?: string;
+    day?: number | null;
+    caught?: string;
+    element?: string;
+    q?: string;
+  }) => {
+    const search = new URLSearchParams();
+    search.set("location", next.location ?? locationId);
+    const family = next.family ?? selected;
+    if (family) search.set("family", family);
+    const area = next.area ?? areaFilter;
+    if (area) search.set("area", area);
+    const nextDay = next.day === undefined ? day : next.day;
+    if (nextDay === null) search.set("day", "all");
+    else if (nextDay) search.set("day", String(nextDay));
+    const nextCaught = next.caught ?? caught;
+    if (nextCaught !== "all") search.set("caught", nextCaught);
+    const nextElement = next.element === undefined ? elementFilter : next.element;
+    if (nextElement) search.set("element", nextElement);
+    const nextQuery = next.q === undefined ? query : next.q;
+    if (nextQuery) search.set("q", nextQuery);
+    setParams(search, { replace: true });
+  };
   const changeLocation = (id: string) => {
-    setParams(new URLSearchParams({ location: id }));
     setSelected("");
-    setZoom(1);
+    setAreaFilter("");
+    setOpenCluster(null);
+    writeParams({ location: id, family: "", area: "" });
   };
   const selectFamily = (id: string) => {
     setSelected(id);
-    const next = new URLSearchParams(params);
-    next.set("location", locationId);
-    next.set("family", id);
-    setParams(next, { replace: true });
+    setOpenCluster(null);
+    writeParams({ family: id });
   };
   const familiesCount = new Set(filtered.map((item) => item.familyId)).size;
+  const pointCount = filtered.filter((item) => item.markerIds.length).length;
   return (
     <div className="page map-page">
       <div className="map-heading">
@@ -75,50 +177,126 @@ export default function WorldMap() {
           <p className="eyebrow">Мир мискритов</p>
           <h1>Карта мира</h1>
           <p className="muted">
-            {familiesCount} мискритов · {filtered.length} мест появления ·
-            расписание UTC
+            {familiesCount} мискритов · {filtered.length} появлений ·{" "}
+            {pointCount} с точкой · расписание UTC
           </p>
         </div>
-        <div className="map-controls">
-          <label>
-            Локация
-            <Select
-              value={locationId}
-              onChange={(event) => changeLocation(event.target.value)}
+      </div>
+      <div className="map-filters">
+        <label className="search-box map-search">
+          <Icon name="search" />
+          <span className="sr-only">Поиск на карте</span>
+          <input
+            type="search"
+            placeholder="Имя мискрита"
+            value={query}
+            onChange={(event) => {
+              const value = event.target.value.slice(0, 120);
+              setQuery(value);
+              writeParams({ q: value });
+            }}
+          />
+        </label>
+        <div className="map-chip-row" role="listbox" aria-label="Локация">
+          {worldLocations.map((item) => (
+            <button
+              key={item.id}
+              type="button"
+              className={`map-chip ${item.id === locationId ? "active" : ""}`}
+              aria-pressed={item.id === locationId}
+              onClick={() => changeLocation(item.id)}
             >
-              {locations
-                .filter((item) => item.mapId)
-                .map((item) => (
-                  <option key={item.id} value={item.id}>
-                    {item.name}
-                  </option>
-                ))}
-            </Select>
-          </label>
-          <label>
-            День
-            <Select
-              value={day ?? ""}
-              onChange={(event) =>
-                setDay(event.target.value ? Number(event.target.value) : null)
-              }
+              {item.name}
+            </button>
+          ))}
+        </div>
+        {locationAreas.length > 1 && (
+          <div className="map-chip-row" aria-label="Зона">
+            <button
+              type="button"
+              className={`map-chip ${areaFilter === "" ? "active" : ""}`}
+              onClick={() => {
+                setAreaFilter("");
+                writeParams({ area: "" });
+              }}
             >
-              <option value="">Все дни</option>
-              {dayNames.map((name, index) => (
-                <option key={name} value={index + 1}>
-                  {name}
-                  {index + 1 === todayUTC() ? " · сегодня" : ""}
-                </option>
-              ))}
-            </Select>
-          </label>
-          <label className="checkbox-line">
-            <Checkbox
-              checked={onlyMissing}
-              onChange={(event) => setOnlyMissing(event.target.checked)}
-            />
-            Не пойманы
-          </label>
+              Все зоны
+            </button>
+            {locationAreas.map((item) => (
+              <button
+                key={item.id}
+                type="button"
+                className={`map-chip ${areaFilter === item.id ? "active" : ""}`}
+                onClick={() => {
+                  setAreaFilter(item.id);
+                  writeParams({ area: item.id });
+                }}
+              >
+                {item.name}
+              </button>
+            ))}
+          </div>
+        )}
+        <div className="map-chip-row" aria-label="День недели UTC">
+          <button
+            type="button"
+            className={`map-chip ${day === null ? "active" : ""}`}
+            onClick={() => {
+              setDay(null);
+              writeParams({ day: null });
+            }}
+          >
+            Все дни
+          </button>
+          {dayNames.map((name, index) => (
+            <button
+              key={name}
+              type="button"
+              className={`map-chip ${day === index + 1 ? "active" : ""}`}
+              onClick={() => {
+                setDay(index + 1);
+                writeParams({ day: index + 1 });
+              }}
+            >
+              {name}
+              {index + 1 === todayUTC() ? " · сегодня" : ""}
+            </button>
+          ))}
+        </div>
+        <div className="map-chip-row">
+          {(
+            [
+              ["all", "Все"],
+              ["missing", "Не пойманы"],
+              ["caught", "Пойманы"],
+            ] as const
+          ).map(([value, label]) => (
+            <button
+              key={value}
+              type="button"
+              className={`map-chip ${caught === value ? "active" : ""}`}
+              onClick={() => {
+                setCaught(value);
+                writeParams({ caught: value });
+              }}
+            >
+              {label}
+            </button>
+          ))}
+          {elements.map((element) => (
+            <button
+              key={element}
+              type="button"
+              className={`map-chip ${elementFilter === element ? "active" : ""}`}
+              onClick={() => {
+                const next = elementFilter === element ? "" : element;
+                setElementFilter(next);
+                writeParams({ element: next });
+              }}
+            >
+              {elementNames[element]}
+            </button>
+          ))}
         </div>
       </div>
       <div className="map-workspace">
@@ -144,6 +322,7 @@ export default function WorldMap() {
                     {items.map((item) => {
                       const family = familyById.get(item.familyId);
                       if (!family) return null;
+                      const avatar = familyAvatar(family);
                       return (
                         <article
                           className={`map-result ${selected === family.id ? "selected" : ""}`}
@@ -153,12 +332,24 @@ export default function WorldMap() {
                             className="map-result-name"
                             onClick={() => selectFamily(family.id)}
                           >
-                            <strong>{family.name}</strong>
-                            <small>
-                              {item.markerIds.length
-                                ? `${item.markerIds.length} точек`
-                                : "Точная точка не указана"}
-                            </small>
+                            {avatar ? (
+                              <img src={avatar} alt="" className="map-list-avatar" />
+                            ) : (
+                              <span className="map-list-avatar fallback" />
+                            )}
+                            <span>
+                              <strong>{family.name}</strong>
+                              <small>
+                                {item.markerIds.length
+                                  ? `${item.markerIds.length} точек`
+                                  : "Точная точка не указана"}
+                                {item.schedule.weekdays?.length
+                                  ? ` · ${item.schedule.weekdays
+                                      .map((value) => dayNames[value - 1])
+                                      .join(", ")}`
+                                  : ""}
+                              </small>
+                            </span>
                           </button>
                           <button
                             className="small-catch"
@@ -187,87 +378,372 @@ export default function WorldMap() {
             </div>
           )}
         </div>
-        <div className="map-stage">
-          <div className="map-stage-toolbar">
-            <span>Карта: обзорная копия</span>
-            <div>
-              <button
-                className="icon-button"
-                onClick={() => setZoom(Math.max(1, zoom - 0.25))}
-                aria-label="Уменьшить карту"
-              >
-                <Icon name="minus" />
-              </button>
-              <span>{Math.round(zoom * 100)}%</span>
-              <button
-                className="icon-button"
-                onClick={() => setZoom(Math.min(2, zoom + 0.25))}
-                aria-label="Увеличить карту"
-              >
-                <Icon name="plus" />
-              </button>
-              <button className="text-button" onClick={() => setZoom(1)}>
-                Сброс
-              </button>
-            </div>
-          </div>
-          {map ? (
-            <div className="map-scroll">
-              <div
-                className="map-image-wrap"
-                style={{
-                  width: `${zoom * 100}%`,
-                  aspectRatio: `${map.width}/${map.height}`,
-                }}
-              >
-                <img
-                  src={`/${map.image}`}
-                  alt={`Карта ${location.name}`}
-                  className="map-image"
-                />
-                {visibleMarkers.map((marker) => {
-                  const family = familyById.get(marker.familyId);
-                  return (
-                    <button
-                      key={marker.id}
-                      className={`map-marker ${selected === marker.familyId ? "selected" : ""}`}
-                      style={{
-                        left: `${marker.x * 100}%`,
-                        top: `${marker.y * 100}%`,
-                      }}
-                      aria-label={`${family?.name || marker.familyId}, точка на карте`}
-                      title={family?.name}
-                      onClick={() => selectFamily(marker.familyId)}
-                    >
-                      <span />
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          ) : (
-            <div className="empty-state">
-              Изображение карты не предоставлено
-            </div>
-          )}
-          {selected && familyById.get(selected) && (
-            <div className="map-selected">
-              <strong>{familyById.get(selected)?.name}</strong>
-              <span>
-                {
-                  visibleMarkers.filter(
-                    (marker) => marker.familyId === selected,
-                  ).length
-                }{" "}
-                точек на этой карте
-              </span>
-              <Link to={`/miscrits/${familyById.get(selected)?.slug}`}>
-                Открыть карточку →
-              </Link>
-            </div>
+        <MapStage
+          map={map}
+          locationName={location.name}
+          markers={visibleMarkers}
+          selected={selected}
+          openCluster={openCluster}
+          onOpenCluster={setOpenCluster}
+          onSelect={selectFamily}
+          onCaught={(id) =>
+            patch(id, { everCaught: !entries[id]?.everCaught })
+          }
+          caughtIds={entries}
+        />
+      </div>
+    </div>
+  );
+}
+
+function MapStage({
+  map,
+  locationName,
+  markers,
+  selected,
+  openCluster,
+  onOpenCluster,
+  onSelect,
+  onCaught,
+  caughtIds,
+}: {
+  map: { image: string; width: number; height: number } | undefined;
+  locationName: string;
+  markers: Marker[];
+  selected: string;
+  openCluster: string | null;
+  onOpenCluster: (id: string | null) => void;
+  onSelect: (id: string) => void;
+  onCaught: (id: string) => void;
+  caughtIds: Record<string, { everCaught?: boolean } | undefined>;
+}) {
+  const viewport = useRef<HTMLDivElement>(null);
+  const [view, setView] = useState({
+    scale: 1,
+    panX: 0,
+    panY: 0,
+    baseW: 0,
+    baseH: 0,
+  });
+  const drag = useRef<{
+    id: number;
+    x: number;
+    y: number;
+    panX: number;
+    panY: number;
+    moved: boolean;
+  } | null>(null);
+  const fit = () => {
+    const box = viewport.current;
+    if (!box || !map) return;
+    const pad = 16;
+    const vw = Math.max(1, box.clientWidth - pad * 2);
+    const vh = Math.max(1, box.clientHeight - pad * 2);
+    const ratio = Math.min(vw / map.width, vh / map.height);
+    const baseW = map.width * ratio;
+    const baseH = map.height * ratio;
+    setView({
+      scale: 1,
+      panX: (box.clientWidth - baseW) / 2,
+      panY: (box.clientHeight - baseH) / 2,
+      baseW,
+      baseH,
+    });
+  };
+  useEffect(() => {
+    fit();
+    const box = viewport.current;
+    if (!box) return;
+    const observer = new ResizeObserver(() => fit());
+    observer.observe(box);
+    const wheel = (event: WheelEvent) => {
+      event.preventDefault();
+      const factor = event.deltaY > 0 ? 0.9 : 1.11;
+      const rect = box.getBoundingClientRect();
+      setView((current) => {
+        const scale = Math.min(
+          MAX_SCALE,
+          Math.max(MIN_SCALE, current.scale * factor),
+        );
+        const x = event.clientX - rect.left;
+        const y = event.clientY - rect.top;
+        const worldX = (x - current.panX) / current.scale;
+        const worldY = (y - current.panY) / current.scale;
+        const w = current.baseW * scale;
+        const h = current.baseH * scale;
+        const minX = Math.min(24, box.clientWidth - w - 24);
+        const minY = Math.min(24, box.clientHeight - h - 24);
+        return {
+          ...current,
+          scale,
+          panX: Math.min(24, Math.max(minX, x - worldX * scale)),
+          panY: Math.min(24, Math.max(minY, y - worldY * scale)),
+        };
+      });
+    };
+    box.addEventListener("wheel", wheel, { passive: false });
+    return () => {
+      observer.disconnect();
+      box.removeEventListener("wheel", wheel);
+    };
+  }, [map?.image, map?.width, map?.height]);
+  const clampPan = (
+    scale: number,
+    panX: number,
+    panY: number,
+    baseW = view.baseW,
+    baseH = view.baseH,
+  ) => {
+    const box = viewport.current;
+    if (!box) return { panX, panY };
+    const w = baseW * scale;
+    const h = baseH * scale;
+    const minX = Math.min(24, box.clientWidth - w - 24);
+    const minY = Math.min(24, box.clientHeight - h - 24);
+    return {
+      panX: Math.min(24, Math.max(minX, panX)),
+      panY: Math.min(24, Math.max(minY, panY)),
+    };
+  };
+  const zoomAt = (clientX: number, clientY: number, nextScale: number) => {
+    const box = viewport.current;
+    if (!box) return;
+    const scale = Math.min(MAX_SCALE, Math.max(MIN_SCALE, nextScale));
+    const rect = box.getBoundingClientRect();
+    const x = clientX - rect.left;
+    const y = clientY - rect.top;
+    const worldX = (x - view.panX) / view.scale;
+    const worldY = (y - view.panY) / view.scale;
+    const pan = clampPan(scale, x - worldX * scale, y - worldY * scale);
+    setView((current) => ({ ...current, scale, ...pan }));
+  };
+  const onPointerDown = (event: ReactPointerEvent) => {
+    if (event.button !== 0) return;
+    drag.current = {
+      id: event.pointerId,
+      x: event.clientX,
+      y: event.clientY,
+      panX: view.panX,
+      panY: view.panY,
+      moved: false,
+    };
+    event.currentTarget.setPointerCapture(event.pointerId);
+  };
+  const onPointerMove = (event: ReactPointerEvent) => {
+    if (!drag.current || drag.current.id !== event.pointerId) return;
+    const dx = event.clientX - drag.current.x;
+    const dy = event.clientY - drag.current.y;
+    if (Math.hypot(dx, dy) > 3) drag.current.moved = true;
+    const pan = clampPan(view.scale, drag.current.panX + dx, drag.current.panY + dy);
+    setView((current) => ({ ...current, ...pan }));
+  };
+  const onPointerUp = (event: ReactPointerEvent) => {
+    if (drag.current && !drag.current.moved) onOpenCluster(null);
+    drag.current = null;
+    if (event.currentTarget.hasPointerCapture(event.pointerId))
+      event.currentTarget.releasePointerCapture(event.pointerId);
+  };
+  const clusters = useMemo(
+    () =>
+      view.baseW
+        ? clusterMarkers(markers, view.baseW, view.baseH, view.scale)
+        : [],
+    [markers, view.baseW, view.baseH, view.scale],
+  );
+  const selectedFamily = familyById.get(selected);
+  const selectedCount = markers.filter((item) => item.familyId === selected)
+    .length;
+  const focusSelected = () => {
+    if (!selectedFamily || !view.baseW) return;
+    const point = markers.find((item) => item.familyId === selected);
+    if (!point || !viewport.current) return;
+    const scale = Math.min(MAX_SCALE, Math.max(1.6, view.scale));
+    const x = point.x * view.baseW * scale;
+    const y = point.y * view.baseH * scale;
+    const pan = clampPan(
+      scale,
+      viewport.current.clientWidth / 2 - x,
+      viewport.current.clientHeight / 2 - y,
+    );
+    setView((current) => ({ ...current, scale, ...pan }));
+  };
+  return (
+    <div className="map-stage">
+      <div className="map-stage-toolbar">
+        <span>
+          {map
+            ? `${locationName} · ${map.width}×${map.height}`
+            : "Карта не приложена"}
+        </span>
+        <div>
+          <button
+            className="icon-button"
+            onClick={() => {
+              const box = viewport.current?.getBoundingClientRect();
+              if (!box) return;
+              zoomAt(box.left + box.width / 2, box.top + box.height / 2, view.scale / 1.2);
+            }}
+            aria-label="Уменьшить карту"
+          >
+            <Icon name="minus" />
+          </button>
+          <span>{Math.round(view.scale * 100)}%</span>
+          <button
+            className="icon-button"
+            onClick={() => {
+              const box = viewport.current?.getBoundingClientRect();
+              if (!box) return;
+              zoomAt(box.left + box.width / 2, box.top + box.height / 2, view.scale * 1.2);
+            }}
+            aria-label="Увеличить карту"
+          >
+            <Icon name="plus" />
+          </button>
+          <button className="text-button" onClick={fit}>
+            Вписать
+          </button>
+          {selected && (
+            <button className="text-button" onClick={focusSelected}>
+              К выбранному
+            </button>
           )}
         </div>
       </div>
+      {map ? (
+        <div
+          className="map-viewport"
+          ref={viewport}
+          onPointerDown={onPointerDown}
+          onPointerMove={onPointerMove}
+          onPointerUp={onPointerUp}
+          onPointerCancel={onPointerUp}
+        >
+          <div
+            className="map-world"
+            style={{
+              width: view.baseW,
+              height: view.baseH,
+              transform: `translate(${view.panX}px, ${view.panY}px) scale(${view.scale})`,
+            }}
+          >
+            <img
+              src={`/${map.image}`}
+              alt={`Карта ${locationName}`}
+              className="map-image"
+              width={map.width}
+              height={map.height}
+              draggable={false}
+            />
+            {clusters.map((cluster) => {
+              const key = cluster.items.map((item) => item.id).join(",");
+              const primary = cluster.items[0];
+              const family = familyById.get(primary.familyId);
+              const avatar = familyAvatar(family);
+              const active = cluster.items.some(
+                (item) => item.familyId === selected,
+              );
+              if (cluster.items.length === 1) {
+                return (
+                  <button
+                    key={key}
+                    type="button"
+                    className={`map-pin ${active ? "selected" : ""}`}
+                    style={{
+                      left: `${primary.x * 100}%`,
+                      top: `${primary.y * 100}%`,
+                      transform: `translate(-50%, -100%) scale(${1 / view.scale})`,
+                    }}
+                    aria-label={`${family?.name || primary.familyId}, точка на карте`}
+                    title={family?.name}
+                    onClick={(event) => {
+                      event.stopPropagation();
+                      onSelect(primary.familyId);
+                    }}
+                    onPointerDown={(event) => event.stopPropagation()}
+                  >
+                    {avatar ? (
+                      <img src={avatar} alt="" />
+                    ) : (
+                      <span className="map-pin-fallback" />
+                    )}
+                  </button>
+                );
+              }
+              return (
+                <button
+                  key={key}
+                  type="button"
+                  className={`map-cluster ${active ? "selected" : ""}`}
+                  style={{
+                    left: `${cluster.x * 100}%`,
+                    top: `${cluster.y * 100}%`,
+                    transform: `translate(-50%, -50%) scale(${1 / view.scale})`,
+                  }}
+                  aria-label={`${cluster.items.length} точек`}
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    if (view.scale < 2.2) {
+                      const box = viewport.current?.getBoundingClientRect();
+                      if (box)
+                        zoomAt(
+                          box.left + box.width / 2,
+                          box.top + box.height / 2,
+                          view.scale * 1.45,
+                        );
+                    } else onOpenCluster(openCluster === key ? null : key);
+                  }}
+                  onPointerDown={(event) => event.stopPropagation()}
+                >
+                  {cluster.items.length}
+                  {openCluster === key && (
+                    <span className="map-cluster-list">
+                      {cluster.items.map((item) => {
+                        const itemFamily = familyById.get(item.familyId);
+                        return (
+                          <span
+                            key={item.id}
+                            role="link"
+                            tabIndex={0}
+                            onClick={(event) => {
+                              event.stopPropagation();
+                              onSelect(item.familyId);
+                            }}
+                          >
+                            {itemFamily?.name || item.familyId}
+                          </span>
+                        );
+                      })}
+                    </span>
+                  )}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      ) : (
+        <div className="empty-state">Изображение карты не предоставлено</div>
+      )}
+      {selectedFamily && (
+        <div className="map-selected">
+          {familyAvatar(selectedFamily) && (
+            <img src={familyAvatar(selectedFamily)} alt="" />
+          )}
+          <strong>{selectedFamily.name}</strong>
+          <span>
+            {selectedCount
+              ? `${selectedCount} точек на этой карте`
+              : "Точная точка на этой карте не указана"}
+          </span>
+          <label className="checkbox-line">
+            <Checkbox
+              checked={!!caughtIds[selectedFamily.id]?.everCaught}
+              onChange={() => onCaught(selectedFamily.id)}
+            />
+            Пойман
+          </label>
+          <Link to={`/miscrits/${selectedFamily.slug}`}>Карточка →</Link>
+        </div>
+      )}
     </div>
   );
 }

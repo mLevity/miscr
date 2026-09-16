@@ -13,3 +13,6 @@ export function assetsForName(name: string) {
   const found = names.get(name);
   return found?.length === 1 ? found[0] : undefined;
 }
+export function assetsForFormId(formId: string) {
+  return assetManifest.forms[formId];
+}
