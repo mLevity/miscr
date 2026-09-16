@@ -64,9 +64,24 @@
   color: #f0cc58;
   border-color: #f0cc58;
 }
+.map-page .map-workspace {
+  align-items: start;
+  min-height: 0;
+}
+.map-page .map-results {
+  min-height: 0;
+  max-height: 78vh;
+  align-self: stretch;
+}
+.map-page .map-stage {
+  min-height: 0;
+  width: 100%;
+  background: #1c1e17;
+  align-items: center;
+}
 .map-viewport {
   position: relative;
-  flex: 1;
+  flex: none;
   min-height: 0;
   overflow: hidden;
   touch-action: none;
@@ -170,8 +185,8 @@
   height: 40px;
   object-fit: contain;
 }
-.map-stage {
-  min-height: 560px;
+.map-page .map-stage {
+  min-height: 0;
 }
 a.primary-button,
 a.secondary-button {
@@ -381,8 +396,8 @@ button:disabled {
   }
   .map-stage {
     order: 0;
-    height: 45vh;
-    min-height: 310px;
+    height: auto;
+    min-height: 0;
     flex: none;
   }
   .map-results {

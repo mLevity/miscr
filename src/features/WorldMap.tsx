@@ -448,6 +448,7 @@ function MapStage({
   caughtIds: Record<string, { everCaught?: boolean } | undefined>;
   selectedSpawns: Spawn[];
 }) {
+  const stage = useRef<HTMLDivElement>(null);
   const viewport = useRef<HTMLDivElement>(null);
   const [view, setView] = useState({
     scale: 1,
@@ -466,32 +467,36 @@ function MapStage({
   } | null>(null);
   const panned = useRef(false);
   const fit = () => {
-    const box = viewport.current;
-    if (!box || !map) return;
-    const pad = 16;
-    const vw = Math.max(1, box.clientWidth - pad * 2);
-    const vh = Math.max(1, box.clientHeight - pad * 2);
-    const ratio = Math.min(vw / map.width, vh / map.height);
-    const baseW = map.width * ratio;
-    const baseH = map.height * ratio;
+    if (!map || !stage.current) return;
+    const availW = Math.max(160, stage.current.clientWidth);
+    const availH = Math.max(
+      220,
+      Math.min(Math.round(window.innerHeight * 0.68), 760),
+    );
+    const ratio = Math.min(availW / map.width, availH / map.height);
+    const baseW = Math.max(1, map.width * ratio);
+    const baseH = Math.max(1, map.height * ratio);
     setView({
       scale: 1,
-      panX: (box.clientWidth - baseW) / 2,
-      panY: (box.clientHeight - baseH) / 2,
+      panX: 0,
+      panY: 0,
       baseW,
       baseH,
     });
   };
   useEffect(() => {
     fit();
-    const box = viewport.current;
-    if (!box) return;
+    const host = stage.current;
+    if (!host) return;
     const observer = new ResizeObserver(() => fit());
-    observer.observe(box);
+    observer.observe(host);
+    window.addEventListener("resize", fit);
     const wheel = (event: WheelEvent) => {
+      const frame = viewport.current;
+      if (!frame) return;
       event.preventDefault();
       const factor = event.deltaY > 0 ? 0.9 : 1.11;
-      const rect = box.getBoundingClientRect();
+      const rect = frame.getBoundingClientRect();
       setView((current) => {
         const scale = Math.min(
           MAX_SCALE,
@@ -505,9 +510,9 @@ function MapStage({
         const w = current.baseW * scale;
         const h = current.baseH * scale;
         const minX = edge - w;
-        const maxX = box.clientWidth - edge;
+        const maxX = frame.clientWidth - edge;
         const minY = edge - h;
-        const maxY = box.clientHeight - edge;
+        const maxY = frame.clientHeight - edge;
         return {
           ...current,
           scale,
@@ -516,10 +521,11 @@ function MapStage({
         };
       });
     };
-    box.addEventListener("wheel", wheel, { passive: false });
+    viewport.current?.addEventListener("wheel", wheel, { passive: false });
     return () => {
       observer.disconnect();
-      box.removeEventListener("wheel", wheel);
+      window.removeEventListener("resize", fit);
+      viewport.current?.removeEventListener("wheel", wheel);
     };
   }, [map?.image, map?.width, map?.height]);
   const clampPan = (
@@ -612,7 +618,7 @@ function MapStage({
     setView((current) => ({ ...current, scale, ...pan }));
   };
   return (
-    <div className="map-stage">
+    <div className="map-stage" ref={stage}>
       <div className="map-stage-toolbar">
         <span>
           {map
@@ -657,6 +663,7 @@ function MapStage({
         <div
           className="map-viewport"
           ref={viewport}
+          style={{ width: view.baseW, height: view.baseH }}
           onPointerDown={onPointerDown}
           onPointerMove={onPointerMove}
           onPointerUp={onPointerUp}
