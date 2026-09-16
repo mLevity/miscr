@@ -30,6 +30,23 @@ const worldLocations = locations.filter((item) => item.mapId);
 const MIN_SCALE = 1;
 const MAX_SCALE = 3.2;
 
+function formatDays(weekdays: number[] | null | undefined) {
+  if (!weekdays?.length) return "Дни неизвестны";
+  const unique = [...new Set(weekdays)].sort((a, b) => a - b);
+  if (unique.length === 7) return "Все дни";
+  return unique.map((value) => dayNames[value - 1]).join(", ");
+}
+function spawnPlace(item: Spawn) {
+  const area = item.areaId ? areaById.get(item.areaId)?.name : "";
+  const point = item.markerIds.length
+    ? item.markerIds.length === 1
+      ? "точка на карте"
+      : `${item.markerIds.length} точек`
+    : "без точной точки";
+  return [area || "Зона не указана", point, formatDays(item.schedule.weekdays)]
+    .filter(Boolean)
+    .join(" · ");
+}
 function familyAvatar(family?: Family) {
   const formId = family?.formIds[0];
   if (!formId) return "";
@@ -175,6 +192,7 @@ export default function WorldMap() {
   };
   const familiesCount = new Set(filtered.map((item) => item.familyId)).size;
   const pointCount = filtered.filter((item) => item.markerIds.length).length;
+  const selectedSpawns = filtered.filter((item) => item.familyId === selected);
   return (
     <div className="page map-page">
       <div className="map-heading">
@@ -358,16 +376,7 @@ export default function WorldMap() {
                             )}
                             <span>
                               <strong>{family.name}</strong>
-                              <small>
-                                {item.markerIds.length
-                                  ? `${item.markerIds.length} точек`
-                                  : "Точная точка не указана"}
-                                {item.schedule.weekdays?.length
-                                  ? ` · ${item.schedule.weekdays
-                                      .map((value) => dayNames[value - 1])
-                                      .join(", ")}`
-                                  : ""}
-                              </small>
+                              <small>{spawnPlace(item)}</small>
                             </span>
                           </button>
                           <button
@@ -409,6 +418,7 @@ export default function WorldMap() {
             patch(id, { everCaught: !entries[id]?.everCaught })
           }
           caughtIds={entries}
+          selectedSpawns={selectedSpawns}
         />
       </div>
     </div>
@@ -425,6 +435,7 @@ function MapStage({
   onSelect,
   onCaught,
   caughtIds,
+  selectedSpawns,
 }: {
   map: { image: string; width: number; height: number } | undefined;
   locationName: string;
@@ -435,6 +446,7 @@ function MapStage({
   onSelect: (id: string) => void;
   onCaught: (id: string) => void;
   caughtIds: Record<string, { everCaught?: boolean } | undefined>;
+  selectedSpawns: Spawn[];
 }) {
   const viewport = useRef<HTMLDivElement>(null);
   const [view, setView] = useState({
@@ -709,9 +721,11 @@ function MapStage({
           )}
           <strong>{selectedFamily.name}</strong>
           <span>
-            {selectedCount
-              ? `${selectedCount} точек на этой карте`
-              : "Точная точка на этой карте не указана"}
+            {selectedSpawns.length
+              ? selectedSpawns.map((item) => spawnPlace(item)).join(" · ")
+              : selectedCount
+                ? `${selectedCount} точек на этой карте`
+                : "Место появления в этой локации не указано"}
           </span>
           <label className="checkbox-line">
             <Checkbox
