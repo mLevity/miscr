@@ -1,1 +1,98 @@
-[{"id":"map:forest","locationId":"location:forest","image":"assets/maps/forest.webp","width":1363,"height":712,"quality":"preview-raster-not-original-download"},{"id":"map:hidden-forest","locationId":"location:hidden-forest","image":"assets/maps/hidden-forest.webp","width":1363,"height":708,"quality":"preview-raster-not-original-download"},{"id":"map:mansion","locationId":"location:mansion","image":"assets/maps/mansion.webp","width":661,"height":936,"quality":"preview-raster-not-original-download"},{"id":"map:mount-gemma","locationId":"location:mount-gemma","image":"assets/maps/mount-gemma.webp","width":1363,"height":836,"quality":"preview-raster-not-original-download"},{"id":"map:cave","locationId":"location:cave","image":"assets/maps/cave.webp","width":1097,"height":936,"quality":"preview-raster-not-original-download"},{"id":"map:shack","locationId":"location:shack","image":"assets/maps/shack.webp","width":1013,"height":936,"quality":"preview-raster-not-original-download"},{"id":"map:sunfall-shores","locationId":"location:sunfall-shores","image":"assets/maps/sunfall-shores.webp","width":1363,"height":682,"quality":"preview-raster-not-original-download"},{"id":"map:miscrian-jungle","locationId":"location:miscrian-jungle","image":"assets/maps/miscrian-jungle.webp","width":1363,"height":664,"quality":"preview-raster-not-original-download"},{"id":"map:moon","locationId":"location:moon","image":"assets/maps/moon.webp","width":730,"height":936,"quality":"preview-raster-not-original-download"},{"id":"map:emerald-isle","locationId":"location:emerald-isle","image":"assets/maps/emerald-isle.webp","width":1127,"height":936,"quality":"preview-raster-not-original-download"},{"id":"map:temple","locationId":"location:temple","image":"assets/maps/temple.webp","width":1363,"height":860,"quality":"preview-raster-not-original-download"},{"id":"map:monks-mountain","locationId":"location:monks-mountain","image":"assets/maps/monks-mountain.webp","width":608,"height":936,"quality":"preview-raster-not-original-download"}]
+[
+  {
+    "id": "map:forest",
+    "locationId": "location:forest",
+    "image": "assets/maps/forest.webp",
+    "width": 2492,
+    "height": 1300,
+    "quality": "companion-source"
+  },
+  {
+    "id": "map:hidden-forest",
+    "locationId": "location:hidden-forest",
+    "image": "assets/maps/hidden-forest.webp",
+    "width": 2524,
+    "height": 1311,
+    "quality": "companion-source"
+  },
+  {
+    "id": "map:mansion",
+    "locationId": "location:mansion",
+    "image": "assets/maps/mansion.webp",
+    "width": 3250,
+    "height": 4600,
+    "quality": "companion-source"
+  },
+  {
+    "id": "map:mount-gemma",
+    "locationId": "location:mount-gemma",
+    "image": "assets/maps/mount-gemma.webp",
+    "width": 2073,
+    "height": 1273,
+    "quality": "companion-source"
+  },
+  {
+    "id": "map:cave",
+    "locationId": "location:cave",
+    "image": "assets/maps/cave.webp",
+    "width": 1270,
+    "height": 1083,
+    "quality": "companion-source"
+  },
+  {
+    "id": "map:shack",
+    "locationId": "location:shack",
+    "image": "assets/maps/shack.webp",
+    "width": 2962,
+    "height": 2735,
+    "quality": "companion-source"
+  },
+  {
+    "id": "map:sunfall-shores",
+    "locationId": "location:sunfall-shores",
+    "image": "assets/maps/sunfall-shores.webp",
+    "width": 2194,
+    "height": 1099,
+    "quality": "companion-source"
+  },
+  {
+    "id": "map:miscrian-jungle",
+    "locationId": "location:miscrian-jungle",
+    "image": "assets/maps/miscrian-jungle.webp",
+    "width": 3000,
+    "height": 1460,
+    "quality": "companion-source"
+  },
+  {
+    "id": "map:moon",
+    "locationId": "location:moon",
+    "image": "assets/maps/moon.webp",
+    "width": 2522,
+    "height": 3230,
+    "quality": "companion-source"
+  },
+  {
+    "id": "map:emerald-isle",
+    "locationId": "location:emerald-isle",
+    "image": "assets/maps/emerald-isle.webp",
+    "width": 3000,
+    "height": 2490,
+    "quality": "companion-source"
+  },
+  {
+    "id": "map:temple",
+    "locationId": "location:temple",
+    "image": "assets/maps/temple.webp",
+    "width": 3000,
+    "height": 1893,
+    "quality": "companion-source"
+  },
+  {
+    "id": "map:monks-mountain",
+    "locationId": "location:monks-mountain",
+    "image": "assets/maps/monks-mountain.webp",
+    "width": 1949,
+    "height": 3000,
+    "quality": "companion-source"
+  }
+]
