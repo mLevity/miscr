@@ -72,6 +72,7 @@
   touch-action: none;
   cursor: grab;
   background: #10100d;
+  user-select: none;
 }
 .map-viewport:active {
   cursor: grabbing;
@@ -104,6 +105,11 @@
   transform: translate(-50%, -100%);
   transform-origin: 50% 100%;
   filter: drop-shadow(0 2px 3px #0008);
+  pointer-events: none;
+}
+.marker-icon,
+.marker-pointer {
+  pointer-events: auto;
 }
 .marker-icon {
   display: block;

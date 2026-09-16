@@ -464,6 +464,7 @@ function MapStage({
     panY: number;
     moved: boolean;
   } | null>(null);
+  const panned = useRef(false);
   const fit = () => {
     const box = viewport.current;
     if (!box || !map) return;
@@ -552,6 +553,8 @@ function MapStage({
   };
   const onPointerDown = (event: ReactPointerEvent) => {
     if (event.button !== 0) return;
+    event.preventDefault();
+    panned.current = false;
     drag.current = {
       id: event.pointerId,
       x: event.clientX,
@@ -560,21 +563,29 @@ function MapStage({
       panY: view.panY,
       moved: false,
     };
-    event.currentTarget.setPointerCapture(event.pointerId);
+    (event.currentTarget as HTMLElement).setPointerCapture(event.pointerId);
   };
   const onPointerMove = (event: ReactPointerEvent) => {
-    if (!drag.current || drag.current.id !== event.pointerId) return;
-    const dx = event.clientX - drag.current.x;
-    const dy = event.clientY - drag.current.y;
-    if (Math.hypot(dx, dy) > 3) drag.current.moved = true;
-    const pan = clampPan(view.scale, drag.current.panX + dx, drag.current.panY + dy);
+    const active = drag.current;
+    if (!active || active.id !== event.pointerId) return;
+    const dx = event.clientX - active.x;
+    const dy = event.clientY - active.y;
+    if (Math.hypot(dx, dy) > 3) {
+      active.moved = true;
+      panned.current = true;
+    }
+    if (!active.moved) return;
+    event.preventDefault();
+    const pan = clampPan(view.scale, active.panX + dx, active.panY + dy);
     setView((current) => ({ ...current, ...pan }));
   };
   const onPointerUp = (event: ReactPointerEvent) => {
-    if (drag.current && !drag.current.moved) onOpenCluster(null);
+    const active = drag.current;
+    if (active && !active.moved) onOpenCluster(null);
     drag.current = null;
-    if (event.currentTarget.hasPointerCapture(event.pointerId))
-      event.currentTarget.releasePointerCapture(event.pointerId);
+    const node = event.currentTarget as HTMLElement;
+    if (node.hasPointerCapture(event.pointerId))
+      node.releasePointerCapture(event.pointerId);
   };
   const clusters = useMemo(
     () =>
@@ -695,9 +706,9 @@ function MapStage({
                 title={family?.name}
                 onClick={(event) => {
                   event.stopPropagation();
+                  if (panned.current) return;
                   onSelect(marker.familyId);
                 }}
-                onPointerDown={(event) => event.stopPropagation()}
               >
                 <span className="marker-icon">
                   {avatar ? (
