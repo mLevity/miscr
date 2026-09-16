@@ -344,15 +344,34 @@
 .card-portrait {
   position: relative;
   overflow: hidden;
+  border: 3px solid #7a7a7a;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
-.card-portrait .rarity-overlay {
+.card-portrait.rarity-common {
+  border-color: #8a8a8a;
+}
+.card-portrait.rarity-rare {
+  border-color: #3c66dc;
+}
+.card-portrait.rarity-epic {
+  border-color: #3cc43c;
+}
+.card-portrait.rarity-exotic {
+  border-color: #e040e0;
+}
+.card-portrait.rarity-legendary {
+  border-color: #f0b400;
+}
+.card-portrait .element-badge {
   position: absolute;
-  top: 5px;
-  left: 5px;
-  width: 70px;
-  height: 70px;
+  top: 6px;
+  left: 6px;
+  width: 36px;
+  height: 36px;
   object-fit: contain;
   pointer-events: none;
+  filter: drop-shadow(0 1px 2px #000c);
 }
 .catalog-page .family-grid {
   grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
@@ -504,8 +523,8 @@
   .custom-select {
     font-size: 12px;
   }
-  .card-portrait .rarity-overlay {
-    width: 60px;
-    height: 60px;
+  .card-portrait .element-badge {
+    width: 30px;
+    height: 30px;
   }
 }

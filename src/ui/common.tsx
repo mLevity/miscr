@@ -109,6 +109,17 @@ export function Art({
     </div>
   );
 }
+const dualIconKeys = (items: string[]) => {
+  if (items.length < 2) return items[0] ? [items[0]] : [];
+  const [a, b] = items;
+  return [`${a}${b}`, `${a}_${b}`, `${b}${a}`, `${b}_${a}`, a];
+};
+export function elementIconSrc(items: string[]) {
+  const key = dualIconKeys(items)[0];
+  return key
+    ? `/assets/filters/elements/${key}.png`
+    : "/assets/filters/elements/empty.png";
+}
 export function Elements({ items }: { items: string[] }) {
   return (
     <div className="element-list">
@@ -203,18 +214,20 @@ export function FamilyCard({
         className="family-link"
         to={`/miscrits/${family.slug}${match?.formId ? `?form=${encodeURIComponent(match.formId)}` : ""}`}
       >
-        <div className="card-portrait">
+        <div
+          className={`card-portrait rarity-${family.rarity}`}
+          title={rarityNames[family.rarity] || family.rarity}
+        >
           <Art name={first?.name || family.name} compact />
           <img
-            className="rarity-overlay"
-            src={`/assets/filters/rarity/${family.rarity}.png`}
-            alt={rarityNames[family.rarity] || family.rarity}
-            title={rarityNames[family.rarity] || family.rarity}
+            className="element-badge"
+            src={elementIconSrc(family.elements)}
+            alt={family.elements.map((item) => elementNames[item] || item).join(" / ")}
+            title={family.elements.map((item) => elementNames[item] || item).join(" / ")}
           />
         </div>
         <div className="family-card-body">
           <strong>{family.name}</strong>
-          <Elements items={family.elements} />
           {match?.formName && (
             <small className="match-note">
               Совпадение: {match.formName}
