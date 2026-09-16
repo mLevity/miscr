@@ -23,7 +23,7 @@ import {
 import { dayNames, elementNames, Icon } from "../ui/common";
 import { assetsForFormId } from "../ui/assets";
 import { useProfile } from "../storage/profile";
-import { elements, normalize, searchMatch } from "../domain/catalog/filter";
+import { elements, normalize, rarities, searchMatch } from "../domain/catalog/filter";
 
 const todayUTC = () => ((new Date().getUTCDay() + 6) % 7) + 1;
 const worldLocations = locations.filter((item) => item.mapId);
@@ -82,6 +82,7 @@ export default function WorldMap() {
   const [elementFilter, setElementFilter] = useState(
     params.get("element") || "",
   );
+  const [rarityFilter, setRarityFilter] = useState(params.get("rarity") || "");
   const [areaFilter, setAreaFilter] = useState(params.get("area") || "");
   const [selected, setSelected] = useState(params.get("family") || "");
   const [openCluster, setOpenCluster] = useState<string | null>(null);
@@ -106,6 +107,7 @@ export default function WorldMap() {
       if (!family) return false;
       if (elementFilter && !family.elements.includes(elementFilter))
         return false;
+      if (rarityFilter && family.rarity !== rarityFilter) return false;
       if (caught === "missing" && entries[item.familyId]?.everCaught)
         return false;
       if (caught === "caught" && !entries[item.familyId]?.everCaught)
@@ -113,7 +115,7 @@ export default function WorldMap() {
       if (needle && !searchMatch(family, query)) return false;
       return true;
     });
-  }, [locationId, areaFilter, day, caught, elementFilter, query, entries]);
+  }, [locationId, areaFilter, day, caught, elementFilter, rarityFilter, query, entries]);
   const visibleMarkers = useMemo(
     () =>
       Array.from(new Set(filtered.flatMap((item) => item.markerIds)))
@@ -138,6 +140,7 @@ export default function WorldMap() {
     day?: number | null;
     caught?: string;
     element?: string;
+    rarity?: string;
     q?: string;
   }) => {
     const search = new URLSearchParams();
@@ -153,6 +156,8 @@ export default function WorldMap() {
     if (nextCaught !== "all") search.set("caught", nextCaught);
     const nextElement = next.element === undefined ? elementFilter : next.element;
     if (nextElement) search.set("element", nextElement);
+    const nextRarity = next.rarity === undefined ? rarityFilter : next.rarity;
+    if (nextRarity) search.set("rarity", nextRarity);
     const nextQuery = next.q === undefined ? query : next.q;
     if (nextQuery) search.set("q", nextQuery);
     setParams(search, { replace: true });
@@ -281,6 +286,20 @@ export default function WorldMap() {
               }}
             >
               {label}
+            </button>
+          ))}
+          {rarities.map((rarity) => (
+            <button
+              key={rarity}
+              type="button"
+              className={`map-chip rarity-${rarity} ${rarityFilter === rarity ? "active" : ""}`}
+              onClick={() => {
+                const next = rarityFilter === rarity ? "" : rarity;
+                setRarityFilter(next);
+                writeParams({ rarity: next });
+              }}
+            >
+              {rarity}
             </button>
           ))}
           {elements.map((element) => (
@@ -634,87 +653,44 @@ function MapStage({
               height={map.height}
               draggable={false}
             />
-            {clusters.map((cluster) => {
-              const key = cluster.items.map((item) => item.id).join(",");
-              const primary = cluster.items[0];
-              const family = familyById.get(primary.familyId);
+            {markers.map((marker, index) => {
+              const family = familyById.get(marker.familyId);
               const avatar = familyAvatar(family);
-              const active = cluster.items.some(
-                (item) => item.familyId === selected,
+              const twins = markers.filter(
+                (item) =>
+                  Math.abs(item.x - marker.x) < 0.004 &&
+                  Math.abs(item.y - marker.y) < 0.004,
               );
-              if (cluster.items.length === 1) {
-                return (
-                  <button
-                    key={key}
-                    type="button"
-                    className={`map-pin ${active ? "selected" : ""}`}
-                    style={{
-                      left: `${primary.x * 100}%`,
-                      top: `${primary.y * 100}%`,
-                      transform: `translate(-50%, -100%) scale(${1 / view.scale})`,
-                    }}
-                    aria-label={`${family?.name || primary.familyId}, точка на карте`}
-                    title={family?.name}
-                    onClick={(event) => {
-                      event.stopPropagation();
-                      onSelect(primary.familyId);
-                    }}
-                    onPointerDown={(event) => event.stopPropagation()}
-                  >
-                    {avatar ? (
-                      <img src={avatar} alt="" />
-                    ) : (
-                      <span className="map-pin-fallback" />
-                    )}
-                  </button>
-                );
-              }
+              const offset = twins.findIndex((item) => item.id === marker.id);
+              const shift = twins.length > 1 ? (offset - (twins.length - 1) / 2) * 10 : 0;
+              const rarity = family?.rarity || "common";
               return (
                 <button
-                  key={key}
+                  key={marker.id}
                   type="button"
-                  className={`map-cluster ${active ? "selected" : ""}`}
+                  className={`map-pin rarity-${rarity} ${selected === marker.familyId ? "selected" : ""}`}
                   style={{
-                    left: `${cluster.x * 100}%`,
-                    top: `${cluster.y * 100}%`,
-                    transform: `translate(-50%, -50%) scale(${1 / view.scale})`,
+                    left: `${marker.x * 100}%`,
+                    top: `${marker.y * 100}%`,
+                    zIndex: selected === marker.familyId ? 20 : 2 + index,
+                    transform: `translate(calc(-50% + ${shift}px), -100%) scale(${1 / view.scale})`,
                   }}
-                  aria-label={`${cluster.items.length} точек`}
+                  aria-label={`${family?.name || marker.familyId}, точка на карте`}
+                  title={family?.name}
                   onClick={(event) => {
                     event.stopPropagation();
-                    if (view.scale < 2.2) {
-                      const box = viewport.current?.getBoundingClientRect();
-                      if (box)
-                        zoomAt(
-                          box.left + box.width / 2,
-                          box.top + box.height / 2,
-                          view.scale * 1.45,
-                        );
-                    } else onOpenCluster(openCluster === key ? null : key);
+                    onSelect(marker.familyId);
                   }}
                   onPointerDown={(event) => event.stopPropagation()}
                 >
-                  {cluster.items.length}
-                  {openCluster === key && (
-                    <span className="map-cluster-list">
-                      {cluster.items.map((item) => {
-                        const itemFamily = familyById.get(item.familyId);
-                        return (
-                          <span
-                            key={item.id}
-                            role="link"
-                            tabIndex={0}
-                            onClick={(event) => {
-                              event.stopPropagation();
-                              onSelect(item.familyId);
-                            }}
-                          >
-                            {itemFamily?.name || item.familyId}
-                          </span>
-                        );
-                      })}
-                    </span>
-                  )}
+                  <span className="marker-icon">
+                    {avatar ? (
+                      <img src={avatar} alt="" className="marker-avatar" />
+                    ) : (
+                      <span className="map-pin-fallback" />
+                    )}
+                  </span>
+                  <span className="marker-pointer" />
                 </button>
               );
             })}
