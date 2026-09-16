@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "relic:blessed-pollen",
+    "name": "Blessed Pollen",
+    "requiredSlotLevel": 10,
+    "statModifiers": {
+      "ed": 2,
+      "hp": 1,
+      "pd": 2
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 12,
+        "currency": "platinum"
+      },
+      {
+        "amount": 6,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/blessed_pollen.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/blessed_pollen.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:brash-s-kiss",
+    "name": "Brash's Kiss",
+    "requiredSlotLevel": 10,
+    "statModifiers": {
+      "ea": 2,
+      "hp": 1,
+      "pa": 2
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 12,
+        "currency": "platinum"
+      },
+      {
+        "amount": 6,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/brashs_kiss.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/brashs_kiss.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:cloud-cake",
+    "name": "Cloud Cake",
+    "requiredSlotLevel": 10,
+    "statModifiers": {
+      "ea": 3,
+      "spd": 1
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 12,
+        "currency": "platinum"
+      },
+      {
+        "amount": 6,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/cloud_cake.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/cloud_cake.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:dark-owlie-feather",
+    "name": "Dark Owlie Feather",
+    "requiredSlotLevel": 10,
+    "statModifiers": {
+      "pa": 1,
+      "spd": 3
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 12,
+        "currency": "platinum"
+      },
+      {
+        "amount": 6,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/dark_owlie_feather.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/dark_owlie_feather.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:elefauna-flower",
+    "name": "Elefauna Flower",
+    "requiredSlotLevel": 10,
+    "statModifiers": {
+      "ea": 3,
+      "hp": 1
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 12,
+        "currency": "platinum"
+      },
+      {
+        "amount": 6,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/elefauna_flower.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/elefauna_flower.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:eternal-falls-mushroom",
+    "name": "Eternal Falls Mushroom",
+    "requiredSlotLevel": 10,
+    "statModifiers": {
+      "ed": 1,
+      "hp": 3
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 12,
+        "currency": "platinum"
+      },
+      {
+        "amount": 6,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/eternal_falls_mushroom.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/eternal_falls_mushroom.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:frost-root",
+    "name": "Frost Root",
+    "requiredSlotLevel": 10,
+    "statModifiers": {
+      "ea": -1,
+      "ed": -1,
+      "pa": -1,
+      "pd": -1
+    },
+    "specialEffectsText": [
+      "Sleep Immunity"
+    ],
+    "costs": [
+      {
+        "amount": 24,
+        "currency": "platinum"
+      },
+      {
+        "amount": 12,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/frost_root.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/frost_root.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:gk-s-slippers",
+    "name": "GK's Slippers",
+    "requiredSlotLevel": 10,
+    "statModifiers": {
+      "spd": 4
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 12,
+        "currency": "platinum"
+      },
+      {
+        "amount": 6,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/gks_slippers.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/gks_slippers.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:lake-azore-pearl",
+    "name": "Lake Azore Pearl",
+    "requiredSlotLevel": 10,
+    "statModifiers": {
+      "ed": 1,
+      "hp": 3,
+      "pd": 1
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 12,
+        "currency": "platinum"
+      },
+      {
+        "amount": 6,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/lake_azore_pearl.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/lake_azore_pearl.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:pamboo-cane",
+    "name": "Pamboo Cane",
+    "requiredSlotLevel": 10,
+    "statModifiers": {
+      "hp": 5
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 12,
+        "currency": "platinum"
+      },
+      {
+        "amount": 6,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/pamboo_cane.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/pamboo_cane.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:quartex-crystal",
+    "name": "Quartex Crystal",
+    "requiredSlotLevel": 10,
+    "statModifiers": {
+      "ea": -1,
+      "ed": -1,
+      "pa": -1,
+      "pd": -1
+    },
+    "specialEffectsText": [
+      "Confuse Immunity"
+    ],
+    "costs": [
+      {
+        "amount": 24,
+        "currency": "platinum"
+      },
+      {
+        "amount": 12,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/quartex_crystal.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/quartex_crystal.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:skelepup-s-spark",
+    "name": "Skelepup's Spark",
+    "requiredSlotLevel": 10,
+    "statModifiers": {
+      "ea": 1,
+      "spd": 3
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 12,
+        "currency": "platinum"
+      },
+      {
+        "amount": 6,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/skelepups_spark.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/skelepups_spark.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:woodsman-s-axe-head",
+    "name": "Woodsman's Axe Head",
+    "requiredSlotLevel": 10,
+    "statModifiers": {
+      "hp": 1,
+      "pa": 3
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 12,
+        "currency": "platinum"
+      },
+      {
+        "amount": 6,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/woodsmans_axe_head.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/woodsmans_axe_head.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:bean-stalk",
+    "name": "Bean Stalk",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "ed": 11,
+      "hp": 2
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/bean_stalk.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/bean_stalk.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:elemental-explosion",
+    "name": "Elemental Explosion",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "ea": 6,
+      "hp": 6
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/elemental_explosion.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/elemental_explosion.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:emerald-scales",
+    "name": "Emerald Scales",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "pa": 9,
+      "pd": 3
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/emerald_scales.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/emerald_scales.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:flower-of-despair",
+    "name": "Flower of Despair",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "hp": 6,
+      "pa": 6
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/flower_of_despair.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/flower_of_despair.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:forest-banner",
+    "name": "Forest Banner",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "hp": 10,
+      "pd": 4
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/forest_banner.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/forest_banner.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:forging-hammer",
+    "name": "Forging Hammer",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "ea": 5,
+      "ed": -1,
+      "hp": 9,
+      "pa": 5,
+      "pd": -1
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/forging_hammer.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/forging_hammer.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:frozen-claws",
+    "name": "Frozen Claws",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "ed": 5,
+      "hp": 4,
+      "pd": 5
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/frozen_claws.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/frozen_claws.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:helzbelz-bells",
+    "name": "Helzbelz Bells",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "hp": 6,
+      "spd": 10
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/helzbelz_bells.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/helzbelz_bells.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:jungle-banner",
+    "name": "Jungle Banner",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "ed": 4,
+      "hp": 10
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/jungle_banner.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/jungle_banner.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:monk-s-mountain-banner",
+    "name": "Monk's Mountain Banner",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "ed": 8,
+      "pa": 4
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/monks_mountain_banner.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/monks_mountain_banner.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:monk-s-robe",
+    "name": "Monk's Robe",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "hp": 2,
+      "pd": 11
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/monks_robe.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/monks_robe.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:mt-gemma-banner",
+    "name": "Mt. Gemma Banner",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "ea": -3,
+      "ed": 4,
+      "hp": 10,
+      "pa": -3,
+      "pd": 4
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/mt._gemma_banner.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/mt._gemma_banner.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:nero-s-orb",
+    "name": "Nero's Orb",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "ea": 6,
+      "pd": 6,
+      "spd": 3
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/neros_orb.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/neros_orb.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:obsidian-lava",
+    "name": "Obsidian Lava",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "ed": 7,
+      "pd": 7
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/obsidian_lava.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/obsidian_lava.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:ship-captain-s-log",
+    "name": "Ship Captain's Log",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "ea": 4,
+      "hp": 6,
+      "spd": 6
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/ship_captains_log.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/ship_captains_log.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:skyline-peak-gem",
+    "name": "Skyline Peak Gem",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "hp": 14,
+      "spd": 2
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/skyline_peak_gem.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/skyline_peak_gem.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:stony-shield",
+    "name": "Stony Shield",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "ea": 4,
+      "ed": 8
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/stony_shield.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/stony_shield.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:sunfall-shores-banner",
+    "name": "Sunfall Shores Banner",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "ea": 9,
+      "pd": 3
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/sunfall_shores_banner.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/sunfall_shores_banner.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:volcano-banner",
+    "name": "Volcano Banner",
+    "requiredSlotLevel": 20,
+    "statModifiers": {
+      "ea": 9,
+      "pa": 9
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 36,
+        "currency": "platinum"
+      },
+      {
+        "amount": 16,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/volcano_banner.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/volcano_banner.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:arrow-of-love",
+    "name": "Arrow of Love",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ea": 20,
+      "hp": 4,
+      "spd": 14
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/arrow_of_love.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/arrow_of_love.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:bauble-of-the-dawn",
+    "name": "Bauble of the Dawn",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ea": 7,
+      "hp": 28,
+      "pa": 7
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/bauble_of_the_dawn.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/bauble_of_the_dawn.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:cactus-flower",
+    "name": "Cactus Flower",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ed": 9,
+      "pd": 9,
+      "spd": -10
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/cactus_flower.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/cactus_flower.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:dark-warro-thorn",
+    "name": "Dark Warro Thorn",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ed": 7,
+      "pa": 17,
+      "pd": 7,
+      "spd": 3
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/dark_warro_thorn.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/dark_warro_thorn.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:dragon-shackle",
+    "name": "Dragon Shackle",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ed": 13,
+      "pd": 13,
+      "spd": -5
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/dragon_shackle.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/dragon_shackle.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:echino-shell",
+    "name": "Echino Shell",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "hp": 18,
+      "pd": 18
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/echino_shell.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/echino_shell.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:everlasting-snowball",
+    "name": "Everlasting Snowball",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ea": 15,
+      "pd": 15
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/everlasting_snowball.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/everlasting_snowball.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:fractured-shell",
+    "name": "Fractured Shell",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ed": 18,
+      "hp": 18
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/fractured_shell.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/fractured_shell.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:geotoad-teeth",
+    "name": "Geotoad Teeth",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "hp": 12,
+      "pa": 12,
+      "spd": -5
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/geotoad_teeth.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/geotoad_teeth.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:gold-piece-die",
+    "name": "Gold Piece Die",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ea": 12,
+      "ed": 6,
+      "pa": 12,
+      "pd": 6
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/gold_piece_die.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/gold_piece_die.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:gravitron-pebble",
+    "name": "Gravitron Pebble",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ed": 26,
+      "spd": 13
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/gravitron_pebble.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/gravitron_pebble.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:lost-swords",
+    "name": "Lost Swords",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "hp": 4,
+      "pa": 20,
+      "spd": 14
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/lost_swords.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/lost_swords.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:magicite-staff",
+    "name": "Magicite Staff",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ea": 17,
+      "ed": 7,
+      "pd": 7,
+      "spd": 3
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/magicite_staff.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/magicite_staff.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:monastery-idol",
+    "name": "Monastery Idol",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ed": 9,
+      "hp": 18,
+      "pd": 9
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/monastery_idol.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/monastery_idol.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:mushles",
+    "name": "Mushles",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "hp": 14,
+      "pd": 16,
+      "spd": 10
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/mushles.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/mushles.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:mystic-map",
+    "name": "Mystic Map",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ea": 9,
+      "hp": 9,
+      "spd": -10
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/mystic_map.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/mystic_map.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:nanaslug-s-horn",
+    "name": "Nanaslug's Horn",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ea": 12,
+      "hp": 12,
+      "spd": -5
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/nanaslugs_horn.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/nanaslugs_horn.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:nox-s-nightmare",
+    "name": "Nox's Nightmare",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ea": 12,
+      "pa": 12,
+      "spd": -10
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/noxs_nightmare.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/noxs_nightmare.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:palmda-s-talon",
+    "name": "Palmda's Talon",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "hp": 9,
+      "pa": 9,
+      "spd": -10
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/palmdas_talon.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/palmdas_talon.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:papa-s-antlers",
+    "name": "Papa's Antlers",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ed": 15,
+      "pa": 15
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/papas_antlers.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/papas_antlers.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:patchkin-s-rind",
+    "name": "Patchkin's Rind",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ea": 14,
+      "hp": 7,
+      "pa": 14,
+      "spd": -5
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/patchkins_rind.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/patchkins_rind.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:peepsie-eggs",
+    "name": "Peepsie Eggs",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ea": 15,
+      "ed": 15
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/peepsie_eggs.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/peepsie_eggs.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:shackler-s-gem",
+    "name": "Shackler's Gem",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ed": 14,
+      "hp": 7,
+      "pd": 14
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/shacklers_gem.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/shacklers_gem.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:shard-of-dawn-s-landing",
+    "name": "Shard of Dawn's Landing",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ea": 16,
+      "pa": 16,
+      "spd": 8
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/shard_of_dawns_landing.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/shard_of_dawns_landing.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:shattered-gatestone",
+    "name": "Shattered Gatestone",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ed": 16,
+      "hp": 14,
+      "spd": 10
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/shattered_gatestone.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/shattered_gatestone.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:temple-stone",
+    "name": "Temple Stone",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "ea": 16,
+      "hp": 16
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/temple_stone.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/temple_stone.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:tiki-idol",
+    "name": "Tiki Idol",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "pd": 26,
+      "spd": 13
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/tiki_idol.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/tiki_idol.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:truncherous-hammer",
+    "name": "Truncherous Hammer",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "pa": 15,
+      "pd": 15
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/truncherous_hammer.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/truncherous_hammer.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:vanquished-soul",
+    "name": "Vanquished Soul",
+    "requiredSlotLevel": 30,
+    "statModifiers": {
+      "hp": 16,
+      "pa": 16
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 90,
+        "currency": "platinum"
+      },
+      {
+        "amount": 42,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/vanquished_soul.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/vanquished_soul.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:cage-of-despair",
+    "name": "Cage of Despair",
+    "requiredSlotLevel": 35,
+    "statModifiers": {
+      "ed": 12,
+      "hp": 16,
+      "pd": 12,
+      "spd": -10
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 120,
+        "currency": "platinum"
+      },
+      {
+        "amount": 58,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/cage_of_despair.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/cage_of_despair.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:charcoal-idol",
+    "name": "Charcoal Idol",
+    "requiredSlotLevel": 35,
+    "statModifiers": {
+      "ea": 5,
+      "hp": 26,
+      "pa": 5,
+      "spd": 26
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 120,
+        "currency": "platinum"
+      },
+      {
+        "amount": 58,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/charcoal_idol.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/charcoal_idol.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:dark-wind-s-venom",
+    "name": "Dark Wind's Venom",
+    "requiredSlotLevel": 35,
+    "statModifiers": {
+      "ed": 25,
+      "hp": 20
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 120,
+        "currency": "platinum"
+      },
+      {
+        "amount": 58,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/dark_winds_venom.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/dark_winds_venom.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:flying-carpet-fragment",
+    "name": "Flying Carpet Fragment",
+    "requiredSlotLevel": 35,
+    "statModifiers": {
+      "ea": 20,
+      "hp": 15,
+      "pa": -10,
+      "spd": -10
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 120,
+        "currency": "platinum"
+      },
+      {
+        "amount": 58,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/flying_carpet_fragment.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/flying_carpet_fragment.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:frozen-coin",
+    "name": "Frozen Coin",
+    "requiredSlotLevel": 35,
+    "statModifiers": {
+      "ea": 15,
+      "ed": 7,
+      "pa": 15,
+      "pd": 7
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 120,
+        "currency": "platinum"
+      },
+      {
+        "amount": 58,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/frozen_coin.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/frozen_coin.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:gog-s-cog",
+    "name": "Gog's Cog",
+    "requiredSlotLevel": 35,
+    "statModifiers": {
+      "ea": -10,
+      "hp": 15,
+      "pa": 20,
+      "spd": -10
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 120,
+        "currency": "platinum"
+      },
+      {
+        "amount": 58,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/gogs_cog.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/gogs_cog.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:leggy-eggs",
+    "name": "Leggy Eggs",
+    "requiredSlotLevel": 35,
+    "statModifiers": {
+      "hp": 20,
+      "pd": 25
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 120,
+        "currency": "platinum"
+      },
+      {
+        "amount": 58,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/leggy_eggs.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/leggy_eggs.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:molten-coin",
+    "name": "Molten Coin",
+    "requiredSlotLevel": 35,
+    "statModifiers": {
+      "ea": 8,
+      "ed": 16,
+      "pa": 8,
+      "pd": 16
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 120,
+        "currency": "platinum"
+      },
+      {
+        "amount": 58,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/molten_coin.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/molten_coin.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:moon-rock",
+    "name": "Moon Rock",
+    "requiredSlotLevel": 35,
+    "statModifiers": {
+      "ed": 17,
+      "hp": 10,
+      "pd": 17
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 120,
+        "currency": "platinum"
+      },
+      {
+        "amount": 58,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/moon_rock.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/moon_rock.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:petrified-dragon-egg",
+    "name": "Petrified Dragon Egg",
+    "requiredSlotLevel": 35,
+    "statModifiers": {
+      "hp": 15,
+      "pd": 24,
+      "spd": -10
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 120,
+        "currency": "platinum"
+      },
+      {
+        "amount": 58,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/petrified_dragon_egg.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/petrified_dragon_egg.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:petrified-mama-baby",
+    "name": "Petrified Mama Baby",
+    "requiredSlotLevel": 35,
+    "statModifiers": {
+      "ed": 24,
+      "hp": 15,
+      "spd": -10
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 120,
+        "currency": "platinum"
+      },
+      {
+        "amount": 58,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/petrified_mama_baby.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/petrified_mama_baby.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:saiyam-s-trident",
+    "name": "Saiyam's Trident",
+    "requiredSlotLevel": 35,
+    "statModifiers": {
+      "hp": 15,
+      "pa": 20,
+      "spd": 10
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 120,
+        "currency": "platinum"
+      },
+      {
+        "amount": 58,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/saiyams_trident.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/saiyams_trident.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:scent-of-skustunk",
+    "name": "Scent of Skustunk",
+    "requiredSlotLevel": 35,
+    "statModifiers": {
+      "ea": 16,
+      "hp": 10,
+      "pa": 16,
+      "spd": -10
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 120,
+        "currency": "platinum"
+      },
+      {
+        "amount": 58,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/scent_of_skustunk.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/scent_of_skustunk.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "relic:shard-of-rudolffe",
+    "name": "Shard of Rudolffe",
+    "requiredSlotLevel": 35,
+    "statModifiers": {
+      "ea": 20,
+      "hp": 18,
+      "spd": 10
+    },
+    "specialEffectsText": [],
+    "costs": [
+      {
+        "amount": 120,
+        "currency": "platinum"
+      },
+      {
+        "amount": 58,
+        "currency": "gems"
+      }
+    ],
+    "image": "assets/relics/shard_of_rudolffe.png",
+    "sourceImageUrl": "https://cdn.worldofmiscrits.com/relics/shard_of_rudolffe.png",
+    "provenance": {
+      "sourceId": "companion-relics",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "name": "miscrits-encyclopedia",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node tools/prepare_data.cjs && vite --host 127.0.0.1",
+    "build": "node tools/prepare_data.cjs && tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node qa/core.test.cjs && node --test qa/application.test.cjs qa/profile.test.cjs qa/catalog.test.cjs",
+    "validate:bundle": "python tools/validate_bundle.py",
+    "prepare:data": "node tools/prepare_data.cjs"
+  },
+  "dependencies": {
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "react-router-dom": "7.18.4"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.10",
+    "@types/react-dom": "19.1.7",
+    "@vitejs/plugin-react": "4.7.0",
+    "esbuild": "0.25.12",
+    "fake-indexeddb": "6.2.2",
+    "typescript": "5.9.2",
+    "vite": "6.4.3"
+  }
+}

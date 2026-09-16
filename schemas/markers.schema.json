@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:miscrits:markers:v1",
+  "title": "markers",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 160,
+        "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+      },
+      "mapId": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 160,
+        "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+      },
+      "familyId": {
+        "anyOf": [
+          {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160,
+            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "sourceName": {
+        "type": "string",
+        "maxLength": 200
+      },
+      "x": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "y": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "anchor": {
+        "enum": [
+          "bottom-center"
+        ]
+      },
+      "candidateAreaIds": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160,
+          "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+        },
+        "maxItems": 100
+      },
+      "areaId": {
+        "anyOf": [
+          {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160,
+            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "areaResolution": {
+        "enum": [
+          "unique-name-location-join",
+          "ambiguous"
+        ]
+      },
+      "provenance": {
+        "type": "object",
+        "properties": {
+          "sourceId": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "retrievedOn": {
+            "type": "string",
+            "format": "date"
+          },
+          "method": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "gameVerified": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "sourceId",
+          "retrievedOn",
+          "method",
+          "gameVerified"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "id",
+      "mapId",
+      "familyId",
+      "sourceName",
+      "x",
+      "y",
+      "anchor",
+      "candidateAreaIds",
+      "areaId",
+      "areaResolution",
+      "provenance"
+    ],
+    "additionalProperties": false
+  }
+}

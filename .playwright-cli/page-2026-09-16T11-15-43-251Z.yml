@@ -1,0 +1,680 @@
+- generic [ref=e2]:
+  - link "К содержимому" [ref=e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "Miscrits Helper" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - navigation "Основная навигация" [ref=e7]:
+        - link "Мискриты" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "Карта мира" [ref=e12] [cursor=pointer]:
+          - /url: /map
+        - link "Моя коллекция" [ref=e16] [cursor=pointer]:
+          - /url: /collection
+        - link "Инструменты" [ref=e20] [cursor=pointer]:
+          - /url: /tools
+      - link "Данные на устройстве" [ref=e24] [cursor=pointer]:
+        - /url: /settings
+  - main [ref=e27]:
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - paragraph [ref=e30]: Найди своего мискрита
+        - heading "Мискриты" [level=1] [ref=e31]
+        - paragraph [ref=e32]: 420 семейств · 1 680 эволюций · одна коллекция
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e36]: Поиск по мискритам и эволюциям
+          - searchbox "Поиск по мискритам и эволюциям" [ref=e37]
+        - generic [ref=e38]:
+          - button "Rarity Редкость" [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]:
+              - text: Rarity
+              - generic [ref=e42]: Редкость
+            - generic [aria-hidden] [ref=e43]: ⌄
+          - button "Stats Статы" [ref=e45] [cursor=pointer]:
+            - generic [ref=e46]:
+              - text: Stats
+              - generic [ref=e47]: Статы
+            - generic [aria-hidden] [ref=e48]: ⌄
+          - button "Tags Теги" [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]:
+              - text: Tags
+              - generic [ref=e52]: Теги
+            - generic [aria-hidden] [ref=e53]: ⌄
+        - 'group "Стихии: все выбранные одновременно" [ref=e54]':
+          - button "Огонь" [active] [pressed] [ref=e55] [cursor=pointer]
+          - button "Вода" [ref=e56] [cursor=pointer]
+          - button "Природа" [ref=e57] [cursor=pointer]
+          - button "Земля" [ref=e58] [cursor=pointer]
+          - button "Молния" [ref=e59] [cursor=pointer]
+          - button "Ветер" [ref=e60] [cursor=pointer]
+        - paragraph [ref=e61]: Огонь · сочетание по «И»
+      - group [ref=e62]:
+        - generic "+Коллекция и места обитания" [ref=e63] [cursor=pointer]
+      - region "Результаты поиска" [ref=e64]:
+        - generic [ref=e65]:
+          - strong [ref=e66]: "Найдено: 83"
+          - generic [ref=e67]:
+            - button "Сбросить фильтры" [ref=e753] [cursor=pointer]
+            - combobox "Сортировка" [ref=e69] [cursor=pointer]:
+              - generic [ref=e70]: Имя A–Z
+              - generic [aria-hidden] [ref=e71]: ⌄
+        - generic [ref=e72]:
+          - article [ref=e131]:
+            - link "Ammurupt Редкий Ammurupt Огонь" [ref=e132] [cursor=pointer]:
+              - /url: /miscrits/ammurupt
+              - generic [ref=e133]:
+                - img "Ammurupt" [ref=e754]
+                - img "Редкий" [ref=e135]
+              - generic [ref=e136]:
+                - strong [ref=e137]: Ammurupt
+                - generic [ref=e138]: Огонь
+            - generic [ref=e140]:
+              - button "Пойман?" [ref=e141] [cursor=pointer]
+              - button "Добавить Ammurupt в избранное" [ref=e143] [cursor=pointer]
+          - article [ref=e229]:
+            - link "Avarus Обычный Avarus Огонь Ветер" [ref=e230] [cursor=pointer]:
+              - /url: /miscrits/avarus
+              - generic [ref=e231]:
+                - img "Avarus" [ref=e755]
+                - img "Обычный" [ref=e233]
+              - generic [ref=e234]:
+                - strong [ref=e235]: Avarus
+                - generic [ref=e236]:
+                  - generic [ref=e237]: Огонь
+                  - generic [ref=e238]: Ветер
+            - generic [ref=e239]:
+              - button "Пойман?" [ref=e240] [cursor=pointer]
+              - button "Добавить Avarus в избранное" [ref=e242] [cursor=pointer]
+          - article [ref=e342]:
+            - link "Beetor Обычный Beetor Огонь" [ref=e343] [cursor=pointer]:
+              - /url: /miscrits/beetor
+              - generic [ref=e344]:
+                - img "Beetor" [ref=e756]
+                - img "Обычный" [ref=e346]
+              - generic [ref=e347]:
+                - strong [ref=e348]: Beetor
+                - generic [ref=e349]: Огонь
+            - generic [ref=e351]:
+              - button "Пойман?" [ref=e352] [cursor=pointer]
+              - button "Добавить Beetor в избранное" [ref=e354] [cursor=pointer]
+          - article [ref=e370]:
+            - link "Blazebit Редкий Blazebit Огонь" [ref=e371] [cursor=pointer]:
+              - /url: /miscrits/blazebit
+              - generic [ref=e372]:
+                - img "Blazebit" [ref=e757]
+                - img "Редкий" [ref=e374]
+              - generic [ref=e375]:
+                - strong [ref=e376]: Blazebit
+                - generic [ref=e377]: Огонь
+            - generic [ref=e379]:
+              - button "Пойман?" [ref=e380] [cursor=pointer]
+              - button "Добавить Blazebit в избранное" [ref=e382] [cursor=pointer]
+          - article [ref=e384]:
+            - link "Blazertooth Эпический Blazertooth Огонь" [ref=e385] [cursor=pointer]:
+              - /url: /miscrits/blazertooth
+              - generic [ref=e386]:
+                - img "Blazertooth" [ref=e758]
+                - img "Эпический" [ref=e388]
+              - generic [ref=e389]:
+                - strong [ref=e390]: Blazertooth
+                - generic [ref=e391]: Огонь
+            - generic [ref=e393]:
+              - button "Пойман?" [ref=e394] [cursor=pointer]
+              - button "Добавить Blazertooth в избранное" [ref=e396] [cursor=pointer]
+          - article [ref=e440]:
+            - link "Blighted Flue Легендарный Blighted Flue Огонь" [ref=e441] [cursor=pointer]:
+              - /url: /miscrits/blighted-flue
+              - generic [ref=e442]:
+                - img "Blighted Flue" [ref=e759]
+                - img "Легендарный" [ref=e444]
+              - generic [ref=e445]:
+                - strong [ref=e446]: Blighted Flue
+                - generic [ref=e447]: Огонь
+            - generic [ref=e449]:
+              - button "Пойман?" [ref=e450] [cursor=pointer]
+              - button "Добавить Blighted Flue в избранное" [ref=e452] [cursor=pointer]
+          - article [ref=e553]:
+            - link "Blug Обычный Blug Огонь" [ref=e554] [cursor=pointer]:
+              - /url: /miscrits/blug
+              - generic [ref=e555]:
+                - img "Blug" [ref=e760]
+                - img "Обычный" [ref=e557]
+              - generic [ref=e558]:
+                - strong [ref=e559]: Blug
+                - generic [ref=e560]: Огонь
+            - generic [ref=e562]:
+              - button "Пойман?" [ref=e563] [cursor=pointer]
+              - button "Добавить Blug в избранное" [ref=e565] [cursor=pointer]
+          - article [ref=e609]:
+            - link "Boo Blazertooth Экзотический Boo Blazertooth Огонь" [ref=e610] [cursor=pointer]:
+              - /url: /miscrits/boo-blazertooth
+              - generic [ref=e611]:
+                - img "Boo Blazertooth" [ref=e761]
+                - img "Экзотический" [ref=e613]
+              - generic [ref=e614]:
+                - strong [ref=e615]: Boo Blazertooth
+                - generic [ref=e616]: Огонь
+            - generic [ref=e618]:
+              - button "Пойман?" [ref=e619] [cursor=pointer]
+              - button "Добавить Boo Blazertooth в избранное" [ref=e621] [cursor=pointer]
+          - article [ref=e737]:
+            - link "Casanova Экзотический Casanova Огонь" [ref=e738] [cursor=pointer]:
+              - /url: /miscrits/casanova
+              - generic [ref=e739]:
+                - img "Casanova" [ref=e762]
+                - img "Экзотический" [ref=e741]
+              - generic [ref=e742]:
+                - strong [ref=e743]: Casanova
+                - generic [ref=e744]: Огонь
+            - generic [ref=e746]:
+              - button "Пойман?" [ref=e747] [cursor=pointer]
+              - button "Добавить Casanova в избранное" [ref=e749] [cursor=pointer]
+          - article [ref=e763]:
+            - link "Charpy Легендарный Charpy Огонь" [ref=e764] [cursor=pointer]:
+              - /url: /miscrits/charpy
+              - generic [ref=e765]:
+                - img "Charpy" [ref=e767]
+                - img "Легендарный" [ref=e768]
+              - generic [ref=e769]:
+                - strong [ref=e770]: Charpy
+                - generic [ref=e771]: Огонь
+            - generic [ref=e773]:
+              - button "Пойман?" [ref=e774] [cursor=pointer]
+              - button "Добавить Charpy в избранное" [ref=e776] [cursor=pointer]
+          - article [ref=e778]:
+            - link "Chico Экзотический Chico Огонь Ветер" [ref=e779] [cursor=pointer]:
+              - /url: /miscrits/chico
+              - generic [ref=e780]:
+                - img "Chico" [ref=e782]
+                - img "Экзотический" [ref=e783]
+              - generic [ref=e784]:
+                - strong [ref=e785]: Chico
+                - generic [ref=e786]:
+                  - generic [ref=e787]: Огонь
+                  - generic [ref=e788]: Ветер
+            - generic [ref=e789]:
+              - button "Пойман?" [ref=e790] [cursor=pointer]
+              - button "Добавить Chico в избранное" [ref=e792] [cursor=pointer]
+          - article [ref=e794]:
+            - link "Crabbles Редкий Crabbles Огонь" [ref=e795] [cursor=pointer]:
+              - /url: /miscrits/crabbles
+              - generic [ref=e796]:
+                - img "Crabbles" [ref=e798]
+                - img "Редкий" [ref=e799]
+              - generic [ref=e800]:
+                - strong [ref=e801]: Crabbles
+                - generic [ref=e802]: Огонь
+            - generic [ref=e804]:
+              - button "Пойман?" [ref=e805] [cursor=pointer]
+              - button "Добавить Crabbles в избранное" [ref=e807] [cursor=pointer]
+          - article [ref=e809]:
+            - link "Crickin Обычный Crickin Огонь" [ref=e810] [cursor=pointer]:
+              - /url: /miscrits/crickin
+              - generic [ref=e811]:
+                - img "Crickin" [ref=e813]
+                - img "Обычный" [ref=e814]
+              - generic [ref=e815]:
+                - strong [ref=e816]: Crickin
+                - generic [ref=e817]: Огонь
+            - generic [ref=e819]:
+              - button "Пойман?" [ref=e820] [cursor=pointer]
+              - button "Добавить Crickin в избранное" [ref=e822] [cursor=pointer]
+          - article [ref=e824]:
+            - link "Dark Beetor Редкий Dark Beetor Огонь" [ref=e825] [cursor=pointer]:
+              - /url: /miscrits/dark-beetor
+              - generic [ref=e826]:
+                - img "Dark Beetor" [ref=e828]
+                - img "Редкий" [ref=e829]
+              - generic [ref=e830]:
+                - strong [ref=e831]: Dark Beetor
+                - generic [ref=e832]: Огонь
+            - generic [ref=e834]:
+              - button "Пойман?" [ref=e835] [cursor=pointer]
+              - button "Добавить Dark Beetor в избранное" [ref=e837] [cursor=pointer]
+          - article [ref=e839]:
+            - link "Dark Flameling Редкий Dark Flameling Огонь" [ref=e840] [cursor=pointer]:
+              - /url: /miscrits/dark-flameling
+              - generic [ref=e841]:
+                - img "Dark Flameling" [ref=e843]
+                - img "Редкий" [ref=e844]
+              - generic [ref=e845]:
+                - strong [ref=e846]: Dark Flameling
+                - generic [ref=e847]: Огонь
+            - generic [ref=e849]:
+              - button "Пойман?" [ref=e850] [cursor=pointer]
+              - button "Добавить Dark Flameling в избранное" [ref=e852] [cursor=pointer]
+          - article [ref=e854]:
+            - link "Dark Flue Редкий Dark Flue Огонь" [ref=e855] [cursor=pointer]:
+              - /url: /miscrits/dark-flue
+              - generic [ref=e856]:
+                - img "Dark Flue" [ref=e858]
+                - img "Редкий" [ref=e859]
+              - generic [ref=e860]:
+                - strong [ref=e861]: Dark Flue
+                - generic [ref=e862]: Огонь
+            - generic [ref=e864]:
+              - button "Пойман?" [ref=e865] [cursor=pointer]
+              - button "Добавить Dark Flue в избранное" [ref=e867] [cursor=pointer]
+          - article [ref=e869]:
+            - link "Dark Hotfoot Редкий Dark Hotfoot Огонь" [ref=e870] [cursor=pointer]:
+              - /url: /miscrits/dark-hotfoot
+              - generic [ref=e871]:
+                - img "Dark Hotfoot" [ref=e873]
+                - img "Редкий" [ref=e874]
+              - generic [ref=e875]:
+                - strong [ref=e876]: Dark Hotfoot
+                - generic [ref=e877]: Огонь
+            - generic [ref=e879]:
+              - button "Пойман?" [ref=e880] [cursor=pointer]
+              - button "Добавить Dark Hotfoot в избранное" [ref=e882] [cursor=pointer]
+          - article [ref=e884]:
+            - link "Dark Lavarilla Редкий Dark Lavarilla Огонь" [ref=e885] [cursor=pointer]:
+              - /url: /miscrits/dark-lavarilla
+              - generic [ref=e886]:
+                - img "Dark Lavarilla" [ref=e888]
+                - img "Редкий" [ref=e889]
+              - generic [ref=e890]:
+                - strong [ref=e891]: Dark Lavarilla
+                - generic [ref=e892]: Огонь
+            - generic [ref=e894]:
+              - button "Пойман?" [ref=e895] [cursor=pointer]
+              - button "Добавить Dark Lavarilla в избранное" [ref=e897] [cursor=pointer]
+          - article [ref=e899]:
+            - link "Dark Lumera Редкий Dark Lumera Огонь" [ref=e900] [cursor=pointer]:
+              - /url: /miscrits/dark-lumera
+              - generic [ref=e901]:
+                - img "Dark Lumera" [ref=e903]
+                - img "Редкий" [ref=e904]
+              - generic [ref=e905]:
+                - strong [ref=e906]: Dark Lumera
+                - generic [ref=e907]: Огонь
+            - generic [ref=e909]:
+              - button "Пойман?" [ref=e910] [cursor=pointer]
+              - button "Добавить Dark Lumera в избранное" [ref=e912] [cursor=pointer]
+          - article [ref=e914]:
+            - link "Dark Pillblaze Эпический Dark Pillblaze Огонь" [ref=e915] [cursor=pointer]:
+              - /url: /miscrits/dark-pillblaze
+              - generic [ref=e916]:
+                - img "Dark Pillblaze" [ref=e918]
+                - img "Эпический" [ref=e919]
+              - generic [ref=e920]:
+                - strong [ref=e921]: Dark Pillblaze
+                - generic [ref=e922]: Огонь
+            - generic [ref=e924]:
+              - button "Пойман?" [ref=e925] [cursor=pointer]
+              - button "Добавить Dark Pillblaze в избранное" [ref=e927] [cursor=pointer]
+          - article [ref=e929]:
+            - link "Dark Slithero Экзотический Dark Slithero Огонь" [ref=e930] [cursor=pointer]:
+              - /url: /miscrits/dark-slithero
+              - generic [ref=e931]:
+                - img "Dark Slithero" [ref=e933]
+                - img "Экзотический" [ref=e934]
+              - generic [ref=e935]:
+                - strong [ref=e936]: Dark Slithero
+                - generic [ref=e937]: Огонь
+            - generic [ref=e939]:
+              - button "Пойман?" [ref=e940] [cursor=pointer]
+              - button "Добавить Dark Slithero в избранное" [ref=e942] [cursor=pointer]
+          - article [ref=e944]:
+            - link "Dark Sparkitten Редкий Dark Sparkitten Огонь" [ref=e945] [cursor=pointer]:
+              - /url: /miscrits/dark-sparkitten
+              - generic [ref=e946]:
+                - img "Dark Sparkitten" [ref=e948]
+                - img "Редкий" [ref=e949]
+              - generic [ref=e950]:
+                - strong [ref=e951]: Dark Sparkitten
+                - generic [ref=e952]: Огонь
+            - generic [ref=e954]:
+              - button "Пойман?" [ref=e955] [cursor=pointer]
+              - button "Добавить Dark Sparkitten в избранное" [ref=e957] [cursor=pointer]
+          - article [ref=e959]:
+            - link "Dark Sparkupine Редкий Dark Sparkupine Огонь" [ref=e960] [cursor=pointer]:
+              - /url: /miscrits/dark-sparkupine
+              - generic [ref=e961]:
+                - img "Dark Sparkupine" [ref=e963]
+                - img "Редкий" [ref=e964]
+              - generic [ref=e965]:
+                - strong [ref=e966]: Dark Sparkupine
+                - generic [ref=e967]: Огонь
+            - generic [ref=e969]:
+              - button "Пойман?" [ref=e970] [cursor=pointer]
+              - button "Добавить Dark Sparkupine в избранное" [ref=e972] [cursor=pointer]
+          - article [ref=e974]:
+            - link "Dark Steamguin Редкий Dark Steamguin Огонь" [ref=e975] [cursor=pointer]:
+              - /url: /miscrits/dark-steamguin
+              - generic [ref=e976]:
+                - img "Dark Steamguin" [ref=e978]
+                - img "Редкий" [ref=e979]
+              - generic [ref=e980]:
+                - strong [ref=e981]: Dark Steamguin
+                - generic [ref=e982]: Огонь
+            - generic [ref=e984]:
+              - button "Пойман?" [ref=e985] [cursor=pointer]
+              - button "Добавить Dark Steamguin в избранное" [ref=e987] [cursor=pointer]
+          - article [ref=e989]:
+            - link "Dark Whik Редкий Dark Whik Огонь" [ref=e990] [cursor=pointer]:
+              - /url: /miscrits/dark-whik
+              - generic [ref=e991]:
+                - generic [ref=e992]:
+                  - img "Dark Whik"
+                - img "Редкий" [ref=e993]
+              - generic [ref=e994]:
+                - strong [ref=e995]: Dark Whik
+                - generic [ref=e996]: Огонь
+            - generic [ref=e998]:
+              - button "Пойман?" [ref=e999] [cursor=pointer]
+              - button "Добавить Dark Whik в избранное" [ref=e1001] [cursor=pointer]
+          - article [ref=e1003]:
+            - link "Dorux Эпический Dorux Огонь Молния" [ref=e1004] [cursor=pointer]:
+              - /url: /miscrits/dorux
+              - generic [ref=e1005]:
+                - generic [ref=e1006]:
+                  - img "Dorux"
+                - img "Эпический" [ref=e1007]
+              - generic [ref=e1008]:
+                - strong [ref=e1009]: Dorux
+                - generic [ref=e1010]:
+                  - generic [ref=e1011]: Огонь
+                  - generic [ref=e1012]: Молния
+            - generic [ref=e1013]:
+              - button "Пойман?" [ref=e1014] [cursor=pointer]
+              - button "Добавить Dorux в избранное" [ref=e1016] [cursor=pointer]
+          - article [ref=e1018]:
+            - link "Enex Обычный Enex Огонь" [ref=e1019] [cursor=pointer]:
+              - /url: /miscrits/enex
+              - generic [ref=e1020]:
+                - generic [ref=e1021]:
+                  - img "Enex"
+                - img "Обычный" [ref=e1022]
+              - generic [ref=e1023]:
+                - strong [ref=e1024]: Enex
+                - generic [ref=e1025]: Огонь
+            - generic [ref=e1027]:
+              - button "Пойман?" [ref=e1028] [cursor=pointer]
+              - button "Добавить Enex в избранное" [ref=e1030] [cursor=pointer]
+          - article [ref=e1032]:
+            - link "Flaclay Обычный Flaclay Огонь Земля" [ref=e1033] [cursor=pointer]:
+              - /url: /miscrits/flaclay
+              - generic [ref=e1034]:
+                - generic [ref=e1035]:
+                  - img "Flaclay"
+                - img "Обычный" [ref=e1036]
+              - generic [ref=e1037]:
+                - strong [ref=e1038]: Flaclay
+                - generic [ref=e1039]:
+                  - generic [ref=e1040]: Огонь
+                  - generic [ref=e1041]: Земля
+            - generic [ref=e1042]:
+              - button "Пойман?" [ref=e1043] [cursor=pointer]
+              - button "Добавить Flaclay в избранное" [ref=e1045] [cursor=pointer]
+          - article [ref=e1047]:
+            - link "Flameling Обычный Flameling Огонь" [ref=e1048] [cursor=pointer]:
+              - /url: /miscrits/flameling
+              - generic [ref=e1049]:
+                - generic [ref=e1050]:
+                  - img "Flameling"
+                - img "Обычный" [ref=e1051]
+              - generic [ref=e1052]:
+                - strong [ref=e1053]: Flameling
+                - generic [ref=e1054]: Огонь
+            - generic [ref=e1056]:
+              - button "Пойман?" [ref=e1057] [cursor=pointer]
+              - button "Добавить Flameling в избранное" [ref=e1059] [cursor=pointer]
+          - article [ref=e1061]:
+            - link "Flaring Эпический Flaring Огонь" [ref=e1062] [cursor=pointer]:
+              - /url: /miscrits/flaring
+              - generic [ref=e1063]:
+                - generic [ref=e1064]:
+                  - img "Flaring"
+                - img "Эпический" [ref=e1065]
+              - generic [ref=e1066]:
+                - strong [ref=e1067]: Flaring
+                - generic [ref=e1068]: Огонь
+            - generic [ref=e1070]:
+              - button "Пойман?" [ref=e1071] [cursor=pointer]
+              - button "Добавить Flaring в избранное" [ref=e1073] [cursor=pointer]
+          - article [ref=e1075]:
+            - link "Flaro Обычный Flaro Огонь" [ref=e1076] [cursor=pointer]:
+              - /url: /miscrits/flaro
+              - generic [ref=e1077]:
+                - generic [ref=e1078]:
+                  - img "Flaro"
+                - img "Обычный" [ref=e1079]
+              - generic [ref=e1080]:
+                - strong [ref=e1081]: Flaro
+                - generic [ref=e1082]: Огонь
+            - generic [ref=e1084]:
+              - button "Пойман?" [ref=e1085] [cursor=pointer]
+              - button "Добавить Flaro в избранное" [ref=e1087] [cursor=pointer]
+          - article [ref=e1089]:
+            - link "Flintly Редкий Flintly Огонь" [ref=e1090] [cursor=pointer]:
+              - /url: /miscrits/flintly
+              - generic [ref=e1091]:
+                - generic [ref=e1092]:
+                  - img "Flintly"
+                - img "Редкий" [ref=e1093]
+              - generic [ref=e1094]:
+                - strong [ref=e1095]: Flintly
+                - generic [ref=e1096]: Огонь
+            - generic [ref=e1098]:
+              - button "Пойман?" [ref=e1099] [cursor=pointer]
+              - button "Добавить Flintly в избранное" [ref=e1101] [cursor=pointer]
+          - article [ref=e1103]:
+            - link "Flue Обычный Flue Огонь" [ref=e1104] [cursor=pointer]:
+              - /url: /miscrits/flue
+              - generic [ref=e1105]:
+                - generic [ref=e1106]:
+                  - img "Flue"
+                - img "Обычный" [ref=e1107]
+              - generic [ref=e1108]:
+                - strong [ref=e1109]: Flue
+                - generic [ref=e1110]: Огонь
+            - generic [ref=e1112]:
+              - button "Пойман?" [ref=e1113] [cursor=pointer]
+              - button "Добавить Flue в избранное" [ref=e1115] [cursor=pointer]
+          - article [ref=e1117]:
+            - link "Foil Flintly Экзотический Foil Flintly Огонь" [ref=e1118] [cursor=pointer]:
+              - /url: /miscrits/foil-flintly
+              - generic [ref=e1119]:
+                - generic [ref=e1120]:
+                  - img "Foil Flintly"
+                - img "Экзотический" [ref=e1121]
+              - generic [ref=e1122]:
+                - strong [ref=e1123]: Foil Flintly
+                - generic [ref=e1124]: Огонь
+            - generic [ref=e1126]:
+              - button "Пойман?" [ref=e1127] [cursor=pointer]
+              - button "Добавить Foil Flintly в избранное" [ref=e1129] [cursor=pointer]
+          - article [ref=e1131]:
+            - link "Freedom Экзотический Freedom Огонь Ветер" [ref=e1132] [cursor=pointer]:
+              - /url: /miscrits/freedom
+              - generic [ref=e1133]:
+                - generic [ref=e1134]:
+                  - img "Freedom"
+                - img "Экзотический" [ref=e1135]
+              - generic [ref=e1136]:
+                - strong [ref=e1137]: Freedom
+                - generic [ref=e1138]:
+                  - generic [ref=e1139]: Огонь
+                  - generic [ref=e1140]: Ветер
+            - generic [ref=e1141]:
+              - button "Пойман?" [ref=e1142] [cursor=pointer]
+              - button "Добавить Freedom в избранное" [ref=e1144] [cursor=pointer]
+          - article [ref=e1146]:
+            - link "Furiko Редкий Furiko Огонь" [ref=e1147] [cursor=pointer]:
+              - /url: /miscrits/furiko
+              - generic [ref=e1148]:
+                - generic [ref=e1149]:
+                  - img "Furiko"
+                - img "Редкий" [ref=e1150]
+              - generic [ref=e1151]:
+                - strong [ref=e1152]: Furiko
+                - generic [ref=e1153]: Огонь
+            - generic [ref=e1155]:
+              - button "Пойман?" [ref=e1156] [cursor=pointer]
+              - button "Добавить Furiko в избранное" [ref=e1158] [cursor=pointer]
+          - article [ref=e1160]:
+            - link "Hotdog Эпический Hotdog Огонь" [ref=e1161] [cursor=pointer]:
+              - /url: /miscrits/hotdog
+              - generic [ref=e1162]:
+                - generic [ref=e1163]:
+                  - img "Hotdog"
+                - img "Эпический" [ref=e1164]
+              - generic [ref=e1165]:
+                - strong [ref=e1166]: Hotdog
+                - generic [ref=e1167]: Огонь
+            - generic [ref=e1169]:
+              - button "Пойман?" [ref=e1170] [cursor=pointer]
+              - button "Добавить Hotdog в избранное" [ref=e1172] [cursor=pointer]
+          - article [ref=e1174]:
+            - link "Hotfoot Обычный Hotfoot Огонь" [ref=e1175] [cursor=pointer]:
+              - /url: /miscrits/hotfoot
+              - generic [ref=e1176]:
+                - generic [ref=e1177]:
+                  - img "Hotfoot"
+                - img "Обычный" [ref=e1178]
+              - generic [ref=e1179]:
+                - strong [ref=e1180]: Hotfoot
+                - generic [ref=e1181]: Огонь
+            - generic [ref=e1183]:
+              - button "Пойман?" [ref=e1184] [cursor=pointer]
+              - button "Добавить Hotfoot в избранное" [ref=e1186] [cursor=pointer]
+          - article [ref=e1188]:
+            - link "Ignios Редкий Ignios Огонь" [ref=e1189] [cursor=pointer]:
+              - /url: /miscrits/ignios
+              - generic [ref=e1190]:
+                - generic [ref=e1191]:
+                  - img "Ignios"
+                - img "Редкий" [ref=e1192]
+              - generic [ref=e1193]:
+                - strong [ref=e1194]: Ignios
+                - generic [ref=e1195]: Огонь
+            - generic [ref=e1197]:
+              - button "Пойман?" [ref=e1198] [cursor=pointer]
+              - button "Добавить Ignios в избранное" [ref=e1200] [cursor=pointer]
+          - article [ref=e1202]:
+            - link "Inferno Эпический Inferno Огонь" [ref=e1203] [cursor=pointer]:
+              - /url: /miscrits/inferno
+              - generic [ref=e1204]:
+                - generic [ref=e1205]:
+                  - img "Inferno"
+                - img "Эпический" [ref=e1206]
+              - generic [ref=e1207]:
+                - strong [ref=e1208]: Inferno
+                - generic [ref=e1209]: Огонь
+            - generic [ref=e1211]:
+              - button "Пойман?" [ref=e1212] [cursor=pointer]
+              - button "Добавить Inferno в избранное" [ref=e1214] [cursor=pointer]
+          - article [ref=e1216]:
+            - link "Jynku Экзотический Jynku Огонь Молния" [ref=e1217] [cursor=pointer]:
+              - /url: /miscrits/jynku
+              - generic [ref=e1218]:
+                - generic [ref=e1219]:
+                  - img "Jynku"
+                - img "Экзотический" [ref=e1220]
+              - generic [ref=e1221]:
+                - strong [ref=e1222]: Jynku
+                - generic [ref=e1223]:
+                  - generic [ref=e1224]: Огонь
+                  - generic [ref=e1225]: Молния
+            - generic [ref=e1226]:
+              - button "Пойман?" [ref=e1227] [cursor=pointer]
+              - button "Добавить Jynku в избранное" [ref=e1229] [cursor=pointer]
+          - article [ref=e1231]:
+            - link "Kitpole Экзотический Kitpole Огонь" [ref=e1232] [cursor=pointer]:
+              - /url: /miscrits/kitpole
+              - generic [ref=e1233]:
+                - generic [ref=e1234]:
+                  - img "Kitpole"
+                - img "Экзотический" [ref=e1235]
+              - generic [ref=e1236]:
+                - strong [ref=e1237]: Kitpole
+                - generic [ref=e1238]: Огонь
+            - generic [ref=e1240]:
+              - button "Пойман?" [ref=e1241] [cursor=pointer]
+              - button "Добавить Kitpole в избранное" [ref=e1243] [cursor=pointer]
+          - article [ref=e1245]:
+            - link "Lavarilla Обычный Lavarilla Огонь" [ref=e1246] [cursor=pointer]:
+              - /url: /miscrits/lavarilla
+              - generic [ref=e1247]:
+                - generic [ref=e1248]:
+                  - img "Lavarilla"
+                - img "Обычный" [ref=e1249]
+              - generic [ref=e1250]:
+                - strong [ref=e1251]: Lavarilla
+                - generic [ref=e1252]: Огонь
+            - generic [ref=e1254]:
+              - button "Пойман?" [ref=e1255] [cursor=pointer]
+              - button "Добавить Lavarilla в избранное" [ref=e1257] [cursor=pointer]
+          - article [ref=e1259]:
+            - link "Lavazard Эпический Lavazard Огонь" [ref=e1260] [cursor=pointer]:
+              - /url: /miscrits/lavazard
+              - generic [ref=e1261]:
+                - generic [ref=e1262]:
+                  - img "Lavazard"
+                - img "Эпический" [ref=e1263]
+              - generic [ref=e1264]:
+                - strong [ref=e1265]: Lavazard
+                - generic [ref=e1266]: Огонь
+            - generic [ref=e1268]:
+              - button "Пойман?" [ref=e1269] [cursor=pointer]
+              - button "Добавить Lavazard в избранное" [ref=e1271] [cursor=pointer]
+          - article [ref=e1273]:
+            - link "Lheon Обычный Lheon Огонь" [ref=e1274] [cursor=pointer]:
+              - /url: /miscrits/lheon
+              - generic [ref=e1275]:
+                - generic [ref=e1276]:
+                  - img "Lheon"
+                - img "Обычный" [ref=e1277]
+              - generic [ref=e1278]:
+                - strong [ref=e1279]: Lheon
+                - generic [ref=e1280]: Огонь
+            - generic [ref=e1282]:
+              - button "Пойман?" [ref=e1283] [cursor=pointer]
+              - button "Добавить Lheon в избранное" [ref=e1285] [cursor=pointer]
+          - article [ref=e1287]:
+            - link "Light Crabbles Эпический Light Crabbles Огонь Земля" [ref=e1288] [cursor=pointer]:
+              - /url: /miscrits/light-crabbles
+              - generic [ref=e1289]:
+                - generic [ref=e1290]:
+                  - img "Light Crabbles"
+                - img "Эпический" [ref=e1291]
+              - generic [ref=e1292]:
+                - strong [ref=e1293]: Light Crabbles
+                - generic [ref=e1294]:
+                  - generic [ref=e1295]: Огонь
+                  - generic [ref=e1296]: Земля
+            - generic [ref=e1297]:
+              - button "Пойман?" [ref=e1298] [cursor=pointer]
+              - button "Добавить Light Crabbles в избранное" [ref=e1300] [cursor=pointer]
+          - article [ref=e1302]:
+            - link "Light Crickin Экзотический Light Crickin Огонь" [ref=e1303] [cursor=pointer]:
+              - /url: /miscrits/light-crickin
+              - generic [ref=e1304]:
+                - generic [ref=e1305]:
+                  - img "Light Crickin"
+                - img "Экзотический" [ref=e1306]
+              - generic [ref=e1307]:
+                - strong [ref=e1308]: Light Crickin
+                - generic [ref=e1309]: Огонь
+            - generic [ref=e1311]:
+              - button "Пойман?" [ref=e1312] [cursor=pointer]
+              - button "Добавить Light Crickin в избранное" [ref=e1314] [cursor=pointer]
+          - article [ref=e1316]:
+            - link "Light Digsy Эпический Light Digsy Огонь Земля" [ref=e1317] [cursor=pointer]:
+              - /url: /miscrits/light-digsy
+              - generic [ref=e1318]:
+                - generic [ref=e1319]:
+                  - img "Light Digsy"
+                - img "Эпический" [ref=e1320]
+              - generic [ref=e1321]:
+                - strong [ref=e1322]: Light Digsy
+                - generic [ref=e1323]:
+                  - generic [ref=e1324]: Огонь
+                  - generic [ref=e1325]: Земля
+            - generic [ref=e1326]:
+              - button "Пойман?" [ref=e1327] [cursor=pointer]
+              - button "Добавить Light Digsy в избранное" [ref=e1329] [cursor=pointer]
+        - button "Показать ещё · 35" [ref=e1331] [cursor=pointer]

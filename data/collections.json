@@ -1,0 +1,4650 @@
+[
+  {
+    "id": "collection:001",
+    "name": "The Original Three",
+    "sourceGroup": "Forest",
+    "requirements": [
+      {
+        "familyId": "miscrit:1",
+        "sourceName": "Flue",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:2",
+        "sourceName": "Flowerpiller",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:3",
+        "sourceName": "Prawnja",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:002",
+    "name": "Withered Trees",
+    "sourceGroup": "Forest",
+    "requirements": [
+      {
+        "familyId": "miscrit:21",
+        "sourceName": "Treemur",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:507",
+        "sourceName": "Dark Treemur",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 15,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:003",
+    "name": "The Dark Three",
+    "sourceGroup": "Forest",
+    "requirements": [
+      {
+        "familyId": "miscrit:23",
+        "sourceName": "Dark Flue",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:24",
+        "sourceName": "Dark Flowerpiller",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:25",
+        "sourceName": "Dark Prawnja",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 30,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:004",
+    "name": "Blight Falls",
+    "sourceGroup": "Forest",
+    "requirements": [
+      {
+        "familyId": "miscrit:430",
+        "sourceName": "Blighted Cubsprout",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:425",
+        "sourceName": "Defilio",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:433",
+        "sourceName": "Blighted Flue",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:546",
+        "sourceName": "Blighted Flowerpiller",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 1,
+        "name": "Gold Pack"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:005",
+    "name": "Among The Elder Tree",
+    "sourceGroup": "Forest + Hidden Forest",
+    "requirements": [
+      {
+        "familyId": "miscrit:19",
+        "sourceName": "Steamguin",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:380",
+        "sourceName": "Flurfy",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:18",
+        "sourceName": "Squibee",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:14",
+        "sourceName": "Nessy",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "XP Token (Huge)"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:006",
+    "name": "Dark Descent, III",
+    "sourceGroup": "Forest + Hidden Forest",
+    "requirements": [
+      {
+        "familyId": "miscrit:19",
+        "sourceName": "Steamguin",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:18",
+        "sourceName": "Squibee",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:505",
+        "sourceName": "Dark Steamguin",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:511",
+        "sourceName": "Dark Squibee",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 20,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:007",
+    "name": "First Friends",
+    "sourceGroup": "Forest + Mansion",
+    "requirements": [
+      {
+        "familyId": "miscrit:6",
+        "sourceName": "Sparkupine",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:5",
+        "sourceName": "Cubsprout",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:7",
+        "sourceName": "Hydroseal",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "XP Token (Small)"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:008",
+    "name": "Pushing Onwards",
+    "sourceGroup": "Forest + Mansion",
+    "requirements": [
+      {
+        "familyId": "miscrit:10",
+        "sourceName": "Flameling",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:11",
+        "sourceName": "Lumera",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:9",
+        "sourceName": "Quirk",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:8",
+        "sourceName": "Snortus",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "XP Token (Medium)"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:009",
+    "name": "Growing Stronger",
+    "sourceGroup": "Forest + Mansion",
+    "requirements": [
+      {
+        "familyId": "miscrit:101",
+        "sourceName": "Whik",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:15",
+        "sourceName": "Hotfoot",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:12",
+        "sourceName": "Snatcher",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:17",
+        "sourceName": "Shellbee",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "XP Token (Large)"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:010",
+    "name": "Dark Descent, I",
+    "sourceGroup": "Forest + Mansion",
+    "requirements": [
+      {
+        "familyId": "miscrit:15",
+        "sourceName": "Hotfoot",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:17",
+        "sourceName": "Shellbee",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:95",
+        "sourceName": "Dark Hotfoot",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:502",
+        "sourceName": "Dark Shellbee",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 15,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:011",
+    "name": "Broken Bonds",
+    "sourceGroup": "Forest + Mansion",
+    "requirements": [
+      {
+        "familyId": "miscrit:510",
+        "sourceName": "Dark Sparkupine",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:77",
+        "sourceName": "Dark Cubsprout",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:86",
+        "sourceName": "Dark Hydroseal",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 20,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:012",
+    "name": "Dark Descent, V",
+    "sourceGroup": "Forest + Mansion",
+    "requirements": [
+      {
+        "familyId": "miscrit:11",
+        "sourceName": "Lumera",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:382",
+        "sourceName": "Squirmle",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:504",
+        "sourceName": "Dark Lumera",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:545",
+        "sourceName": "Dark Squirmle",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 15,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:013",
+    "name": "Dark Descent, VI",
+    "sourceGroup": "Forest + Mansion",
+    "requirements": [
+      {
+        "familyId": "miscrit:22",
+        "sourceName": "Tulipinny",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:62",
+        "sourceName": "Flutterpat",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:535",
+        "sourceName": "Dark Tulipinny",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:536",
+        "sourceName": "Dark Flutterpat",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 40,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:014",
+    "name": "Parental Bond",
+    "sourceGroup": "Forest + Mansion",
+    "requirements": [
+      {
+        "familyId": "miscrit:93",
+        "sourceName": "Mama",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:98",
+        "sourceName": "Papa",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 50,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:015",
+    "name": "Flock Of Waddles",
+    "sourceGroup": "Forest + Cave",
+    "requirements": [
+      {
+        "familyId": "miscrit:20",
+        "sourceName": "Waddles",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:512",
+        "sourceName": "Dark Waddles",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:226",
+        "sourceName": "Foil Waddles",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 40,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:016",
+    "name": "Ancient Legends",
+    "sourceGroup": "Forest + Sunfall Shores",
+    "requirements": [
+      {
+        "familyId": "miscrit:26",
+        "sourceName": "Blazebit",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:125",
+        "sourceName": "Rockodile",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 15,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:017",
+    "name": "Dark Descent, XIV",
+    "sourceGroup": "Forest + Miscrian Jungle",
+    "requirements": [
+      {
+        "familyId": "miscrit:101",
+        "sourceName": "Whik",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:630",
+        "sourceName": "Viperd",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:640",
+        "sourceName": "Dark Whik",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:667",
+        "sourceName": "Dark Viperd",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 15,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:018",
+    "name": "Dark Descent, II",
+    "sourceGroup": "Forest + Hidden Forest + Mansion",
+    "requirements": [
+      {
+        "familyId": "miscrit:16",
+        "sourceName": "Twiggum",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:14",
+        "sourceName": "Nessy",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:513",
+        "sourceName": "Dark Twiggum",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:94",
+        "sourceName": "Dark Nessy",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 30,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:019",
+    "name": "Dark Descent, XI",
+    "sourceGroup": "Forest + Mansion + Cave",
+    "requirements": [
+      {
+        "familyId": "miscrit:13",
+        "sourceName": "Elefauna",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:8",
+        "sourceName": "Snortus",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:91",
+        "sourceName": "Dark Elefauna",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:79",
+        "sourceName": "Dark Snortus",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 30,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:020",
+    "name": "Into The Light, I",
+    "sourceGroup": "Forest + Mansion + Sunfall Shores",
+    "requirements": [
+      {
+        "familyId": "miscrit:9",
+        "sourceName": "Quirk",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:50",
+        "sourceName": "Sparkspeck",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:523",
+        "sourceName": "Light Sparkspeck",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:459",
+        "sourceName": "Light Quirk",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 25000,
+        "name": "Gold"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:021",
+    "name": "Into The Light, III",
+    "sourceGroup": "Forest + Mansion + Sunfall Shores",
+    "requirements": [
+      {
+        "familyId": "miscrit:108",
+        "sourceName": "Crickin",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:16",
+        "sourceName": "Twiggum",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:519",
+        "sourceName": "Light Crickin",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:488",
+        "sourceName": "Light Twiggum",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 70,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:022",
+    "name": "Dark Descent, IV",
+    "sourceGroup": "Forest + Mansion + Monks Mountain",
+    "requirements": [
+      {
+        "familyId": "miscrit:10",
+        "sourceName": "Flameling",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:144",
+        "sourceName": "Tongutail",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:90",
+        "sourceName": "Dark Flameling",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:532",
+        "sourceName": "Dark Tongutail",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 15,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:023",
+    "name": "Dark Descent, XVII",
+    "sourceGroup": "Forest + Mount Gemma + Temple",
+    "requirements": [
+      {
+        "familyId": "miscrit:12",
+        "sourceName": "Snatcher",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:31",
+        "sourceName": "Drilldent",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:716",
+        "sourceName": "Dark Snatcher",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:708",
+        "sourceName": "Dark Drilldent",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:024",
+    "name": "Hunting Wabbits",
+    "sourceGroup": "Forest + Moon + Emerald Isle",
+    "requirements": [
+      {
+        "familyId": "miscrit:338",
+        "sourceName": "Flaring",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:685",
+        "sourceName": "Amphibunny",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:589",
+        "sourceName": "Bunplop",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:695",
+        "sourceName": "Harerazor",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 1,
+        "name": "Stat Swap"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:025",
+    "name": "Trunk Terrors",
+    "sourceGroup": "Forest + Mansion + Cave + Shack",
+    "requirements": [
+      {
+        "familyId": "miscrit:13",
+        "sourceName": "Elefauna",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:626",
+        "sourceName": "Elphin",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:561",
+        "sourceName": "Woolly",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:629",
+        "sourceName": "Beldame",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "Silver Pack"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:026",
+    "name": "Hidden In The Trees",
+    "sourceGroup": "Hidden Forest",
+    "requirements": [
+      {
+        "familyId": "miscrit:565",
+        "sourceName": "Rexie",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:566",
+        "sourceName": "Warrian",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:563",
+        "sourceName": "Stalkra",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:564",
+        "sourceName": "Mech",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 1,
+        "name": "Bronze Pack"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:027",
+    "name": "Monkeying Around",
+    "sourceGroup": "Hidden Forest + Mount Gemma",
+    "requirements": [
+      {
+        "familyId": "miscrit:46",
+        "sourceName": "Mun Kee",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:45",
+        "sourceName": "Thundercracker",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:80",
+        "sourceName": "Boltzee",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:570",
+        "sourceName": "Charpy",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 1,
+        "name": "Silver Pack"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:028",
+    "name": "Fuel To The Fire",
+    "sourceGroup": "Hidden Forest + Shack",
+    "requirements": [
+      {
+        "familyId": "miscrit:624",
+        "sourceName": "Poppet",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:568",
+        "sourceName": "Charix",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:614",
+        "sourceName": "Scarecrow Charix",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "Bronze Pack"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:029",
+    "name": "The Free Three",
+    "sourceGroup": "Hidden Forest + Temple + Monks Mountain",
+    "requirements": [
+      {
+        "familyId": "miscrit:205",
+        "sourceName": "Freedom",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:404",
+        "sourceName": "Splender",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:248",
+        "sourceName": "Spangles",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 60,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:030",
+    "name": "Collector Reselling",
+    "sourceGroup": "Mansion",
+    "requirements": [
+      {
+        "familyId": "miscrit:560",
+        "sourceName": "Pestling",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:202",
+        "sourceName": "Vhisp",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:203",
+        "sourceName": "Raldio",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:201",
+        "sourceName": "Nanaslug",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 25,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:031",
+    "name": "Secret In The Shadows",
+    "sourceGroup": "Mansion",
+    "requirements": [
+      {
+        "familyId": "miscrit:214",
+        "sourceName": "Shurikoon",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:420",
+        "sourceName": "Ekkult",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 5,
+        "name": "XP Token (Large)"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:032",
+    "name": "Legends Of Recreation",
+    "sourceGroup": "Mansion",
+    "requirements": [
+      {
+        "familyId": "miscrit:538",
+        "sourceName": "Keeper",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:550",
+        "sourceName": "Da Windy",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 1,
+        "name": "Silver Pack"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:033",
+    "name": "Glitter Glow-up, I",
+    "sourceGroup": "Mansion + Mount Gemma",
+    "requirements": [
+      {
+        "familyId": "miscrit:202",
+        "sourceName": "Vhisp",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:142",
+        "sourceName": "Vexie",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:509",
+        "sourceName": "Foil Vhisp",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:508",
+        "sourceName": "Foil Vexie",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 60,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:034",
+    "name": "Beach Trip",
+    "sourceGroup": "Mansion + Sunfall Shores",
+    "requirements": [
+      {
+        "familyId": "miscrit:51",
+        "sourceName": "Grubbean",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:53",
+        "sourceName": "Wavesling",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:58",
+        "sourceName": "Digsy",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:50",
+        "sourceName": "Sparkspeck",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10000,
+        "name": "Gold"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:035",
+    "name": "Island Imports",
+    "sourceGroup": "Mansion + Miscrian Jungle",
+    "requirements": [
+      {
+        "familyId": "miscrit:115",
+        "sourceName": "Lavarilla",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:112",
+        "sourceName": "Humbug",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:4",
+        "sourceName": "Weevern",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:111",
+        "sourceName": "Bubbles",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:036",
+    "name": "Dark Descent, VII",
+    "sourceGroup": "Mansion + Miscrian Jungle",
+    "requirements": [
+      {
+        "familyId": "miscrit:102",
+        "sourceName": "Slithero",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:104",
+        "sourceName": "Spinnerette",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:537",
+        "sourceName": "Dark Slithero",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:480",
+        "sourceName": "Dark Spinnerette",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 60,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:037",
+    "name": "Old Friends",
+    "sourceGroup": "Mansion + Miscrian Jungle",
+    "requirements": [
+      {
+        "familyId": "miscrit:102",
+        "sourceName": "Slithero",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:630",
+        "sourceName": "Viperd",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:631",
+        "sourceName": "Blowpuffle",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:104",
+        "sourceName": "Spinnerette",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "XP Token (Medium)"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:038",
+    "name": "Dark Descent, XVI",
+    "sourceGroup": "Mansion + Miscrian Jungle",
+    "requirements": [
+      {
+        "familyId": "miscrit:111",
+        "sourceName": "Bubbles",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:636",
+        "sourceName": "Gippo",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:653",
+        "sourceName": "Dark Bubbles",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:671",
+        "sourceName": "Dark Gippo",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:039",
+    "name": "Island of the Apes",
+    "sourceGroup": "Mansion + Miscrian Jungle",
+    "requirements": [
+      {
+        "familyId": "miscrit:115",
+        "sourceName": "Lavarilla",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:533",
+        "sourceName": "Dark Lavarilla",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:674",
+        "sourceName": "Light Lavarilla",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 60,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:040",
+    "name": "Lopsided Rivalry",
+    "sourceGroup": "Mansion + Monks Mountain",
+    "requirements": [
+      {
+        "familyId": "miscrit:139",
+        "sourceName": "Narlope",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:729",
+        "sourceName": "Yelen",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 20,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:041",
+    "name": "Thermal Shock",
+    "sourceGroup": "Mansion + Monks Mountain",
+    "requirements": [
+      {
+        "familyId": "miscrit:742",
+        "sourceName": "Monk Munk",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:743",
+        "sourceName": "Fracture",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:744",
+        "sourceName": "Dillorock",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:152",
+        "sourceName": "Nero",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 1,
+        "name": "Bronze Pack"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:042",
+    "name": "Dark Descent, XII",
+    "sourceGroup": "Mansion + Mount Gemma + Cave",
+    "requirements": [
+      {
+        "familyId": "miscrit:356",
+        "sourceName": "Pillblaze",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:44",
+        "sourceName": "Eggy",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:554",
+        "sourceName": "Dark Pillblaze",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:88",
+        "sourceName": "Dark Eggy",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 35,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:043",
+    "name": "For All The Dogs",
+    "sourceGroup": "Mansion + Cave + Sunfall Shores",
+    "requirements": [
+      {
+        "familyId": "miscrit:58",
+        "sourceName": "Digsy",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:376",
+        "sourceName": "Cerberuff",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:559",
+        "sourceName": "Zappup",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:197",
+        "sourceName": "Hotdog",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 3,
+        "name": "XP Token (Medium)"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:044",
+    "name": "Wee Bit Of Weevern",
+    "sourceGroup": "Mansion + Miscrian Jungle + Emerald Isle",
+    "requirements": [
+      {
+        "familyId": "miscrit:4",
+        "sourceName": "Weevern",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:633",
+        "sourceName": "Dark Weevern",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:543",
+        "sourceName": "Light Weevern",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 20,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:045",
+    "name": "Into The Light, V",
+    "sourceGroup": "Mansion + Mount Gemma + Sunfall Shores + Monks Mountain",
+    "requirements": [
+      {
+        "familyId": "miscrit:34",
+        "sourceName": "Mumbah",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:135",
+        "sourceName": "Bludger",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:531",
+        "sourceName": "Light Mumbah",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:457",
+        "sourceName": "Light Bludger",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 35,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:046",
+    "name": "Mountain's Base",
+    "sourceGroup": "Mount Gemma",
+    "requirements": [
+      {
+        "familyId": "miscrit:30",
+        "sourceName": "Equestrion",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:34",
+        "sourceName": "Mumbah",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:31",
+        "sourceName": "Drilldent",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:29",
+        "sourceName": "Statikat",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10000,
+        "name": "Gold"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:047",
+    "name": "Across The River",
+    "sourceGroup": "Mount Gemma",
+    "requirements": [
+      {
+        "familyId": "miscrit:33",
+        "sourceName": "Breezycheeks",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:142",
+        "sourceName": "Vexie",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:37",
+        "sourceName": "Croaky",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:36",
+        "sourceName": "Jellyshock",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "XP Token (Large)"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:048",
+    "name": "Atop The Mudslide",
+    "sourceGroup": "Mount Gemma",
+    "requirements": [
+      {
+        "familyId": "miscrit:40",
+        "sourceName": "Owlie",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:35",
+        "sourceName": "Aria",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:378",
+        "sourceName": "Auger",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:38",
+        "sourceName": "Sparkslug",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "XP Token (Huge)"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:049",
+    "name": "Dark Descent, VIII",
+    "sourceGroup": "Mount Gemma",
+    "requirements": [
+      {
+        "familyId": "miscrit:378",
+        "sourceName": "Auger",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:36",
+        "sourceName": "Jellyshock",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:514",
+        "sourceName": "Dark Auger",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:547",
+        "sourceName": "Dark Jellyshock",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 20000,
+        "name": "Gold"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:050",
+    "name": "Upon The Summit",
+    "sourceGroup": "Mount Gemma",
+    "requirements": [
+      {
+        "familyId": "miscrit:390",
+        "sourceName": "Peekly",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:39",
+        "sourceName": "Craggy",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:156",
+        "sourceName": "Felis",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:051",
+    "name": "Glitter Glow-up, II",
+    "sourceGroup": "Mount Gemma",
+    "requirements": [
+      {
+        "familyId": "miscrit:43",
+        "sourceName": "Fossillia",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:45",
+        "sourceName": "Thundercracker",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:227",
+        "sourceName": "Foil Fossillia",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:230",
+        "sourceName": "Foil Thundercracker",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 70,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:052",
+    "name": "Dark Winds Blow",
+    "sourceGroup": "Mount Gemma",
+    "requirements": [
+      {
+        "familyId": "miscrit:42",
+        "sourceName": "Poltergust",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:506",
+        "sourceName": "Dark Poltergust",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 3,
+        "name": "Bronze Pack"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:053",
+    "name": "Croaked Up",
+    "sourceGroup": "Mount Gemma + Cave",
+    "requirements": [
+      {
+        "familyId": "miscrit:37",
+        "sourceName": "Croaky",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:75",
+        "sourceName": "Dark Croaky",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:552",
+        "sourceName": "Foil Croaky",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 60,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:054",
+    "name": "Dark Descent, IX",
+    "sourceGroup": "Mount Gemma + Cave",
+    "requirements": [
+      {
+        "familyId": "miscrit:40",
+        "sourceName": "Owlie",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:35",
+        "sourceName": "Aria",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:82",
+        "sourceName": "Dark Owlie",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:515",
+        "sourceName": "Dark Aria",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 20,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:055",
+    "name": "Dark Descent, X",
+    "sourceGroup": "Mount Gemma + Cave",
+    "requirements": [
+      {
+        "familyId": "miscrit:27",
+        "sourceName": "Frostmite",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:33",
+        "sourceName": "Breezycheeks",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:534",
+        "sourceName": "Dark Frostmite",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:97",
+        "sourceName": "Dark Breezycheeks",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 15000,
+        "name": "Gold"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:056",
+    "name": "Day & Night",
+    "sourceGroup": "Mount Gemma + Sunfall Shores",
+    "requirements": [
+      {
+        "familyId": "miscrit:541",
+        "sourceName": "Sol",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:41",
+        "sourceName": "Luna",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:539",
+        "sourceName": "Dark Luna",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:540",
+        "sourceName": "Foil Luna",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 35,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:057",
+    "name": "Aerobian Visitors",
+    "sourceGroup": "Mount Gemma + Sunfall Shores",
+    "requirements": [
+      {
+        "familyId": "miscrit:73",
+        "sourceName": "Fangly",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:133",
+        "sourceName": "Boneshee",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 30,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:058",
+    "name": "Glitter Glow-up, V",
+    "sourceGroup": "Mount Gemma + Monks Mountain",
+    "requirements": [
+      {
+        "familyId": "miscrit:155",
+        "sourceName": "Pollifog",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:312",
+        "sourceName": "Opigum",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:747",
+        "sourceName": "Foil Pollifog",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:734",
+        "sourceName": "Foil Opigum",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 30,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:059",
+    "name": "Kiloray Fever",
+    "sourceGroup": "Mount Gemma + Cave + Shack",
+    "requirements": [
+      {
+        "familyId": "miscrit:32",
+        "sourceName": "Kiloray",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:74",
+        "sourceName": "Dark Kiloray",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:616",
+        "sourceName": "Grimm Kiloray",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:247",
+        "sourceName": "Foil Kiloray",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 50,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:060",
+    "name": "Into The Light, II",
+    "sourceGroup": "Mount Gemma + Cave + Sunfall Shores",
+    "requirements": [
+      {
+        "familyId": "miscrit:27",
+        "sourceName": "Frostmite",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:29",
+        "sourceName": "Statikat",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:476",
+        "sourceName": "Light Statikat",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:456",
+        "sourceName": "Light Frostmite",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 70,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:061",
+    "name": "Slithery Sneaky Snakes",
+    "sourceGroup": "Mount Gemma + Moon + Temple",
+    "requirements": [
+      {
+        "familyId": "miscrit:579",
+        "sourceName": "Niboro",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:573",
+        "sourceName": "Babakku",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:206",
+        "sourceName": "Gemix",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:715",
+        "sourceName": "Kukoatl",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 1,
+        "name": "Silver Pack"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:062",
+    "name": "Spelunking",
+    "sourceGroup": "Cave",
+    "requirements": [
+      {
+        "familyId": "miscrit:562",
+        "sourceName": "Frozy",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:557",
+        "sourceName": "Mistraxol",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:558",
+        "sourceName": "Orbling",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:559",
+        "sourceName": "Zappup",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10000,
+        "name": "Gold"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:063",
+    "name": "Exclusive Triplet",
+    "sourceGroup": "Cave",
+    "requirements": [
+      {
+        "familyId": "miscrit:48",
+        "sourceName": "Sledgehog",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:49",
+        "sourceName": "Sapphron",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:47",
+        "sourceName": "Microblast",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 30,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:064",
+    "name": "Dark Descent, XIII",
+    "sourceGroup": "Cave + Sunfall Shores",
+    "requirements": [
+      {
+        "familyId": "miscrit:54",
+        "sourceName": "Sparkitten",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:55",
+        "sourceName": "Arigato",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:78",
+        "sourceName": "Dark Sparkitten",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:85",
+        "sourceName": "Dark Arigato",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10000,
+        "name": "Gold"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:065",
+    "name": "Eggs In One Basket",
+    "sourceGroup": "Cave + Sunfall Shores",
+    "requirements": [
+      {
+        "familyId": "miscrit:341",
+        "sourceName": "Cadbunny",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:87",
+        "sourceName": "Peepsie",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 50,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:066",
+    "name": "Bear Necessities",
+    "sourceGroup": "Cave + Sunfall Shores",
+    "requirements": [
+      {
+        "familyId": "miscrit:124",
+        "sourceName": "Pamboo",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:134",
+        "sourceName": "Ursiwave",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:68",
+        "sourceName": "Winnebeargo",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:556",
+        "sourceName": "Manio",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "Relic Sack"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:067",
+    "name": "Shadows Of The Shack",
+    "sourceGroup": "Shack",
+    "requirements": [
+      {
+        "familyId": "miscrit:624",
+        "sourceName": "Poppet",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:607",
+        "sourceName": "Whispen",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:603",
+        "sourceName": "Mucora",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:608",
+        "sourceName": "Fickra",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:068",
+    "name": "Creations Of Ylil",
+    "sourceGroup": "Shack",
+    "requirements": [
+      {
+        "familyId": "miscrit:609",
+        "sourceName": "Pirate Bludger",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:615",
+        "sourceName": "Vamp Skustunk",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:618",
+        "sourceName": "Boo Blazertooth",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:617",
+        "sourceName": "Rocker Octavio",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 70,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:069",
+    "name": "Depths Of The Shack",
+    "sourceGroup": "Shack",
+    "requirements": [
+      {
+        "familyId": "miscrit:605",
+        "sourceName": "Avarus",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:604",
+        "sourceName": "Goo",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:606",
+        "sourceName": "Beakka",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:620",
+        "sourceName": "Sora",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:070",
+    "name": "One With The Shadows",
+    "sourceGroup": "Shack",
+    "requirements": [
+      {
+        "familyId": "miscrit:610",
+        "sourceName": "Lutox",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:611",
+        "sourceName": "Deetlee",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:612",
+        "sourceName": "Ampupine",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:625",
+        "sourceName": "Nubyll",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 15000,
+        "name": "Gold"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:071",
+    "name": "Shack Of Horrors",
+    "sourceGroup": "Shack",
+    "requirements": [
+      {
+        "familyId": "miscrit:623",
+        "sourceName": "Lagoony",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:223",
+        "sourceName": "Skelepup",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:628",
+        "sourceName": "Damse",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 70,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:072",
+    "name": "Grim Harvest",
+    "sourceGroup": "Shack",
+    "requirements": [
+      {
+        "familyId": "miscrit:622",
+        "sourceName": "Phoboros",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:616",
+        "sourceName": "Grimm Kiloray",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:70",
+        "sourceName": "Patchkin",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:619",
+        "sourceName": "Geneseed",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 120,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:073",
+    "name": "When Beauty Clashes",
+    "sourceGroup": "Shack + Miscrian Jungle",
+    "requirements": [
+      {
+        "familyId": "miscrit:627",
+        "sourceName": "Luvcraft",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:656",
+        "sourceName": "Bunaken",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "Stat Swap"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:074",
+    "name": "Among The Wreckage",
+    "sourceGroup": "Sunfall Shores",
+    "requirements": [
+      {
+        "familyId": "miscrit:54",
+        "sourceName": "Sparkitten",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:52",
+        "sourceName": "Echino",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:55",
+        "sourceName": "Arigato",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:59",
+        "sourceName": "Hippoke",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "XP Token (Large)"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:075",
+    "name": "Jagged Pass",
+    "sourceGroup": "Sunfall Shores",
+    "requirements": [
+      {
+        "familyId": "miscrit:168",
+        "sourceName": "Nibbles",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:151",
+        "sourceName": "Hawkai",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:158",
+        "sourceName": "Tectonyx",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:138",
+        "sourceName": "Zaptor",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 1,
+        "name": "XP Token (Huge)"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:076",
+    "name": "Beach Icons",
+    "sourceGroup": "Sunfall Shores",
+    "requirements": [
+      {
+        "familyId": "miscrit:65",
+        "sourceName": "Ignios",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:64",
+        "sourceName": "Kelpa",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:63",
+        "sourceName": "Snorkels",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 20,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:077",
+    "name": "Into The Light, IV",
+    "sourceGroup": "Sunfall Shores",
+    "requirements": [
+      {
+        "familyId": "miscrit:168",
+        "sourceName": "Nibbles",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:158",
+        "sourceName": "Tectonyx",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:451",
+        "sourceName": "Light Nibbles",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:326",
+        "sourceName": "Light Tectonyx",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 30,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:078",
+    "name": "Island Of Bones",
+    "sourceGroup": "Sunfall Shores",
+    "requirements": [
+      {
+        "familyId": "miscrit:61",
+        "sourceName": "Orcatide",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:60",
+        "sourceName": "Leggy",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:57",
+        "sourceName": "Quebble",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:367",
+        "sourceName": "Blub",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 1,
+        "name": "XP Token (Huge)"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:079",
+    "name": "Jaws & Justice",
+    "sourceGroup": "Sunfall Shores",
+    "requirements": [
+      {
+        "familyId": "miscrit:530",
+        "sourceName": "Light Ignios",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:493",
+        "sourceName": "Aquarion",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 1,
+        "name": "Silver Pack"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:080",
+    "name": "Glitter Glow-up, III",
+    "sourceGroup": "Sunfall Shores + Miscrian Jungle",
+    "requirements": [
+      {
+        "familyId": "miscrit:124",
+        "sourceName": "Pamboo",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:646",
+        "sourceName": "Liquifien",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:635",
+        "sourceName": "Foil Pamboo",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:648",
+        "sourceName": "Foil Liquifien",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 70,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:081",
+    "name": "Glitter Glow-up, IV",
+    "sourceGroup": "Sunfall Shores + Miscrian Jungle",
+    "requirements": [
+      {
+        "familyId": "miscrit:125",
+        "sourceName": "Rockodile",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:634",
+        "sourceName": "Pangoleaf",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:661",
+        "sourceName": "Foil Pangoleaf",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:655",
+        "sourceName": "Foil Rockodile",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 80,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:082",
+    "name": "Into The Light, VI",
+    "sourceGroup": "Sunfall Shores + Emerald Isle",
+    "requirements": [
+      {
+        "familyId": "miscrit:56",
+        "sourceName": "Jack",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:525",
+        "sourceName": "Light Jack",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:192",
+        "sourceName": "Crabbles",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:694",
+        "sourceName": "Light Crabbles",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 25,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:083",
+    "name": "Shroom Streams",
+    "sourceGroup": "Miscrian Jungle",
+    "requirements": [
+      {
+        "familyId": "miscrit:662",
+        "sourceName": "Blug",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:638",
+        "sourceName": "Shroomer",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:637",
+        "sourceName": "Hoghedge",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:636",
+        "sourceName": "Gippo",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "XP Token (Large)"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:084",
+    "name": "Distant Visitors",
+    "sourceGroup": "Miscrian Jungle",
+    "requirements": [
+      {
+        "familyId": "miscrit:664",
+        "sourceName": "Kawanko",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:643",
+        "sourceName": "Kitpole",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:673",
+        "sourceName": "Padma",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 1,
+        "name": "Relic Sack"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:085",
+    "name": "Temple Rejects",
+    "sourceGroup": "Miscrian Jungle",
+    "requirements": [
+      {
+        "familyId": "miscrit:645",
+        "sourceName": "Beetor",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:644",
+        "sourceName": "Magpole",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:666",
+        "sourceName": "Dabee",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:639",
+        "sourceName": "Daloo",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "XP Token (Huge)"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:086",
+    "name": "Dark Descent, XV",
+    "sourceGroup": "Miscrian Jungle",
+    "requirements": [
+      {
+        "familyId": "miscrit:645",
+        "sourceName": "Beetor",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:637",
+        "sourceName": "Hoghedge",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:659",
+        "sourceName": "Dark Beetor",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:658",
+        "sourceName": "Dark Hoghedge",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10000,
+        "name": "Gold"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:087",
+    "name": "By The Falls",
+    "sourceGroup": "Miscrian Jungle",
+    "requirements": [
+      {
+        "familyId": "miscrit:651",
+        "sourceName": "Budillo",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:652",
+        "sourceName": "Pithapillar",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:650",
+        "sourceName": "Gurgleplops",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:649",
+        "sourceName": "Pachydo",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 1,
+        "name": "Bronze Pack"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:088",
+    "name": "Eco-Contaminants",
+    "sourceGroup": "Miscrian Jungle",
+    "requirements": [
+      {
+        "familyId": "miscrit:644",
+        "sourceName": "Magpole",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:650",
+        "sourceName": "Gurgleplops",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:633",
+        "sourceName": "Dark Weevern",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:642",
+        "sourceName": "Nyma",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 25,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:089",
+    "name": "Air Feels Thinner",
+    "sourceGroup": "Moon",
+    "requirements": [
+      {
+        "familyId": "miscrit:591",
+        "sourceName": "Flaclay",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:599",
+        "sourceName": "Zephry",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:577",
+        "sourceName": "Lumite",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:593",
+        "sourceName": "Voltombra",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:090",
+    "name": "Thinking With Portals",
+    "sourceGroup": "Moon",
+    "requirements": [
+      {
+        "familyId": "miscrit:583",
+        "sourceName": "Pyrex",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:572",
+        "sourceName": "Gravitron",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 50,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:091",
+    "name": "Planetary Problems",
+    "sourceGroup": "Moon",
+    "requirements": [
+      {
+        "familyId": "miscrit:574",
+        "sourceName": "Smolderfry",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:597",
+        "sourceName": "Beateorite",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "Stat Swap"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:092",
+    "name": "The Dark Side",
+    "sourceGroup": "Moon",
+    "requirements": [
+      {
+        "familyId": "miscrit:598",
+        "sourceName": "Silkire",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:590",
+        "sourceName": "Drilune",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:602",
+        "sourceName": "Yuefira",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:600",
+        "sourceName": "Fungask",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:093",
+    "name": "Territorial Dispute",
+    "sourceGroup": "Moon",
+    "requirements": [
+      {
+        "familyId": "miscrit:587",
+        "sourceName": "Eluzar",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:586",
+        "sourceName": "Rephily",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 4,
+        "name": "XP Token (Small)"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:094",
+    "name": "Hunter x Hunted",
+    "sourceGroup": "Moon",
+    "requirements": [
+      {
+        "familyId": "miscrit:571",
+        "sourceName": "Lambolt",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:601",
+        "sourceName": "Larbunni",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 30,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:095",
+    "name": "Celestial Clash",
+    "sourceGroup": "Moon",
+    "requirements": [
+      {
+        "familyId": "miscrit:581",
+        "sourceName": "Lithos",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:578",
+        "sourceName": "Voidotron",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "Relic Sack"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:096",
+    "name": "The Forbidden Isle",
+    "sourceGroup": "Emerald Isle",
+    "requirements": [
+      {
+        "familyId": "miscrit:676",
+        "sourceName": "Mustella",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:675",
+        "sourceName": "Shockell",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:680",
+        "sourceName": "Wapy",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:677",
+        "sourceName": "Pumillo",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:097",
+    "name": "Among The Ruins",
+    "sourceGroup": "Emerald Isle",
+    "requirements": [
+      {
+        "familyId": "miscrit:688",
+        "sourceName": "Smokey",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:687",
+        "sourceName": "Aveony",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:692",
+        "sourceName": "Boomble",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:681",
+        "sourceName": "Cuado",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:098",
+    "name": "The Guardian & King",
+    "sourceGroup": "Emerald Isle",
+    "requirements": [
+      {
+        "familyId": "miscrit:690",
+        "sourceName": "Patrik",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:691",
+        "sourceName": "Woolaboo",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 70,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:099",
+    "name": "Isle Of Nightmares",
+    "sourceGroup": "Emerald Isle",
+    "requirements": [
+      {
+        "familyId": "miscrit:698",
+        "sourceName": "Spookah",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:699",
+        "sourceName": "Glaucos",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "Stat Swap"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:100",
+    "name": "Temple Entrance",
+    "sourceGroup": "Temple",
+    "requirements": [
+      {
+        "familyId": "miscrit:701",
+        "sourceName": "Junglotl",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:700",
+        "sourceName": "Kiri",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:719",
+        "sourceName": "Pennypincher",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:705",
+        "sourceName": "Shocrack",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10000,
+        "name": "Gold"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:101",
+    "name": "Temple Depths",
+    "sourceGroup": "Temple",
+    "requirements": [
+      {
+        "familyId": "miscrit:712",
+        "sourceName": "Flaro",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:710",
+        "sourceName": "Petalina",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:706",
+        "sourceName": "Molly",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:711",
+        "sourceName": "Tabbey",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 10,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:102",
+    "name": "Temple Guardians",
+    "sourceGroup": "Temple",
+    "requirements": [
+      {
+        "familyId": "miscrit:709",
+        "sourceName": "Magixio",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:703",
+        "sourceName": "Pujin",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:714",
+        "sourceName": "Azteko",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 30,
+        "name": "Gems"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:103",
+    "name": "Ancient Winds",
+    "sourceGroup": "Temple",
+    "requirements": [
+      {
+        "familyId": "miscrit:707",
+        "sourceName": "Zimbabo",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:702",
+        "sourceName": "Iguanar",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:704",
+        "sourceName": "Wisper",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:721",
+        "sourceName": "Chico",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 50,
+        "name": "Platinum"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:104",
+    "name": "Fan-tastic Finds",
+    "sourceGroup": "Temple",
+    "requirements": [
+      {
+        "familyId": "miscrit:722",
+        "sourceName": "Tzicatl",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:723",
+        "sourceName": "Rocapez",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 2,
+        "name": "Relic Sack"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "collection:105",
+    "name": "Thunderous Terrors",
+    "sourceGroup": "Monks Mountain",
+    "requirements": [
+      {
+        "familyId": "miscrit:748",
+        "sourceName": "Jynku",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      },
+      {
+        "familyId": "miscrit:750",
+        "sourceName": "Electrak",
+        "quantity": 1,
+        "formId": null,
+        "levelConstraint": null
+      }
+    ],
+    "rewards": [
+      {
+        "quantity": 1,
+        "name": "Silver Pack"
+      }
+    ],
+    "claimPolicy": "manual-user-tracking",
+    "provenance": {
+      "sourceId": "companion-collections",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  }
+]

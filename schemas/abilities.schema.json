@@ -1,0 +1,257 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:miscrits:abilities:v1",
+  "title": "abilities",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 160,
+        "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+      },
+      "sourceId": {
+        "type": "string",
+        "maxLength": 200
+      },
+      "name": {
+        "type": "string",
+        "maxLength": 200
+      },
+      "kind": {
+        "type": "string",
+        "maxLength": 200
+      },
+      "element": {
+        "type": "string",
+        "maxLength": 200
+      },
+      "ap": {
+        "anyOf": [
+          {
+            "type": "number"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "accuracyPercent": {
+        "anyOf": [
+          {
+            "type": "number"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "hits": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 100
+      },
+      "turns": {
+        "anyOf": [
+          {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "cooldown": {
+        "anyOf": [
+          {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "maxUses": {
+        "anyOf": [
+          {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "affectedStats": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "maxItems": 16
+      },
+      "target": {
+        "anyOf": [
+          {
+            "type": "string",
+            "maxLength": 200
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "maxItems": 100
+      },
+      "descriptionEn": {
+        "type": "string",
+        "maxLength": 10000
+      },
+      "enchantDescriptionEn": {
+        "type": "string",
+        "maxLength": 10000
+      },
+      "enchant": {
+        "type": "object"
+      },
+      "rawEffects": {
+        "type": "array",
+        "items": {
+          "type": "object"
+        },
+        "maxItems": 100
+      },
+      "trueDamage": {
+        "type": "boolean"
+      },
+      "calculationSupport": {
+        "enum": [
+          "direct",
+          "direct-component-only",
+          "requires-effect-handler"
+        ]
+      },
+      "provenance": {
+        "type": "object",
+        "properties": {
+          "sourceId": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "retrievedOn": {
+            "type": "string",
+            "format": "date"
+          },
+          "method": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "gameVerified": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "sourceId",
+          "retrievedOn",
+          "method",
+          "gameVerified"
+        ],
+        "additionalProperties": false
+      },
+      "sourceTiming": {
+        "type": "object",
+        "properties": {
+          "turns": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": -1,
+                "maximum": 1000
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "cooldown": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": -1,
+                "maximum": 1000
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "maxUses": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": -1,
+                "maximum": 1000
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "turns",
+          "cooldown",
+          "maxUses"
+        ],
+        "additionalProperties": false
+      },
+      "timingNotes": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "maxItems": 10
+      }
+    },
+    "required": [
+      "id",
+      "sourceId",
+      "name",
+      "kind",
+      "element",
+      "ap",
+      "accuracyPercent",
+      "hits",
+      "turns",
+      "cooldown",
+      "maxUses",
+      "affectedStats",
+      "target",
+      "tags",
+      "descriptionEn",
+      "enchantDescriptionEn",
+      "enchant",
+      "rawEffects",
+      "trueDamage",
+      "calculationSupport",
+      "provenance",
+      "sourceTiming",
+      "timingNotes"
+    ],
+    "additionalProperties": false
+  }
+}

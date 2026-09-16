@@ -1,0 +1,2522 @@
+[
+  {
+    "familyId": "miscrit:1",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:2",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:3",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:4",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:5",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:6",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:7",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:8",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:9",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:10",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:11",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:12",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:13",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:14",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:15",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:16",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:17",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:18",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:19",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:20",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:21",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:22",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:23",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:24",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:25",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:26",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:27",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:28",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:29",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:30",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:31",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:32",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:33",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:34",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:35",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:36",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:37",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:38",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:39",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:40",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:41",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:42",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:43",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:44",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:45",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:46",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:47",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:48",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:49",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:50",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:51",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:52",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:53",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:54",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:55",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:56",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:57",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:58",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:59",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:60",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:61",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:62",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:63",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:64",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:65",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:67",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:68",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:69",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:70",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:72",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:73",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:74",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:75",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:76",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:77",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:78",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:79",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:80",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:82",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:83",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:85",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:86",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:87",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:88",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:90",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:91",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:93",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:94",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:95",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:97",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:98",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:101",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:102",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:104",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:108",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:111",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:112",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:115",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:121",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:124",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:125",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:133",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:134",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:135",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:138",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:139",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:142",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:144",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:151",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:152",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:155",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:156",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:158",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:168",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:171",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:176",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:180",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:184",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:192",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:196",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:197",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:200",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:201",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:202",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:203",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:205",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:206",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:210",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:212",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:214",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:223",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:226",
+    "variant": "foil",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:227",
+    "variant": "foil",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:230",
+    "variant": "foil",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:242",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:247",
+    "variant": "foil",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:248",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:312",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:322",
+    "variant": "foil",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:326",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:338",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:341",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:352",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:356",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:367",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:376",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:378",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:380",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:382",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:388",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:390",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:404",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:405",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:417",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:419",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:420",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:425",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:430",
+    "variant": "blighted",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:433",
+    "variant": "blighted",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:438",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:451",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:456",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:457",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:458",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:459",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:476",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:480",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:488",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:493",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:500",
+    "variant": "blighted",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:501",
+    "variant": "blighted",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:502",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:503",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:504",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:505",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:506",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:507",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:508",
+    "variant": "foil",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:509",
+    "variant": "foil",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:510",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:511",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:512",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:513",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:514",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:515",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:516",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:517",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:518",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:519",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:520",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:521",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:522",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:523",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:524",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:525",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:526",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:527",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:528",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:529",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:530",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:531",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:532",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:533",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:534",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:535",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:536",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:537",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:538",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:539",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:540",
+    "variant": "foil",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:541",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:542",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:543",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:544",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:545",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:546",
+    "variant": "blighted",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:547",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:548",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:549",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:550",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:551",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:552",
+    "variant": "foil",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:553",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:554",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:555",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:556",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:557",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:558",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:559",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:560",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:561",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:562",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:563",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:564",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:565",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:566",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:567",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:568",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:569",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:570",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:571",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:572",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:573",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:574",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:575",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:576",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:577",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:578",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:579",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:580",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:581",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:582",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:583",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:584",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:585",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:586",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:587",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:588",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:589",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:590",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:591",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:592",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:593",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:594",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:595",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:596",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:597",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:598",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:599",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:600",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:601",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:602",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:603",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:604",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:605",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:606",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:607",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:608",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:609",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:610",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:611",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:612",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:613",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:614",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:615",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:616",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:617",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:618",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:619",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:620",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:621",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:622",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:623",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:624",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:625",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:626",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:627",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:628",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:629",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:630",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:631",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:632",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:633",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:634",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:635",
+    "variant": "foil",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:636",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:637",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:638",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:639",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:640",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:641",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:642",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:643",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:644",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:645",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:646",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:647",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:648",
+    "variant": "foil",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:649",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:650",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:651",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:652",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:653",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:654",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:655",
+    "variant": "foil",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:656",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:657",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:658",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:659",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:660",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:661",
+    "variant": "foil",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:662",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:663",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:664",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:665",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:666",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:667",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:668",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:669",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:670",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:671",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:672",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:673",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:674",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:675",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:676",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:677",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:678",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:679",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:680",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:681",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:682",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:683",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:684",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:685",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:686",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:687",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:688",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:689",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:690",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:691",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:692",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:693",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:694",
+    "variant": "light",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:695",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:696",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:697",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:698",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:699",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:700",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:701",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:702",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:703",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:704",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:705",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:706",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:707",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:708",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:709",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:710",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:711",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:712",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:713",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:714",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:715",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:716",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:717",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:718",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:719",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:720",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:721",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:722",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:723",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:724",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:725",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:726",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:727",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:728",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:729",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:730",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:731",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:732",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:733",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:734",
+    "variant": "foil",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:735",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:736",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:737",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:738",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:739",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:740",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:741",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:742",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:743",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:744",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:745",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:746",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:747",
+    "variant": "foil",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:748",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:749",
+    "variant": "dark",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  },
+  {
+    "familyId": "miscrit:750",
+    "variant": "base",
+    "classificationMethod": "canonical-name-prefix-snapshot",
+    "note": "UI category only, not evolution or shared family identity"
+  }
+]

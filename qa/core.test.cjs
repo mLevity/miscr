@@ -1,0 +1,22 @@
+const assert=require('node:assert/strict');const fs=require('node:fs');const path=require('node:path');const C=require('../examples/core.js');let tests=0;function test(name,fn){fn();tests++;console.log('PASS',name);}
+test('Flue S+ 35 no bonuses/relics',()=>assert.deepEqual(C.totalStats({hp:3,spd:1,ea:1,pa:4,ed:3,pd:3},35,Object.fromEntries(C.KEYS.map(k=>[k,'green'])),Object.fromEntries(C.KEYS.map(k=>[k,0]))),{hp:167,spd:60,ea:60,pa:95,ed:83,pd:83}));
+test('Flue RS speed',()=>assert.equal(C.baseStat(1,35,'red'),42));
+test('Hub control AP27 PA95 PD83',()=>{let d=C.directDamage({ap:27,attack:95,defense:83,hp:167});assert.equal(d.min,27);assert.equal(d.max,33);assert.equal(d.midpoint,30);assert.equal(d.usesByMidpoint,6);});
+test('PA120 recalculates',()=>{let d=C.directDamage({ap:27,attack:120,defense:83,hp:167});assert.equal(d.min,35);assert.equal(d.max,42);});
+test('dual advantage and resistance cancel',()=>assert.equal(C.elementMultiplier('fire',['nature','water']),1));
+test('physical and negate neutral',()=>{assert.equal(C.elementMultiplier('physical',['nature']),1);assert.equal(C.elementMultiplier('fire',['nature'],true),1);});
+test('round each hit before summing',()=>{let d=C.directDamage({ap:7,attack:60,defense:83,hp:167,hits:3});assert.equal(d.min,12);assert.equal(d.max,15);});
+test('reject invalid numeric inputs',()=>{for(const defense of [0,-1,NaN,Infinity])assert.throws(()=>C.directDamage({ap:20,attack:60,defense,hp:100}));});
+test('RNG replay deterministic',()=>assert.deepEqual(C.rebonus(['spd','ea'],C.seededRandom(42)),C.rebonus(['spd','ea'],C.seededRandom(42))));
+test('10000 samples conserve 136, min1, two-lowest <=34',()=>{const rng=C.seededRandom(7);for(let i=0;i<10000;i++){const values=Object.values(C.rebonus(['spd','ea'],rng)).sort((a,b)=>a-b);assert.equal(values.reduce((s,v)=>s+v,0),136);assert.ok(values.every(v=>v>=1));assert.ok(values[0]+values[1]<=34);}});
+test('price is non-monotonic',()=>{const current={hp:30,spd:16,ea:18,pa:30,ed:21,pd:21};assert.equal(C.rebonusPrice(current,0),25);assert.equal(C.rebonusPrice(current,1),60);assert.equal(C.rebonusPrice(current,2),50);assert.equal(C.rebonusPrice({...current,hp:20},2),60);});
+test('UTC midnight boundary',()=>{const s={rule:'weekly',weekdays:[2]};assert.equal(C.availableOn(s,new Date('2026-09-14T23:59:59Z')),false);assert.equal(C.availableOn(s,new Date('2026-09-15T00:00:00Z')),true);});
+test('unknown schedule remains unknown',()=>assert.equal(C.availableOn(null),null));
+test('map marker transforms with image',()=>assert.deepEqual(C.projectPoint({x:.25,y:.5},{x:10,y:20,width:1000,height:500},2,{x:-100,y:30}),{x:410,y:550}));
+test('zero observed successes not proof of impossibility',()=>assert.ok(C.wilson(0,10000).high>0));
+test('all deprioritization counts preserve invariants',()=>{for(let d=0;d<=5;d++){const rng=C.seededRandom(200+d);for(let i=0;i<200;i++){const v=Object.values(C.rebonus(C.KEYS.slice(0,d),rng)).sort((a,b)=>a-b);assert.equal(v.reduce((a,b)=>a+b,0),136);assert.ok(v[0]>=1&&v[0]+v[1]<=34);}}});
+test('invalid priority lists and RNG rejected',()=>{assert.throws(()=>C.rebonus(C.KEYS));assert.throws(()=>C.rebonus(['spd','spd']));assert.throws(()=>C.rebonus(['unknown']));assert.throws(()=>C.rebonus([],()=>1));assert.throws(()=>C.rebonus([],()=>NaN));});
+test('zero damage never invents finite KO count',()=>{const r=C.directDamage({ap:0,attack:95,defense:83,hp:167});assert.equal(r.min,0);assert.equal(r.max,0);assert.equal(r.koMinHits,null);assert.equal(r.koGuaranteedHits,null);});
+test('enchant values are deltas, not replacements',()=>{const A=require('../examples/ability-rules.cjs');const abilities=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/abilities.json'),'utf8'));const a=abilities.find(a=>a.name==='Mighty Bash');const v=A.resolveAbility(a,true);assert.equal(v.ap,30);assert.equal(a.ap,27);assert.equal(v.accuracyPercent,null);assert.equal(v.calculationSupport,'direct-component-only');});
+test('conditional enchant attack is not a guaranteed extra hit',()=>{const A=require('../examples/ability-rules.cjs');const a={id:'test',kind:'attack',element:'water',ap:6,accuracyPercent:90,hits:1,turns:null,tags:['attack'],rawEffects:[],calculationSupport:'direct',enchant:{additional:[{type:'Attack',ap:6,accuracy:65}]}};const v=A.resolveAbility(a,true);assert.equal(v.hits,1);assert.equal(v.effects[0].accuracy,65);assert.equal(v.calculationSupport,'direct-component-only');});
+console.log(`${tests} reference tests passed`);

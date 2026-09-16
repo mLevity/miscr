@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:miscrits:forms:v1",
+  "title": "forms",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 160,
+        "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+      },
+      "familyId": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 160,
+        "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+      },
+      "stage": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 8
+      },
+      "name": {
+        "type": "string",
+        "maxLength": 200
+      },
+      "assetKey": {
+        "type": "string",
+        "maxLength": 200
+      },
+      "minimumLevel": {
+        "anyOf": [
+          {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 35
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "provenance": {
+        "type": "object",
+        "properties": {
+          "sourceId": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "retrievedOn": {
+            "type": "string",
+            "format": "date"
+          },
+          "method": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "gameVerified": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "sourceId",
+          "retrievedOn",
+          "method",
+          "gameVerified"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "id",
+      "familyId",
+      "stage",
+      "name",
+      "assetKey",
+      "minimumLevel",
+      "provenance"
+    ],
+    "additionalProperties": false
+  }
+}

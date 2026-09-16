@@ -1,0 +1,370 @@
+[
+  {
+    "id": "location:forest:area:azore-lake",
+    "locationId": "location:forest",
+    "name": "Azore Lake",
+    "sortOrder": 0,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:forest:area:woodsman-s-axe",
+    "locationId": "location:forest",
+    "name": "Woodsman's Axe",
+    "sortOrder": 1,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:forest:area:magic-flower",
+    "locationId": "location:forest",
+    "name": "Magic Flower",
+    "sortOrder": 2,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:forest:area:elder-tree",
+    "locationId": "location:forest",
+    "name": "Elder Tree",
+    "sortOrder": 3,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:hidden-forest:area:hidden-forest",
+    "locationId": "location:hidden-forest",
+    "name": "Hidden Forest",
+    "sortOrder": 0,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:mansion:area:outside",
+    "locationId": "location:mansion",
+    "name": "Outside",
+    "sortOrder": 0,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:mansion:area:ground-floor",
+    "locationId": "location:mansion",
+    "name": "Ground Floor",
+    "sortOrder": 1,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:mansion:area:2nd-floor",
+    "locationId": "location:mansion",
+    "name": "2nd Floor",
+    "sortOrder": 2,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:mansion:area:attic-middle",
+    "locationId": "location:mansion",
+    "name": "Attic (Middle)",
+    "sortOrder": 3,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:mansion:area:attic-right",
+    "locationId": "location:mansion",
+    "name": "Attic (Right)",
+    "sortOrder": 4,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:mansion:area:attic-left",
+    "locationId": "location:mansion",
+    "name": "Attic (Left)",
+    "sortOrder": 5,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:mount-gemma:area:gemma-flats",
+    "locationId": "location:mount-gemma",
+    "name": "Gemma Flats",
+    "sortOrder": 0,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:mount-gemma:area:eternal-falls",
+    "locationId": "location:mount-gemma",
+    "name": "Eternal Falls",
+    "sortOrder": 1,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:mount-gemma:area:the-shack",
+    "locationId": "location:mount-gemma",
+    "name": "The Shack",
+    "sortOrder": 2,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:mount-gemma:area:crystal-cliffs",
+    "locationId": "location:mount-gemma",
+    "name": "Crystal Cliffs",
+    "sortOrder": 3,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:cave:area:cave-entrance",
+    "locationId": "location:cave",
+    "name": "Cave Entrance",
+    "sortOrder": 0,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:cave:area:hole",
+    "locationId": "location:cave",
+    "name": "Hole",
+    "sortOrder": 1,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:cave:area:lost-treasure",
+    "locationId": "location:cave",
+    "name": "Lost Treasure",
+    "sortOrder": 2,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:cave:area:ice-cavern",
+    "locationId": "location:cave",
+    "name": "Ice Cavern",
+    "sortOrder": 3,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:shack:area:first-floor",
+    "locationId": "location:shack",
+    "name": "First Floor",
+    "sortOrder": 0,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:shack:area:second-floor",
+    "locationId": "location:shack",
+    "name": "Second Floor",
+    "sortOrder": 1,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:shack:area:basement",
+    "locationId": "location:shack",
+    "name": "Basement",
+    "sortOrder": 2,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:shack:area:lower-basement",
+    "locationId": "location:shack",
+    "name": "Lower Basement",
+    "sortOrder": 3,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:sunfall-shores:area:sand-castle",
+    "locationId": "location:sunfall-shores",
+    "name": "Sand Castle",
+    "sortOrder": 0,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:sunfall-shores:area:ship-graveyard",
+    "locationId": "location:sunfall-shores",
+    "name": "Ship Graveyard",
+    "sortOrder": 1,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:sunfall-shores:area:jagged-treasure",
+    "locationId": "location:sunfall-shores",
+    "name": "Jagged Treasure",
+    "sortOrder": 2,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:sunfall-shores:area:dead-island",
+    "locationId": "location:sunfall-shores",
+    "name": "Dead Island",
+    "sortOrder": 3,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:miscrian-jungle:area:area-1",
+    "locationId": "location:miscrian-jungle",
+    "name": "Area 1",
+    "sortOrder": 0,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:miscrian-jungle:area:area-2",
+    "locationId": "location:miscrian-jungle",
+    "name": "Area 2",
+    "sortOrder": 1,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:miscrian-jungle:area:area-3",
+    "locationId": "location:miscrian-jungle",
+    "name": "Area 3",
+    "sortOrder": 2,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:miscrian-jungle:area:area-4",
+    "locationId": "location:miscrian-jungle",
+    "name": "Area 4",
+    "sortOrder": 3,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:moon:area:the-moon-surface",
+    "locationId": "location:moon",
+    "name": "The Moon Surface",
+    "sortOrder": 0,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:moon:area:cave-of-the-moon",
+    "locationId": "location:moon",
+    "name": "Cave of the Moon",
+    "sortOrder": 1,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:emerald-isle:area:area-1",
+    "locationId": "location:emerald-isle",
+    "name": "Area 1",
+    "sortOrder": 0,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:emerald-isle:area:area-2",
+    "locationId": "location:emerald-isle",
+    "name": "Area 2",
+    "sortOrder": 1,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:emerald-isle:area:area-3",
+    "locationId": "location:emerald-isle",
+    "name": "Area 3",
+    "sortOrder": 2,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:temple:area:upper-floor",
+    "locationId": "location:temple",
+    "name": "Upper Floor",
+    "sortOrder": 0,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:temple:area:middle-floor",
+    "locationId": "location:temple",
+    "name": "Middle Floor",
+    "sortOrder": 1,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:temple:area:lower-floor",
+    "locationId": "location:temple",
+    "name": "Lower Floor",
+    "sortOrder": 2,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:temple:area:area-4",
+    "locationId": "location:temple",
+    "name": "Area 4",
+    "sortOrder": 3,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:temple:area:area-5",
+    "locationId": "location:temple",
+    "name": "Area 5",
+    "sortOrder": 4,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:monks-mountain:area:area-1",
+    "locationId": "location:monks-mountain",
+    "name": "Area 1",
+    "sortOrder": 0,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:monks-mountain:area:area-2",
+    "locationId": "location:monks-mountain",
+    "name": "Area 2",
+    "sortOrder": 1,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:monks-mountain:area:area-3",
+    "locationId": "location:monks-mountain",
+    "name": "Area 3",
+    "sortOrder": 2,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:monks-mountain:area:area-4",
+    "locationId": "location:monks-mountain",
+    "name": "Area 4",
+    "sortOrder": 3,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  },
+  {
+    "id": "location:shop-exclusive:area:area-1",
+    "locationId": "location:shop-exclusive",
+    "name": "Area 1",
+    "sortOrder": 0,
+    "polygon": null,
+    "geometryStatus": "not-published-in-extracted-dom"
+  }
+]

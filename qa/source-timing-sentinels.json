@@ -1,0 +1,302 @@
+[
+  {
+    "abilityId": "ability:730:a8d5b408fd",
+    "name": "Hard Lock",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1036:65c671f649",
+    "name": "Infatuate",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:892:33780d6a10",
+    "name": "Cat And Mouse",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:981:1a8cd22bf7",
+    "name": "Squirrel Escape",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:729:689cbc8455",
+    "name": "Hard Drive",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:727:2f988988da",
+    "name": "Shield Mutation",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:666:da15f50e81",
+    "name": "Foil Mace Smash",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:907:77fff1fd47",
+    "name": "Red Card",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:876:33d8a55d94",
+    "name": "Pennon's Rage",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:678:bddb7ccba7",
+    "name": "Blighted Blocker",
+    "field": "turns",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:743:720a76572c",
+    "name": "JUST DO IT",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:731:9699d394e6",
+    "name": "Cooking Chicken",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:870:76b896860b",
+    "name": "Plasma Shield",
+    "field": "turns",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:868:2c412fac45",
+    "name": "Blood Contamination",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:885:2c6f6f4dba",
+    "name": "Nightmare Fuel",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:953:2b19407615",
+    "name": "Radiating Lights",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:203:24d60d783c",
+    "name": "Aurora Coat",
+    "field": "turns",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1084:cad42a3f79",
+    "name": "Fortify",
+    "field": "turns",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1173:e7dab1ad1b",
+    "name": "Lunar Lull",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1144:4af857bc0b",
+    "name": "Tactical Retreat",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1180:7f7c7b0c48",
+    "name": "Terrain Advantage",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1212:a7b85ef10b",
+    "name": "Shackles",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1253:384a60d51a",
+    "name": "Befuddle",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1275:b01f0423a0",
+    "name": "Fumigate",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1272:72209fa19b",
+    "name": "Merlin's Dream",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1281:e0bdea1c1c",
+    "name": "Sleep Paralysis",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1283:e05b6f3989",
+    "name": "Covenant",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1306:6d2a7a55c0",
+    "name": "Evaporation",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1325:49950660bc",
+    "name": "Unwavering Stance",
+    "field": "turns",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1325:49950660bc",
+    "name": "Unwavering Stance",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1370:d62fcd2f57",
+    "name": "Implosion",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1387:8f7d85ada4",
+    "name": "Lover's Lullaby",
+    "field": "turns",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1395:814e4a1a69",
+    "name": "Escape Route",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1405:5de1c04cf3",
+    "name": "Share & Care",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1415:ee7420270e",
+    "name": "Turning Tides",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1418:9a4726f2e9",
+    "name": "Spiny Barrage",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1422:05bced1e69",
+    "name": "Invincible",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1443:2d7ac90f70",
+    "name": "Gear Up",
+    "field": "turns",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1445:f94a2e987a",
+    "name": "Incendiary Bombs",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1461:c93abbf901",
+    "name": "Soft Kitty",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1493:d3f1d4a5ee",
+    "name": "Thunder Warning",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1497:0b52ffa525",
+    "name": "Critical Strike",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1504:5183a80bcf",
+    "name": "Night Terror",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1511:7e3ce9ff41",
+    "name": "Faint Shiver",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1558:8108192f34",
+    "name": "Tidal Reversal",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1575:611085fd47",
+    "name": "Rally",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1603:4f30f526dc",
+    "name": "Surprise Swoop",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1619:a6bdcc4e1a",
+    "name": "Shell Retreat",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1648:5346b683ba",
+    "name": "Solid Drive",
+    "field": "cooldown",
+    "raw": -1
+  },
+  {
+    "abilityId": "ability:1654:51a58eea0b",
+    "name": "Matchfix",
+    "field": "cooldown",
+    "raw": -1
+  }
+]

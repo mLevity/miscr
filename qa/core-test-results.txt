@@ -1,0 +1,21 @@
+PASS Flue S+ 35 no bonuses/relics
+PASS Flue RS speed
+PASS Hub control AP27 PA95 PD83
+PASS PA120 recalculates
+PASS dual advantage and resistance cancel
+PASS physical and negate neutral
+PASS round each hit before summing
+PASS reject invalid numeric inputs
+PASS RNG replay deterministic
+PASS 10000 samples conserve 136, min1, two-lowest <=34
+PASS price is non-monotonic
+PASS UTC midnight boundary
+PASS unknown schedule remains unknown
+PASS map marker transforms with image
+PASS zero observed successes not proof of impossibility
+PASS all deprioritization counts preserve invariants
+PASS invalid priority lists and RNG rejected
+PASS zero damage never invents finite KO count
+PASS enchant values are deltas, not replacements
+PASS conditional enchant attack is not a guaranteed extra hit
+20 reference tests passed

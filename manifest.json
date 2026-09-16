@@ -1,0 +1,968 @@
+{
+  "schemaVersion": 1,
+  "kitVersion": "1.0",
+  "datasetVersion": "2026-09-15.1",
+  "rulesVersion": "snapshot-2026-09-15",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1371,
+      "sha256": "2e6d65107592ffed6ef9430359886a571bb045ee89294142a1d0d8386093a494"
+    },
+    {
+      "path": "START_HERE.html",
+      "bytes": 154829,
+      "sha256": "31912269b02a2030a98d47f62e14b8a7d89d65ff590f3411185c80f1c2f01ff5"
+    },
+    {
+      "path": "assets/design-tokens.css",
+      "bytes": 636,
+      "sha256": "5530e03786b9068dbd3b41a0d1eb9297ad4d2ec7e0710dcd0841d8cab23aedf0"
+    },
+    {
+      "path": "assets/fonts/Miscria.ttf",
+      "bytes": 25288,
+      "sha256": "5d6c2d5d2c41cd7cb80ce0b17e020ac737cfb77f478cac10fc63781e254978f7"
+    },
+    {
+      "path": "assets/maps/cave.webp",
+      "bytes": 107386,
+      "sha256": "d06843eb8b1416d7d7fd70c7c17a6ab596c0061b84e3a4d2756bf9d7a5964f9f"
+    },
+    {
+      "path": "assets/maps/emerald-isle.webp",
+      "bytes": 450778,
+      "sha256": "613d1ebdb9539c267b50c63d4ce1c273a484ba546ccebca7c98c94cd817a3fb6"
+    },
+    {
+      "path": "assets/maps/forest.webp",
+      "bytes": 303398,
+      "sha256": "5776631715879de31b6e1750cb289e898149a24d09547d60beb094861ffd2731"
+    },
+    {
+      "path": "assets/maps/hidden-forest.webp",
+      "bytes": 289356,
+      "sha256": "a4f80631e32cc3fd2c515dc8ac8cce507494f65143b89b8fa6e5770eebe59444"
+    },
+    {
+      "path": "assets/maps/mansion.webp",
+      "bytes": 167406,
+      "sha256": "0ea9e2c7d98c92c4baf67e7fa5fe22f6deb95d63f12fcf7b5e52fa1018eded3a"
+    },
+    {
+      "path": "assets/maps/miscrian-jungle.webp",
+      "bytes": 378710,
+      "sha256": "b33fe5f3c1b63669554c54ee9d56dddc4e4aa5da22288cf2eeeed1c9196921c1"
+    },
+    {
+      "path": "assets/maps/monks-mountain.webp",
+      "bytes": 301738,
+      "sha256": "b65a1ad69a50fbde29b92bc2960be604204fa33edee0ae6fa8792998fd8a6a18"
+    },
+    {
+      "path": "assets/maps/moon.webp",
+      "bytes": 223004,
+      "sha256": "0e62ca13ee842783ca070a38c4be8bbe30df85447e1df25e5216c1f7edc19b31"
+    },
+    {
+      "path": "assets/maps/mount-gemma.webp",
+      "bytes": 331022,
+      "sha256": "14b2c68271a8111bea655bd51d82cd29301162d6b309c22ae61dd3667b58f550"
+    },
+    {
+      "path": "assets/maps/shack.webp",
+      "bytes": 157592,
+      "sha256": "f72383496e3a8cd34368215e29c8e1b9742f7b319573a3cc22728d148e891e6b"
+    },
+    {
+      "path": "assets/maps/sunfall-shores.webp",
+      "bytes": 359468,
+      "sha256": "85203c72f02ed7be332d6311583654e1e2906c76e583ad1506b37af73386270e"
+    },
+    {
+      "path": "assets/maps/temple.webp",
+      "bytes": 329620,
+      "sha256": "00bc1e4a7b9083ba79870dfdfb0b144d724932b88f188c53860b05c1496db7f9"
+    },
+    {
+      "path": "assets/relics/arrow_of_love.png",
+      "bytes": 3445,
+      "sha256": "61cfb386da331b47903389ff5f937da9ca59f96448f32f1fd505c45394664bff"
+    },
+    {
+      "path": "assets/relics/bauble_of_the_dawn.png",
+      "bytes": 2197,
+      "sha256": "a413180a673ff8d6f8daefc8c7988d20b89236f631cae06983bf3911876aab90"
+    },
+    {
+      "path": "assets/relics/bean_stalk.png",
+      "bytes": 4355,
+      "sha256": "f2948d44f7a8ea5803212bff33a08b2af86113b47c6805dedff12b6e645d3020"
+    },
+    {
+      "path": "assets/relics/blessed_pollen.png",
+      "bytes": 4285,
+      "sha256": "112ce6b03bb89260741c5ee5823b27f10f3176767ca5b1dddb54ec484f91ffa4"
+    },
+    {
+      "path": "assets/relics/brashs_kiss.png",
+      "bytes": 3072,
+      "sha256": "c3ec50bbc970ee1c008c2f41b3ccae7a857df1b3c4587f1f50b04cfa7f4fee0b"
+    },
+    {
+      "path": "assets/relics/cactus_flower.png",
+      "bytes": 4958,
+      "sha256": "823e3aabd66b3c93f570e2c07ecc1c4aeec0b31d13921ad405577848b127014b"
+    },
+    {
+      "path": "assets/relics/cage_of_despair.png",
+      "bytes": 5715,
+      "sha256": "cf5b93efd3083ad36dfd9d82db516bb8b5b857ecd470a5b83dca9e0dd3dd6a07"
+    },
+    {
+      "path": "assets/relics/charcoal_idol.png",
+      "bytes": 5074,
+      "sha256": "97cf90dacd1e0b69baa1bc05c475f1fb8b362017e95ea015dd3e8a55a7bf66db"
+    },
+    {
+      "path": "assets/relics/cloud_cake.png",
+      "bytes": 4636,
+      "sha256": "591eabccdd130ff0f0c45847c503f75a4333b9d02383c9775d4d734dfaff9b0a"
+    },
+    {
+      "path": "assets/relics/dark_owlie_feather.png",
+      "bytes": 3314,
+      "sha256": "f485b8befb5252a6b26725886025f6abcb6f5a848897fce00dc20cef48168346"
+    },
+    {
+      "path": "assets/relics/dark_warro_thorn.png",
+      "bytes": 4493,
+      "sha256": "c03e63469fb732159dcaebcd7c0e49b80e80ae44fd6620e4a21d19179861ee04"
+    },
+    {
+      "path": "assets/relics/dark_winds_venom.png",
+      "bytes": 4256,
+      "sha256": "7ec7e05c529afe5bcb3d7860950dde4395a6ba9bdd28d1644287e9604a4cd384"
+    },
+    {
+      "path": "assets/relics/dragon_shackle.png",
+      "bytes": 5652,
+      "sha256": "d4549e18cbb1b79490639dadb34e2be5ffbaf0bd01ab9c141bb3478cc04d6042"
+    },
+    {
+      "path": "assets/relics/echino_shell.png",
+      "bytes": 5202,
+      "sha256": "c3aaeef44e000ccf2050e5ce95e2673cf37e9e8903792b3a13807ce4f23c3aa1"
+    },
+    {
+      "path": "assets/relics/elefauna_flower.png",
+      "bytes": 4871,
+      "sha256": "9281f2ff3573cfca4b9b5b6ae2324e8eb90d4e99a1374ce0cae3299226768d23"
+    },
+    {
+      "path": "assets/relics/elemental_explosion.png",
+      "bytes": 4782,
+      "sha256": "d6235ce91fcdf11c3277e23aefffce58daeb69d00106acfbe94e4731b0485f3f"
+    },
+    {
+      "path": "assets/relics/emerald_scales.png",
+      "bytes": 4631,
+      "sha256": "d3dbdc1b66f4ed1231c97ca3ec7bb0f18c877720e12016e03d88a5c695061015"
+    },
+    {
+      "path": "assets/relics/eternal_falls_mushroom.png",
+      "bytes": 3806,
+      "sha256": "828a561502c388d9150b576e17c93ec83b41e602eb38bae87c350f1014ab04ff"
+    },
+    {
+      "path": "assets/relics/everlasting_snowball.png",
+      "bytes": 4320,
+      "sha256": "ab2bbfcc896ece0a761e4ce47db867814f39d3b5c1385db19153ab5fda9518bb"
+    },
+    {
+      "path": "assets/relics/flower_of_despair.png",
+      "bytes": 3888,
+      "sha256": "2c185e55cc733161e03011084b5280d4280358ecf3ea3d728cb40ac3dc5b5561"
+    },
+    {
+      "path": "assets/relics/flying_carpet_fragment.png",
+      "bytes": 4939,
+      "sha256": "1bb5d25a5e68a9fdc6ecceb9eaca0961c4143cff34b5f1aebf6bfda070f40e2f"
+    },
+    {
+      "path": "assets/relics/forest_banner.png",
+      "bytes": 4789,
+      "sha256": "77f99781a11da36157e0271d2b93bebe7c209d6fb505128a168d07377c87e71a"
+    },
+    {
+      "path": "assets/relics/forging_hammer.png",
+      "bytes": 4781,
+      "sha256": "92fae87ab2c8be4fd4dfd887f7589e4bb0bf59a837137e3a8c2ce9e28d5dad9b"
+    },
+    {
+      "path": "assets/relics/fractured_shell.png",
+      "bytes": 5273,
+      "sha256": "6b2e09c0d30e092d98edda0cfe72a0765fed9c1cb00385cc42d15c0ba26220e5"
+    },
+    {
+      "path": "assets/relics/frost_root.png",
+      "bytes": 4533,
+      "sha256": "c66ba7fae231734779d5952931b16abff9f1d1c869791dca43a2b66d6be18827"
+    },
+    {
+      "path": "assets/relics/frozen_claws.png",
+      "bytes": 4075,
+      "sha256": "1ff641366d7aba6bae013cb2a47944faed0c14805464545e2a05fd8fe16ce1a7"
+    },
+    {
+      "path": "assets/relics/frozen_coin.png",
+      "bytes": 5183,
+      "sha256": "58f819daec045e9b9146b78567ff2363550aa60f1a5db6b003b188bc7c11a689"
+    },
+    {
+      "path": "assets/relics/geotoad_teeth.png",
+      "bytes": 4317,
+      "sha256": "156ccaf0c4700428b9b792fc041c0d44394bb4ea4a1d292981a55f0b416ee943"
+    },
+    {
+      "path": "assets/relics/gks_slippers.png",
+      "bytes": 3622,
+      "sha256": "c898ce19ca945ca74abe4157ee6ef6850dc62f3d8e6367dd00580b5df4cbd2f0"
+    },
+    {
+      "path": "assets/relics/gogs_cog.png",
+      "bytes": 5756,
+      "sha256": "0c9f4e28b1723c2516e6f1761b0e21ba3b3a04fafd40b6222743d14793ac1447"
+    },
+    {
+      "path": "assets/relics/gold_piece_die.png",
+      "bytes": 3494,
+      "sha256": "6e9d0cd8c1e5d5a7dd9e3b1b66daf0d1806d6c44fd2a98ce9c223678d81e2bb2"
+    },
+    {
+      "path": "assets/relics/gravitron_pebble.png",
+      "bytes": 3840,
+      "sha256": "421ffd3d9a1b9e80a0347b9bcd20a08fad71437236b4ecf90f8ede94232b6dae"
+    },
+    {
+      "path": "assets/relics/helzbelz_bells.png",
+      "bytes": 4120,
+      "sha256": "938738ff9dca3fdef25f814465a8d0999fb8584bf1e577a01e72b0b402a5f4e0"
+    },
+    {
+      "path": "assets/relics/jungle_banner.png",
+      "bytes": 4823,
+      "sha256": "f078d000e9bf43b6db21a0fcd0b21683edc2e5a5b58524a08c05789b5a6fcce3"
+    },
+    {
+      "path": "assets/relics/lake_azore_pearl.png",
+      "bytes": 4624,
+      "sha256": "6d889d6a614cb72748cc3385bd9d1db46ffa25ebe1f0e5b8ff93839a7b75baca"
+    },
+    {
+      "path": "assets/relics/leggy_eggs.png",
+      "bytes": 4408,
+      "sha256": "f2d53ab6329224ae19f8960af8080fc361457c084261d02c5f8e6afc5aa85cd1"
+    },
+    {
+      "path": "assets/relics/lost_swords.png",
+      "bytes": 4072,
+      "sha256": "8e09a2fe2cf4e8a8c856719af411dd351f44c85c0a5681fba699a09d4099e9d9"
+    },
+    {
+      "path": "assets/relics/magicite_staff.png",
+      "bytes": 4511,
+      "sha256": "f5b054d21d4f860262a13b15990c09a277b6b1cf4cfd989b5d43bdc0a0a767e9"
+    },
+    {
+      "path": "assets/relics/molten_coin.png",
+      "bytes": 5101,
+      "sha256": "3fd4933f17ab6ba8bef1daf8c4c8797b13040cbd1074c63f009b8baa6cd8b75b"
+    },
+    {
+      "path": "assets/relics/monastery_idol.png",
+      "bytes": 5006,
+      "sha256": "24da27f25861f3f2aad65b01f251a04c266e9289257df3aa18a3dddea79cf125"
+    },
+    {
+      "path": "assets/relics/monks_mountain_banner.png",
+      "bytes": 4774,
+      "sha256": "f54a835a93860cfee49cfd7842fb30eec2583062100c53cc0e1142f1e81624af"
+    },
+    {
+      "path": "assets/relics/monks_robe.png",
+      "bytes": 4726,
+      "sha256": "4d8f595a672435dd9cddab33ecb6da9b3c5a002971968c0cfb450b30176d2968"
+    },
+    {
+      "path": "assets/relics/moon_rock.png",
+      "bytes": 5295,
+      "sha256": "5943d941846c06c3395e7eed130e7da30a8e3d6ac51c96bf870623759ccd0aa1"
+    },
+    {
+      "path": "assets/relics/mt._gemma_banner.png",
+      "bytes": 4622,
+      "sha256": "3cd893a13e63883a69f0207c88c30a8b27ae9ee767468cf2de6df056055c3dbc"
+    },
+    {
+      "path": "assets/relics/mushles.png",
+      "bytes": 5622,
+      "sha256": "0dd5d2b6361c60d21334431be1d42b5cdbd087b6ceffa1e5d3a1de707a438dcd"
+    },
+    {
+      "path": "assets/relics/mystic_map.png",
+      "bytes": 5205,
+      "sha256": "01ca36827a2ca868dcfeabd1eed4a539ca3434e432f020f574adbdb0236e349d"
+    },
+    {
+      "path": "assets/relics/nanaslugs_horn.png",
+      "bytes": 4447,
+      "sha256": "0a978719ee3e21f39211067dad1a2e2b3e42193912aad2b3197f9efb57bee381"
+    },
+    {
+      "path": "assets/relics/neros_orb.png",
+      "bytes": 3969,
+      "sha256": "9932a35e87c7a0a286036b396d9014eb9c5889f791216671188d2b1e61f3925b"
+    },
+    {
+      "path": "assets/relics/noxs_nightmare.png",
+      "bytes": 5690,
+      "sha256": "a67665215208a22d21a2e1af189f07d96bb9c34b2cad55c9875499d18f2c99a1"
+    },
+    {
+      "path": "assets/relics/obsidian_lava.png",
+      "bytes": 5095,
+      "sha256": "3756499b6956d99b887c6881ae61128b62697c1578409223bc4db92f9b277e0d"
+    },
+    {
+      "path": "assets/relics/palmdas_talon.png",
+      "bytes": 5068,
+      "sha256": "c1df9ef603e4fd3b4c1b6e8cc6c2a67d6dadfca51b7d49f15548e8524f2a6fb3"
+    },
+    {
+      "path": "assets/relics/pamboo_cane.png",
+      "bytes": 4471,
+      "sha256": "c9f89040b73849330e27a5b7b0ff3f004f157c5b577ad38fb99c05c0410db956"
+    },
+    {
+      "path": "assets/relics/papas_antlers.png",
+      "bytes": 5341,
+      "sha256": "0a93eda04dfbaacfbe4bd0fef16ce5ae057417048f04c90e4468d01f6f24c7a0"
+    },
+    {
+      "path": "assets/relics/patchkins_rind.png",
+      "bytes": 7421,
+      "sha256": "0784622fbd2ae765a566e2c8e5b86b99501dd3a30961e93b0fce4dffff2fa4b3"
+    },
+    {
+      "path": "assets/relics/peepsie_eggs.png",
+      "bytes": 4927,
+      "sha256": "da10c689c44062f80766fe0bb6080c4b6f64e780d615d08bbbe94ee6f1b4e9be"
+    },
+    {
+      "path": "assets/relics/petrified_dragon_egg.png",
+      "bytes": 3110,
+      "sha256": "78d76ad6350200d253fadaaf4e3f37050817138d188dd91b6dc31dedcc2a7c1f"
+    },
+    {
+      "path": "assets/relics/petrified_mama_baby.png",
+      "bytes": 5163,
+      "sha256": "62faf133a48f983b8cb6ee9007581e7b6d39cc712295456f730d1027c1b01d08"
+    },
+    {
+      "path": "assets/relics/quartex_crystal.png",
+      "bytes": 3311,
+      "sha256": "031d5622dc8c8dae05a0752bc65e9dab0f8256260afdb3cff3de7a5a2a565b79"
+    },
+    {
+      "path": "assets/relics/saiyams_trident.png",
+      "bytes": 2154,
+      "sha256": "f1e407093e5300c67b60cfe4bc4352b085b0d1f92ae0b4fcd84111254a8bc684"
+    },
+    {
+      "path": "assets/relics/scent_of_skustunk.png",
+      "bytes": 7277,
+      "sha256": "72caddfd50a7d13f78f5111fa8b45295c8c47565bbd19f1604b6b3235579d0b4"
+    },
+    {
+      "path": "assets/relics/shacklers_gem.png",
+      "bytes": 4350,
+      "sha256": "12b5710dface14cf0e769664500d05925c72e02368da72862baa3ffa96a53994"
+    },
+    {
+      "path": "assets/relics/shard_of_dawns_landing.png",
+      "bytes": 3409,
+      "sha256": "10b701ec5f5234b918e3522520857a95d93244f086a37f3bcc38b633d72206ff"
+    },
+    {
+      "path": "assets/relics/shard_of_rudolffe.png",
+      "bytes": 4833,
+      "sha256": "bb20f08182f32984827eb57924e59aad36d94e083293a8a62361c0ce10367624"
+    },
+    {
+      "path": "assets/relics/shattered_gatestone.png",
+      "bytes": 3309,
+      "sha256": "852dd3e289afdcff29af57d317180867bcbb3d267151b0640ca9d28f4e0b1546"
+    },
+    {
+      "path": "assets/relics/ship_captains_log.png",
+      "bytes": 3999,
+      "sha256": "25d9430905cc74bb573021a305043de221708cc0ea71cf58ede8c211fd76818f"
+    },
+    {
+      "path": "assets/relics/skelepups_spark.png",
+      "bytes": 4840,
+      "sha256": "6cf3ffa0d0ac538a03b6013f02e4738ee9eaed5ce45c67f626c7dadc58efccc6"
+    },
+    {
+      "path": "assets/relics/skyline_peak_gem.png",
+      "bytes": 3428,
+      "sha256": "00435766b58366b08ee781d41fb87304a13705332973767b062f2e12f620cb2a"
+    },
+    {
+      "path": "assets/relics/stony_shield.png",
+      "bytes": 4476,
+      "sha256": "74c34890560941e4172b28d826c202850fd812f3465acc34afdc3fcc25c27a72"
+    },
+    {
+      "path": "assets/relics/sunfall_shores_banner.png",
+      "bytes": 4909,
+      "sha256": "85604a1c1d655947b34c38ec17ab8b3f173e591ef56b4de57f4f9fe17123b10a"
+    },
+    {
+      "path": "assets/relics/temple_stone.png",
+      "bytes": 7426,
+      "sha256": "22d69eb26e3c07416fc4ace5cc9f44eef49917de8b025c36d2e40c3681e463dd"
+    },
+    {
+      "path": "assets/relics/tiki_idol.png",
+      "bytes": 5108,
+      "sha256": "5f9f0a140dfbcc5d542180a3c0818dd3abce41f191fd21847642b64b066cd632"
+    },
+    {
+      "path": "assets/relics/truncherous_hammer.png",
+      "bytes": 5027,
+      "sha256": "79de49efff9d34977a3619698af52f8e5feaebf8603905dba25afaf66e203941"
+    },
+    {
+      "path": "assets/relics/vanquished_soul.png",
+      "bytes": 5723,
+      "sha256": "040b248e944cc88679f6ecad1925ba963a05a4daaccf9ccddb9c74672764feac"
+    },
+    {
+      "path": "assets/relics/volcano_banner.png",
+      "bytes": 5077,
+      "sha256": "a6dab9556880b528d55f229aca24b17246ca6221b6790fa698c0bdc3748cd705"
+    },
+    {
+      "path": "assets/relics/woodsmans_axe_head.png",
+      "bytes": 4155,
+      "sha256": "a25c768d95493c4d68d151743b3eac6a3109231ae1b2aededa4ea3922cdeacd4"
+    },
+    {
+      "path": "assets/ui/README.md",
+      "bytes": 516,
+      "sha256": "c4fb3d840c86ab6703cfa524670369df3d1d277cd9cbcc6792491f3a89fd5221"
+    },
+    {
+      "path": "assets/ui/arrow.svg",
+      "bytes": 201,
+      "sha256": "9a1ede1255aed21ab23fc8918897bbaee1140778fa67936f9b990e27594330a5"
+    },
+    {
+      "path": "assets/ui/book.svg",
+      "bytes": 248,
+      "sha256": "3f6252649b1faaa580ac638ee155bf61fe3a1712f6ad2be5a84183d59fd594c5"
+    },
+    {
+      "path": "assets/ui/check.svg",
+      "bytes": 194,
+      "sha256": "816eb12247710b967a388807fe3b3a0d0add926745eec6e5cd77a9b282df3897"
+    },
+    {
+      "path": "assets/ui/chevron.svg",
+      "bytes": 192,
+      "sha256": "6c62fcbf54feb1ce138c0ba1a3758742eb014eafcef2eb4c3b03e806230f4600"
+    },
+    {
+      "path": "assets/ui/close.svg",
+      "bytes": 200,
+      "sha256": "21f026c569b45256a5d15647aa2c212f922ac16c7fc0f099da00e41502a1b24b"
+    },
+    {
+      "path": "assets/ui/collection.svg",
+      "bytes": 216,
+      "sha256": "a4dca740d607472c98acdc3156472cbf3e1a53a4ae529d319868f1970975f2a2"
+    },
+    {
+      "path": "assets/ui/download.svg",
+      "bytes": 214,
+      "sha256": "90c04f00efa1dd54f1b209c6e31855c4404ab5a622c409d179b8a0e37f3e70f6"
+    },
+    {
+      "path": "assets/ui/favorite.svg",
+      "bytes": 249,
+      "sha256": "530ffcd262089cba207a9c1311dd0b013f6195caf9300030492f7b3e175c4075"
+    },
+    {
+      "path": "assets/ui/filters.svg",
+      "bytes": 234,
+      "sha256": "2d004aa7c2c04c9ca254201ce62ad271f2aef08683051192f9217b3120ad2d22"
+    },
+    {
+      "path": "assets/ui/info.svg",
+      "bytes": 226,
+      "sha256": "aaf2eedc4ab65d71b5ab9c8089b362ec58bace36f9c8b24a077715643ae604ac"
+    },
+    {
+      "path": "assets/ui/map.svg",
+      "bytes": 228,
+      "sha256": "31a4e9cd120dc9d670f87abbffcd012925e8ddec16c2f6013d22b4291d390b34"
+    },
+    {
+      "path": "assets/ui/minus.svg",
+      "bytes": 188,
+      "sha256": "895518197f1308951a29bacfbc026ad17a8f84ff689efb7b10a72ced07f7c170"
+    },
+    {
+      "path": "assets/ui/pin.svg",
+      "bytes": 254,
+      "sha256": "cb9013fa081df13d2d128cd9dd86f84c5976b1068eea6caeacdb74fb0f0bce23"
+    },
+    {
+      "path": "assets/ui/plus.svg",
+      "bytes": 196,
+      "sha256": "9df5b18a5cd1dfebc17a8c7ff95b4ed0a4c132eff44512323454c618379129ae"
+    },
+    {
+      "path": "assets/ui/search.svg",
+      "bytes": 225,
+      "sha256": "b51bddac30bf07d2de053d59cdd58bbf29ec2071e5e3328415c63d618c68d523"
+    },
+    {
+      "path": "assets/ui/tools.svg",
+      "bytes": 239,
+      "sha256": "bfd5f2e7072b9f1a8c5c5094a363960937335eb3145c1e635d27623405b740f6"
+    },
+    {
+      "path": "assets/ui/undo.svg",
+      "bytes": 217,
+      "sha256": "9780f31d8188460cde1ee2f9a1f1a01f5d34e0a637bd46c54c9e21be63c07998"
+    },
+    {
+      "path": "assets/ui/upload.svg",
+      "bytes": 214,
+      "sha256": "c1e0010860c96b3d761dc002f4f08dae6a98adf8bdc3e51968e843aebcef196d"
+    },
+    {
+      "path": "data/abilities.json",
+      "bytes": 1182831,
+      "sha256": "35838f02a62d3df218b38bfb357739bd1fe7b3e499eef90e36f3b6b8bda82e02"
+    },
+    {
+      "path": "data/aliases.json",
+      "bytes": 161437,
+      "sha256": "f128a6044cf82650947559bf7308e891135946d01914dcab5c5e97a374282064"
+    },
+    {
+      "path": "data/areas.json",
+      "bytes": 10079,
+      "sha256": "84186fd537eadbed19a59c0c4d852680a3dcf07652242459d8abdc225a632ae1"
+    },
+    {
+      "path": "data/asset-registry.json",
+      "bytes": 88906,
+      "sha256": "d29b8ed4792a30f0d0fa1089b2d211b973a1987c2220888cf440138209cbb87c"
+    },
+    {
+      "path": "data/base-stats.json",
+      "bytes": 130523,
+      "sha256": "f70f137ae5eb4bdedf8858c46b447bcb5f61f3f4a2b5c674702f492985a4fcd1"
+    },
+    {
+      "path": "data/collections.json",
+      "bytes": 105802,
+      "sha256": "5a1fe3ce44711bcb2fd84b6848246e9dbd6162268a1fbe08522b042400451954"
+    },
+    {
+      "path": "data/family-variants.json",
+      "bytes": 82691,
+      "sha256": "5f61bb5e5357f0fb6130d6973163fb63727cc3cf3280c0ced77c969c8a5831dd"
+    },
+    {
+      "path": "data/filters.json",
+      "bytes": 3045,
+      "sha256": "b5d8121de3f6d7064d26ef29f7214a1107fc728c16f2931dba56a58cf5aa3e7d"
+    },
+    {
+      "path": "data/forms.json",
+      "bytes": 549609,
+      "sha256": "400eda3c3e5843fb4f00726ecb8a7d8bbce156d8e99999dc2e10c48de1d04631"
+    },
+    {
+      "path": "data/locations.json",
+      "bytes": 3822,
+      "sha256": "f7422721db301707f216637d379d6c943f089c361080e5fe7b16811064cc5760"
+    },
+    {
+      "path": "data/maps.json",
+      "bytes": 7455,
+      "sha256": "b3a8b835c5cba7625f2dbfc50baf7c7547dc558e4c83d0832e8d915da30696d2"
+    },
+    {
+      "path": "data/markers.json",
+      "bytes": 99230,
+      "sha256": "c59aba34e5413427fcd350988c083b5288f82abce3f92f1dec478d6582db9cdc"
+    },
+    {
+      "path": "data/miscrit-abilities.json",
+      "bytes": 954040,
+      "sha256": "403dcd63d8ce8dd0b7470005c592227a4dc81b047e4b167e1b599fd3dda6cdf1"
+    },
+    {
+      "path": "data/miscrits.json",
+      "bytes": 296723,
+      "sha256": "7e28d5c1c223cdb047e1fd3913dcc69a4170f0eeb7e22bc9865cc1e31e0db2d2"
+    },
+    {
+      "path": "data/relics.json",
+      "bytes": 49120,
+      "sha256": "a8131fd0fd20fd48d5f297a959e9496f1b3c9c4750ca87f06c3df7ffe18864ac"
+    },
+    {
+      "path": "data/roles.json",
+      "bytes": 815,
+      "sha256": "8b5bbfad84cd7392f8b87aa76e761a0956f1665e27933ac796077b105b384a00"
+    },
+    {
+      "path": "data/rules.json",
+      "bytes": 2801,
+      "sha256": "535fa37318de7b028d187043a13648b59df0cbdea1231527a6d75e0e74ed36a2"
+    },
+    {
+      "path": "data/source_snapshots/companion-collections-dom.json",
+      "bytes": 21128,
+      "sha256": "667b48bd0603dd63dd18e6c88a5312911030af4e3448dca5870837ac6c998fd9"
+    },
+    {
+      "path": "data/source_snapshots/companion-maps-dom.json",
+      "bytes": 21824,
+      "sha256": "d45778b77faa897c93acce5b70fd17edcc30b07185f79b26931cfe70f95e5eba"
+    },
+    {
+      "path": "data/source_snapshots/companion-relics-dom.json",
+      "bytes": 90563,
+      "sha256": "13fb25359cf4a8b696681371f5f63ddc4ddf98b56472099a4fc92e27fa78e4a3"
+    },
+    {
+      "path": "data/source_snapshots/companion-spawns-dom.json",
+      "bytes": 585921,
+      "sha256": "cd57325aa5f5296fe2d3a2dedbbc5bf128c9e308a3092378b6e9814a2eeae144"
+    },
+    {
+      "path": "data/source_snapshots/hub-base_stats.json",
+      "bytes": 80315,
+      "sha256": "c80c3704c55cfdfa9a95030755669ba436df628858673c690f6770243f671374"
+    },
+    {
+      "path": "data/source_snapshots/hub-miscritsdb.json",
+      "bytes": 545734,
+      "sha256": "45ae7699c7ed01c804eb7d84eef6064274cf4e763dd969d0689d08fe2a64a054"
+    },
+    {
+      "path": "data/source_snapshots/hub-relics.json",
+      "bytes": 11284,
+      "sha256": "945985422e4aaa9a68d6c6b682f891c216f7726b51bd1da5e02feb07ca1ae804"
+    },
+    {
+      "path": "data/source_snapshots/hub-spawns.json",
+      "bytes": 146936,
+      "sha256": "d2eb10e14fe8f221e75ba1e6e3521eec15842cbe5e80d35a9b7794e097f8367a"
+    },
+    {
+      "path": "data/source_snapshots/official-miscrits.json",
+      "bytes": 2003708,
+      "sha256": "9009afc88cffea3fa4a2d01324c8eb053adcf7849017e806e6a17ede1fa8329b"
+    },
+    {
+      "path": "data/source_snapshots/simulator-miscrits.json",
+      "bytes": 1740172,
+      "sha256": "5b72d1022da0eff0a6b92e3332109db463d492eeac89b1fbade4d30fd5d72227"
+    },
+    {
+      "path": "data/spawns.json",
+      "bytes": 408802,
+      "sha256": "bc90a80235d849807ce40e8faed1758e8074c5702853249ab95e87fcabe35de4"
+    },
+    {
+      "path": "docs/00_START_HERE.md",
+      "bytes": 6812,
+      "sha256": "6ad6e45e2350c9e57697953a2e1a9ce42e17913ca42a5a8e57d53d01a73e2bc0"
+    },
+    {
+      "path": "docs/01_PRODUCT_UX.md",
+      "bytes": 11980,
+      "sha256": "f1e0e70125229cdb7b9b3e111ef8ca3a85d779fca1157dab5a178f3ea5973011"
+    },
+    {
+      "path": "docs/02_DESIGN.md",
+      "bytes": 9339,
+      "sha256": "d088e07e6e16cfe6f86944c5de83b7f204ed1f0fafd0b1039f705d174fd58884"
+    },
+    {
+      "path": "docs/03_SEARCH_FILTERS.md",
+      "bytes": 9620,
+      "sha256": "9e8985fe1ea534f5874e583fac6643b753fc8919cb3ff1da684b94c4865f44fc"
+    },
+    {
+      "path": "docs/04_MAPS_SPAWNS.md",
+      "bytes": 9607,
+      "sha256": "db5a2efa6b378ced383820246671f8770c69b8f08ecbe509d9a0f5295f727f23"
+    },
+    {
+      "path": "docs/05_DATA_CONTRACT.md",
+      "bytes": 11150,
+      "sha256": "cf0478bae608b2c70242648ee8eed9a6e2cd21b3174e241ddbd3eeb4308d1a17"
+    },
+    {
+      "path": "docs/06_STATS_DAMAGE.md",
+      "bytes": 12985,
+      "sha256": "7d131068422c550fda589cd1678022171577d0b1e66452727bc7435310433481"
+    },
+    {
+      "path": "docs/07_REBONUS.md",
+      "bytes": 10052,
+      "sha256": "be77831497aedeee0445d97a853bf860b6b8d5dc03f7bcef669b44c76a3f8a11"
+    },
+    {
+      "path": "docs/08_COLLECTION_ROLES.md",
+      "bytes": 8765,
+      "sha256": "bd5f398909efd5f1c23b886a302e47b2c8b5ade77ff04711e087957039b81fa7"
+    },
+    {
+      "path": "docs/09_ARCHITECTURE_API.md",
+      "bytes": 8992,
+      "sha256": "e905ed73c315b8ca40970cc509a2c80af836c88ee1d3098f20afc42c046dbe51"
+    },
+    {
+      "path": "docs/10_PERFORMANCE_SECURITY.md",
+      "bytes": 10656,
+      "sha256": "5e029e9b78920d7f74a0cab76be0cf8a4b9635bf09d4c60057ec002c5773334b"
+    },
+    {
+      "path": "docs/11_ACCEPTANCE_PLAN.md",
+      "bytes": 8722,
+      "sha256": "e227b86c9d908de7ee36e295494f4239fffa326892ce4e1c9da346c121267978"
+    },
+    {
+      "path": "docs/12_SOURCES_LIMITS.md",
+      "bytes": 8514,
+      "sha256": "f81f34b49abebedf59342edcf03fdf743e098c3ff806646494137910477c4d2e"
+    },
+    {
+      "path": "docs/13_ASSETS_HANDOFF.md",
+      "bytes": 5804,
+      "sha256": "36ddfd7ebe4e8fcafe7742673e3ad50db6e644446a26aaf651447dd372195660"
+    },
+    {
+      "path": "docs/14_REFERENCE_COMPARISON.md",
+      "bytes": 6682,
+      "sha256": "fd8c37f6c2bd92fb0a6c5dc00798ba9df33a04b8c138c7da8edcb777f96c15ad"
+    },
+    {
+      "path": "examples/ability-rules.cjs",
+      "bytes": 902,
+      "sha256": "128511c051477c0d7ca6477da70d09b3a74d8fc3501fed8c4b260f4270485a4f"
+    },
+    {
+      "path": "examples/asset-mapping.example.json",
+      "bytes": 457,
+      "sha256": "cc3888bf01fc75d450b697c2724c1e63c0e1cee0bf54224cce4b5038ccfc336c"
+    },
+    {
+      "path": "examples/calculators.html",
+      "bytes": 58257,
+      "sha256": "126bc6b972d7c177692f48d7cd9470548c8cde2072b171be60095240acf03bb0"
+    },
+    {
+      "path": "examples/contracts.ts",
+      "bytes": 3073,
+      "sha256": "03bad63e01eab2f898ba87bc152ddf27f87c2a5d48f38e09bcf29b035d9960b7"
+    },
+    {
+      "path": "examples/core.js",
+      "bytes": 5091,
+      "sha256": "40781dd8a534b71ddd84627442cbe0db8ae5cd384002d968f890411a69e7bb1f"
+    },
+    {
+      "path": "examples/profile-export.json",
+      "bytes": 1209,
+      "sha256": "e674d9dec4dd5e43dcda1af8b5e636befca098e768daa2d19ffcae2d82f18f61"
+    },
+    {
+      "path": "qa/VALIDATION.md",
+      "bytes": 2396,
+      "sha256": "08d58319bade615febbdb1e5b2be0f17db805c437c838ba30b64f37a83838aef"
+    },
+    {
+      "path": "qa/core-test-results.txt",
+      "bytes": 808,
+      "sha256": "e00775f7f2db97d7b4873778ba2f35ae1e37e5a5e88e1336c6fae11c90839708"
+    },
+    {
+      "path": "qa/core.test.cjs",
+      "bytes": 4477,
+      "sha256": "dfd2f80f54672e62b22a24a363b8e42c1b05f0710d111b6c6e1bcea241efe08a"
+    },
+    {
+      "path": "qa/coverage.json",
+      "bytes": 686,
+      "sha256": "d6512d26de64e182596b4b85aeac773bff5622e1b69f9c82ac0a066ac093772a"
+    },
+    {
+      "path": "qa/data-validation.json",
+      "bytes": 56,
+      "sha256": "c7b230c3f3ba9aaf27563b511dcda86ff4535ca1b1137016f3e7d7e210f7f0f0"
+    },
+    {
+      "path": "qa/javascript-syntax.json",
+      "bytes": 168,
+      "sha256": "3ac363cb3026f6c44941bfbce2b615adeac65e5f81003894076cc98c647c3cc0"
+    },
+    {
+      "path": "qa/maps-contact-sheet.jpg",
+      "bytes": 256493,
+      "sha256": "af4b6791ca5e62bbbe9830e852f5c1fe264c217b7e86bd3e3592a63565533bf1"
+    },
+    {
+      "path": "qa/source-conflicts.json",
+      "bytes": 7505,
+      "sha256": "a183a607024ba56468b36862da4697782e0cf7e1a48b205857c677ba897dc91c"
+    },
+    {
+      "path": "qa/source-timing-sentinels.json",
+      "bytes": 5979,
+      "sha256": "1311537d4d698261666b6a1125ad7c0f5e3b345e4ed99eabf71ad459057a62de"
+    },
+    {
+      "path": "qa/unresolved-references.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "reference/companion-reference.jpg",
+      "bytes": 121069,
+      "sha256": "6e8e330d0c0535615f5c8965043de859ae7e6943e8cf4079359f39caea8f679c"
+    },
+    {
+      "path": "reference/maps.html",
+      "bytes": 423438,
+      "sha256": "2fe6f6400900858809725f942a0568251c6fcc29b5687af1acc22d72f606432f"
+    },
+    {
+      "path": "reference/official-book.png",
+      "bytes": 6287,
+      "sha256": "0b1e418d84a010c7d65e2c741f37ef4c7d69548046fcc93608d907dfbc9f2271"
+    },
+    {
+      "path": "reference/official-reference.jpg",
+      "bytes": 102190,
+      "sha256": "0175f4ede6c5b16055a964e89766b2851d71e4819ae62a91e611fed54d0b09d5"
+    },
+    {
+      "path": "schemas/abilities.schema.json",
+      "bytes": 5137,
+      "sha256": "2387213eef02e9592b331d812acda8abc431684c30aa5616e35f34b4ba6f28bd"
+    },
+    {
+      "path": "schemas/aliases.schema.json",
+      "bytes": 515,
+      "sha256": "79aa2b16401db3ece404971c0319e6e9e649ef8e28c218db14bd1b0346bf3ed4"
+    },
+    {
+      "path": "schemas/areas.schema.json",
+      "bytes": 1351,
+      "sha256": "b25fd73e9264e5edc3f232da1df857c0e9e89ea0e7e64588504a0c5f8ffa992c"
+    },
+    {
+      "path": "schemas/base-stats.schema.json",
+      "bytes": 1954,
+      "sha256": "fda7451e9ef0bf1278ceee9147ef4c8490b6d5d9e3e06c0d2edbfb6c99c529cb"
+    },
+    {
+      "path": "schemas/build-preset.schema.json",
+      "bytes": 2945,
+      "sha256": "ef1e27b718278ecd5ea4b4a5f3674e37c7cd70514453d45beff272c23fa7a917"
+    },
+    {
+      "path": "schemas/collections.schema.json",
+      "bytes": 3546,
+      "sha256": "6fa9e100f060769483b00c4b1d197dd626a8f58d19ff5ddac4fa36f2174fc7dc"
+    },
+    {
+      "path": "schemas/family-variants.schema.json",
+      "bytes": 700,
+      "sha256": "b9cc3bba1d14726941a6878e05cdec46bd693d44bafaa6b5e7969d2588f3f527"
+    },
+    {
+      "path": "schemas/forms.schema.json",
+      "bytes": 1759,
+      "sha256": "c031e4ffa544c9d9076ab6acf1909155469e366a0f0bf000e9446fb8365bd239"
+    },
+    {
+      "path": "schemas/locations.schema.json",
+      "bytes": 1657,
+      "sha256": "d2d9fb9a97c1821d4b509c5032a6badbd4d874ad00f3f56331b3ac06c30180a2"
+    },
+    {
+      "path": "schemas/maps.schema.json",
+      "bytes": 2231,
+      "sha256": "8433fb54cc6b31ad9fbad03e9d39dea9d1dfaf068613da06cd86018ab0788c5a"
+    },
+    {
+      "path": "schemas/markers.schema.json",
+      "bytes": 2608,
+      "sha256": "bba039516795a43ac5284588d78f46ac7a1a3dabd7047df852160f04119befe0"
+    },
+    {
+      "path": "schemas/miscrit-abilities.schema.json",
+      "bytes": 1091,
+      "sha256": "3d95a79a69f58793b72526a3e49fed6c012d872aedca9498e1735eae938dbdf1"
+    },
+    {
+      "path": "schemas/miscrits.schema.json",
+      "bytes": 3298,
+      "sha256": "af5cc5f15c1f20d7830d05796cb5011c57d93bc8ab3d2e6e2024d6db3e331116"
+    },
+    {
+      "path": "schemas/openapi.json",
+      "bytes": 111018,
+      "sha256": "1dae4e7e50993c6ba7cb7b277ad5fb2e88007b60ae5446634736a7fc6028e1b9"
+    },
+    {
+      "path": "schemas/profile-export.schema.json",
+      "bytes": 7436,
+      "sha256": "685f1659fa4a9056aadf1f12c1aed83105d2a79f5bb574e6c950aeb959f800a3"
+    },
+    {
+      "path": "schemas/relics.schema.json",
+      "bytes": 3469,
+      "sha256": "a65d0617797795fb7f1603af8656588663b343019526e0b0c9b0ccca877a8db9"
+    },
+    {
+      "path": "schemas/spawns.schema.json",
+      "bytes": 4255,
+      "sha256": "bd2a75db0865f4d0f8bee1ad1b62926bcbf3c46d938c401208f6f75ffcc1df41"
+    },
+    {
+      "path": "tools/update_manifest.py",
+      "bytes": 709,
+      "sha256": "d74926aac6d8ed33ae8111a7ffed36cbf6a174a874f04eed918e47eb5db2c9eb"
+    },
+    {
+      "path": "tools/validate_bundle.py",
+      "bytes": 7874,
+      "sha256": "5b47011a2d2daa4d19bf6844d339e1091db875de7fa0bba49101f5f06a2f8ad8"
+    }
+  ]
+}

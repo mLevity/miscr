@@ -1,0 +1,8402 @@
+[
+  {
+    "query": "Flue",
+    "normalized": "flue",
+    "familyId": "miscrit:1"
+  },
+  {
+    "query": "Chimnay",
+    "normalized": "chimnay",
+    "familyId": "miscrit:1"
+  },
+  {
+    "query": "Firebrawl",
+    "normalized": "firebrawl",
+    "familyId": "miscrit:1"
+  },
+  {
+    "query": "Afterburn",
+    "normalized": "afterburn",
+    "familyId": "miscrit:1"
+  },
+  {
+    "query": "Flowerpiller",
+    "normalized": "flowerpiller",
+    "familyId": "miscrit:2"
+  },
+  {
+    "query": "Chrysaleaf",
+    "normalized": "chrysaleaf",
+    "familyId": "miscrit:2"
+  },
+  {
+    "query": "Bloombug",
+    "normalized": "bloombug",
+    "familyId": "miscrit:2"
+  },
+  {
+    "query": "Fairyblossom",
+    "normalized": "fairyblossom",
+    "familyId": "miscrit:2"
+  },
+  {
+    "query": "Prawnja",
+    "normalized": "prawnja",
+    "familyId": "miscrit:3"
+  },
+  {
+    "query": "Hermetalcrab",
+    "normalized": "hermetalcrab",
+    "familyId": "miscrit:3"
+  },
+  {
+    "query": "Shellgun",
+    "normalized": "shellgun",
+    "familyId": "miscrit:3"
+  },
+  {
+    "query": "Clawmurai",
+    "normalized": "clawmurai",
+    "familyId": "miscrit:3"
+  },
+  {
+    "query": "Weevern",
+    "normalized": "weevern",
+    "familyId": "miscrit:4"
+  },
+  {
+    "query": "Beeblebud",
+    "normalized": "beeblebud",
+    "familyId": "miscrit:4"
+  },
+  {
+    "query": "Balaurise",
+    "normalized": "balaurise",
+    "familyId": "miscrit:4"
+  },
+  {
+    "query": "Serpasoar",
+    "normalized": "serpasoar",
+    "familyId": "miscrit:4"
+  },
+  {
+    "query": "Cubsprout",
+    "normalized": "cubsprout",
+    "familyId": "miscrit:5"
+  },
+  {
+    "query": "Dandylion",
+    "normalized": "dandylion",
+    "familyId": "miscrit:5"
+  },
+  {
+    "query": "Pawthorne",
+    "normalized": "pawthorne",
+    "familyId": "miscrit:5"
+  },
+  {
+    "query": "Bloomane",
+    "normalized": "bloomane",
+    "familyId": "miscrit:5"
+  },
+  {
+    "query": "Sparkupine",
+    "normalized": "sparkupine",
+    "familyId": "miscrit:6"
+  },
+  {
+    "query": "Flintback",
+    "normalized": "flintback",
+    "familyId": "miscrit:6"
+  },
+  {
+    "query": "Fireprick",
+    "normalized": "fireprick",
+    "familyId": "miscrit:6"
+  },
+  {
+    "query": "Wiquill",
+    "normalized": "wiquill",
+    "familyId": "miscrit:6"
+  },
+  {
+    "query": "Hydroseal",
+    "normalized": "hydroseal",
+    "familyId": "miscrit:7"
+  },
+  {
+    "query": "Streamlion",
+    "normalized": "streamlion",
+    "familyId": "miscrit:7"
+  },
+  {
+    "query": "Eleflood",
+    "normalized": "eleflood",
+    "familyId": "miscrit:7"
+  },
+  {
+    "query": "Squalrus",
+    "normalized": "squalrus",
+    "familyId": "miscrit:7"
+  },
+  {
+    "query": "Snortus",
+    "normalized": "snortus",
+    "familyId": "miscrit:8"
+  },
+  {
+    "query": "Boartle",
+    "normalized": "boartle",
+    "familyId": "miscrit:8"
+  },
+  {
+    "query": "Terrapig",
+    "normalized": "terrapig",
+    "familyId": "miscrit:8"
+  },
+  {
+    "query": "Coraswine",
+    "normalized": "coraswine",
+    "familyId": "miscrit:8"
+  },
+  {
+    "query": "Quirk",
+    "normalized": "quirk",
+    "familyId": "miscrit:9"
+  },
+  {
+    "query": "Kinkoon",
+    "normalized": "kinkoon",
+    "familyId": "miscrit:9"
+  },
+  {
+    "query": "Centaurpede",
+    "normalized": "centaurpede",
+    "familyId": "miscrit:9"
+  },
+  {
+    "query": "Subterhuge",
+    "normalized": "subterhuge",
+    "familyId": "miscrit:9"
+  },
+  {
+    "query": "Flameling",
+    "normalized": "flameling",
+    "familyId": "miscrit:10"
+  },
+  {
+    "query": "Scorcharos",
+    "normalized": "scorcharos",
+    "familyId": "miscrit:10"
+  },
+  {
+    "query": "Fyrin",
+    "normalized": "fyrin",
+    "familyId": "miscrit:10"
+  },
+  {
+    "query": "Infernus",
+    "normalized": "infernus",
+    "familyId": "miscrit:10"
+  },
+  {
+    "query": "Lumera",
+    "normalized": "lumera",
+    "familyId": "miscrit:11"
+  },
+  {
+    "query": "Torchorus",
+    "normalized": "torchorus",
+    "familyId": "miscrit:11"
+  },
+  {
+    "query": "Pyrotep",
+    "normalized": "pyrotep",
+    "familyId": "miscrit:11"
+  },
+  {
+    "query": "Anublaze",
+    "normalized": "anublaze",
+    "familyId": "miscrit:11"
+  },
+  {
+    "query": "Snatcher",
+    "normalized": "snatcher",
+    "familyId": "miscrit:12"
+  },
+  {
+    "query": "Hedgebagger",
+    "normalized": "hedgebagger",
+    "familyId": "miscrit:12"
+  },
+  {
+    "query": "Barbwiler",
+    "normalized": "barbwiler",
+    "familyId": "miscrit:12"
+  },
+  {
+    "query": "Snapdragon",
+    "normalized": "snapdragon",
+    "familyId": "miscrit:12"
+  },
+  {
+    "query": "Elefauna",
+    "normalized": "elefauna",
+    "familyId": "miscrit:13"
+  },
+  {
+    "query": "Floraphaunt",
+    "normalized": "floraphaunt",
+    "familyId": "miscrit:13"
+  },
+  {
+    "query": "Stammoth",
+    "normalized": "stammoth",
+    "familyId": "miscrit:13"
+  },
+  {
+    "query": "Grastodon",
+    "normalized": "grastodon",
+    "familyId": "miscrit:13"
+  },
+  {
+    "query": "Nessy",
+    "normalized": "nessy",
+    "familyId": "miscrit:14"
+  },
+  {
+    "query": "Lockeel",
+    "normalized": "lockeel",
+    "familyId": "miscrit:14"
+  },
+  {
+    "query": "Cryptile",
+    "normalized": "cryptile",
+    "familyId": "miscrit:14"
+  },
+  {
+    "query": "Aquine",
+    "normalized": "aquine",
+    "familyId": "miscrit:14"
+  },
+  {
+    "query": "Hotfoot",
+    "normalized": "hotfoot",
+    "familyId": "miscrit:15"
+  },
+  {
+    "query": "Flamaroo",
+    "normalized": "flamaroo",
+    "familyId": "miscrit:15"
+  },
+  {
+    "query": "Kang",
+    "normalized": "kang",
+    "familyId": "miscrit:15"
+  },
+  {
+    "query": "Kang Fu",
+    "normalized": "kangfu",
+    "familyId": "miscrit:15"
+  },
+  {
+    "query": "Twiggum",
+    "normalized": "twiggum",
+    "familyId": "miscrit:16"
+  },
+  {
+    "query": "Rootle",
+    "normalized": "rootle",
+    "familyId": "miscrit:16"
+  },
+  {
+    "query": "Stumpede",
+    "normalized": "stumpede",
+    "familyId": "miscrit:16"
+  },
+  {
+    "query": "Willoak",
+    "normalized": "willoak",
+    "familyId": "miscrit:16"
+  },
+  {
+    "query": "Shellbee",
+    "normalized": "shellbee",
+    "familyId": "miscrit:17"
+  },
+  {
+    "query": "Enopen",
+    "normalized": "enopen",
+    "familyId": "miscrit:17"
+  },
+  {
+    "query": "Amari",
+    "normalized": "amari",
+    "familyId": "miscrit:17"
+  },
+  {
+    "query": "Kalamos",
+    "normalized": "kalamos",
+    "familyId": "miscrit:17"
+  },
+  {
+    "query": "Squibee",
+    "normalized": "squibee",
+    "familyId": "miscrit:18"
+  },
+  {
+    "query": "Bilgebrat",
+    "normalized": "bilgebrat",
+    "familyId": "miscrit:18"
+  },
+  {
+    "query": "Pirapus",
+    "normalized": "pirapus",
+    "familyId": "miscrit:18"
+  },
+  {
+    "query": "Krakenhook",
+    "normalized": "krakenhook",
+    "familyId": "miscrit:18"
+  },
+  {
+    "query": "Steamguin",
+    "normalized": "steamguin",
+    "familyId": "miscrit:19"
+  },
+  {
+    "query": "Huffenpuff",
+    "normalized": "huffenpuff",
+    "familyId": "miscrit:19"
+  },
+  {
+    "query": "Macarovon",
+    "normalized": "macarovon",
+    "familyId": "miscrit:19"
+  },
+  {
+    "query": "Aukamotive",
+    "normalized": "aukamotive",
+    "familyId": "miscrit:19"
+  },
+  {
+    "query": "Waddles",
+    "normalized": "waddles",
+    "familyId": "miscrit:20"
+  },
+  {
+    "query": "Shucky",
+    "normalized": "shucky",
+    "familyId": "miscrit:20"
+  },
+  {
+    "query": "Fintaur",
+    "normalized": "fintaur",
+    "familyId": "miscrit:20"
+  },
+  {
+    "query": "Mallardon",
+    "normalized": "mallardon",
+    "familyId": "miscrit:20"
+  },
+  {
+    "query": "Treemur",
+    "normalized": "treemur",
+    "familyId": "miscrit:21"
+  },
+  {
+    "query": "Marmoseed",
+    "normalized": "marmoseed",
+    "familyId": "miscrit:21"
+  },
+  {
+    "query": "Trimate",
+    "normalized": "trimate",
+    "familyId": "miscrit:21"
+  },
+  {
+    "query": "Monfiki",
+    "normalized": "monfiki",
+    "familyId": "miscrit:21"
+  },
+  {
+    "query": "Tulipinny",
+    "normalized": "tulipinny",
+    "familyId": "miscrit:22"
+  },
+  {
+    "query": "Leavius",
+    "normalized": "leavius",
+    "familyId": "miscrit:22"
+  },
+  {
+    "query": "Rubarb",
+    "normalized": "rubarb",
+    "familyId": "miscrit:22"
+  },
+  {
+    "query": "Ongabonga",
+    "normalized": "ongabonga",
+    "familyId": "miscrit:22"
+  },
+  {
+    "query": "Dark Flue",
+    "normalized": "darkflue",
+    "familyId": "miscrit:23"
+  },
+  {
+    "query": "Dark Chimnay",
+    "normalized": "darkchimnay",
+    "familyId": "miscrit:23"
+  },
+  {
+    "query": "Dark Firebrawl",
+    "normalized": "darkfirebrawl",
+    "familyId": "miscrit:23"
+  },
+  {
+    "query": "Dark Afterburn",
+    "normalized": "darkafterburn",
+    "familyId": "miscrit:23"
+  },
+  {
+    "query": "Dark Flowerpiller",
+    "normalized": "darkflowerpiller",
+    "familyId": "miscrit:24"
+  },
+  {
+    "query": "Dark Chrysaleaf",
+    "normalized": "darkchrysaleaf",
+    "familyId": "miscrit:24"
+  },
+  {
+    "query": "Dark Bloombug",
+    "normalized": "darkbloombug",
+    "familyId": "miscrit:24"
+  },
+  {
+    "query": "Dark Fairyblossom",
+    "normalized": "darkfairyblossom",
+    "familyId": "miscrit:24"
+  },
+  {
+    "query": "Dark Prawnja",
+    "normalized": "darkprawnja",
+    "familyId": "miscrit:25"
+  },
+  {
+    "query": "Dark Hermetalcrab",
+    "normalized": "darkhermetalcrab",
+    "familyId": "miscrit:25"
+  },
+  {
+    "query": "Dark Shellgun",
+    "normalized": "darkshellgun",
+    "familyId": "miscrit:25"
+  },
+  {
+    "query": "Dark Clawmurai",
+    "normalized": "darkclawmurai",
+    "familyId": "miscrit:25"
+  },
+  {
+    "query": "Blazebit",
+    "normalized": "blazebit",
+    "familyId": "miscrit:26"
+  },
+  {
+    "query": "Smolderon",
+    "normalized": "smolderon",
+    "familyId": "miscrit:26"
+  },
+  {
+    "query": "Grimstone",
+    "normalized": "grimstone",
+    "familyId": "miscrit:26"
+  },
+  {
+    "query": "Eruptacus",
+    "normalized": "eruptacus",
+    "familyId": "miscrit:26"
+  },
+  {
+    "query": "Frostmite",
+    "normalized": "frostmite",
+    "familyId": "miscrit:27"
+  },
+  {
+    "query": "Windigroo",
+    "normalized": "windigroo",
+    "familyId": "miscrit:27"
+  },
+  {
+    "query": "Snowsquatch",
+    "normalized": "snowsquatch",
+    "familyId": "miscrit:27"
+  },
+  {
+    "query": "Abomino",
+    "normalized": "abomino",
+    "familyId": "miscrit:27"
+  },
+  {
+    "query": "Blazertooth",
+    "normalized": "blazertooth",
+    "familyId": "miscrit:28"
+  },
+  {
+    "query": "Pyrubi",
+    "normalized": "pyrubi",
+    "familyId": "miscrit:28"
+  },
+  {
+    "query": "Firenze",
+    "normalized": "firenze",
+    "familyId": "miscrit:28"
+  },
+  {
+    "query": "Minotorch",
+    "normalized": "minotorch",
+    "familyId": "miscrit:28"
+  },
+  {
+    "query": "Statikat",
+    "normalized": "statikat",
+    "familyId": "miscrit:29"
+  },
+  {
+    "query": "Zapeera",
+    "normalized": "zapeera",
+    "familyId": "miscrit:29"
+  },
+  {
+    "query": "Tigristrike",
+    "normalized": "tigristrike",
+    "familyId": "miscrit:29"
+  },
+  {
+    "query": "Panthundra",
+    "normalized": "panthundra",
+    "familyId": "miscrit:29"
+  },
+  {
+    "query": "Equestrion",
+    "normalized": "equestrion",
+    "familyId": "miscrit:30"
+  },
+  {
+    "query": "Equestrius",
+    "normalized": "equestrius",
+    "familyId": "miscrit:30"
+  },
+  {
+    "query": "Duocornious",
+    "normalized": "duocornious",
+    "familyId": "miscrit:30"
+  },
+  {
+    "query": "Sagittarion",
+    "normalized": "sagittarion",
+    "familyId": "miscrit:30"
+  },
+  {
+    "query": "Drilldent",
+    "normalized": "drilldent",
+    "familyId": "miscrit:31"
+  },
+  {
+    "query": "Gropher",
+    "normalized": "gropher",
+    "familyId": "miscrit:31"
+  },
+  {
+    "query": "Moledozer",
+    "normalized": "moledozer",
+    "familyId": "miscrit:31"
+  },
+  {
+    "query": "Demolasher",
+    "normalized": "demolasher",
+    "familyId": "miscrit:31"
+  },
+  {
+    "query": "Kiloray",
+    "normalized": "kiloray",
+    "familyId": "miscrit:32"
+  },
+  {
+    "query": "Electroflyte",
+    "normalized": "electroflyte",
+    "familyId": "miscrit:32"
+  },
+  {
+    "query": "Luminaire",
+    "normalized": "luminaire",
+    "familyId": "miscrit:32"
+  },
+  {
+    "query": "Edison Ray",
+    "normalized": "edisonray",
+    "familyId": "miscrit:32"
+  },
+  {
+    "query": "Breezycheeks",
+    "normalized": "breezycheeks",
+    "familyId": "miscrit:33"
+  },
+  {
+    "query": "Flufferpuff",
+    "normalized": "flufferpuff",
+    "familyId": "miscrit:33"
+  },
+  {
+    "query": "Winstral",
+    "normalized": "winstral",
+    "familyId": "miscrit:33"
+  },
+  {
+    "query": "Glidengale",
+    "normalized": "glidengale",
+    "familyId": "miscrit:33"
+  },
+  {
+    "query": "Mumbah",
+    "normalized": "mumbah",
+    "familyId": "miscrit:34"
+  },
+  {
+    "query": "Simbel",
+    "normalized": "simbel",
+    "familyId": "miscrit:34"
+  },
+  {
+    "query": "Pharaohette",
+    "normalized": "pharaohette",
+    "familyId": "miscrit:34"
+  },
+  {
+    "query": "Sphynxus",
+    "normalized": "sphynxus",
+    "familyId": "miscrit:34"
+  },
+  {
+    "query": "Aria",
+    "normalized": "aria",
+    "familyId": "miscrit:35"
+  },
+  {
+    "query": "Gustelle",
+    "normalized": "gustelle",
+    "familyId": "miscrit:35"
+  },
+  {
+    "query": "Zephelope",
+    "normalized": "zephelope",
+    "familyId": "miscrit:35"
+  },
+  {
+    "query": "Wyndasia",
+    "normalized": "wyndasia",
+    "familyId": "miscrit:35"
+  },
+  {
+    "query": "Jellyshock",
+    "normalized": "jellyshock",
+    "familyId": "miscrit:36"
+  },
+  {
+    "query": "Jellybolt",
+    "normalized": "jellybolt",
+    "familyId": "miscrit:36"
+  },
+  {
+    "query": "Tesla Fish",
+    "normalized": "teslafish",
+    "familyId": "miscrit:36"
+  },
+  {
+    "query": "Medustung",
+    "normalized": "medustung",
+    "familyId": "miscrit:36"
+  },
+  {
+    "query": "Croaky",
+    "normalized": "croaky",
+    "familyId": "miscrit:37"
+  },
+  {
+    "query": "Emeribbitt",
+    "normalized": "emeribbitt",
+    "familyId": "miscrit:37"
+  },
+  {
+    "query": "Gemphibian",
+    "normalized": "gemphibian",
+    "familyId": "miscrit:37"
+  },
+  {
+    "query": "Geotoad",
+    "normalized": "geotoad",
+    "familyId": "miscrit:37"
+  },
+  {
+    "query": "Sparkslug",
+    "normalized": "sparkslug",
+    "familyId": "miscrit:38"
+  },
+  {
+    "query": "Electroslide",
+    "normalized": "electroslide",
+    "familyId": "miscrit:38"
+  },
+  {
+    "query": "Shellshock",
+    "normalized": "shellshock",
+    "familyId": "miscrit:38"
+  },
+  {
+    "query": "Buzzcargo",
+    "normalized": "buzzcargo",
+    "familyId": "miscrit:38"
+  },
+  {
+    "query": "Craggy",
+    "normalized": "craggy",
+    "familyId": "miscrit:39"
+  },
+  {
+    "query": "Billyboulder",
+    "normalized": "billyboulder",
+    "familyId": "miscrit:39"
+  },
+  {
+    "query": "Bezoar",
+    "normalized": "bezoar",
+    "familyId": "miscrit:39"
+  },
+  {
+    "query": "Mineram",
+    "normalized": "mineram",
+    "familyId": "miscrit:39"
+  },
+  {
+    "query": "Owlie",
+    "normalized": "owlie",
+    "familyId": "miscrit:40"
+  },
+  {
+    "query": "Regowl",
+    "normalized": "regowl",
+    "familyId": "miscrit:40"
+  },
+  {
+    "query": "Generowl",
+    "normalized": "generowl",
+    "familyId": "miscrit:40"
+  },
+  {
+    "query": "Hootray",
+    "normalized": "hootray",
+    "familyId": "miscrit:40"
+  },
+  {
+    "query": "Luna",
+    "normalized": "luna",
+    "familyId": "miscrit:41"
+  },
+  {
+    "query": "Lestrike",
+    "normalized": "lestrike",
+    "familyId": "miscrit:41"
+  },
+  {
+    "query": "Sparkula",
+    "normalized": "sparkula",
+    "familyId": "miscrit:41"
+  },
+  {
+    "query": "Antennious",
+    "normalized": "antennious",
+    "familyId": "miscrit:41"
+  },
+  {
+    "query": "Poltergust",
+    "normalized": "poltergust",
+    "familyId": "miscrit:42"
+  },
+  {
+    "query": "Spectreus",
+    "normalized": "spectreus",
+    "familyId": "miscrit:42"
+  },
+  {
+    "query": "Aethero",
+    "normalized": "aethero",
+    "familyId": "miscrit:42"
+  },
+  {
+    "query": "Zephyrgeist",
+    "normalized": "zephyrgeist",
+    "familyId": "miscrit:42"
+  },
+  {
+    "query": "Fossillia",
+    "normalized": "fossillia",
+    "familyId": "miscrit:43"
+  },
+  {
+    "query": "Craterra",
+    "normalized": "craterra",
+    "familyId": "miscrit:43"
+  },
+  {
+    "query": "Troglobrute",
+    "normalized": "troglobrute",
+    "familyId": "miscrit:43"
+  },
+  {
+    "query": "Primordius",
+    "normalized": "primordius",
+    "familyId": "miscrit:43"
+  },
+  {
+    "query": "Eggy",
+    "normalized": "eggy",
+    "familyId": "miscrit:44"
+  },
+  {
+    "query": "Pebblesaur",
+    "normalized": "pebblesaur",
+    "familyId": "miscrit:44"
+  },
+  {
+    "query": "Terraptor",
+    "normalized": "terraptor",
+    "familyId": "miscrit:44"
+  },
+  {
+    "query": "Rocklodon",
+    "normalized": "rocklodon",
+    "familyId": "miscrit:44"
+  },
+  {
+    "query": "Thundercracker",
+    "normalized": "thundercracker",
+    "familyId": "miscrit:45"
+  },
+  {
+    "query": "Rumblerunt",
+    "normalized": "rumblerunt",
+    "familyId": "miscrit:45"
+  },
+  {
+    "query": "Badaboon",
+    "normalized": "badaboon",
+    "familyId": "miscrit:45"
+  },
+  {
+    "query": "Clobberilla",
+    "normalized": "clobberilla",
+    "familyId": "miscrit:45"
+  },
+  {
+    "query": "Mun Kee",
+    "normalized": "munkee",
+    "familyId": "miscrit:46"
+  },
+  {
+    "query": "Munk Lee",
+    "normalized": "munklee",
+    "familyId": "miscrit:46"
+  },
+  {
+    "query": "Chimpanbreeze",
+    "normalized": "chimpanbreeze",
+    "familyId": "miscrit:46"
+  },
+  {
+    "query": "Hanuphoon",
+    "normalized": "hanuphoon",
+    "familyId": "miscrit:46"
+  },
+  {
+    "query": "Microblast",
+    "normalized": "microblast",
+    "familyId": "miscrit:47"
+  },
+  {
+    "query": "Echomeleon",
+    "normalized": "echomeleon",
+    "familyId": "miscrit:47"
+  },
+  {
+    "query": "Electrozard",
+    "normalized": "electrozard",
+    "familyId": "miscrit:47"
+  },
+  {
+    "query": "Zapire",
+    "normalized": "zapire",
+    "familyId": "miscrit:47"
+  },
+  {
+    "query": "Sledgehog",
+    "normalized": "sledgehog",
+    "familyId": "miscrit:48"
+  },
+  {
+    "query": "Erinaquil",
+    "normalized": "erinaquil",
+    "familyId": "miscrit:48"
+  },
+  {
+    "query": "Cavernus",
+    "normalized": "cavernus",
+    "familyId": "miscrit:48"
+  },
+  {
+    "query": "Stalagfright",
+    "normalized": "stalagfright",
+    "familyId": "miscrit:48"
+  },
+  {
+    "query": "Sapphron",
+    "normalized": "sapphron",
+    "familyId": "miscrit:49"
+  },
+  {
+    "query": "Arachnothyst",
+    "normalized": "arachnothyst",
+    "familyId": "miscrit:49"
+  },
+  {
+    "query": "Rubion",
+    "normalized": "rubion",
+    "familyId": "miscrit:49"
+  },
+  {
+    "query": "Scorpionyx",
+    "normalized": "scorpionyx",
+    "familyId": "miscrit:49"
+  },
+  {
+    "query": "Sparkspeck",
+    "normalized": "sparkspeck",
+    "familyId": "miscrit:50"
+  },
+  {
+    "query": "Faebolt",
+    "normalized": "faebolt",
+    "familyId": "miscrit:50"
+  },
+  {
+    "query": "Pixiepulse",
+    "normalized": "pixiepulse",
+    "familyId": "miscrit:50"
+  },
+  {
+    "query": "Glitterglint",
+    "normalized": "glitterglint",
+    "familyId": "miscrit:50"
+  },
+  {
+    "query": "Grubbean",
+    "normalized": "grubbean",
+    "familyId": "miscrit:51"
+  },
+  {
+    "query": "Coleaf",
+    "normalized": "coleaf",
+    "familyId": "miscrit:51"
+  },
+  {
+    "query": "Crickaroot",
+    "normalized": "crickaroot",
+    "familyId": "miscrit:51"
+  },
+  {
+    "query": "Thornaxis",
+    "normalized": "thornaxis",
+    "familyId": "miscrit:51"
+  },
+  {
+    "query": "Echino",
+    "normalized": "echino",
+    "familyId": "miscrit:52"
+  },
+  {
+    "query": "Prickles",
+    "normalized": "prickles",
+    "familyId": "miscrit:52"
+  },
+  {
+    "query": "Choy Choy",
+    "normalized": "choychoy",
+    "familyId": "miscrit:52"
+  },
+  {
+    "query": "Warro",
+    "normalized": "warro",
+    "familyId": "miscrit:52"
+  },
+  {
+    "query": "Wavesling",
+    "normalized": "wavesling",
+    "familyId": "miscrit:53"
+  },
+  {
+    "query": "Hankoi",
+    "normalized": "hankoi",
+    "familyId": "miscrit:53"
+  },
+  {
+    "query": "Hydravern",
+    "normalized": "hydravern",
+    "familyId": "miscrit:53"
+  },
+  {
+    "query": "Nessilisk",
+    "normalized": "nessilisk",
+    "familyId": "miscrit:53"
+  },
+  {
+    "query": "Sparkitten",
+    "normalized": "sparkitten",
+    "familyId": "miscrit:54"
+  },
+  {
+    "query": "Glowhisk",
+    "normalized": "glowhisk",
+    "familyId": "miscrit:54"
+  },
+  {
+    "query": "Flameow",
+    "normalized": "flameow",
+    "familyId": "miscrit:54"
+  },
+  {
+    "query": "Cheetorch",
+    "normalized": "cheetorch",
+    "familyId": "miscrit:54"
+  },
+  {
+    "query": "Arigato",
+    "normalized": "arigato",
+    "familyId": "miscrit:55"
+  },
+  {
+    "query": "Cuddlebolt",
+    "normalized": "cuddlebolt",
+    "familyId": "miscrit:55"
+  },
+  {
+    "query": "Astranap",
+    "normalized": "astranap",
+    "familyId": "miscrit:55"
+  },
+  {
+    "query": "Dynamellow",
+    "normalized": "dynamellow",
+    "familyId": "miscrit:55"
+  },
+  {
+    "query": "Jack",
+    "normalized": "jack",
+    "familyId": "miscrit:56"
+  },
+  {
+    "query": "Cottontail",
+    "normalized": "cottontail",
+    "familyId": "miscrit:56"
+  },
+  {
+    "query": "Hop-Chi",
+    "normalized": "hopchi",
+    "familyId": "miscrit:56"
+  },
+  {
+    "query": "Tuzee",
+    "normalized": "tuzee",
+    "familyId": "miscrit:56"
+  },
+  {
+    "query": "Quebble",
+    "normalized": "quebble",
+    "familyId": "miscrit:57"
+  },
+  {
+    "query": "Quakey",
+    "normalized": "quakey",
+    "familyId": "miscrit:57"
+  },
+  {
+    "query": "Quither",
+    "normalized": "quither",
+    "familyId": "miscrit:57"
+  },
+  {
+    "query": "Quarriock",
+    "normalized": "quarriock",
+    "familyId": "miscrit:57"
+  },
+  {
+    "query": "Digsy",
+    "normalized": "digsy",
+    "familyId": "miscrit:58"
+  },
+  {
+    "query": "Mirekin",
+    "normalized": "mirekin",
+    "familyId": "miscrit:58"
+  },
+  {
+    "query": "Duskot",
+    "normalized": "duskot",
+    "familyId": "miscrit:58"
+  },
+  {
+    "query": "Excavior",
+    "normalized": "excavior",
+    "familyId": "miscrit:58"
+  },
+  {
+    "query": "Hippoke",
+    "normalized": "hippoke",
+    "familyId": "miscrit:59"
+  },
+  {
+    "query": "Rhinestar",
+    "normalized": "rhinestar",
+    "familyId": "miscrit:59"
+  },
+  {
+    "query": "Rybble",
+    "normalized": "rybble",
+    "familyId": "miscrit:59"
+  },
+  {
+    "query": "Triceratron",
+    "normalized": "triceratron",
+    "familyId": "miscrit:59"
+  },
+  {
+    "query": "Leggy",
+    "normalized": "leggy",
+    "familyId": "miscrit:60"
+  },
+  {
+    "query": "Beaker",
+    "normalized": "beaker",
+    "familyId": "miscrit:60"
+  },
+  {
+    "query": "Kiwhirl",
+    "normalized": "kiwhirl",
+    "familyId": "miscrit:60"
+  },
+  {
+    "query": "Ostral",
+    "normalized": "ostral",
+    "familyId": "miscrit:60"
+  },
+  {
+    "query": "Orcatide",
+    "normalized": "orcatide",
+    "familyId": "miscrit:61"
+  },
+  {
+    "query": "Mobius",
+    "normalized": "mobius",
+    "familyId": "miscrit:61"
+  },
+  {
+    "query": "Streamsmash",
+    "normalized": "streamsmash",
+    "familyId": "miscrit:61"
+  },
+  {
+    "query": "Hydroslam",
+    "normalized": "hydroslam",
+    "familyId": "miscrit:61"
+  },
+  {
+    "query": "Flutterpat",
+    "normalized": "flutterpat",
+    "familyId": "miscrit:62"
+  },
+  {
+    "query": "Avior",
+    "normalized": "avior",
+    "familyId": "miscrit:62"
+  },
+  {
+    "query": "Pegasoar",
+    "normalized": "pegasoar",
+    "familyId": "miscrit:62"
+  },
+  {
+    "query": "Gazaereal",
+    "normalized": "gazaereal",
+    "familyId": "miscrit:62"
+  },
+  {
+    "query": "Snorkels",
+    "normalized": "snorkels",
+    "familyId": "miscrit:63"
+  },
+  {
+    "query": "Aqualash",
+    "normalized": "aqualash",
+    "familyId": "miscrit:63"
+  },
+  {
+    "query": "Waterwip",
+    "normalized": "waterwip",
+    "familyId": "miscrit:63"
+  },
+  {
+    "query": "Leviafin",
+    "normalized": "leviafin",
+    "familyId": "miscrit:63"
+  },
+  {
+    "query": "Kelpa",
+    "normalized": "kelpa",
+    "familyId": "miscrit:64"
+  },
+  {
+    "query": "Flotsamo",
+    "normalized": "flotsamo",
+    "familyId": "miscrit:64"
+  },
+  {
+    "query": "Jetsama",
+    "normalized": "jetsama",
+    "familyId": "miscrit:64"
+  },
+  {
+    "query": "Derelicro",
+    "normalized": "derelicro",
+    "familyId": "miscrit:64"
+  },
+  {
+    "query": "Ignios",
+    "normalized": "ignios",
+    "familyId": "miscrit:65"
+  },
+  {
+    "query": "Calamitas",
+    "normalized": "calamitas",
+    "familyId": "miscrit:65"
+  },
+  {
+    "query": "Praesul",
+    "normalized": "praesul",
+    "familyId": "miscrit:65"
+  },
+  {
+    "query": "Preliator",
+    "normalized": "preliator",
+    "familyId": "miscrit:65"
+  },
+  {
+    "query": "Beelzebug",
+    "normalized": "beelzebug",
+    "familyId": "miscrit:67"
+  },
+  {
+    "query": "Bumblebolt",
+    "normalized": "bumblebolt",
+    "familyId": "miscrit:67"
+  },
+  {
+    "query": "Thundrone",
+    "normalized": "thundrone",
+    "familyId": "miscrit:67"
+  },
+  {
+    "query": "Zzzap",
+    "normalized": "zzzap",
+    "familyId": "miscrit:67"
+  },
+  {
+    "query": "Winnebeargo",
+    "normalized": "winnebeargo",
+    "familyId": "miscrit:68"
+  },
+  {
+    "query": "Nodin",
+    "normalized": "nodin",
+    "familyId": "miscrit:68"
+  },
+  {
+    "query": "Kuruk",
+    "normalized": "kuruk",
+    "familyId": "miscrit:68"
+  },
+  {
+    "query": "Minninnewah",
+    "normalized": "minninnewah",
+    "familyId": "miscrit:68"
+  },
+  {
+    "query": "Fennie",
+    "normalized": "fennie",
+    "familyId": "miscrit:69"
+  },
+  {
+    "query": "Mirthfox",
+    "normalized": "mirthfox",
+    "familyId": "miscrit:69"
+  },
+  {
+    "query": "Tumblewhip",
+    "normalized": "tumblewhip",
+    "familyId": "miscrit:69"
+  },
+  {
+    "query": "Dustelle",
+    "normalized": "dustelle",
+    "familyId": "miscrit:69"
+  },
+  {
+    "query": "Patchkin",
+    "normalized": "patchkin",
+    "familyId": "miscrit:70"
+  },
+  {
+    "query": "Hallowar",
+    "normalized": "hallowar",
+    "familyId": "miscrit:70"
+  },
+  {
+    "query": "Jacksquatch",
+    "normalized": "jacksquatch",
+    "familyId": "miscrit:70"
+  },
+  {
+    "query": "Reaping Gourd",
+    "normalized": "reapinggourd",
+    "familyId": "miscrit:70"
+  },
+  {
+    "query": "Flurrious",
+    "normalized": "flurrious",
+    "familyId": "miscrit:72"
+  },
+  {
+    "query": "Snowdaze",
+    "normalized": "snowdaze",
+    "familyId": "miscrit:72"
+  },
+  {
+    "query": "Rudolffe",
+    "normalized": "rudolffe",
+    "familyId": "miscrit:72"
+  },
+  {
+    "query": "Clawsickle",
+    "normalized": "clawsickle",
+    "familyId": "miscrit:72"
+  },
+  {
+    "query": "Fangly",
+    "normalized": "fangly",
+    "familyId": "miscrit:73"
+  },
+  {
+    "query": "Incisoar",
+    "normalized": "incisoar",
+    "familyId": "miscrit:73"
+  },
+  {
+    "query": "Chopper",
+    "normalized": "chopper",
+    "familyId": "miscrit:73"
+  },
+  {
+    "query": "Tuskalate",
+    "normalized": "tuskalate",
+    "familyId": "miscrit:73"
+  },
+  {
+    "query": "Dark Kiloray",
+    "normalized": "darkkiloray",
+    "familyId": "miscrit:74"
+  },
+  {
+    "query": "Dark Electroflyte",
+    "normalized": "darkelectroflyte",
+    "familyId": "miscrit:74"
+  },
+  {
+    "query": "Dark Luminaire",
+    "normalized": "darkluminaire",
+    "familyId": "miscrit:74"
+  },
+  {
+    "query": "Dark Edison Ray",
+    "normalized": "darkedisonray",
+    "familyId": "miscrit:74"
+  },
+  {
+    "query": "Dark Croaky",
+    "normalized": "darkcroaky",
+    "familyId": "miscrit:75"
+  },
+  {
+    "query": "Dark Emeribbitt",
+    "normalized": "darkemeribbitt",
+    "familyId": "miscrit:75"
+  },
+  {
+    "query": "Dark Gemphibian",
+    "normalized": "darkgemphibian",
+    "familyId": "miscrit:75"
+  },
+  {
+    "query": "Dark Geotoad",
+    "normalized": "darkgeotoad",
+    "familyId": "miscrit:75"
+  },
+  {
+    "query": "Valentino",
+    "normalized": "valentino",
+    "familyId": "miscrit:76"
+  },
+  {
+    "query": "Romantius",
+    "normalized": "romantius",
+    "familyId": "miscrit:76"
+  },
+  {
+    "query": "Blackheart",
+    "normalized": "blackheart",
+    "familyId": "miscrit:76"
+  },
+  {
+    "query": "Rebound",
+    "normalized": "rebound",
+    "familyId": "miscrit:76"
+  },
+  {
+    "query": "Dark Cubsprout",
+    "normalized": "darkcubsprout",
+    "familyId": "miscrit:77"
+  },
+  {
+    "query": "Dark Dandylion",
+    "normalized": "darkdandylion",
+    "familyId": "miscrit:77"
+  },
+  {
+    "query": "Dark Pawthorne",
+    "normalized": "darkpawthorne",
+    "familyId": "miscrit:77"
+  },
+  {
+    "query": "Dark Bloomane",
+    "normalized": "darkbloomane",
+    "familyId": "miscrit:77"
+  },
+  {
+    "query": "Dark Sparkitten",
+    "normalized": "darksparkitten",
+    "familyId": "miscrit:78"
+  },
+  {
+    "query": "Dark Glowhisk",
+    "normalized": "darkglowhisk",
+    "familyId": "miscrit:78"
+  },
+  {
+    "query": "Dark Flameow",
+    "normalized": "darkflameow",
+    "familyId": "miscrit:78"
+  },
+  {
+    "query": "Dark Cheetorch",
+    "normalized": "darkcheetorch",
+    "familyId": "miscrit:78"
+  },
+  {
+    "query": "Dark Snortus",
+    "normalized": "darksnortus",
+    "familyId": "miscrit:79"
+  },
+  {
+    "query": "Dark Boartle",
+    "normalized": "darkboartle",
+    "familyId": "miscrit:79"
+  },
+  {
+    "query": "Dark Terrapig",
+    "normalized": "darkterrapig",
+    "familyId": "miscrit:79"
+  },
+  {
+    "query": "Dark Coraswine",
+    "normalized": "darkcoraswine",
+    "familyId": "miscrit:79"
+  },
+  {
+    "query": "Boltzee",
+    "normalized": "boltzee",
+    "familyId": "miscrit:80"
+  },
+  {
+    "query": "Shoxier",
+    "normalized": "shoxier",
+    "familyId": "miscrit:80"
+  },
+  {
+    "query": "Acrozap",
+    "normalized": "acrozap",
+    "familyId": "miscrit:80"
+  },
+  {
+    "query": "Violimp",
+    "normalized": "violimp",
+    "familyId": "miscrit:80"
+  },
+  {
+    "query": "Dark Owlie",
+    "normalized": "darkowlie",
+    "familyId": "miscrit:82"
+  },
+  {
+    "query": "Dark Regowl",
+    "normalized": "darkregowl",
+    "familyId": "miscrit:82"
+  },
+  {
+    "query": "Dark Generowl",
+    "normalized": "darkgenerowl",
+    "familyId": "miscrit:82"
+  },
+  {
+    "query": "Dark Hootray",
+    "normalized": "darkhootray",
+    "familyId": "miscrit:82"
+  },
+  {
+    "query": "Dark Echino",
+    "normalized": "darkechino",
+    "familyId": "miscrit:83"
+  },
+  {
+    "query": "Dark Prickles",
+    "normalized": "darkprickles",
+    "familyId": "miscrit:83"
+  },
+  {
+    "query": "Dark Choy Choy",
+    "normalized": "darkchoychoy",
+    "familyId": "miscrit:83"
+  },
+  {
+    "query": "Dark Warro",
+    "normalized": "darkwarro",
+    "familyId": "miscrit:83"
+  },
+  {
+    "query": "Dark Arigato",
+    "normalized": "darkarigato",
+    "familyId": "miscrit:85"
+  },
+  {
+    "query": "Dark Cuddlebolt",
+    "normalized": "darkcuddlebolt",
+    "familyId": "miscrit:85"
+  },
+  {
+    "query": "Dark Astranap",
+    "normalized": "darkastranap",
+    "familyId": "miscrit:85"
+  },
+  {
+    "query": "Dark Dynamellow",
+    "normalized": "darkdynamellow",
+    "familyId": "miscrit:85"
+  },
+  {
+    "query": "Dark Hydroseal",
+    "normalized": "darkhydroseal",
+    "familyId": "miscrit:86"
+  },
+  {
+    "query": "Dark Streamlion",
+    "normalized": "darkstreamlion",
+    "familyId": "miscrit:86"
+  },
+  {
+    "query": "Dark Eleflood",
+    "normalized": "darkeleflood",
+    "familyId": "miscrit:86"
+  },
+  {
+    "query": "Dark Squalrus",
+    "normalized": "darksqualrus",
+    "familyId": "miscrit:86"
+  },
+  {
+    "query": "Peepsie",
+    "normalized": "peepsie",
+    "familyId": "miscrit:87"
+  },
+  {
+    "query": "Chickadee",
+    "normalized": "chickadee",
+    "familyId": "miscrit:87"
+  },
+  {
+    "query": "Mallowfinch",
+    "normalized": "mallowfinch",
+    "familyId": "miscrit:87"
+  },
+  {
+    "query": "Cheepers",
+    "normalized": "cheepers",
+    "familyId": "miscrit:87"
+  },
+  {
+    "query": "Dark Eggy",
+    "normalized": "darkeggy",
+    "familyId": "miscrit:88"
+  },
+  {
+    "query": "Dark Pebblesaur",
+    "normalized": "darkpebblesaur",
+    "familyId": "miscrit:88"
+  },
+  {
+    "query": "Dark Terraptor",
+    "normalized": "darkterraptor",
+    "familyId": "miscrit:88"
+  },
+  {
+    "query": "Dark Rocklodon",
+    "normalized": "darkrocklodon",
+    "familyId": "miscrit:88"
+  },
+  {
+    "query": "Dark Flameling",
+    "normalized": "darkflameling",
+    "familyId": "miscrit:90"
+  },
+  {
+    "query": "Dark Scorcharos",
+    "normalized": "darkscorcharos",
+    "familyId": "miscrit:90"
+  },
+  {
+    "query": "Dark Fyrin",
+    "normalized": "darkfyrin",
+    "familyId": "miscrit:90"
+  },
+  {
+    "query": "Dark Infernus",
+    "normalized": "darkinfernus",
+    "familyId": "miscrit:90"
+  },
+  {
+    "query": "Dark Elefauna",
+    "normalized": "darkelefauna",
+    "familyId": "miscrit:91"
+  },
+  {
+    "query": "Dark Floraphaunt",
+    "normalized": "darkfloraphaunt",
+    "familyId": "miscrit:91"
+  },
+  {
+    "query": "Dark Stammoth",
+    "normalized": "darkstammoth",
+    "familyId": "miscrit:91"
+  },
+  {
+    "query": "Dark Grastodon",
+    "normalized": "darkgrastodon",
+    "familyId": "miscrit:91"
+  },
+  {
+    "query": "Mama",
+    "normalized": "mama",
+    "familyId": "miscrit:93"
+  },
+  {
+    "query": "Inceptus",
+    "normalized": "inceptus",
+    "familyId": "miscrit:93"
+  },
+  {
+    "query": "Queenie",
+    "normalized": "queenie",
+    "familyId": "miscrit:93"
+  },
+  {
+    "query": "Genesis",
+    "normalized": "genesis",
+    "familyId": "miscrit:93"
+  },
+  {
+    "query": "Dark Nessy",
+    "normalized": "darknessy",
+    "familyId": "miscrit:94"
+  },
+  {
+    "query": "Dark Lockeel",
+    "normalized": "darklockeel",
+    "familyId": "miscrit:94"
+  },
+  {
+    "query": "Dark Cryptile",
+    "normalized": "darkcryptile",
+    "familyId": "miscrit:94"
+  },
+  {
+    "query": "Dark Aquine",
+    "normalized": "darkaquine",
+    "familyId": "miscrit:94"
+  },
+  {
+    "query": "Dark Hotfoot",
+    "normalized": "darkhotfoot",
+    "familyId": "miscrit:95"
+  },
+  {
+    "query": "Dark Flamaroo",
+    "normalized": "darkflamaroo",
+    "familyId": "miscrit:95"
+  },
+  {
+    "query": "Dark Kang",
+    "normalized": "darkkang",
+    "familyId": "miscrit:95"
+  },
+  {
+    "query": "Dark Kang Fu",
+    "normalized": "darkkangfu",
+    "familyId": "miscrit:95"
+  },
+  {
+    "query": "Dark Breezycheeks",
+    "normalized": "darkbreezycheeks",
+    "familyId": "miscrit:97"
+  },
+  {
+    "query": "Dark Flufferpuff",
+    "normalized": "darkflufferpuff",
+    "familyId": "miscrit:97"
+  },
+  {
+    "query": "Dark Winstral",
+    "normalized": "darkwinstral",
+    "familyId": "miscrit:97"
+  },
+  {
+    "query": "Dark Glidengale",
+    "normalized": "darkglidengale",
+    "familyId": "miscrit:97"
+  },
+  {
+    "query": "Papa",
+    "normalized": "papa",
+    "familyId": "miscrit:98"
+  },
+  {
+    "query": "Ancestrike",
+    "normalized": "ancestrike",
+    "familyId": "miscrit:98"
+  },
+  {
+    "query": "Kingly",
+    "normalized": "kingly",
+    "familyId": "miscrit:98"
+  },
+  {
+    "query": "Zeusicus",
+    "normalized": "zeusicus",
+    "familyId": "miscrit:98"
+  },
+  {
+    "query": "Whik",
+    "normalized": "whik",
+    "familyId": "miscrit:101"
+  },
+  {
+    "query": "Talown",
+    "normalized": "talown",
+    "familyId": "miscrit:101"
+  },
+  {
+    "query": "Terrorcotta",
+    "normalized": "terrorcotta",
+    "familyId": "miscrit:101"
+  },
+  {
+    "query": "Vesuvion",
+    "normalized": "vesuvion",
+    "familyId": "miscrit:101"
+  },
+  {
+    "query": "Slithero",
+    "normalized": "slithero",
+    "familyId": "miscrit:102"
+  },
+  {
+    "query": "Sizzlelash",
+    "normalized": "sizzlelash",
+    "familyId": "miscrit:102"
+  },
+  {
+    "query": "Serpenox",
+    "normalized": "serpenox",
+    "familyId": "miscrit:102"
+  },
+  {
+    "query": "Incineron",
+    "normalized": "incineron",
+    "familyId": "miscrit:102"
+  },
+  {
+    "query": "Spinnerette",
+    "normalized": "spinnerette",
+    "familyId": "miscrit:104"
+  },
+  {
+    "query": "Aracneon",
+    "normalized": "aracneon",
+    "familyId": "miscrit:104"
+  },
+  {
+    "query": "Attacnid",
+    "normalized": "attacnid",
+    "familyId": "miscrit:104"
+  },
+  {
+    "query": "Gigantula",
+    "normalized": "gigantula",
+    "familyId": "miscrit:104"
+  },
+  {
+    "query": "Crickin",
+    "normalized": "crickin",
+    "familyId": "miscrit:108"
+  },
+  {
+    "query": "Mantiscorch",
+    "normalized": "mantiscorch",
+    "familyId": "miscrit:108"
+  },
+  {
+    "query": "Flametenna",
+    "normalized": "flametenna",
+    "familyId": "miscrit:108"
+  },
+  {
+    "query": "Praze",
+    "normalized": "praze",
+    "familyId": "miscrit:108"
+  },
+  {
+    "query": "Bubbles",
+    "normalized": "bubbles",
+    "familyId": "miscrit:111"
+  },
+  {
+    "query": "Otterpop",
+    "normalized": "otterpop",
+    "familyId": "miscrit:111"
+  },
+  {
+    "query": "Caterpuff",
+    "normalized": "caterpuff",
+    "familyId": "miscrit:111"
+  },
+  {
+    "query": "Popiller",
+    "normalized": "popiller",
+    "familyId": "miscrit:111"
+  },
+  {
+    "query": "Humbug",
+    "normalized": "humbug",
+    "familyId": "miscrit:112"
+  },
+  {
+    "query": "Flittero",
+    "normalized": "flittero",
+    "familyId": "miscrit:112"
+  },
+  {
+    "query": "Buzzaillia",
+    "normalized": "buzzaillia",
+    "familyId": "miscrit:112"
+  },
+  {
+    "query": "Aviona",
+    "normalized": "aviona",
+    "familyId": "miscrit:112"
+  },
+  {
+    "query": "Lavarilla",
+    "normalized": "lavarilla",
+    "familyId": "miscrit:115"
+  },
+  {
+    "query": "Sulfuro",
+    "normalized": "sulfuro",
+    "familyId": "miscrit:115"
+  },
+  {
+    "query": "Scorias",
+    "normalized": "scorias",
+    "familyId": "miscrit:115"
+  },
+  {
+    "query": "Obsidiape",
+    "normalized": "obsidiape",
+    "familyId": "miscrit:115"
+  },
+  {
+    "query": "Bloomple",
+    "normalized": "bloomple",
+    "familyId": "miscrit:121"
+  },
+  {
+    "query": "Featherose",
+    "normalized": "featherose",
+    "familyId": "miscrit:121"
+  },
+  {
+    "query": "Berravia",
+    "normalized": "berravia",
+    "familyId": "miscrit:121"
+  },
+  {
+    "query": "Miraca",
+    "normalized": "miraca",
+    "familyId": "miscrit:121"
+  },
+  {
+    "query": "Pamboo",
+    "normalized": "pamboo",
+    "familyId": "miscrit:124"
+  },
+  {
+    "query": "Ponya",
+    "normalized": "ponya",
+    "familyId": "miscrit:124"
+  },
+  {
+    "query": "Pan-Damme",
+    "normalized": "pandamme",
+    "familyId": "miscrit:124"
+  },
+  {
+    "query": "Pixiuma",
+    "normalized": "pixiuma",
+    "familyId": "miscrit:124"
+  },
+  {
+    "query": "Rockodile",
+    "normalized": "rockodile",
+    "familyId": "miscrit:125"
+  },
+  {
+    "query": "Barbarious",
+    "normalized": "barbarious",
+    "familyId": "miscrit:125"
+  },
+  {
+    "query": "Crocorawr",
+    "normalized": "crocorawr",
+    "familyId": "miscrit:125"
+  },
+  {
+    "query": "Growliath",
+    "normalized": "growliath",
+    "familyId": "miscrit:125"
+  },
+  {
+    "query": "Boneshee",
+    "normalized": "boneshee",
+    "familyId": "miscrit:133"
+  },
+  {
+    "query": "Carcassoar",
+    "normalized": "carcassoar",
+    "familyId": "miscrit:133"
+  },
+  {
+    "query": "Eidolon",
+    "normalized": "eidolon",
+    "familyId": "miscrit:133"
+  },
+  {
+    "query": "Osteowraith",
+    "normalized": "osteowraith",
+    "familyId": "miscrit:133"
+  },
+  {
+    "query": "Ursiwave",
+    "normalized": "ursiwave",
+    "familyId": "miscrit:134"
+  },
+  {
+    "query": "Bearshful",
+    "normalized": "bearshful",
+    "familyId": "miscrit:134"
+  },
+  {
+    "query": "Bjorash",
+    "normalized": "bjorash",
+    "familyId": "miscrit:134"
+  },
+  {
+    "query": "Ripcurlio",
+    "normalized": "ripcurlio",
+    "familyId": "miscrit:134"
+  },
+  {
+    "query": "Bludger",
+    "normalized": "bludger",
+    "familyId": "miscrit:135"
+  },
+  {
+    "query": "Thorasher",
+    "normalized": "thorasher",
+    "familyId": "miscrit:135"
+  },
+  {
+    "query": "Truncherous",
+    "normalized": "truncherous",
+    "familyId": "miscrit:135"
+  },
+  {
+    "query": "Convincer",
+    "normalized": "convincer",
+    "familyId": "miscrit:135"
+  },
+  {
+    "query": "Zaptor",
+    "normalized": "zaptor",
+    "familyId": "miscrit:138"
+  },
+  {
+    "query": "Pterashock",
+    "normalized": "pterashock",
+    "familyId": "miscrit:138"
+  },
+  {
+    "query": "Electryl",
+    "normalized": "electryl",
+    "familyId": "miscrit:138"
+  },
+  {
+    "query": "Tesladon",
+    "normalized": "tesladon",
+    "familyId": "miscrit:138"
+  },
+  {
+    "query": "Narlope",
+    "normalized": "narlope",
+    "familyId": "miscrit:139"
+  },
+  {
+    "query": "Specklite",
+    "normalized": "specklite",
+    "familyId": "miscrit:139"
+  },
+  {
+    "query": "Thundray",
+    "normalized": "thundray",
+    "familyId": "miscrit:139"
+  },
+  {
+    "query": "Majestrike",
+    "normalized": "majestrike",
+    "familyId": "miscrit:139"
+  },
+  {
+    "query": "Vexie",
+    "normalized": "vexie",
+    "familyId": "miscrit:142"
+  },
+  {
+    "query": "Quartzle",
+    "normalized": "quartzle",
+    "familyId": "miscrit:142"
+  },
+  {
+    "query": "Tendrex",
+    "normalized": "tendrex",
+    "familyId": "miscrit:142"
+  },
+  {
+    "query": "Alionyx",
+    "normalized": "alionyx",
+    "familyId": "miscrit:142"
+  },
+  {
+    "query": "Tongutail",
+    "normalized": "tongutail",
+    "familyId": "miscrit:144"
+  },
+  {
+    "query": "Centrifoot",
+    "normalized": "centrifoot",
+    "familyId": "miscrit:144"
+  },
+  {
+    "query": "Abomineral",
+    "normalized": "abomineral",
+    "familyId": "miscrit:144"
+  },
+  {
+    "query": "Bifurcrystal",
+    "normalized": "bifurcrystal",
+    "familyId": "miscrit:144"
+  },
+  {
+    "query": "Hawkai",
+    "normalized": "hawkai",
+    "familyId": "miscrit:151"
+  },
+  {
+    "query": "Falcry",
+    "normalized": "falcry",
+    "familyId": "miscrit:151"
+  },
+  {
+    "query": "Rawkcha",
+    "normalized": "rawkcha",
+    "familyId": "miscrit:151"
+  },
+  {
+    "query": "Hawkogan",
+    "normalized": "hawkogan",
+    "familyId": "miscrit:151"
+  },
+  {
+    "query": "Nero",
+    "normalized": "nero",
+    "familyId": "miscrit:152"
+  },
+  {
+    "query": "Alexander",
+    "normalized": "alexander",
+    "familyId": "miscrit:152"
+  },
+  {
+    "query": "Caesar",
+    "normalized": "caesar",
+    "familyId": "miscrit:152"
+  },
+  {
+    "query": "Napoleon",
+    "normalized": "napoleon",
+    "familyId": "miscrit:152"
+  },
+  {
+    "query": "Pollifog",
+    "normalized": "pollifog",
+    "familyId": "miscrit:155"
+  },
+  {
+    "query": "Koighust",
+    "normalized": "koighust",
+    "familyId": "miscrit:155"
+  },
+  {
+    "query": "Loch",
+    "normalized": "loch",
+    "familyId": "miscrit:155"
+  },
+  {
+    "query": "Kinginrin",
+    "normalized": "kinginrin",
+    "familyId": "miscrit:155"
+  },
+  {
+    "query": "Felis",
+    "normalized": "felis",
+    "familyId": "miscrit:156"
+  },
+  {
+    "query": "Chiro",
+    "normalized": "chiro",
+    "familyId": "miscrit:156"
+  },
+  {
+    "query": "Myotis",
+    "normalized": "myotis",
+    "familyId": "miscrit:156"
+  },
+  {
+    "query": "Chiroptera",
+    "normalized": "chiroptera",
+    "familyId": "miscrit:156"
+  },
+  {
+    "query": "Tectonyx",
+    "normalized": "tectonyx",
+    "familyId": "miscrit:158"
+  },
+  {
+    "query": "Volcanus",
+    "normalized": "volcanus",
+    "familyId": "miscrit:158"
+  },
+  {
+    "query": "Basaltrio",
+    "normalized": "basaltrio",
+    "familyId": "miscrit:158"
+  },
+  {
+    "query": "Valrog",
+    "normalized": "valrog",
+    "familyId": "miscrit:158"
+  },
+  {
+    "query": "Nibbles",
+    "normalized": "nibbles",
+    "familyId": "miscrit:168"
+  },
+  {
+    "query": "Gnawly",
+    "normalized": "gnawly",
+    "familyId": "miscrit:168"
+  },
+  {
+    "query": "Chaurum",
+    "normalized": "chaurum",
+    "familyId": "miscrit:168"
+  },
+  {
+    "query": "Coyver",
+    "normalized": "coyver",
+    "familyId": "miscrit:168"
+  },
+  {
+    "query": "Skustunk",
+    "normalized": "skustunk",
+    "familyId": "miscrit:171"
+  },
+  {
+    "query": "Foetorous",
+    "normalized": "foetorous",
+    "familyId": "miscrit:171"
+  },
+  {
+    "query": "Odion",
+    "normalized": "odion",
+    "familyId": "miscrit:171"
+  },
+  {
+    "query": "Sulfurious",
+    "normalized": "sulfurious",
+    "familyId": "miscrit:171"
+  },
+  {
+    "query": "Flintly",
+    "normalized": "flintly",
+    "familyId": "miscrit:176"
+  },
+  {
+    "query": "Bastion",
+    "normalized": "bastion",
+    "familyId": "miscrit:176"
+  },
+  {
+    "query": "Charcle",
+    "normalized": "charcle",
+    "familyId": "miscrit:176"
+  },
+  {
+    "query": "Napalm",
+    "normalized": "napalm",
+    "familyId": "miscrit:176"
+  },
+  {
+    "query": "Gog",
+    "normalized": "gog",
+    "familyId": "miscrit:180"
+  },
+  {
+    "query": "Gizmodius",
+    "normalized": "gizmodius",
+    "familyId": "miscrit:180"
+  },
+  {
+    "query": "Titanex",
+    "normalized": "titanex",
+    "familyId": "miscrit:180"
+  },
+  {
+    "query": "Primordion",
+    "normalized": "primordion",
+    "familyId": "miscrit:180"
+  },
+  {
+    "query": "Octavio",
+    "normalized": "octavio",
+    "familyId": "miscrit:184"
+  },
+  {
+    "query": "Quarto",
+    "normalized": "quarto",
+    "familyId": "miscrit:184"
+  },
+  {
+    "query": "Pentatonix",
+    "normalized": "pentatonix",
+    "familyId": "miscrit:184"
+  },
+  {
+    "query": "Dischord",
+    "normalized": "dischord",
+    "familyId": "miscrit:184"
+  },
+  {
+    "query": "Crabbles",
+    "normalized": "crabbles",
+    "familyId": "miscrit:192"
+  },
+  {
+    "query": "Wabbles",
+    "normalized": "wabbles",
+    "familyId": "miscrit:192"
+  },
+  {
+    "query": "Pabbles",
+    "normalized": "pabbles",
+    "familyId": "miscrit:192"
+  },
+  {
+    "query": "Stabbles",
+    "normalized": "stabbles",
+    "familyId": "miscrit:192"
+  },
+  {
+    "query": "Inferno",
+    "normalized": "inferno",
+    "familyId": "miscrit:196"
+  },
+  {
+    "query": "Spectre 7",
+    "normalized": "spectre7",
+    "familyId": "miscrit:196"
+  },
+  {
+    "query": "Blue Justice",
+    "normalized": "bluejustice",
+    "familyId": "miscrit:196"
+  },
+  {
+    "query": "Dozer",
+    "normalized": "dozer",
+    "familyId": "miscrit:196"
+  },
+  {
+    "query": "Hotdog",
+    "normalized": "hotdog",
+    "familyId": "miscrit:197"
+  },
+  {
+    "query": "Toof Toof",
+    "normalized": "tooftoof",
+    "familyId": "miscrit:197"
+  },
+  {
+    "query": "Spike",
+    "normalized": "spike",
+    "familyId": "miscrit:197"
+  },
+  {
+    "query": "Magmutt",
+    "normalized": "magmutt",
+    "familyId": "miscrit:197"
+  },
+  {
+    "query": "Rafiery",
+    "normalized": "rafiery",
+    "familyId": "miscrit:200"
+  },
+  {
+    "query": "Marchix",
+    "normalized": "marchix",
+    "familyId": "miscrit:200"
+  },
+  {
+    "query": "Leero",
+    "normalized": "leero",
+    "familyId": "miscrit:200"
+  },
+  {
+    "query": "Stomprage",
+    "normalized": "stomprage",
+    "familyId": "miscrit:200"
+  },
+  {
+    "query": "Nanaslug",
+    "normalized": "nanaslug",
+    "familyId": "miscrit:201"
+  },
+  {
+    "query": "Spikroo",
+    "normalized": "spikroo",
+    "familyId": "miscrit:201"
+  },
+  {
+    "query": "Slimist",
+    "normalized": "slimist",
+    "familyId": "miscrit:201"
+  },
+  {
+    "query": "Tornadouse",
+    "normalized": "tornadouse",
+    "familyId": "miscrit:201"
+  },
+  {
+    "query": "Vhisp",
+    "normalized": "vhisp",
+    "familyId": "miscrit:202"
+  },
+  {
+    "query": "Transilvus",
+    "normalized": "transilvus",
+    "familyId": "miscrit:202"
+  },
+  {
+    "query": "Cyclix",
+    "normalized": "cyclix",
+    "familyId": "miscrit:202"
+  },
+  {
+    "query": "Fangale",
+    "normalized": "fangale",
+    "familyId": "miscrit:202"
+  },
+  {
+    "query": "Raldio",
+    "normalized": "raldio",
+    "familyId": "miscrit:203"
+  },
+  {
+    "query": "Greenious",
+    "normalized": "greenious",
+    "familyId": "miscrit:203"
+  },
+  {
+    "query": "Srage",
+    "normalized": "srage",
+    "familyId": "miscrit:203"
+  },
+  {
+    "query": "Verdauntless",
+    "normalized": "verdauntless",
+    "familyId": "miscrit:203"
+  },
+  {
+    "query": "Freedom",
+    "normalized": "freedom",
+    "familyId": "miscrit:205"
+  },
+  {
+    "query": "Prez",
+    "normalized": "prez",
+    "familyId": "miscrit:205"
+  },
+  {
+    "query": "Liberty",
+    "normalized": "liberty",
+    "familyId": "miscrit:205"
+  },
+  {
+    "query": "Patriot",
+    "normalized": "patriot",
+    "familyId": "miscrit:205"
+  },
+  {
+    "query": "Gemix",
+    "normalized": "gemix",
+    "familyId": "miscrit:206"
+  },
+  {
+    "query": "Jewelax",
+    "normalized": "jewelax",
+    "familyId": "miscrit:206"
+  },
+  {
+    "query": "Fonyx",
+    "normalized": "fonyx",
+    "familyId": "miscrit:206"
+  },
+  {
+    "query": "Ferocilux",
+    "normalized": "ferocilux",
+    "familyId": "miscrit:206"
+  },
+  {
+    "query": "Podo",
+    "normalized": "podo",
+    "familyId": "miscrit:210"
+  },
+  {
+    "query": "Codo",
+    "normalized": "codo",
+    "familyId": "miscrit:210"
+  },
+  {
+    "query": "Rikki",
+    "normalized": "rikki",
+    "familyId": "miscrit:210"
+  },
+  {
+    "query": "Tikki",
+    "normalized": "tikki",
+    "familyId": "miscrit:210"
+  },
+  {
+    "query": "Lavazard",
+    "normalized": "lavazard",
+    "familyId": "miscrit:212"
+  },
+  {
+    "query": "Cindercollar",
+    "normalized": "cindercollar",
+    "familyId": "miscrit:212"
+  },
+  {
+    "query": "Kingii",
+    "normalized": "kingii",
+    "familyId": "miscrit:212"
+  },
+  {
+    "query": "Flamydosaurus",
+    "normalized": "flamydosaurus",
+    "familyId": "miscrit:212"
+  },
+  {
+    "query": "Shurikoon",
+    "normalized": "shurikoon",
+    "familyId": "miscrit:214"
+  },
+  {
+    "query": "Saibat",
+    "normalized": "saibat",
+    "familyId": "miscrit:214"
+  },
+  {
+    "query": "Batcoon",
+    "normalized": "batcoon",
+    "familyId": "miscrit:214"
+  },
+  {
+    "query": "Ninjat",
+    "normalized": "ninjat",
+    "familyId": "miscrit:214"
+  },
+  {
+    "query": "Skelepup",
+    "normalized": "skelepup",
+    "familyId": "miscrit:223"
+  },
+  {
+    "query": "Dogbie",
+    "normalized": "dogbie",
+    "familyId": "miscrit:223"
+  },
+  {
+    "query": "Muttation",
+    "normalized": "muttation",
+    "familyId": "miscrit:223"
+  },
+  {
+    "query": "Frankensnarl",
+    "normalized": "frankensnarl",
+    "familyId": "miscrit:223"
+  },
+  {
+    "query": "Foil Waddles",
+    "normalized": "foilwaddles",
+    "familyId": "miscrit:226"
+  },
+  {
+    "query": "Foil Shucky",
+    "normalized": "foilshucky",
+    "familyId": "miscrit:226"
+  },
+  {
+    "query": "Foil Fintaur",
+    "normalized": "foilfintaur",
+    "familyId": "miscrit:226"
+  },
+  {
+    "query": "Foil Mallardon",
+    "normalized": "foilmallardon",
+    "familyId": "miscrit:226"
+  },
+  {
+    "query": "Foil Fossillia",
+    "normalized": "foilfossillia",
+    "familyId": "miscrit:227"
+  },
+  {
+    "query": "Foil Craterra",
+    "normalized": "foilcraterra",
+    "familyId": "miscrit:227"
+  },
+  {
+    "query": "Foil Troglobrute",
+    "normalized": "foiltroglobrute",
+    "familyId": "miscrit:227"
+  },
+  {
+    "query": "Foil Primordius",
+    "normalized": "foilprimordius",
+    "familyId": "miscrit:227"
+  },
+  {
+    "query": "Foil Thundercracker",
+    "normalized": "foilthundercracker",
+    "familyId": "miscrit:230"
+  },
+  {
+    "query": "Foil Rumblerunt",
+    "normalized": "foilrumblerunt",
+    "familyId": "miscrit:230"
+  },
+  {
+    "query": "Foil Badaboon",
+    "normalized": "foilbadaboon",
+    "familyId": "miscrit:230"
+  },
+  {
+    "query": "Foil Clobberilla",
+    "normalized": "foilclobberilla",
+    "familyId": "miscrit:230"
+  },
+  {
+    "query": "Hoopty",
+    "normalized": "hoopty",
+    "familyId": "miscrit:242"
+  },
+  {
+    "query": "Halo",
+    "normalized": "halo",
+    "familyId": "miscrit:242"
+  },
+  {
+    "query": "Lynk",
+    "normalized": "lynk",
+    "familyId": "miscrit:242"
+  },
+  {
+    "query": "Shackle",
+    "normalized": "shackle",
+    "familyId": "miscrit:242"
+  },
+  {
+    "query": "Foil Kiloray",
+    "normalized": "foilkiloray",
+    "familyId": "miscrit:247"
+  },
+  {
+    "query": "Foil Electroflyte",
+    "normalized": "foilelectroflyte",
+    "familyId": "miscrit:247"
+  },
+  {
+    "query": "Foil Luminaire",
+    "normalized": "foilluminaire",
+    "familyId": "miscrit:247"
+  },
+  {
+    "query": "Foil Edison Ray",
+    "normalized": "foiledisonray",
+    "familyId": "miscrit:247"
+  },
+  {
+    "query": "Spangles",
+    "normalized": "spangles",
+    "familyId": "miscrit:248"
+  },
+  {
+    "query": "Twinkles",
+    "normalized": "twinkles",
+    "familyId": "miscrit:248"
+  },
+  {
+    "query": "Strongbow",
+    "normalized": "strongbow",
+    "familyId": "miscrit:248"
+  },
+  {
+    "query": "Nova",
+    "normalized": "nova",
+    "familyId": "miscrit:248"
+  },
+  {
+    "query": "Opigum",
+    "normalized": "opigum",
+    "familyId": "miscrit:312"
+  },
+  {
+    "query": "Carrion",
+    "normalized": "carrion",
+    "familyId": "miscrit:312"
+  },
+  {
+    "query": "Hoggus",
+    "normalized": "hoggus",
+    "familyId": "miscrit:312"
+  },
+  {
+    "query": "Poggle",
+    "normalized": "poggle",
+    "familyId": "miscrit:312"
+  },
+  {
+    "query": "Foil Flintly",
+    "normalized": "foilflintly",
+    "familyId": "miscrit:322"
+  },
+  {
+    "query": "Foil Bastion",
+    "normalized": "foilbastion",
+    "familyId": "miscrit:322"
+  },
+  {
+    "query": "Foil Charcle",
+    "normalized": "foilcharcle",
+    "familyId": "miscrit:322"
+  },
+  {
+    "query": "Foil Napalm",
+    "normalized": "foilnapalm",
+    "familyId": "miscrit:322"
+  },
+  {
+    "query": "Light Tectonyx",
+    "normalized": "lighttectonyx",
+    "familyId": "miscrit:326"
+  },
+  {
+    "query": "Light Volcanus",
+    "normalized": "lightvolcanus",
+    "familyId": "miscrit:326"
+  },
+  {
+    "query": "Light Basaltrio",
+    "normalized": "lightbasaltrio",
+    "familyId": "miscrit:326"
+  },
+  {
+    "query": "Light Valrog",
+    "normalized": "lightvalrog",
+    "familyId": "miscrit:326"
+  },
+  {
+    "query": "Flaring",
+    "normalized": "flaring",
+    "familyId": "miscrit:338"
+  },
+  {
+    "query": "Pyrconey",
+    "normalized": "pyrconey",
+    "familyId": "miscrit:338"
+  },
+  {
+    "query": "Caponburn",
+    "normalized": "caponburn",
+    "familyId": "miscrit:338"
+  },
+  {
+    "query": "Lapinfire",
+    "normalized": "lapinfire",
+    "familyId": "miscrit:338"
+  },
+  {
+    "query": "Cadbunny",
+    "normalized": "cadbunny",
+    "familyId": "miscrit:341"
+  },
+  {
+    "query": "Truffles",
+    "normalized": "truffles",
+    "familyId": "miscrit:341"
+  },
+  {
+    "query": "Lindtly",
+    "normalized": "lindtly",
+    "familyId": "miscrit:341"
+  },
+  {
+    "query": "Rolox",
+    "normalized": "rolox",
+    "familyId": "miscrit:341"
+  },
+  {
+    "query": "Fiender",
+    "normalized": "fiender",
+    "familyId": "miscrit:352"
+  },
+  {
+    "query": "Pinyon",
+    "normalized": "pinyon",
+    "familyId": "miscrit:352"
+  },
+  {
+    "query": "Aileron",
+    "normalized": "aileron",
+    "familyId": "miscrit:352"
+  },
+  {
+    "query": "Airyn",
+    "normalized": "airyn",
+    "familyId": "miscrit:352"
+  },
+  {
+    "query": "Pillblaze",
+    "normalized": "pillblaze",
+    "familyId": "miscrit:356"
+  },
+  {
+    "query": "Roly Glowy",
+    "normalized": "rolyglowy",
+    "familyId": "miscrit:356"
+  },
+  {
+    "query": "Pyrus",
+    "normalized": "pyrus",
+    "familyId": "miscrit:356"
+  },
+  {
+    "query": "Charrill",
+    "normalized": "charrill",
+    "familyId": "miscrit:356"
+  },
+  {
+    "query": "Blub",
+    "normalized": "blub",
+    "familyId": "miscrit:367"
+  },
+  {
+    "query": "Crinky",
+    "normalized": "crinky",
+    "familyId": "miscrit:367"
+  },
+  {
+    "query": "Aloticus",
+    "normalized": "aloticus",
+    "familyId": "miscrit:367"
+  },
+  {
+    "query": "Gargantubolt",
+    "normalized": "gargantubolt",
+    "familyId": "miscrit:367"
+  },
+  {
+    "query": "Cerberuff",
+    "normalized": "cerberuff",
+    "familyId": "miscrit:376"
+  },
+  {
+    "query": "Fluffles",
+    "normalized": "fluffles",
+    "familyId": "miscrit:376"
+  },
+  {
+    "query": "Pittie",
+    "normalized": "pittie",
+    "familyId": "miscrit:376"
+  },
+  {
+    "query": "Mongrian",
+    "normalized": "mongrian",
+    "familyId": "miscrit:376"
+  },
+  {
+    "query": "Auger",
+    "normalized": "auger",
+    "familyId": "miscrit:378"
+  },
+  {
+    "query": "Wimble",
+    "normalized": "wimble",
+    "familyId": "miscrit:378"
+  },
+  {
+    "query": "Borawl",
+    "normalized": "borawl",
+    "familyId": "miscrit:378"
+  },
+  {
+    "query": "Rivett",
+    "normalized": "rivett",
+    "familyId": "miscrit:378"
+  },
+  {
+    "query": "Flurfy",
+    "normalized": "flurfy",
+    "familyId": "miscrit:380"
+  },
+  {
+    "query": "Grumbles",
+    "normalized": "grumbles",
+    "familyId": "miscrit:380"
+  },
+  {
+    "query": "Snivels",
+    "normalized": "snivels",
+    "familyId": "miscrit:380"
+  },
+  {
+    "query": "Kvetch",
+    "normalized": "kvetch",
+    "familyId": "miscrit:380"
+  },
+  {
+    "query": "Squirmle",
+    "normalized": "squirmle",
+    "familyId": "miscrit:382"
+  },
+  {
+    "query": "Tentonix",
+    "normalized": "tentonix",
+    "familyId": "miscrit:382"
+  },
+  {
+    "query": "Wriggledon",
+    "normalized": "wriggledon",
+    "familyId": "miscrit:382"
+  },
+  {
+    "query": "Weylani",
+    "normalized": "weylani",
+    "familyId": "miscrit:382"
+  },
+  {
+    "query": "Lil Bubs",
+    "normalized": "lilbubs",
+    "familyId": "miscrit:388"
+  },
+  {
+    "query": "Dropples",
+    "normalized": "dropples",
+    "familyId": "miscrit:388"
+  },
+  {
+    "query": "Jawsy",
+    "normalized": "jawsy",
+    "familyId": "miscrit:388"
+  },
+  {
+    "query": "Chubbles",
+    "normalized": "chubbles",
+    "familyId": "miscrit:388"
+  },
+  {
+    "query": "Peekly",
+    "normalized": "peekly",
+    "familyId": "miscrit:390"
+  },
+  {
+    "query": "Huntrix",
+    "normalized": "huntrix",
+    "familyId": "miscrit:390"
+  },
+  {
+    "query": "Beastle",
+    "normalized": "beastle",
+    "familyId": "miscrit:390"
+  },
+  {
+    "query": "Shamar",
+    "normalized": "shamar",
+    "familyId": "miscrit:390"
+  },
+  {
+    "query": "Splender",
+    "normalized": "splender",
+    "familyId": "miscrit:404"
+  },
+  {
+    "query": "Spryte",
+    "normalized": "spryte",
+    "familyId": "miscrit:404"
+  },
+  {
+    "query": "Loya",
+    "normalized": "loya",
+    "familyId": "miscrit:404"
+  },
+  {
+    "query": "Bolderon",
+    "normalized": "bolderon",
+    "familyId": "miscrit:404"
+  },
+  {
+    "query": "Dorux",
+    "normalized": "dorux",
+    "familyId": "miscrit:405"
+  },
+  {
+    "query": "Stromax",
+    "normalized": "stromax",
+    "familyId": "miscrit:405"
+  },
+  {
+    "query": "Sparkdle",
+    "normalized": "sparkdle",
+    "familyId": "miscrit:405"
+  },
+  {
+    "query": "Doruden",
+    "normalized": "doruden",
+    "familyId": "miscrit:405"
+  },
+  {
+    "query": "Fubby",
+    "normalized": "fubby",
+    "familyId": "miscrit:417"
+  },
+  {
+    "query": "Kop",
+    "normalized": "kop",
+    "familyId": "miscrit:417"
+  },
+  {
+    "query": "Spiker",
+    "normalized": "spiker",
+    "familyId": "miscrit:417"
+  },
+  {
+    "query": "Wachter",
+    "normalized": "wachter",
+    "familyId": "miscrit:417"
+  },
+  {
+    "query": "Pennon",
+    "normalized": "pennon",
+    "familyId": "miscrit:419"
+  },
+  {
+    "query": "Panoply",
+    "normalized": "panoply",
+    "familyId": "miscrit:419"
+  },
+  {
+    "query": "Breezefang",
+    "normalized": "breezefang",
+    "familyId": "miscrit:419"
+  },
+  {
+    "query": "Blowhemoth",
+    "normalized": "blowhemoth",
+    "familyId": "miscrit:419"
+  },
+  {
+    "query": "Ekkult",
+    "normalized": "ekkult",
+    "familyId": "miscrit:420"
+  },
+  {
+    "query": "Seekree",
+    "normalized": "seekree",
+    "familyId": "miscrit:420"
+  },
+  {
+    "query": "Acroamate",
+    "normalized": "acroamate",
+    "familyId": "miscrit:420"
+  },
+  {
+    "query": "Arcanaclaw",
+    "normalized": "arcanaclaw",
+    "familyId": "miscrit:420"
+  },
+  {
+    "query": "Defilio",
+    "normalized": "defilio",
+    "familyId": "miscrit:425"
+  },
+  {
+    "query": "Vit",
+    "normalized": "vit",
+    "familyId": "miscrit:425"
+  },
+  {
+    "query": "Corrasaur",
+    "normalized": "corrasaur",
+    "familyId": "miscrit:425"
+  },
+  {
+    "query": "Spoiler",
+    "normalized": "spoiler",
+    "familyId": "miscrit:425"
+  },
+  {
+    "query": "Blighted Cubsprout",
+    "normalized": "blightedcubsprout",
+    "familyId": "miscrit:430"
+  },
+  {
+    "query": "Blighted Dandylion",
+    "normalized": "blighteddandylion",
+    "familyId": "miscrit:430"
+  },
+  {
+    "query": "Blighted Pawthorne",
+    "normalized": "blightedpawthorne",
+    "familyId": "miscrit:430"
+  },
+  {
+    "query": "Blighted Bloomane",
+    "normalized": "blightedbloomane",
+    "familyId": "miscrit:430"
+  },
+  {
+    "query": "Blighted Flue",
+    "normalized": "blightedflue",
+    "familyId": "miscrit:433"
+  },
+  {
+    "query": "Blighted Chimnay",
+    "normalized": "blightedchimnay",
+    "familyId": "miscrit:433"
+  },
+  {
+    "query": "Blighted Firebrawl",
+    "normalized": "blightedfirebrawl",
+    "familyId": "miscrit:433"
+  },
+  {
+    "query": "Blighted Afterburn",
+    "normalized": "blightedafterburn",
+    "familyId": "miscrit:433"
+  },
+  {
+    "query": "Blobroller",
+    "normalized": "blobroller",
+    "familyId": "miscrit:438"
+  },
+  {
+    "query": "Swyne",
+    "normalized": "swyne",
+    "familyId": "miscrit:438"
+  },
+  {
+    "query": "Prux",
+    "normalized": "prux",
+    "familyId": "miscrit:438"
+  },
+  {
+    "query": "Vampsower",
+    "normalized": "vampsower",
+    "familyId": "miscrit:438"
+  },
+  {
+    "query": "Light Nibbles",
+    "normalized": "lightnibbles",
+    "familyId": "miscrit:451"
+  },
+  {
+    "query": "Light Gnawly",
+    "normalized": "lightgnawly",
+    "familyId": "miscrit:451"
+  },
+  {
+    "query": "Light Chaurum",
+    "normalized": "lightchaurum",
+    "familyId": "miscrit:451"
+  },
+  {
+    "query": "Light Coyver",
+    "normalized": "lightcoyver",
+    "familyId": "miscrit:451"
+  },
+  {
+    "query": "Light Frostmite",
+    "normalized": "lightfrostmite",
+    "familyId": "miscrit:456"
+  },
+  {
+    "query": "Light Windigroo",
+    "normalized": "lightwindigroo",
+    "familyId": "miscrit:456"
+  },
+  {
+    "query": "Light Snowsquatch",
+    "normalized": "lightsnowsquatch",
+    "familyId": "miscrit:456"
+  },
+  {
+    "query": "Light Abomino",
+    "normalized": "lightabomino",
+    "familyId": "miscrit:456"
+  },
+  {
+    "query": "Light Bludger",
+    "normalized": "lightbludger",
+    "familyId": "miscrit:457"
+  },
+  {
+    "query": "Light Thorasher",
+    "normalized": "lightthorasher",
+    "familyId": "miscrit:457"
+  },
+  {
+    "query": "Light Truncherous",
+    "normalized": "lighttruncherous",
+    "familyId": "miscrit:457"
+  },
+  {
+    "query": "Light Convincer",
+    "normalized": "lightconvincer",
+    "familyId": "miscrit:457"
+  },
+  {
+    "query": "Light Zaptor",
+    "normalized": "lightzaptor",
+    "familyId": "miscrit:458"
+  },
+  {
+    "query": "Light Pterashock",
+    "normalized": "lightpterashock",
+    "familyId": "miscrit:458"
+  },
+  {
+    "query": "Light Electryl",
+    "normalized": "lightelectryl",
+    "familyId": "miscrit:458"
+  },
+  {
+    "query": "Light Tesladon",
+    "normalized": "lighttesladon",
+    "familyId": "miscrit:458"
+  },
+  {
+    "query": "Light Quirk",
+    "normalized": "lightquirk",
+    "familyId": "miscrit:459"
+  },
+  {
+    "query": "Light Kinkoon",
+    "normalized": "lightkinkoon",
+    "familyId": "miscrit:459"
+  },
+  {
+    "query": "Light Centaurpede",
+    "normalized": "lightcentaurpede",
+    "familyId": "miscrit:459"
+  },
+  {
+    "query": "Light Subterhuge",
+    "normalized": "lightsubterhuge",
+    "familyId": "miscrit:459"
+  },
+  {
+    "query": "Light Statikat",
+    "normalized": "lightstatikat",
+    "familyId": "miscrit:476"
+  },
+  {
+    "query": "Light Zapeera",
+    "normalized": "lightzapeera",
+    "familyId": "miscrit:476"
+  },
+  {
+    "query": "Light Tigristrike",
+    "normalized": "lighttigristrike",
+    "familyId": "miscrit:476"
+  },
+  {
+    "query": "Light Panthundra",
+    "normalized": "lightpanthundra",
+    "familyId": "miscrit:476"
+  },
+  {
+    "query": "Dark Spinnerette",
+    "normalized": "darkspinnerette",
+    "familyId": "miscrit:480"
+  },
+  {
+    "query": "Dark Aracneon",
+    "normalized": "darkaracneon",
+    "familyId": "miscrit:480"
+  },
+  {
+    "query": "Dark Attacnid",
+    "normalized": "darkattacnid",
+    "familyId": "miscrit:480"
+  },
+  {
+    "query": "Dark Gigantula",
+    "normalized": "darkgigantula",
+    "familyId": "miscrit:480"
+  },
+  {
+    "query": "Light Twiggum",
+    "normalized": "lighttwiggum",
+    "familyId": "miscrit:488"
+  },
+  {
+    "query": "Light Rootle",
+    "normalized": "lightrootle",
+    "familyId": "miscrit:488"
+  },
+  {
+    "query": "Light Stumpede",
+    "normalized": "lightstumpede",
+    "familyId": "miscrit:488"
+  },
+  {
+    "query": "Light Willoak",
+    "normalized": "lightwilloak",
+    "familyId": "miscrit:488"
+  },
+  {
+    "query": "Aquarion",
+    "normalized": "aquarion",
+    "familyId": "miscrit:493"
+  },
+  {
+    "query": "Hydronex",
+    "normalized": "hydronex",
+    "familyId": "miscrit:493"
+  },
+  {
+    "query": "Lochternal",
+    "normalized": "lochternal",
+    "familyId": "miscrit:493"
+  },
+  {
+    "query": "Krakyn",
+    "normalized": "krakyn",
+    "familyId": "miscrit:493"
+  },
+  {
+    "query": "Blighted Fiender",
+    "normalized": "blightedfiender",
+    "familyId": "miscrit:500"
+  },
+  {
+    "query": "Blighted Pinyon",
+    "normalized": "blightedpinyon",
+    "familyId": "miscrit:500"
+  },
+  {
+    "query": "Blighted Aileron",
+    "normalized": "blightedaileron",
+    "familyId": "miscrit:500"
+  },
+  {
+    "query": "Blighted Airyn",
+    "normalized": "blightedairyn",
+    "familyId": "miscrit:500"
+  },
+  {
+    "query": "Blighted Kiloray",
+    "normalized": "blightedkiloray",
+    "familyId": "miscrit:501"
+  },
+  {
+    "query": "Blighted Electroflyte",
+    "normalized": "blightedelectroflyte",
+    "familyId": "miscrit:501"
+  },
+  {
+    "query": "Blighted Luminaire",
+    "normalized": "blightedluminaire",
+    "familyId": "miscrit:501"
+  },
+  {
+    "query": "Blighted Edison Ray",
+    "normalized": "blightededisonray",
+    "familyId": "miscrit:501"
+  },
+  {
+    "query": "Dark Shellbee",
+    "normalized": "darkshellbee",
+    "familyId": "miscrit:502"
+  },
+  {
+    "query": "Dark Enopen",
+    "normalized": "darkenopen",
+    "familyId": "miscrit:502"
+  },
+  {
+    "query": "Dark Amari",
+    "normalized": "darkamari",
+    "familyId": "miscrit:502"
+  },
+  {
+    "query": "Dark Kalamos",
+    "normalized": "darkkalamos",
+    "familyId": "miscrit:502"
+  },
+  {
+    "query": "Liothning",
+    "normalized": "liothning",
+    "familyId": "miscrit:503"
+  },
+  {
+    "query": "Loevanna",
+    "normalized": "loevanna",
+    "familyId": "miscrit:503"
+  },
+  {
+    "query": "Meduzap",
+    "normalized": "meduzap",
+    "familyId": "miscrit:503"
+  },
+  {
+    "query": "Gorgonthunder",
+    "normalized": "gorgonthunder",
+    "familyId": "miscrit:503"
+  },
+  {
+    "query": "Dark Lumera",
+    "normalized": "darklumera",
+    "familyId": "miscrit:504"
+  },
+  {
+    "query": "Dark Torchorus",
+    "normalized": "darktorchorus",
+    "familyId": "miscrit:504"
+  },
+  {
+    "query": "Dark Pyrotep",
+    "normalized": "darkpyrotep",
+    "familyId": "miscrit:504"
+  },
+  {
+    "query": "Dark Anublaze",
+    "normalized": "darkanublaze",
+    "familyId": "miscrit:504"
+  },
+  {
+    "query": "Dark Steamguin",
+    "normalized": "darksteamguin",
+    "familyId": "miscrit:505"
+  },
+  {
+    "query": "Dark Huffenpuff",
+    "normalized": "darkhuffenpuff",
+    "familyId": "miscrit:505"
+  },
+  {
+    "query": "Dark Macarovon",
+    "normalized": "darkmacarovon",
+    "familyId": "miscrit:505"
+  },
+  {
+    "query": "Dark Aukamotive",
+    "normalized": "darkaukamotive",
+    "familyId": "miscrit:505"
+  },
+  {
+    "query": "Dark Poltergust",
+    "normalized": "darkpoltergust",
+    "familyId": "miscrit:506"
+  },
+  {
+    "query": "Dark Spectreus",
+    "normalized": "darkspectreus",
+    "familyId": "miscrit:506"
+  },
+  {
+    "query": "Dark Aethero",
+    "normalized": "darkaethero",
+    "familyId": "miscrit:506"
+  },
+  {
+    "query": "Dark Zephyrgeist",
+    "normalized": "darkzephyrgeist",
+    "familyId": "miscrit:506"
+  },
+  {
+    "query": "Dark Treemur",
+    "normalized": "darktreemur",
+    "familyId": "miscrit:507"
+  },
+  {
+    "query": "Dark Marmoseed",
+    "normalized": "darkmarmoseed",
+    "familyId": "miscrit:507"
+  },
+  {
+    "query": "Dark Trimate",
+    "normalized": "darktrimate",
+    "familyId": "miscrit:507"
+  },
+  {
+    "query": "Dark Monfiki",
+    "normalized": "darkmonfiki",
+    "familyId": "miscrit:507"
+  },
+  {
+    "query": "Foil Vexie",
+    "normalized": "foilvexie",
+    "familyId": "miscrit:508"
+  },
+  {
+    "query": "Foil Quartzle",
+    "normalized": "foilquartzle",
+    "familyId": "miscrit:508"
+  },
+  {
+    "query": "Foil Tendrex",
+    "normalized": "foiltendrex",
+    "familyId": "miscrit:508"
+  },
+  {
+    "query": "Foil Alionyx",
+    "normalized": "foilalionyx",
+    "familyId": "miscrit:508"
+  },
+  {
+    "query": "Foil Vhisp",
+    "normalized": "foilvhisp",
+    "familyId": "miscrit:509"
+  },
+  {
+    "query": "Foil Transilvus",
+    "normalized": "foiltransilvus",
+    "familyId": "miscrit:509"
+  },
+  {
+    "query": "Foil Cyclix",
+    "normalized": "foilcyclix",
+    "familyId": "miscrit:509"
+  },
+  {
+    "query": "Foil Fangale",
+    "normalized": "foilfangale",
+    "familyId": "miscrit:509"
+  },
+  {
+    "query": "Dark Sparkupine",
+    "normalized": "darksparkupine",
+    "familyId": "miscrit:510"
+  },
+  {
+    "query": "Dark Flintback",
+    "normalized": "darkflintback",
+    "familyId": "miscrit:510"
+  },
+  {
+    "query": "Dark Fireprick",
+    "normalized": "darkfireprick",
+    "familyId": "miscrit:510"
+  },
+  {
+    "query": "Dark Wiquill",
+    "normalized": "darkwiquill",
+    "familyId": "miscrit:510"
+  },
+  {
+    "query": "Dark Squibee",
+    "normalized": "darksquibee",
+    "familyId": "miscrit:511"
+  },
+  {
+    "query": "Dark Bilgebrat",
+    "normalized": "darkbilgebrat",
+    "familyId": "miscrit:511"
+  },
+  {
+    "query": "Dark Pirapus",
+    "normalized": "darkpirapus",
+    "familyId": "miscrit:511"
+  },
+  {
+    "query": "Dark Krakenhook",
+    "normalized": "darkkrakenhook",
+    "familyId": "miscrit:511"
+  },
+  {
+    "query": "Dark Waddles",
+    "normalized": "darkwaddles",
+    "familyId": "miscrit:512"
+  },
+  {
+    "query": "Dark Shucky",
+    "normalized": "darkshucky",
+    "familyId": "miscrit:512"
+  },
+  {
+    "query": "Dark Fintaur",
+    "normalized": "darkfintaur",
+    "familyId": "miscrit:512"
+  },
+  {
+    "query": "Dark Mallardon",
+    "normalized": "darkmallardon",
+    "familyId": "miscrit:512"
+  },
+  {
+    "query": "Dark Twiggum",
+    "normalized": "darktwiggum",
+    "familyId": "miscrit:513"
+  },
+  {
+    "query": "Dark Rootle",
+    "normalized": "darkrootle",
+    "familyId": "miscrit:513"
+  },
+  {
+    "query": "Dark Stumpede",
+    "normalized": "darkstumpede",
+    "familyId": "miscrit:513"
+  },
+  {
+    "query": "Dark Willoak",
+    "normalized": "darkwilloak",
+    "familyId": "miscrit:513"
+  },
+  {
+    "query": "Dark Auger",
+    "normalized": "darkauger",
+    "familyId": "miscrit:514"
+  },
+  {
+    "query": "Dark Wimble",
+    "normalized": "darkwimble",
+    "familyId": "miscrit:514"
+  },
+  {
+    "query": "Dark Borawl",
+    "normalized": "darkborawl",
+    "familyId": "miscrit:514"
+  },
+  {
+    "query": "Dark Rivett",
+    "normalized": "darkrivett",
+    "familyId": "miscrit:514"
+  },
+  {
+    "query": "Dark Aria",
+    "normalized": "darkaria",
+    "familyId": "miscrit:515"
+  },
+  {
+    "query": "Dark Gustelle",
+    "normalized": "darkgustelle",
+    "familyId": "miscrit:515"
+  },
+  {
+    "query": "Dark Zephelope",
+    "normalized": "darkzephelope",
+    "familyId": "miscrit:515"
+  },
+  {
+    "query": "Dark Wyndasia",
+    "normalized": "darkwyndasia",
+    "familyId": "miscrit:515"
+  },
+  {
+    "query": "Light Rafiery",
+    "normalized": "lightrafiery",
+    "familyId": "miscrit:516"
+  },
+  {
+    "query": "Light Marchix",
+    "normalized": "lightmarchix",
+    "familyId": "miscrit:516"
+  },
+  {
+    "query": "Light Leero",
+    "normalized": "lightleero",
+    "familyId": "miscrit:516"
+  },
+  {
+    "query": "Light Stomprage",
+    "normalized": "lightstomprage",
+    "familyId": "miscrit:516"
+  },
+  {
+    "query": "Light Fossillia",
+    "normalized": "lightfossillia",
+    "familyId": "miscrit:517"
+  },
+  {
+    "query": "Light Craterra",
+    "normalized": "lightcraterra",
+    "familyId": "miscrit:517"
+  },
+  {
+    "query": "Light Troglobrute",
+    "normalized": "lighttroglobrute",
+    "familyId": "miscrit:517"
+  },
+  {
+    "query": "Light Primordius",
+    "normalized": "lightprimordius",
+    "familyId": "miscrit:517"
+  },
+  {
+    "query": "Light Nanaslug",
+    "normalized": "lightnanaslug",
+    "familyId": "miscrit:518"
+  },
+  {
+    "query": "Light Spikroo",
+    "normalized": "lightspikroo",
+    "familyId": "miscrit:518"
+  },
+  {
+    "query": "Light Slimist",
+    "normalized": "lightslimist",
+    "familyId": "miscrit:518"
+  },
+  {
+    "query": "Light Tornadouse",
+    "normalized": "lighttornadouse",
+    "familyId": "miscrit:518"
+  },
+  {
+    "query": "Light Crickin",
+    "normalized": "lightcrickin",
+    "familyId": "miscrit:519"
+  },
+  {
+    "query": "Light Mantiscorch",
+    "normalized": "lightmantiscorch",
+    "familyId": "miscrit:519"
+  },
+  {
+    "query": "Light Flametenna",
+    "normalized": "lightflametenna",
+    "familyId": "miscrit:519"
+  },
+  {
+    "query": "Light Praze",
+    "normalized": "lightpraze",
+    "familyId": "miscrit:519"
+  },
+  {
+    "query": "Light Flue",
+    "normalized": "lightflue",
+    "familyId": "miscrit:520"
+  },
+  {
+    "query": "Light Chimnay",
+    "normalized": "lightchimnay",
+    "familyId": "miscrit:520"
+  },
+  {
+    "query": "Light Firebrawl",
+    "normalized": "lightfirebrawl",
+    "familyId": "miscrit:520"
+  },
+  {
+    "query": "Light Afterburn",
+    "normalized": "lightafterburn",
+    "familyId": "miscrit:520"
+  },
+  {
+    "query": "Light Grubbean",
+    "normalized": "lightgrubbean",
+    "familyId": "miscrit:521"
+  },
+  {
+    "query": "Light Coleaf",
+    "normalized": "lightcoleaf",
+    "familyId": "miscrit:521"
+  },
+  {
+    "query": "Light Crickaroot",
+    "normalized": "lightcrickaroot",
+    "familyId": "miscrit:521"
+  },
+  {
+    "query": "Light Thornaxis",
+    "normalized": "lightthornaxis",
+    "familyId": "miscrit:521"
+  },
+  {
+    "query": "Ribos",
+    "normalized": "ribos",
+    "familyId": "miscrit:522"
+  },
+  {
+    "query": "Chondri",
+    "normalized": "chondri",
+    "familyId": "miscrit:522"
+  },
+  {
+    "query": "Reedleroot",
+    "normalized": "reedleroot",
+    "familyId": "miscrit:522"
+  },
+  {
+    "query": "Plasmaree",
+    "normalized": "plasmaree",
+    "familyId": "miscrit:522"
+  },
+  {
+    "query": "Light Sparkspeck",
+    "normalized": "lightsparkspeck",
+    "familyId": "miscrit:523"
+  },
+  {
+    "query": "Light Faebolt",
+    "normalized": "lightfaebolt",
+    "familyId": "miscrit:523"
+  },
+  {
+    "query": "Light Pixiepulse",
+    "normalized": "lightpixiepulse",
+    "familyId": "miscrit:523"
+  },
+  {
+    "query": "Light Glitterglint",
+    "normalized": "lightglitterglint",
+    "familyId": "miscrit:523"
+  },
+  {
+    "query": "Light Wavesling",
+    "normalized": "lightwavesling",
+    "familyId": "miscrit:524"
+  },
+  {
+    "query": "Light Hankoi",
+    "normalized": "lighthankoi",
+    "familyId": "miscrit:524"
+  },
+  {
+    "query": "Light Hydravern",
+    "normalized": "lighthydravern",
+    "familyId": "miscrit:524"
+  },
+  {
+    "query": "Light Nessilisk",
+    "normalized": "lightnessilisk",
+    "familyId": "miscrit:524"
+  },
+  {
+    "query": "Light Jack",
+    "normalized": "lightjack",
+    "familyId": "miscrit:525"
+  },
+  {
+    "query": "Light Cottontail",
+    "normalized": "lightcottontail",
+    "familyId": "miscrit:525"
+  },
+  {
+    "query": "Light Hop-Chi",
+    "normalized": "lighthopchi",
+    "familyId": "miscrit:525"
+  },
+  {
+    "query": "Light Tuzee",
+    "normalized": "lighttuzee",
+    "familyId": "miscrit:525"
+  },
+  {
+    "query": "Light Flurfy",
+    "normalized": "lightflurfy",
+    "familyId": "miscrit:526"
+  },
+  {
+    "query": "Light Grumbles",
+    "normalized": "lightgrumbles",
+    "familyId": "miscrit:526"
+  },
+  {
+    "query": "Light Snivels",
+    "normalized": "lightsnivels",
+    "familyId": "miscrit:526"
+  },
+  {
+    "query": "Light Kvetch",
+    "normalized": "lightkvetch",
+    "familyId": "miscrit:526"
+  },
+  {
+    "query": "Light Slithero",
+    "normalized": "lightslithero",
+    "familyId": "miscrit:527"
+  },
+  {
+    "query": "Light Sizzlelash",
+    "normalized": "lightsizzlelash",
+    "familyId": "miscrit:527"
+  },
+  {
+    "query": "Light Serpenox",
+    "normalized": "lightserpenox",
+    "familyId": "miscrit:527"
+  },
+  {
+    "query": "Light Incineron",
+    "normalized": "lightincineron",
+    "familyId": "miscrit:527"
+  },
+  {
+    "query": "Light Squibee",
+    "normalized": "lightsquibee",
+    "familyId": "miscrit:528"
+  },
+  {
+    "query": "Light Bilgebrat",
+    "normalized": "lightbilgebrat",
+    "familyId": "miscrit:528"
+  },
+  {
+    "query": "Light Pirapus",
+    "normalized": "lightpirapus",
+    "familyId": "miscrit:528"
+  },
+  {
+    "query": "Light Krakenhook",
+    "normalized": "lightkrakenhook",
+    "familyId": "miscrit:528"
+  },
+  {
+    "query": "Light Digsy",
+    "normalized": "lightdigsy",
+    "familyId": "miscrit:529"
+  },
+  {
+    "query": "Light Mirekin",
+    "normalized": "lightmirekin",
+    "familyId": "miscrit:529"
+  },
+  {
+    "query": "Light Duskot",
+    "normalized": "lightduskot",
+    "familyId": "miscrit:529"
+  },
+  {
+    "query": "Light Excavior",
+    "normalized": "lightexcavior",
+    "familyId": "miscrit:529"
+  },
+  {
+    "query": "Light Ignios",
+    "normalized": "lightignios",
+    "familyId": "miscrit:530"
+  },
+  {
+    "query": "Light Calamitas",
+    "normalized": "lightcalamitas",
+    "familyId": "miscrit:530"
+  },
+  {
+    "query": "Light Praesul",
+    "normalized": "lightpraesul",
+    "familyId": "miscrit:530"
+  },
+  {
+    "query": "Light Preliator",
+    "normalized": "lightpreliator",
+    "familyId": "miscrit:530"
+  },
+  {
+    "query": "Light Mumbah",
+    "normalized": "lightmumbah",
+    "familyId": "miscrit:531"
+  },
+  {
+    "query": "Light Simbel",
+    "normalized": "lightsimbel",
+    "familyId": "miscrit:531"
+  },
+  {
+    "query": "Light Pharaohette",
+    "normalized": "lightpharaohette",
+    "familyId": "miscrit:531"
+  },
+  {
+    "query": "Light Sphynxus",
+    "normalized": "lightsphynxus",
+    "familyId": "miscrit:531"
+  },
+  {
+    "query": "Dark Tongutail",
+    "normalized": "darktongutail",
+    "familyId": "miscrit:532"
+  },
+  {
+    "query": "Dark Centrifoot",
+    "normalized": "darkcentrifoot",
+    "familyId": "miscrit:532"
+  },
+  {
+    "query": "Dark Abomineral",
+    "normalized": "darkabomineral",
+    "familyId": "miscrit:532"
+  },
+  {
+    "query": "Dark Bifurcrystal",
+    "normalized": "darkbifurcrystal",
+    "familyId": "miscrit:532"
+  },
+  {
+    "query": "Dark Lavarilla",
+    "normalized": "darklavarilla",
+    "familyId": "miscrit:533"
+  },
+  {
+    "query": "Dark Sulfuro",
+    "normalized": "darksulfuro",
+    "familyId": "miscrit:533"
+  },
+  {
+    "query": "Dark Scorias",
+    "normalized": "darkscorias",
+    "familyId": "miscrit:533"
+  },
+  {
+    "query": "Dark Obsidiape",
+    "normalized": "darkobsidiape",
+    "familyId": "miscrit:533"
+  },
+  {
+    "query": "Dark Frostmite",
+    "normalized": "darkfrostmite",
+    "familyId": "miscrit:534"
+  },
+  {
+    "query": "Dark Windigroo",
+    "normalized": "darkwindigroo",
+    "familyId": "miscrit:534"
+  },
+  {
+    "query": "Dark Snowsquatch",
+    "normalized": "darksnowsquatch",
+    "familyId": "miscrit:534"
+  },
+  {
+    "query": "Dark Abomino",
+    "normalized": "darkabomino",
+    "familyId": "miscrit:534"
+  },
+  {
+    "query": "Dark Tulipinny",
+    "normalized": "darktulipinny",
+    "familyId": "miscrit:535"
+  },
+  {
+    "query": "Dark Leavius",
+    "normalized": "darkleavius",
+    "familyId": "miscrit:535"
+  },
+  {
+    "query": "Dark Rubarb",
+    "normalized": "darkrubarb",
+    "familyId": "miscrit:535"
+  },
+  {
+    "query": "Dark Ongabonga",
+    "normalized": "darkongabonga",
+    "familyId": "miscrit:535"
+  },
+  {
+    "query": "Dark Flutterpat",
+    "normalized": "darkflutterpat",
+    "familyId": "miscrit:536"
+  },
+  {
+    "query": "Dark Avior",
+    "normalized": "darkavior",
+    "familyId": "miscrit:536"
+  },
+  {
+    "query": "Dark Pegasoar",
+    "normalized": "darkpegasoar",
+    "familyId": "miscrit:536"
+  },
+  {
+    "query": "Dark Gazaereal",
+    "normalized": "darkgazaereal",
+    "familyId": "miscrit:536"
+  },
+  {
+    "query": "Dark Slithero",
+    "normalized": "darkslithero",
+    "familyId": "miscrit:537"
+  },
+  {
+    "query": "Dark Sizzlelash",
+    "normalized": "darksizzlelash",
+    "familyId": "miscrit:537"
+  },
+  {
+    "query": "Dark Serpenox",
+    "normalized": "darkserpenox",
+    "familyId": "miscrit:537"
+  },
+  {
+    "query": "Dark Incineron",
+    "normalized": "darkincineron",
+    "familyId": "miscrit:537"
+  },
+  {
+    "query": "Keeper",
+    "normalized": "keeper",
+    "familyId": "miscrit:538"
+  },
+  {
+    "query": "Dribble",
+    "normalized": "dribble",
+    "familyId": "miscrit:538"
+  },
+  {
+    "query": "Defender",
+    "normalized": "defender",
+    "familyId": "miscrit:538"
+  },
+  {
+    "query": "Fortifield",
+    "normalized": "fortifield",
+    "familyId": "miscrit:538"
+  },
+  {
+    "query": "Dark Luna",
+    "normalized": "darkluna",
+    "familyId": "miscrit:539"
+  },
+  {
+    "query": "Dark Lestrike",
+    "normalized": "darklestrike",
+    "familyId": "miscrit:539"
+  },
+  {
+    "query": "Dark Sparkula",
+    "normalized": "darksparkula",
+    "familyId": "miscrit:539"
+  },
+  {
+    "query": "Dark Antennious",
+    "normalized": "darkantennious",
+    "familyId": "miscrit:539"
+  },
+  {
+    "query": "Foil Luna",
+    "normalized": "foilluna",
+    "familyId": "miscrit:540"
+  },
+  {
+    "query": "Foil Lestrike",
+    "normalized": "foillestrike",
+    "familyId": "miscrit:540"
+  },
+  {
+    "query": "Foil Sparkula",
+    "normalized": "foilsparkula",
+    "familyId": "miscrit:540"
+  },
+  {
+    "query": "Foil Antennious",
+    "normalized": "foilantennious",
+    "familyId": "miscrit:540"
+  },
+  {
+    "query": "Sol",
+    "normalized": "sol",
+    "familyId": "miscrit:541"
+  },
+  {
+    "query": "Leflamme",
+    "normalized": "leflamme",
+    "familyId": "miscrit:541"
+  },
+  {
+    "query": "Cindergelo",
+    "normalized": "cindergelo",
+    "familyId": "miscrit:541"
+  },
+  {
+    "query": "Cithreus",
+    "normalized": "cithreus",
+    "familyId": "miscrit:541"
+  },
+  {
+    "query": "Dreamger",
+    "normalized": "dreamger",
+    "familyId": "miscrit:542"
+  },
+  {
+    "query": "Noctigre",
+    "normalized": "noctigre",
+    "familyId": "miscrit:542"
+  },
+  {
+    "query": "Byakkoma",
+    "normalized": "byakkoma",
+    "familyId": "miscrit:542"
+  },
+  {
+    "query": "Traumauler",
+    "normalized": "traumauler",
+    "familyId": "miscrit:542"
+  },
+  {
+    "query": "Light Weevern",
+    "normalized": "lightweevern",
+    "familyId": "miscrit:543"
+  },
+  {
+    "query": "Light Beeblebud",
+    "normalized": "lightbeeblebud",
+    "familyId": "miscrit:543"
+  },
+  {
+    "query": "Light Balaurise",
+    "normalized": "lightbalaurise",
+    "familyId": "miscrit:543"
+  },
+  {
+    "query": "Light Serpasoar",
+    "normalized": "lightserpasoar",
+    "familyId": "miscrit:543"
+  },
+  {
+    "query": "Dark Quirk",
+    "normalized": "darkquirk",
+    "familyId": "miscrit:544"
+  },
+  {
+    "query": "Dark Kinkoon",
+    "normalized": "darkkinkoon",
+    "familyId": "miscrit:544"
+  },
+  {
+    "query": "Dark Centaurpede",
+    "normalized": "darkcentaurpede",
+    "familyId": "miscrit:544"
+  },
+  {
+    "query": "Dark Subterhuge",
+    "normalized": "darksubterhuge",
+    "familyId": "miscrit:544"
+  },
+  {
+    "query": "Dark Squirmle",
+    "normalized": "darksquirmle",
+    "familyId": "miscrit:545"
+  },
+  {
+    "query": "Dark Tentonix",
+    "normalized": "darktentonix",
+    "familyId": "miscrit:545"
+  },
+  {
+    "query": "Dark Wriggledon",
+    "normalized": "darkwriggledon",
+    "familyId": "miscrit:545"
+  },
+  {
+    "query": "Dark Weylani",
+    "normalized": "darkweylani",
+    "familyId": "miscrit:545"
+  },
+  {
+    "query": "Blighted Flowerpiller",
+    "normalized": "blightedflowerpiller",
+    "familyId": "miscrit:546"
+  },
+  {
+    "query": "Blighted Chrysaleaf",
+    "normalized": "blightedchrysaleaf",
+    "familyId": "miscrit:546"
+  },
+  {
+    "query": "Blighted Bloombug",
+    "normalized": "blightedbloombug",
+    "familyId": "miscrit:546"
+  },
+  {
+    "query": "Blighted Fairyblossom",
+    "normalized": "blightedfairyblossom",
+    "familyId": "miscrit:546"
+  },
+  {
+    "query": "Dark Jellyshock",
+    "normalized": "darkjellyshock",
+    "familyId": "miscrit:547"
+  },
+  {
+    "query": "Dark Jellybolt",
+    "normalized": "darkjellybolt",
+    "familyId": "miscrit:547"
+  },
+  {
+    "query": "Dark Tesla Fish",
+    "normalized": "darkteslafish",
+    "familyId": "miscrit:547"
+  },
+  {
+    "query": "Dark Medustung",
+    "normalized": "darkmedustung",
+    "familyId": "miscrit:547"
+  },
+  {
+    "query": "Light Hawkai",
+    "normalized": "lighthawkai",
+    "familyId": "miscrit:548"
+  },
+  {
+    "query": "Light Falcry",
+    "normalized": "lightfalcry",
+    "familyId": "miscrit:548"
+  },
+  {
+    "query": "Light Rawkcha",
+    "normalized": "lightrawkcha",
+    "familyId": "miscrit:548"
+  },
+  {
+    "query": "Light Hawkogan",
+    "normalized": "lighthawkogan",
+    "familyId": "miscrit:548"
+  },
+  {
+    "query": "Dark Vexie",
+    "normalized": "darkvexie",
+    "familyId": "miscrit:549"
+  },
+  {
+    "query": "Dark Quartzle",
+    "normalized": "darkquartzle",
+    "familyId": "miscrit:549"
+  },
+  {
+    "query": "Dark Tendrex",
+    "normalized": "darktendrex",
+    "familyId": "miscrit:549"
+  },
+  {
+    "query": "Dark Alionyx",
+    "normalized": "darkalionyx",
+    "familyId": "miscrit:549"
+  },
+  {
+    "query": "Da Windy",
+    "normalized": "dawindy",
+    "familyId": "miscrit:550"
+  },
+  {
+    "query": "Van Gust",
+    "normalized": "vangust",
+    "familyId": "miscrit:550"
+  },
+  {
+    "query": "Picassoar",
+    "normalized": "picassoar",
+    "familyId": "miscrit:550"
+  },
+  {
+    "query": "Michelangelus",
+    "normalized": "michelangelus",
+    "familyId": "miscrit:550"
+  },
+  {
+    "query": "Light Snorkels",
+    "normalized": "lightsnorkels",
+    "familyId": "miscrit:551"
+  },
+  {
+    "query": "Light Aqualash",
+    "normalized": "lightaqualash",
+    "familyId": "miscrit:551"
+  },
+  {
+    "query": "Light Waterwip",
+    "normalized": "lightwaterwip",
+    "familyId": "miscrit:551"
+  },
+  {
+    "query": "Light Leviafin",
+    "normalized": "lightleviafin",
+    "familyId": "miscrit:551"
+  },
+  {
+    "query": "Foil Croaky",
+    "normalized": "foilcroaky",
+    "familyId": "miscrit:552"
+  },
+  {
+    "query": "Foil Emeribbitt",
+    "normalized": "foilemeribbitt",
+    "familyId": "miscrit:552"
+  },
+  {
+    "query": "Foil Gemphibian",
+    "normalized": "foilgemphibian",
+    "familyId": "miscrit:552"
+  },
+  {
+    "query": "Foil Geotoad",
+    "normalized": "foilgeotoad",
+    "familyId": "miscrit:552"
+  },
+  {
+    "query": "Freezet",
+    "normalized": "freezet",
+    "familyId": "miscrit:553"
+  },
+  {
+    "query": "Glacipard",
+    "normalized": "glacipard",
+    "familyId": "miscrit:553"
+  },
+  {
+    "query": "Sabearer",
+    "normalized": "sabearer",
+    "familyId": "miscrit:553"
+  },
+  {
+    "query": "Blizzword",
+    "normalized": "blizzword",
+    "familyId": "miscrit:553"
+  },
+  {
+    "query": "Dark Pillblaze",
+    "normalized": "darkpillblaze",
+    "familyId": "miscrit:554"
+  },
+  {
+    "query": "Dark Roly Glowy",
+    "normalized": "darkrolyglowy",
+    "familyId": "miscrit:554"
+  },
+  {
+    "query": "Dark Pyrus",
+    "normalized": "darkpyrus",
+    "familyId": "miscrit:554"
+  },
+  {
+    "query": "Dark Charrill",
+    "normalized": "darkcharrill",
+    "familyId": "miscrit:554"
+  },
+  {
+    "query": "Rudy",
+    "normalized": "rudy",
+    "familyId": "miscrit:555"
+  },
+  {
+    "query": "Rantlers",
+    "normalized": "rantlers",
+    "familyId": "miscrit:555"
+  },
+  {
+    "query": "Reign",
+    "normalized": "reign",
+    "familyId": "miscrit:555"
+  },
+  {
+    "query": "Coalrus",
+    "normalized": "coalrus",
+    "familyId": "miscrit:555"
+  },
+  {
+    "query": "Manio",
+    "normalized": "manio",
+    "familyId": "miscrit:556"
+  },
+  {
+    "query": "Minursa",
+    "normalized": "minursa",
+    "familyId": "miscrit:556"
+  },
+  {
+    "query": "Majursa",
+    "normalized": "majursa",
+    "familyId": "miscrit:556"
+  },
+  {
+    "query": "Starshow",
+    "normalized": "starshow",
+    "familyId": "miscrit:556"
+  },
+  {
+    "query": "Mistraxol",
+    "normalized": "mistraxol",
+    "familyId": "miscrit:557"
+  },
+  {
+    "query": "Fogamfi",
+    "normalized": "fogamfi",
+    "familyId": "miscrit:557"
+  },
+  {
+    "query": "Stomahaze",
+    "normalized": "stomahaze",
+    "familyId": "miscrit:557"
+  },
+  {
+    "query": "Olmisteus",
+    "normalized": "olmisteus",
+    "familyId": "miscrit:557"
+  },
+  {
+    "query": "Orbling",
+    "normalized": "orbling",
+    "familyId": "miscrit:558"
+  },
+  {
+    "query": "Tunnelback",
+    "normalized": "tunnelback",
+    "familyId": "miscrit:558"
+  },
+  {
+    "query": "Stalachnid",
+    "normalized": "stalachnid",
+    "familyId": "miscrit:558"
+  },
+  {
+    "query": "Caverachna",
+    "normalized": "caverachna",
+    "familyId": "miscrit:558"
+  },
+  {
+    "query": "Zappup",
+    "normalized": "zappup",
+    "familyId": "miscrit:559"
+  },
+  {
+    "query": "Lycanic",
+    "normalized": "lycanic",
+    "familyId": "miscrit:559"
+  },
+  {
+    "query": "Electheryon",
+    "normalized": "electheryon",
+    "familyId": "miscrit:559"
+  },
+  {
+    "query": "Thunderuff",
+    "normalized": "thunderuff",
+    "familyId": "miscrit:559"
+  },
+  {
+    "query": "Pestling",
+    "normalized": "pestling",
+    "familyId": "miscrit:560"
+  },
+  {
+    "query": "Bannerat",
+    "normalized": "bannerat",
+    "familyId": "miscrit:560"
+  },
+  {
+    "query": "Vermince",
+    "normalized": "vermince",
+    "familyId": "miscrit:560"
+  },
+  {
+    "query": "Wicking",
+    "normalized": "wicking",
+    "familyId": "miscrit:560"
+  },
+  {
+    "query": "Woolly",
+    "normalized": "woolly",
+    "familyId": "miscrit:561"
+  },
+  {
+    "query": "Mammosaur",
+    "normalized": "mammosaur",
+    "familyId": "miscrit:561"
+  },
+  {
+    "query": "Tuskcicle",
+    "normalized": "tuskcicle",
+    "familyId": "miscrit:561"
+  },
+  {
+    "query": "Styrammuth",
+    "normalized": "styrammuth",
+    "familyId": "miscrit:561"
+  },
+  {
+    "query": "Frozy",
+    "normalized": "frozy",
+    "familyId": "miscrit:562"
+  },
+  {
+    "query": "Snorog",
+    "normalized": "snorog",
+    "familyId": "miscrit:562"
+  },
+  {
+    "query": "Turtower",
+    "normalized": "turtower",
+    "familyId": "miscrit:562"
+  },
+  {
+    "query": "Citashell",
+    "normalized": "citashell",
+    "familyId": "miscrit:562"
+  },
+  {
+    "query": "Stalkra",
+    "normalized": "stalkra",
+    "familyId": "miscrit:563"
+  },
+  {
+    "query": "Vineja",
+    "normalized": "vineja",
+    "familyId": "miscrit:563"
+  },
+  {
+    "query": "Palmda",
+    "normalized": "palmda",
+    "familyId": "miscrit:563"
+  },
+  {
+    "query": "Leffa",
+    "normalized": "leffa",
+    "familyId": "miscrit:563"
+  },
+  {
+    "query": "Mech",
+    "normalized": "mech",
+    "familyId": "miscrit:564"
+  },
+  {
+    "query": "Shellzor",
+    "normalized": "shellzor",
+    "familyId": "miscrit:564"
+  },
+  {
+    "query": "Smashins",
+    "normalized": "smashins",
+    "familyId": "miscrit:564"
+  },
+  {
+    "query": "Destructo",
+    "normalized": "destructo",
+    "familyId": "miscrit:564"
+  },
+  {
+    "query": "Rexie",
+    "normalized": "rexie",
+    "familyId": "miscrit:565"
+  },
+  {
+    "query": "Snarlins",
+    "normalized": "snarlins",
+    "familyId": "miscrit:565"
+  },
+  {
+    "query": "Rannos",
+    "normalized": "rannos",
+    "familyId": "miscrit:565"
+  },
+  {
+    "query": "Tyrant",
+    "normalized": "tyrant",
+    "familyId": "miscrit:565"
+  },
+  {
+    "query": "Warrian",
+    "normalized": "warrian",
+    "familyId": "miscrit:566"
+  },
+  {
+    "query": "Derp",
+    "normalized": "derp",
+    "familyId": "miscrit:566"
+  },
+  {
+    "query": "Incubor",
+    "normalized": "incubor",
+    "familyId": "miscrit:566"
+  },
+  {
+    "query": "Moltrusian",
+    "normalized": "moltrusian",
+    "familyId": "miscrit:566"
+  },
+  {
+    "query": "Aebex",
+    "normalized": "aebex",
+    "familyId": "miscrit:567"
+  },
+  {
+    "query": "Capreeze",
+    "normalized": "capreeze",
+    "familyId": "miscrit:567"
+  },
+  {
+    "query": "Sirene",
+    "normalized": "sirene",
+    "familyId": "miscrit:567"
+  },
+  {
+    "query": "Inhalate",
+    "normalized": "inhalate",
+    "familyId": "miscrit:567"
+  },
+  {
+    "query": "Charix",
+    "normalized": "charix",
+    "familyId": "miscrit:568"
+  },
+  {
+    "query": "Regro",
+    "normalized": "regro",
+    "familyId": "miscrit:568"
+  },
+  {
+    "query": "Bloomstalker",
+    "normalized": "bloomstalker",
+    "familyId": "miscrit:568"
+  },
+  {
+    "query": "Carnagion",
+    "normalized": "carnagion",
+    "familyId": "miscrit:568"
+  },
+  {
+    "query": "Alpha",
+    "normalized": "alpha",
+    "familyId": "miscrit:569"
+  },
+  {
+    "query": "Rufficus",
+    "normalized": "rufficus",
+    "familyId": "miscrit:569"
+  },
+  {
+    "query": "Direwisp",
+    "normalized": "direwisp",
+    "familyId": "miscrit:569"
+  },
+  {
+    "query": "Sire",
+    "normalized": "sire",
+    "familyId": "miscrit:569"
+  },
+  {
+    "query": "Charpy",
+    "normalized": "charpy",
+    "familyId": "miscrit:570"
+  },
+  {
+    "query": "Skelemon",
+    "normalized": "skelemon",
+    "familyId": "miscrit:570"
+  },
+  {
+    "query": "Burnboon",
+    "normalized": "burnboon",
+    "familyId": "miscrit:570"
+  },
+  {
+    "query": "Chimpferno",
+    "normalized": "chimpferno",
+    "familyId": "miscrit:570"
+  },
+  {
+    "query": "Lambolt",
+    "normalized": "lambolt",
+    "familyId": "miscrit:571"
+  },
+  {
+    "query": "Thundram",
+    "normalized": "thundram",
+    "familyId": "miscrit:571"
+  },
+  {
+    "query": "Werevolta",
+    "normalized": "werevolta",
+    "familyId": "miscrit:571"
+  },
+  {
+    "query": "Lycanimbus",
+    "normalized": "lycanimbus",
+    "familyId": "miscrit:571"
+  },
+  {
+    "query": "Gravitron",
+    "normalized": "gravitron",
+    "familyId": "miscrit:572"
+  },
+  {
+    "query": "Portus",
+    "normalized": "portus",
+    "familyId": "miscrit:572"
+  },
+  {
+    "query": "Impasse",
+    "normalized": "impasse",
+    "familyId": "miscrit:572"
+  },
+  {
+    "query": "Gate Keeper",
+    "normalized": "gatekeeper",
+    "familyId": "miscrit:572"
+  },
+  {
+    "query": "Babakku",
+    "normalized": "babakku",
+    "familyId": "miscrit:573"
+  },
+  {
+    "query": "Bakounaga",
+    "normalized": "bakounaga",
+    "familyId": "miscrit:573"
+  },
+  {
+    "query": "Selechomp",
+    "normalized": "selechomp",
+    "familyId": "miscrit:573"
+  },
+  {
+    "query": "Lundevour",
+    "normalized": "lundevour",
+    "familyId": "miscrit:573"
+  },
+  {
+    "query": "Smolderfry",
+    "normalized": "smolderfry",
+    "familyId": "miscrit:574"
+  },
+  {
+    "query": "Blasterbuzz",
+    "normalized": "blasterbuzz",
+    "familyId": "miscrit:574"
+  },
+  {
+    "query": "Pyroclash",
+    "normalized": "pyroclash",
+    "familyId": "miscrit:574"
+  },
+  {
+    "query": "Clawsteroid",
+    "normalized": "clawsteroid",
+    "familyId": "miscrit:574"
+  },
+  {
+    "query": "Moondrip",
+    "normalized": "moondrip",
+    "familyId": "miscrit:575"
+  },
+  {
+    "query": "Viralune",
+    "normalized": "viralune",
+    "familyId": "miscrit:575"
+  },
+  {
+    "query": "Gloomare",
+    "normalized": "gloomare",
+    "familyId": "miscrit:575"
+  },
+  {
+    "query": "Noxilunar",
+    "normalized": "noxilunar",
+    "familyId": "miscrit:575"
+  },
+  {
+    "query": "Shroolet",
+    "normalized": "shroolet",
+    "familyId": "miscrit:576"
+  },
+  {
+    "query": "Myble",
+    "normalized": "myble",
+    "familyId": "miscrit:576"
+  },
+  {
+    "query": "Fuslash",
+    "normalized": "fuslash",
+    "familyId": "miscrit:576"
+  },
+  {
+    "query": "Funglor",
+    "normalized": "funglor",
+    "familyId": "miscrit:576"
+  },
+  {
+    "query": "Lumite",
+    "normalized": "lumite",
+    "familyId": "miscrit:577"
+  },
+  {
+    "query": "Gemant",
+    "normalized": "gemant",
+    "familyId": "miscrit:577"
+  },
+  {
+    "query": "Crysect",
+    "normalized": "crysect",
+    "familyId": "miscrit:577"
+  },
+  {
+    "query": "Gemarax",
+    "normalized": "gemarax",
+    "familyId": "miscrit:577"
+  },
+  {
+    "query": "Voidotron",
+    "normalized": "voidotron",
+    "familyId": "miscrit:578"
+  },
+  {
+    "query": "Abyssus",
+    "normalized": "abyssus",
+    "familyId": "miscrit:578"
+  },
+  {
+    "query": "Deadlokk",
+    "normalized": "deadlokk",
+    "familyId": "miscrit:578"
+  },
+  {
+    "query": "Void Warden",
+    "normalized": "voidwarden",
+    "familyId": "miscrit:578"
+  },
+  {
+    "query": "Niboro",
+    "normalized": "niboro",
+    "familyId": "miscrit:579"
+  },
+  {
+    "query": "Luravine",
+    "normalized": "luravine",
+    "familyId": "miscrit:579"
+  },
+  {
+    "query": "Gelex",
+    "normalized": "gelex",
+    "familyId": "miscrit:579"
+  },
+  {
+    "query": "Monodra",
+    "normalized": "monodra",
+    "familyId": "miscrit:579"
+  },
+  {
+    "query": "Pinplar",
+    "normalized": "pinplar",
+    "familyId": "miscrit:580"
+  },
+  {
+    "query": "Grossil",
+    "normalized": "grossil",
+    "familyId": "miscrit:580"
+  },
+  {
+    "query": "Lobsterro",
+    "normalized": "lobsterro",
+    "familyId": "miscrit:580"
+  },
+  {
+    "query": "Bonefish",
+    "normalized": "bonefish",
+    "familyId": "miscrit:580"
+  },
+  {
+    "query": "Lithos",
+    "normalized": "lithos",
+    "familyId": "miscrit:581"
+  },
+  {
+    "query": "Aphelos",
+    "normalized": "aphelos",
+    "familyId": "miscrit:581"
+  },
+  {
+    "query": "Nebulus",
+    "normalized": "nebulus",
+    "familyId": "miscrit:581"
+  },
+  {
+    "query": "Progenitus",
+    "normalized": "progenitus",
+    "familyId": "miscrit:581"
+  },
+  {
+    "query": "Brainzer",
+    "normalized": "brainzer",
+    "familyId": "miscrit:582"
+  },
+  {
+    "query": "Woodles",
+    "normalized": "woodles",
+    "familyId": "miscrit:582"
+  },
+  {
+    "query": "Brillo",
+    "normalized": "brillo",
+    "familyId": "miscrit:582"
+  },
+  {
+    "query": "Egghead",
+    "normalized": "egghead",
+    "familyId": "miscrit:582"
+  },
+  {
+    "query": "Pyrex",
+    "normalized": "pyrex",
+    "familyId": "miscrit:583"
+  },
+  {
+    "query": "Fyrial",
+    "normalized": "fyrial",
+    "familyId": "miscrit:583"
+  },
+  {
+    "query": "Salagnite",
+    "normalized": "salagnite",
+    "familyId": "miscrit:583"
+  },
+  {
+    "query": "Novasol",
+    "normalized": "novasol",
+    "familyId": "miscrit:583"
+  },
+  {
+    "query": "Oozie",
+    "normalized": "oozie",
+    "familyId": "miscrit:584"
+  },
+  {
+    "query": "Slagad",
+    "normalized": "slagad",
+    "familyId": "miscrit:584"
+  },
+  {
+    "query": "Moropher",
+    "normalized": "moropher",
+    "familyId": "miscrit:584"
+  },
+  {
+    "query": "Slimonda",
+    "normalized": "slimonda",
+    "familyId": "miscrit:584"
+  },
+  {
+    "query": "Lunako",
+    "normalized": "lunako",
+    "familyId": "miscrit:585"
+  },
+  {
+    "query": "Geklyte",
+    "normalized": "geklyte",
+    "familyId": "miscrit:585"
+  },
+  {
+    "query": "Selvash",
+    "normalized": "selvash",
+    "familyId": "miscrit:585"
+  },
+  {
+    "query": "Mograkoon",
+    "normalized": "mograkoon",
+    "familyId": "miscrit:585"
+  },
+  {
+    "query": "Rephily",
+    "normalized": "rephily",
+    "familyId": "miscrit:586"
+  },
+  {
+    "query": "Stamuff",
+    "normalized": "stamuff",
+    "familyId": "miscrit:586"
+  },
+  {
+    "query": "Cirrutide",
+    "normalized": "cirrutide",
+    "familyId": "miscrit:586"
+  },
+  {
+    "query": "Tyvalune",
+    "normalized": "tyvalune",
+    "familyId": "miscrit:586"
+  },
+  {
+    "query": "Eluzar",
+    "normalized": "eluzar",
+    "familyId": "miscrit:587"
+  },
+  {
+    "query": "Coluna",
+    "normalized": "coluna",
+    "familyId": "miscrit:587"
+  },
+  {
+    "query": "Fledrion",
+    "normalized": "fledrion",
+    "familyId": "miscrit:587"
+  },
+  {
+    "query": "Tenebu",
+    "normalized": "tenebu",
+    "familyId": "miscrit:587"
+  },
+  {
+    "query": "Furiko",
+    "normalized": "furiko",
+    "familyId": "miscrit:588"
+  },
+  {
+    "query": "Emigno",
+    "normalized": "emigno",
+    "familyId": "miscrit:588"
+  },
+  {
+    "query": "Luflar",
+    "normalized": "luflar",
+    "familyId": "miscrit:588"
+  },
+  {
+    "query": "Vulcrysa",
+    "normalized": "vulcrysa",
+    "familyId": "miscrit:588"
+  },
+  {
+    "query": "Bunplop",
+    "normalized": "bunplop",
+    "familyId": "miscrit:589"
+  },
+  {
+    "query": "Dustail",
+    "normalized": "dustail",
+    "familyId": "miscrit:589"
+  },
+  {
+    "query": "Quaklash",
+    "normalized": "quaklash",
+    "familyId": "miscrit:589"
+  },
+  {
+    "query": "Vornaclast",
+    "normalized": "vornaclast",
+    "familyId": "miscrit:589"
+  },
+  {
+    "query": "Drilune",
+    "normalized": "drilune",
+    "familyId": "miscrit:590"
+  },
+  {
+    "query": "Ryncor",
+    "normalized": "ryncor",
+    "familyId": "miscrit:590"
+  },
+  {
+    "query": "Tydra",
+    "normalized": "tydra",
+    "familyId": "miscrit:590"
+  },
+  {
+    "query": "Acarion",
+    "normalized": "acarion",
+    "familyId": "miscrit:590"
+  },
+  {
+    "query": "Flaclay",
+    "normalized": "flaclay",
+    "familyId": "miscrit:591"
+  },
+  {
+    "query": "Pyrune",
+    "normalized": "pyrune",
+    "familyId": "miscrit:591"
+  },
+  {
+    "query": "Lavarol",
+    "normalized": "lavarol",
+    "familyId": "miscrit:591"
+  },
+  {
+    "query": "Magros",
+    "normalized": "magros",
+    "familyId": "miscrit:591"
+  },
+  {
+    "query": "Enex",
+    "normalized": "enex",
+    "familyId": "miscrit:592"
+  },
+  {
+    "query": "Selvyr",
+    "normalized": "selvyr",
+    "familyId": "miscrit:592"
+  },
+  {
+    "query": "Drakomo",
+    "normalized": "drakomo",
+    "familyId": "miscrit:592"
+  },
+  {
+    "query": "Eclipsagon",
+    "normalized": "eclipsagon",
+    "familyId": "miscrit:592"
+  },
+  {
+    "query": "Voltombra",
+    "normalized": "voltombra",
+    "familyId": "miscrit:593"
+  },
+  {
+    "query": "Umbryge",
+    "normalized": "umbryge",
+    "familyId": "miscrit:593"
+  },
+  {
+    "query": "Noctazolt",
+    "normalized": "noctazolt",
+    "familyId": "miscrit:593"
+  },
+  {
+    "query": "Zevurnox",
+    "normalized": "zevurnox",
+    "familyId": "miscrit:593"
+  },
+  {
+    "query": "Eclipso",
+    "normalized": "eclipso",
+    "familyId": "miscrit:594"
+  },
+  {
+    "query": "Calig",
+    "normalized": "calig",
+    "familyId": "miscrit:594"
+  },
+  {
+    "query": "Cimmerian",
+    "normalized": "cimmerian",
+    "familyId": "miscrit:594"
+  },
+  {
+    "query": "Tenebros",
+    "normalized": "tenebros",
+    "familyId": "miscrit:594"
+  },
+  {
+    "query": "Osmeron",
+    "normalized": "osmeron",
+    "familyId": "miscrit:595"
+  },
+  {
+    "query": "Entropious",
+    "normalized": "entropious",
+    "familyId": "miscrit:595"
+  },
+  {
+    "query": "Turgerus",
+    "normalized": "turgerus",
+    "familyId": "miscrit:595"
+  },
+  {
+    "query": "Mystacle",
+    "normalized": "mystacle",
+    "familyId": "miscrit:595"
+  },
+  {
+    "query": "Mooncrit",
+    "normalized": "mooncrit",
+    "familyId": "miscrit:596"
+  },
+  {
+    "query": "Lunaris",
+    "normalized": "lunaris",
+    "familyId": "miscrit:596"
+  },
+  {
+    "query": "Orbitor",
+    "normalized": "orbitor",
+    "familyId": "miscrit:596"
+  },
+  {
+    "query": "Crateron",
+    "normalized": "crateron",
+    "familyId": "miscrit:596"
+  },
+  {
+    "query": "Beateorite",
+    "normalized": "beateorite",
+    "familyId": "miscrit:597"
+  },
+  {
+    "query": "Masteroid",
+    "normalized": "masteroid",
+    "familyId": "miscrit:597"
+  },
+  {
+    "query": "Cometkazi",
+    "normalized": "cometkazi",
+    "familyId": "miscrit:597"
+  },
+  {
+    "query": "Armageddon",
+    "normalized": "armageddon",
+    "familyId": "miscrit:597"
+  },
+  {
+    "query": "Silkire",
+    "normalized": "silkire",
+    "familyId": "miscrit:598"
+  },
+  {
+    "query": "Crawler",
+    "normalized": "crawler",
+    "familyId": "miscrit:598"
+  },
+  {
+    "query": "Blazeweber",
+    "normalized": "blazeweber",
+    "familyId": "miscrit:598"
+  },
+  {
+    "query": "Infernofang",
+    "normalized": "infernofang",
+    "familyId": "miscrit:598"
+  },
+  {
+    "query": "Zephry",
+    "normalized": "zephry",
+    "familyId": "miscrit:599"
+  },
+  {
+    "query": "Mirotol",
+    "normalized": "mirotol",
+    "familyId": "miscrit:599"
+  },
+  {
+    "query": "Aluxa",
+    "normalized": "aluxa",
+    "familyId": "miscrit:599"
+  },
+  {
+    "query": "Valydorm",
+    "normalized": "valydorm",
+    "familyId": "miscrit:599"
+  },
+  {
+    "query": "Fungask",
+    "normalized": "fungask",
+    "familyId": "miscrit:600"
+  },
+  {
+    "query": "Vinedra",
+    "normalized": "vinedra",
+    "familyId": "miscrit:600"
+  },
+  {
+    "query": "Blitespike",
+    "normalized": "blitespike",
+    "familyId": "miscrit:600"
+  },
+  {
+    "query": "Venoplazm",
+    "normalized": "venoplazm",
+    "familyId": "miscrit:600"
+  },
+  {
+    "query": "Larbunni",
+    "normalized": "larbunni",
+    "familyId": "miscrit:601"
+  },
+  {
+    "query": "Breezalis",
+    "normalized": "breezalis",
+    "familyId": "miscrit:601"
+  },
+  {
+    "query": "Lagomoth",
+    "normalized": "lagomoth",
+    "familyId": "miscrit:601"
+  },
+  {
+    "query": "Yutuluna",
+    "normalized": "yutuluna",
+    "familyId": "miscrit:601"
+  },
+  {
+    "query": "Yuefira",
+    "normalized": "yuefira",
+    "familyId": "miscrit:602"
+  },
+  {
+    "query": "Tentadisk",
+    "normalized": "tentadisk",
+    "familyId": "miscrit:602"
+  },
+  {
+    "query": "Jellicraft",
+    "normalized": "jellicraft",
+    "familyId": "miscrit:602"
+  },
+  {
+    "query": "Cnidalien",
+    "normalized": "cnidalien",
+    "familyId": "miscrit:602"
+  },
+  {
+    "query": "Mucora",
+    "normalized": "mucora",
+    "familyId": "miscrit:603"
+  },
+  {
+    "query": "Bravel",
+    "normalized": "bravel",
+    "familyId": "miscrit:603"
+  },
+  {
+    "query": "Galoruts",
+    "normalized": "galoruts",
+    "familyId": "miscrit:603"
+  },
+  {
+    "query": "Mortovela",
+    "normalized": "mortovela",
+    "familyId": "miscrit:603"
+  },
+  {
+    "query": "Goo",
+    "normalized": "goo",
+    "familyId": "miscrit:604"
+  },
+  {
+    "query": "Skulsite",
+    "normalized": "skulsite",
+    "familyId": "miscrit:604"
+  },
+  {
+    "query": "Osselime",
+    "normalized": "osselime",
+    "familyId": "miscrit:604"
+  },
+  {
+    "query": "Necroslime",
+    "normalized": "necroslime",
+    "familyId": "miscrit:604"
+  },
+  {
+    "query": "Avarus",
+    "normalized": "avarus",
+    "familyId": "miscrit:605"
+  },
+  {
+    "query": "Flamter",
+    "normalized": "flamter",
+    "familyId": "miscrit:605"
+  },
+  {
+    "query": "Raptossi",
+    "normalized": "raptossi",
+    "familyId": "miscrit:605"
+  },
+  {
+    "query": "Thanaross",
+    "normalized": "thanaross",
+    "familyId": "miscrit:605"
+  },
+  {
+    "query": "Beakka",
+    "normalized": "beakka",
+    "familyId": "miscrit:606"
+  },
+  {
+    "query": "Seperia",
+    "normalized": "seperia",
+    "familyId": "miscrit:606"
+  },
+  {
+    "query": "Splitjaw",
+    "normalized": "splitjaw",
+    "familyId": "miscrit:606"
+  },
+  {
+    "query": "Rupturea",
+    "normalized": "rupturea",
+    "familyId": "miscrit:606"
+  },
+  {
+    "query": "Whispen",
+    "normalized": "whispen",
+    "familyId": "miscrit:607"
+  },
+  {
+    "query": "Phantume",
+    "normalized": "phantume",
+    "familyId": "miscrit:607"
+  },
+  {
+    "query": "Spectaris",
+    "normalized": "spectaris",
+    "familyId": "miscrit:607"
+  },
+  {
+    "query": "Ectyros",
+    "normalized": "ectyros",
+    "familyId": "miscrit:607"
+  },
+  {
+    "query": "Fickra",
+    "normalized": "fickra",
+    "familyId": "miscrit:608"
+  },
+  {
+    "query": "Glishade",
+    "normalized": "glishade",
+    "familyId": "miscrit:608"
+  },
+  {
+    "query": "Zatyra",
+    "normalized": "zatyra",
+    "familyId": "miscrit:608"
+  },
+  {
+    "query": "Zatavol",
+    "normalized": "zatavol",
+    "familyId": "miscrit:608"
+  },
+  {
+    "query": "Pirate Bludger",
+    "normalized": "piratebludger",
+    "familyId": "miscrit:609"
+  },
+  {
+    "query": "Pirate Thorasher",
+    "normalized": "piratethorasher",
+    "familyId": "miscrit:609"
+  },
+  {
+    "query": "Pirate Truncherous",
+    "normalized": "piratetruncherous",
+    "familyId": "miscrit:609"
+  },
+  {
+    "query": "Pirate Convincer",
+    "normalized": "pirateconvincer",
+    "familyId": "miscrit:609"
+  },
+  {
+    "query": "Lutox",
+    "normalized": "lutox",
+    "familyId": "miscrit:610"
+  },
+  {
+    "query": "Multris",
+    "normalized": "multris",
+    "familyId": "miscrit:610"
+  },
+  {
+    "query": "Vuflox",
+    "normalized": "vuflox",
+    "familyId": "miscrit:610"
+  },
+  {
+    "query": "Sigarope",
+    "normalized": "sigarope",
+    "familyId": "miscrit:610"
+  },
+  {
+    "query": "Deetlee",
+    "normalized": "deetlee",
+    "familyId": "miscrit:611"
+  },
+  {
+    "query": "Zemnot",
+    "normalized": "zemnot",
+    "familyId": "miscrit:611"
+  },
+  {
+    "query": "Morsal",
+    "normalized": "morsal",
+    "familyId": "miscrit:611"
+  },
+  {
+    "query": "Kopul",
+    "normalized": "kopul",
+    "familyId": "miscrit:611"
+  },
+  {
+    "query": "Ampupine",
+    "normalized": "ampupine",
+    "familyId": "miscrit:612"
+  },
+  {
+    "query": "Shoquill",
+    "normalized": "shoquill",
+    "familyId": "miscrit:612"
+  },
+  {
+    "query": "Diovolt",
+    "normalized": "diovolt",
+    "familyId": "miscrit:612"
+  },
+  {
+    "query": "Thundra",
+    "normalized": "thundra",
+    "familyId": "miscrit:612"
+  },
+  {
+    "query": "Hekatom",
+    "normalized": "hekatom",
+    "familyId": "miscrit:613"
+  },
+  {
+    "query": "Dybbook",
+    "normalized": "dybbook",
+    "familyId": "miscrit:613"
+  },
+  {
+    "query": "Evilumen",
+    "normalized": "evilumen",
+    "familyId": "miscrit:613"
+  },
+  {
+    "query": "Unbound",
+    "normalized": "unbound",
+    "familyId": "miscrit:613"
+  },
+  {
+    "query": "Scarecrow Charix",
+    "normalized": "scarecrowcharix",
+    "familyId": "miscrit:614"
+  },
+  {
+    "query": "Scarecrow Regro",
+    "normalized": "scarecrowregro",
+    "familyId": "miscrit:614"
+  },
+  {
+    "query": "Scarecrow Bloomstalker",
+    "normalized": "scarecrowbloomstalker",
+    "familyId": "miscrit:614"
+  },
+  {
+    "query": "Scarecrow Carnagion",
+    "normalized": "scarecrowcarnagion",
+    "familyId": "miscrit:614"
+  },
+  {
+    "query": "Vamp Skustunk",
+    "normalized": "vampskustunk",
+    "familyId": "miscrit:615"
+  },
+  {
+    "query": "Vamp Foetorous",
+    "normalized": "vampfoetorous",
+    "familyId": "miscrit:615"
+  },
+  {
+    "query": "Vamp Odion",
+    "normalized": "vampodion",
+    "familyId": "miscrit:615"
+  },
+  {
+    "query": "Vamp Sulfurious",
+    "normalized": "vampsulfurious",
+    "familyId": "miscrit:615"
+  },
+  {
+    "query": "Grimm Kiloray",
+    "normalized": "grimmkiloray",
+    "familyId": "miscrit:616"
+  },
+  {
+    "query": "Grimm Electroflyte",
+    "normalized": "grimmelectroflyte",
+    "familyId": "miscrit:616"
+  },
+  {
+    "query": "Grimm Luminaire",
+    "normalized": "grimmluminaire",
+    "familyId": "miscrit:616"
+  },
+  {
+    "query": "Grimm Edison Ray",
+    "normalized": "grimmedisonray",
+    "familyId": "miscrit:616"
+  },
+  {
+    "query": "Rocker Octavio",
+    "normalized": "rockeroctavio",
+    "familyId": "miscrit:617"
+  },
+  {
+    "query": "Rocker Quarto",
+    "normalized": "rockerquarto",
+    "familyId": "miscrit:617"
+  },
+  {
+    "query": "Rocker Pentatonix",
+    "normalized": "rockerpentatonix",
+    "familyId": "miscrit:617"
+  },
+  {
+    "query": "Rocker Dischord",
+    "normalized": "rockerdischord",
+    "familyId": "miscrit:617"
+  },
+  {
+    "query": "Boo Blazertooth",
+    "normalized": "booblazertooth",
+    "familyId": "miscrit:618"
+  },
+  {
+    "query": "Boo Pyrubi",
+    "normalized": "boopyrubi",
+    "familyId": "miscrit:618"
+  },
+  {
+    "query": "Boo Firenze",
+    "normalized": "boofirenze",
+    "familyId": "miscrit:618"
+  },
+  {
+    "query": "Boo Minotorch",
+    "normalized": "boominotorch",
+    "familyId": "miscrit:618"
+  },
+  {
+    "query": "Geneseed",
+    "normalized": "geneseed",
+    "familyId": "miscrit:619"
+  },
+  {
+    "query": "Bloomara",
+    "normalized": "bloomara",
+    "familyId": "miscrit:619"
+  },
+  {
+    "query": "Rotragon",
+    "normalized": "rotragon",
+    "familyId": "miscrit:619"
+  },
+  {
+    "query": "Netherreap",
+    "normalized": "netherreap",
+    "familyId": "miscrit:619"
+  },
+  {
+    "query": "Sora",
+    "normalized": "sora",
+    "familyId": "miscrit:620"
+  },
+  {
+    "query": "Felvine",
+    "normalized": "felvine",
+    "familyId": "miscrit:620"
+  },
+  {
+    "query": "Chowkai",
+    "normalized": "chowkai",
+    "familyId": "miscrit:620"
+  },
+  {
+    "query": "Zephtsune",
+    "normalized": "zephtsune",
+    "familyId": "miscrit:620"
+  },
+  {
+    "query": "Dark Sparkslug",
+    "normalized": "darksparkslug",
+    "familyId": "miscrit:621"
+  },
+  {
+    "query": "Dark Electroslide",
+    "normalized": "darkelectroslide",
+    "familyId": "miscrit:621"
+  },
+  {
+    "query": "Dark Shellshock",
+    "normalized": "darkshellshock",
+    "familyId": "miscrit:621"
+  },
+  {
+    "query": "Dark Buzzcargo",
+    "normalized": "darkbuzzcargo",
+    "familyId": "miscrit:621"
+  },
+  {
+    "query": "Phoboros",
+    "normalized": "phoboros",
+    "familyId": "miscrit:622"
+  },
+  {
+    "query": "Senola",
+    "normalized": "senola",
+    "familyId": "miscrit:622"
+  },
+  {
+    "query": "Zubcut",
+    "normalized": "zubcut",
+    "familyId": "miscrit:622"
+  },
+  {
+    "query": "Stravatach",
+    "normalized": "stravatach",
+    "familyId": "miscrit:622"
+  },
+  {
+    "query": "Lagoony",
+    "normalized": "lagoony",
+    "familyId": "miscrit:623"
+  },
+  {
+    "query": "Kreecha",
+    "normalized": "kreecha",
+    "familyId": "miscrit:623"
+  },
+  {
+    "query": "Depthar",
+    "normalized": "depthar",
+    "familyId": "miscrit:623"
+  },
+  {
+    "query": "Blackfin",
+    "normalized": "blackfin",
+    "familyId": "miscrit:623"
+  },
+  {
+    "query": "Poppet",
+    "normalized": "poppet",
+    "familyId": "miscrit:624"
+  },
+  {
+    "query": "Pyrewicke",
+    "normalized": "pyrewicke",
+    "familyId": "miscrit:624"
+  },
+  {
+    "query": "Kratscorch",
+    "normalized": "kratscorch",
+    "familyId": "miscrit:624"
+  },
+  {
+    "query": "Breocharn",
+    "normalized": "breocharn",
+    "familyId": "miscrit:624"
+  },
+  {
+    "query": "Nubyll",
+    "normalized": "nubyll",
+    "familyId": "miscrit:625"
+  },
+  {
+    "query": "Rasson",
+    "normalized": "rasson",
+    "familyId": "miscrit:625"
+  },
+  {
+    "query": "Nocharius",
+    "normalized": "nocharius",
+    "familyId": "miscrit:625"
+  },
+  {
+    "query": "Mrakovlad",
+    "normalized": "mrakovlad",
+    "familyId": "miscrit:625"
+  },
+  {
+    "query": "Elphin",
+    "normalized": "elphin",
+    "familyId": "miscrit:626"
+  },
+  {
+    "query": "Makarion",
+    "normalized": "makarion",
+    "familyId": "miscrit:626"
+  },
+  {
+    "query": "Gajama",
+    "normalized": "gajama",
+    "familyId": "miscrit:626"
+  },
+  {
+    "query": "Makras",
+    "normalized": "makras",
+    "familyId": "miscrit:626"
+  },
+  {
+    "query": "Luvcraft",
+    "normalized": "luvcraft",
+    "familyId": "miscrit:627"
+  },
+  {
+    "query": "Hastobus",
+    "normalized": "hastobus",
+    "familyId": "miscrit:627"
+  },
+  {
+    "query": "Shogallure",
+    "normalized": "shogallure",
+    "familyId": "miscrit:627"
+  },
+  {
+    "query": "Cthulith",
+    "normalized": "cthulith",
+    "familyId": "miscrit:627"
+  },
+  {
+    "query": "Damse",
+    "normalized": "damse",
+    "familyId": "miscrit:628"
+  },
+  {
+    "query": "Layetta",
+    "normalized": "layetta",
+    "familyId": "miscrit:628"
+  },
+  {
+    "query": "Arcotore",
+    "normalized": "arcotore",
+    "familyId": "miscrit:628"
+  },
+  {
+    "query": "Beruette",
+    "normalized": "beruette",
+    "familyId": "miscrit:628"
+  },
+  {
+    "query": "Beldame",
+    "normalized": "beldame",
+    "familyId": "miscrit:629"
+  },
+  {
+    "query": "Nighthog",
+    "normalized": "nighthog",
+    "familyId": "miscrit:629"
+  },
+  {
+    "query": "Gerdrude",
+    "normalized": "gerdrude",
+    "familyId": "miscrit:629"
+  },
+  {
+    "query": "Bakuyaga",
+    "normalized": "bakuyaga",
+    "familyId": "miscrit:629"
+  },
+  {
+    "query": "Viperd",
+    "normalized": "viperd",
+    "familyId": "miscrit:630"
+  },
+  {
+    "query": "Serplant",
+    "normalized": "serplant",
+    "familyId": "miscrit:630"
+  },
+  {
+    "query": "Folaviage",
+    "normalized": "folaviage",
+    "familyId": "miscrit:630"
+  },
+  {
+    "query": "Toucanaconda",
+    "normalized": "toucanaconda",
+    "familyId": "miscrit:630"
+  },
+  {
+    "query": "Blowpuffle",
+    "normalized": "blowpuffle",
+    "familyId": "miscrit:631"
+  },
+  {
+    "query": "Puffu",
+    "normalized": "puffu",
+    "familyId": "miscrit:631"
+  },
+  {
+    "query": "Puffamari",
+    "normalized": "puffamari",
+    "familyId": "miscrit:631"
+  },
+  {
+    "query": "Octopuff",
+    "normalized": "octopuff",
+    "familyId": "miscrit:631"
+  },
+  {
+    "query": "Squawcat",
+    "normalized": "squawcat",
+    "familyId": "miscrit:632"
+  },
+  {
+    "query": "Tabbeak",
+    "normalized": "tabbeak",
+    "familyId": "miscrit:632"
+  },
+  {
+    "query": "Flinx",
+    "normalized": "flinx",
+    "familyId": "miscrit:632"
+  },
+  {
+    "query": "Gryndle",
+    "normalized": "gryndle",
+    "familyId": "miscrit:632"
+  },
+  {
+    "query": "Dark Weevern",
+    "normalized": "darkweevern",
+    "familyId": "miscrit:633"
+  },
+  {
+    "query": "Dark Beeblebud",
+    "normalized": "darkbeeblebud",
+    "familyId": "miscrit:633"
+  },
+  {
+    "query": "Dark Balaurise",
+    "normalized": "darkbalaurise",
+    "familyId": "miscrit:633"
+  },
+  {
+    "query": "Dark Serpasoar",
+    "normalized": "darkserpasoar",
+    "familyId": "miscrit:633"
+  },
+  {
+    "query": "Pangoleaf",
+    "normalized": "pangoleaf",
+    "familyId": "miscrit:634"
+  },
+  {
+    "query": "Priodontes",
+    "normalized": "priodontes",
+    "familyId": "miscrit:634"
+  },
+  {
+    "query": "Cactolin",
+    "normalized": "cactolin",
+    "familyId": "miscrit:634"
+  },
+  {
+    "query": "Spikrus",
+    "normalized": "spikrus",
+    "familyId": "miscrit:634"
+  },
+  {
+    "query": "Foil Pamboo",
+    "normalized": "foilpamboo",
+    "familyId": "miscrit:635"
+  },
+  {
+    "query": "Foil Ponya",
+    "normalized": "foilponya",
+    "familyId": "miscrit:635"
+  },
+  {
+    "query": "Foil Pan-Damme",
+    "normalized": "foilpandamme",
+    "familyId": "miscrit:635"
+  },
+  {
+    "query": "Foil Pixiuma",
+    "normalized": "foilpixiuma",
+    "familyId": "miscrit:635"
+  },
+  {
+    "query": "Gippo",
+    "normalized": "gippo",
+    "familyId": "miscrit:636"
+  },
+  {
+    "query": "Kuda",
+    "normalized": "kuda",
+    "familyId": "miscrit:636"
+  },
+  {
+    "query": "Mammus",
+    "normalized": "mammus",
+    "familyId": "miscrit:636"
+  },
+  {
+    "query": "Sharkranha",
+    "normalized": "sharkranha",
+    "familyId": "miscrit:636"
+  },
+  {
+    "query": "Hoghedge",
+    "normalized": "hoghedge",
+    "familyId": "miscrit:637"
+  },
+  {
+    "query": "Timboar",
+    "normalized": "timboar",
+    "familyId": "miscrit:637"
+  },
+  {
+    "query": "Boarax",
+    "normalized": "boarax",
+    "familyId": "miscrit:637"
+  },
+  {
+    "query": "Stumperback",
+    "normalized": "stumperback",
+    "familyId": "miscrit:637"
+  },
+  {
+    "query": "Shroomer",
+    "normalized": "shroomer",
+    "familyId": "miscrit:638"
+  },
+  {
+    "query": "Shrungoo",
+    "normalized": "shrungoo",
+    "familyId": "miscrit:638"
+  },
+  {
+    "query": "Fungloid",
+    "normalized": "fungloid",
+    "familyId": "miscrit:638"
+  },
+  {
+    "query": "Sporott",
+    "normalized": "sporott",
+    "familyId": "miscrit:638"
+  },
+  {
+    "query": "Daloo",
+    "normalized": "daloo",
+    "familyId": "miscrit:639"
+  },
+  {
+    "query": "Rothee",
+    "normalized": "rothee",
+    "familyId": "miscrit:639"
+  },
+  {
+    "query": "Dallma",
+    "normalized": "dallma",
+    "familyId": "miscrit:639"
+  },
+  {
+    "query": "Vaporo",
+    "normalized": "vaporo",
+    "familyId": "miscrit:639"
+  },
+  {
+    "query": "Dark Whik",
+    "normalized": "darkwhik",
+    "familyId": "miscrit:640"
+  },
+  {
+    "query": "Dark Talown",
+    "normalized": "darktalown",
+    "familyId": "miscrit:640"
+  },
+  {
+    "query": "Dark Terrorcotta",
+    "normalized": "darkterrorcotta",
+    "familyId": "miscrit:640"
+  },
+  {
+    "query": "Dark Vesuvion",
+    "normalized": "darkvesuvion",
+    "familyId": "miscrit:640"
+  },
+  {
+    "query": "Bloombat",
+    "normalized": "bloombat",
+    "familyId": "miscrit:641"
+  },
+  {
+    "query": "Petalrat",
+    "normalized": "petalrat",
+    "familyId": "miscrit:641"
+  },
+  {
+    "query": "Fluttermaus",
+    "normalized": "fluttermaus",
+    "familyId": "miscrit:641"
+  },
+  {
+    "query": "Vampvine",
+    "normalized": "vampvine",
+    "familyId": "miscrit:641"
+  },
+  {
+    "query": "Nyma",
+    "normalized": "nyma",
+    "familyId": "miscrit:642"
+  },
+  {
+    "query": "Saggo",
+    "normalized": "saggo",
+    "familyId": "miscrit:642"
+  },
+  {
+    "query": "Rylo",
+    "normalized": "rylo",
+    "familyId": "miscrit:642"
+  },
+  {
+    "query": "Mirindo",
+    "normalized": "mirindo",
+    "familyId": "miscrit:642"
+  },
+  {
+    "query": "Kitpole",
+    "normalized": "kitpole",
+    "familyId": "miscrit:643"
+  },
+  {
+    "query": "Kerokon",
+    "normalized": "kerokon",
+    "familyId": "miscrit:643"
+  },
+  {
+    "query": "Kroukai",
+    "normalized": "kroukai",
+    "familyId": "miscrit:643"
+  },
+  {
+    "query": "Kyubigama",
+    "normalized": "kyubigama",
+    "familyId": "miscrit:643"
+  },
+  {
+    "query": "Magpole",
+    "normalized": "magpole",
+    "familyId": "miscrit:644"
+  },
+  {
+    "query": "Pyrog",
+    "normalized": "pyrog",
+    "familyId": "miscrit:644"
+  },
+  {
+    "query": "Plasmanura",
+    "normalized": "plasmanura",
+    "familyId": "miscrit:644"
+  },
+  {
+    "query": "Helioxic",
+    "normalized": "helioxic",
+    "familyId": "miscrit:644"
+  },
+  {
+    "query": "Beetor",
+    "normalized": "beetor",
+    "familyId": "miscrit:645"
+  },
+  {
+    "query": "Bugglow",
+    "normalized": "bugglow",
+    "familyId": "miscrit:645"
+  },
+  {
+    "query": "Tennix",
+    "normalized": "tennix",
+    "familyId": "miscrit:645"
+  },
+  {
+    "query": "Dungaroll",
+    "normalized": "dungaroll",
+    "familyId": "miscrit:645"
+  },
+  {
+    "query": "Liquifien",
+    "normalized": "liquifien",
+    "familyId": "miscrit:646"
+  },
+  {
+    "query": "Basilien",
+    "normalized": "basilien",
+    "familyId": "miscrit:646"
+  },
+  {
+    "query": "Velocitas",
+    "normalized": "velocitas",
+    "familyId": "miscrit:646"
+  },
+  {
+    "query": "Invatorres",
+    "normalized": "invatorres",
+    "familyId": "miscrit:646"
+  },
+  {
+    "query": "Glary",
+    "normalized": "glary",
+    "familyId": "miscrit:647"
+  },
+  {
+    "query": "Panbo",
+    "normalized": "panbo",
+    "familyId": "miscrit:647"
+  },
+  {
+    "query": "Vydro",
+    "normalized": "vydro",
+    "familyId": "miscrit:647"
+  },
+  {
+    "query": "Blowstoll",
+    "normalized": "blowstoll",
+    "familyId": "miscrit:647"
+  },
+  {
+    "query": "Foil Liquifien",
+    "normalized": "foilliquifien",
+    "familyId": "miscrit:648"
+  },
+  {
+    "query": "Foil Basilien",
+    "normalized": "foilbasilien",
+    "familyId": "miscrit:648"
+  },
+  {
+    "query": "Foil Velocitas",
+    "normalized": "foilvelocitas",
+    "familyId": "miscrit:648"
+  },
+  {
+    "query": "Foil Invatorres",
+    "normalized": "foilinvatorres",
+    "familyId": "miscrit:648"
+  },
+  {
+    "query": "Pachydo",
+    "normalized": "pachydo",
+    "familyId": "miscrit:649"
+  },
+  {
+    "query": "Tortadon",
+    "normalized": "tortadon",
+    "familyId": "miscrit:649"
+  },
+  {
+    "query": "Tuskertoise",
+    "normalized": "tuskertoise",
+    "familyId": "miscrit:649"
+  },
+  {
+    "query": "Behemammoth",
+    "normalized": "behemammoth",
+    "familyId": "miscrit:649"
+  },
+  {
+    "query": "Gurgleplops",
+    "normalized": "gurgleplops",
+    "familyId": "miscrit:650"
+  },
+  {
+    "query": "Slugra",
+    "normalized": "slugra",
+    "familyId": "miscrit:650"
+  },
+  {
+    "query": "Trigoo",
+    "normalized": "trigoo",
+    "familyId": "miscrit:650"
+  },
+  {
+    "query": "Blargles",
+    "normalized": "blargles",
+    "familyId": "miscrit:650"
+  },
+  {
+    "query": "Budillo",
+    "normalized": "budillo",
+    "familyId": "miscrit:651"
+  },
+  {
+    "query": "Florrow",
+    "normalized": "florrow",
+    "familyId": "miscrit:651"
+  },
+  {
+    "query": "Bloomivark",
+    "normalized": "bloomivark",
+    "familyId": "miscrit:651"
+  },
+  {
+    "query": "Perenniax",
+    "normalized": "perenniax",
+    "familyId": "miscrit:651"
+  },
+  {
+    "query": "Pithapillar",
+    "normalized": "pithapillar",
+    "familyId": "miscrit:652"
+  },
+  {
+    "query": "Pitvine",
+    "normalized": "pitvine",
+    "familyId": "miscrit:652"
+  },
+  {
+    "query": "Dravineth",
+    "normalized": "dravineth",
+    "familyId": "miscrit:652"
+  },
+  {
+    "query": "Pitheyaur",
+    "normalized": "pitheyaur",
+    "familyId": "miscrit:652"
+  },
+  {
+    "query": "Dark Bubbles",
+    "normalized": "darkbubbles",
+    "familyId": "miscrit:653"
+  },
+  {
+    "query": "Dark Otterpop",
+    "normalized": "darkotterpop",
+    "familyId": "miscrit:653"
+  },
+  {
+    "query": "Dark Caterpuff",
+    "normalized": "darkcaterpuff",
+    "familyId": "miscrit:653"
+  },
+  {
+    "query": "Dark Popiller",
+    "normalized": "darkpopiller",
+    "familyId": "miscrit:653"
+  },
+  {
+    "query": "Pyras",
+    "normalized": "pyras",
+    "familyId": "miscrit:654"
+  },
+  {
+    "query": "Ardora",
+    "normalized": "ardora",
+    "familyId": "miscrit:654"
+  },
+  {
+    "query": "Ignivar",
+    "normalized": "ignivar",
+    "familyId": "miscrit:654"
+  },
+  {
+    "query": "Baloognio",
+    "normalized": "baloognio",
+    "familyId": "miscrit:654"
+  },
+  {
+    "query": "Foil Rockodile",
+    "normalized": "foilrockodile",
+    "familyId": "miscrit:655"
+  },
+  {
+    "query": "Foil Barbarious",
+    "normalized": "foilbarbarious",
+    "familyId": "miscrit:655"
+  },
+  {
+    "query": "Foil Crocorawr",
+    "normalized": "foilcrocorawr",
+    "familyId": "miscrit:655"
+  },
+  {
+    "query": "Foil Growliath",
+    "normalized": "foilgrowliath",
+    "familyId": "miscrit:655"
+  },
+  {
+    "query": "Bunaken",
+    "normalized": "bunaken",
+    "familyId": "miscrit:656"
+  },
+  {
+    "query": "Celebes",
+    "normalized": "celebes",
+    "familyId": "miscrit:656"
+  },
+  {
+    "query": "Adinda",
+    "normalized": "adinda",
+    "familyId": "miscrit:656"
+  },
+  {
+    "query": "Mermafox",
+    "normalized": "mermafox",
+    "familyId": "miscrit:656"
+  },
+  {
+    "query": "Lheon",
+    "normalized": "lheon",
+    "familyId": "miscrit:657"
+  },
+  {
+    "query": "Cuburne",
+    "normalized": "cuburne",
+    "familyId": "miscrit:657"
+  },
+  {
+    "query": "Flameron",
+    "normalized": "flameron",
+    "familyId": "miscrit:657"
+  },
+  {
+    "query": "Obsideron",
+    "normalized": "obsideron",
+    "familyId": "miscrit:657"
+  },
+  {
+    "query": "Dark Hoghedge",
+    "normalized": "darkhoghedge",
+    "familyId": "miscrit:658"
+  },
+  {
+    "query": "Dark Timboar",
+    "normalized": "darktimboar",
+    "familyId": "miscrit:658"
+  },
+  {
+    "query": "Dark Boarax",
+    "normalized": "darkboarax",
+    "familyId": "miscrit:658"
+  },
+  {
+    "query": "Dark Stumperback",
+    "normalized": "darkstumperback",
+    "familyId": "miscrit:658"
+  },
+  {
+    "query": "Dark Beetor",
+    "normalized": "darkbeetor",
+    "familyId": "miscrit:659"
+  },
+  {
+    "query": "Dark Bugglow",
+    "normalized": "darkbugglow",
+    "familyId": "miscrit:659"
+  },
+  {
+    "query": "Dark Tennix",
+    "normalized": "darktennix",
+    "familyId": "miscrit:659"
+  },
+  {
+    "query": "Dark Dungaroll",
+    "normalized": "darkdungaroll",
+    "familyId": "miscrit:659"
+  },
+  {
+    "query": "Zhakor",
+    "normalized": "zhakor",
+    "familyId": "miscrit:660"
+  },
+  {
+    "query": "Anjog",
+    "normalized": "anjog",
+    "familyId": "miscrit:660"
+  },
+  {
+    "query": "Yilkasom",
+    "normalized": "yilkasom",
+    "familyId": "miscrit:660"
+  },
+  {
+    "query": "Muskesilik",
+    "normalized": "muskesilik",
+    "familyId": "miscrit:660"
+  },
+  {
+    "query": "Foil Pangoleaf",
+    "normalized": "foilpangoleaf",
+    "familyId": "miscrit:661"
+  },
+  {
+    "query": "Foil Priodontes",
+    "normalized": "foilpriodontes",
+    "familyId": "miscrit:661"
+  },
+  {
+    "query": "Foil Cactolin",
+    "normalized": "foilcactolin",
+    "familyId": "miscrit:661"
+  },
+  {
+    "query": "Foil Spikrus",
+    "normalized": "foilspikrus",
+    "familyId": "miscrit:661"
+  },
+  {
+    "query": "Blug",
+    "normalized": "blug",
+    "familyId": "miscrit:662"
+  },
+  {
+    "query": "Motodo",
+    "normalized": "motodo",
+    "familyId": "miscrit:662"
+  },
+  {
+    "query": "Blyket",
+    "normalized": "blyket",
+    "familyId": "miscrit:662"
+  },
+  {
+    "query": "Flyetir",
+    "normalized": "flyetir",
+    "familyId": "miscrit:662"
+  },
+  {
+    "query": "Dark Humbug",
+    "normalized": "darkhumbug",
+    "familyId": "miscrit:663"
+  },
+  {
+    "query": "Dark Flittero",
+    "normalized": "darkflittero",
+    "familyId": "miscrit:663"
+  },
+  {
+    "query": "Dark Buzzaillia",
+    "normalized": "darkbuzzaillia",
+    "familyId": "miscrit:663"
+  },
+  {
+    "query": "Dark Aviona",
+    "normalized": "darkaviona",
+    "familyId": "miscrit:663"
+  },
+  {
+    "query": "Kawanko",
+    "normalized": "kawanko",
+    "familyId": "miscrit:664"
+  },
+  {
+    "query": "Urufumi",
+    "normalized": "urufumi",
+    "familyId": "miscrit:664"
+  },
+  {
+    "query": "Inunagi",
+    "normalized": "inunagi",
+    "familyId": "miscrit:664"
+  },
+  {
+    "query": "Ningyokami",
+    "normalized": "ningyokami",
+    "familyId": "miscrit:664"
+  },
+  {
+    "query": "Casanova",
+    "normalized": "casanova",
+    "familyId": "miscrit:665"
+  },
+  {
+    "query": "Heartstrings",
+    "normalized": "heartstrings",
+    "familyId": "miscrit:665"
+  },
+  {
+    "query": "Rosy",
+    "normalized": "rosy",
+    "familyId": "miscrit:665"
+  },
+  {
+    "query": "Quiver",
+    "normalized": "quiver",
+    "familyId": "miscrit:665"
+  },
+  {
+    "query": "Dabee",
+    "normalized": "dabee",
+    "familyId": "miscrit:666"
+  },
+  {
+    "query": "Polliflare",
+    "normalized": "polliflare",
+    "familyId": "miscrit:666"
+  },
+  {
+    "query": "Nectarion",
+    "normalized": "nectarion",
+    "familyId": "miscrit:666"
+  },
+  {
+    "query": "Apiflora",
+    "normalized": "apiflora",
+    "familyId": "miscrit:666"
+  },
+  {
+    "query": "Dark Viperd",
+    "normalized": "darkviperd",
+    "familyId": "miscrit:667"
+  },
+  {
+    "query": "Dark Serplant",
+    "normalized": "darkserplant",
+    "familyId": "miscrit:667"
+  },
+  {
+    "query": "Dark Folaviage",
+    "normalized": "darkfolaviage",
+    "familyId": "miscrit:667"
+  },
+  {
+    "query": "Dark Toucanaconda",
+    "normalized": "darktoucanaconda",
+    "familyId": "miscrit:667"
+  },
+  {
+    "query": "Dark Gurgleplops",
+    "normalized": "darkgurgleplops",
+    "familyId": "miscrit:668"
+  },
+  {
+    "query": "Dark Slugra",
+    "normalized": "darkslugra",
+    "familyId": "miscrit:668"
+  },
+  {
+    "query": "Dark Trigoo",
+    "normalized": "darktrigoo",
+    "familyId": "miscrit:668"
+  },
+  {
+    "query": "Dark Blargles",
+    "normalized": "darkblargles",
+    "familyId": "miscrit:668"
+  },
+  {
+    "query": "Agnuf",
+    "normalized": "agnuf",
+    "familyId": "miscrit:669"
+  },
+  {
+    "query": "Agarta",
+    "normalized": "agarta",
+    "familyId": "miscrit:669"
+  },
+  {
+    "query": "Boleta",
+    "normalized": "boleta",
+    "familyId": "miscrit:669"
+  },
+  {
+    "query": "Cantalus",
+    "normalized": "cantalus",
+    "familyId": "miscrit:669"
+  },
+  {
+    "query": "Piskie",
+    "normalized": "piskie",
+    "familyId": "miscrit:670"
+  },
+  {
+    "query": "Pookie",
+    "normalized": "pookie",
+    "familyId": "miscrit:670"
+  },
+  {
+    "query": "Lovelie",
+    "normalized": "lovelie",
+    "familyId": "miscrit:670"
+  },
+  {
+    "query": "Seelie",
+    "normalized": "seelie",
+    "familyId": "miscrit:670"
+  },
+  {
+    "query": "Dark Gippo",
+    "normalized": "darkgippo",
+    "familyId": "miscrit:671"
+  },
+  {
+    "query": "Dark Kuda",
+    "normalized": "darkkuda",
+    "familyId": "miscrit:671"
+  },
+  {
+    "query": "Dark Mammus",
+    "normalized": "darkmammus",
+    "familyId": "miscrit:671"
+  },
+  {
+    "query": "Dark Sharkranha",
+    "normalized": "darksharkranha",
+    "familyId": "miscrit:671"
+  },
+  {
+    "query": "Aguapogo",
+    "normalized": "aguapogo",
+    "familyId": "miscrit:672"
+  },
+  {
+    "query": "Nawhirlito",
+    "normalized": "nawhirlito",
+    "familyId": "miscrit:672"
+  },
+  {
+    "query": "Plessea",
+    "normalized": "plessea",
+    "familyId": "miscrit:672"
+  },
+  {
+    "query": "Altamarha",
+    "normalized": "altamarha",
+    "familyId": "miscrit:672"
+  },
+  {
+    "query": "Padma",
+    "normalized": "padma",
+    "familyId": "miscrit:673"
+  },
+  {
+    "query": "Lilystila",
+    "normalized": "lilystila",
+    "familyId": "miscrit:673"
+  },
+  {
+    "query": "Nuciflora",
+    "normalized": "nuciflora",
+    "familyId": "miscrit:673"
+  },
+  {
+    "query": "Nymphja",
+    "normalized": "nymphja",
+    "familyId": "miscrit:673"
+  },
+  {
+    "query": "Light Lavarilla",
+    "normalized": "lightlavarilla",
+    "familyId": "miscrit:674"
+  },
+  {
+    "query": "Light Sulfuro",
+    "normalized": "lightsulfuro",
+    "familyId": "miscrit:674"
+  },
+  {
+    "query": "Light Scorias",
+    "normalized": "lightscorias",
+    "familyId": "miscrit:674"
+  },
+  {
+    "query": "Light Obsidiape",
+    "normalized": "lightobsidiape",
+    "familyId": "miscrit:674"
+  },
+  {
+    "query": "Shockell",
+    "normalized": "shockell",
+    "familyId": "miscrit:675"
+  },
+  {
+    "query": "Bettaqua",
+    "normalized": "bettaqua",
+    "familyId": "miscrit:675"
+  },
+  {
+    "query": "Tidaspark",
+    "normalized": "tidaspark",
+    "familyId": "miscrit:675"
+  },
+  {
+    "query": "Eelectrazur",
+    "normalized": "eelectrazur",
+    "familyId": "miscrit:675"
+  },
+  {
+    "query": "Mustella",
+    "normalized": "mustella",
+    "familyId": "miscrit:676"
+  },
+  {
+    "query": "Fivalis",
+    "normalized": "fivalis",
+    "familyId": "miscrit:676"
+  },
+  {
+    "query": "Ermelin",
+    "normalized": "ermelin",
+    "familyId": "miscrit:676"
+  },
+  {
+    "query": "Frenata",
+    "normalized": "frenata",
+    "familyId": "miscrit:676"
+  },
+  {
+    "query": "Pumillo",
+    "normalized": "pumillo",
+    "familyId": "miscrit:677"
+  },
+  {
+    "query": "Vadram",
+    "normalized": "vadram",
+    "familyId": "miscrit:677"
+  },
+  {
+    "query": "Erratin",
+    "normalized": "erratin",
+    "familyId": "miscrit:677"
+  },
+  {
+    "query": "Tagoofa",
+    "normalized": "tagoofa",
+    "familyId": "miscrit:677"
+  },
+  {
+    "query": "Leafbeard",
+    "normalized": "leafbeard",
+    "familyId": "miscrit:678"
+  },
+  {
+    "query": "Gladeblade",
+    "normalized": "gladeblade",
+    "familyId": "miscrit:678"
+  },
+  {
+    "query": "Bogglin",
+    "normalized": "bogglin",
+    "familyId": "miscrit:678"
+  },
+  {
+    "query": "Marshling",
+    "normalized": "marshling",
+    "familyId": "miscrit:678"
+  },
+  {
+    "query": "Wiggle",
+    "normalized": "wiggle",
+    "familyId": "miscrit:679"
+  },
+  {
+    "query": "Squiggle",
+    "normalized": "squiggle",
+    "familyId": "miscrit:679"
+  },
+  {
+    "query": "Jiggle",
+    "normalized": "jiggle",
+    "familyId": "miscrit:679"
+  },
+  {
+    "query": "Blorp",
+    "normalized": "blorp",
+    "familyId": "miscrit:679"
+  },
+  {
+    "query": "Wapy",
+    "normalized": "wapy",
+    "familyId": "miscrit:680"
+  },
+  {
+    "query": "Podarge",
+    "normalized": "podarge",
+    "familyId": "miscrit:680"
+  },
+  {
+    "query": "Elloa",
+    "normalized": "elloa",
+    "familyId": "miscrit:680"
+  },
+  {
+    "query": "Ocypela",
+    "normalized": "ocypela",
+    "familyId": "miscrit:680"
+  },
+  {
+    "query": "Cuado",
+    "normalized": "cuado",
+    "familyId": "miscrit:681"
+  },
+  {
+    "query": "Bivathni",
+    "normalized": "bivathni",
+    "familyId": "miscrit:681"
+  },
+  {
+    "query": "Hopada",
+    "normalized": "hopada",
+    "familyId": "miscrit:681"
+  },
+  {
+    "query": "Lastropod",
+    "normalized": "lastropod",
+    "familyId": "miscrit:681"
+  },
+  {
+    "query": "Ammurupt",
+    "normalized": "ammurupt",
+    "familyId": "miscrit:682"
+  },
+  {
+    "query": "Berdelava",
+    "normalized": "berdelava",
+    "familyId": "miscrit:682"
+  },
+  {
+    "query": "Komagma",
+    "normalized": "komagma",
+    "familyId": "miscrit:682"
+  },
+  {
+    "query": "Dragerupt",
+    "normalized": "dragerupt",
+    "familyId": "miscrit:682"
+  },
+  {
+    "query": "Ruhog",
+    "normalized": "ruhog",
+    "familyId": "miscrit:683"
+  },
+  {
+    "query": "Gamet",
+    "normalized": "gamet",
+    "familyId": "miscrit:683"
+  },
+  {
+    "query": "Snortphire",
+    "normalized": "snortphire",
+    "familyId": "miscrit:683"
+  },
+  {
+    "query": "Apitite",
+    "normalized": "apitite",
+    "familyId": "miscrit:683"
+  },
+  {
+    "query": "Elkenhoof",
+    "normalized": "elkenhoof",
+    "familyId": "miscrit:684"
+  },
+  {
+    "query": "Elchor",
+    "normalized": "elchor",
+    "familyId": "miscrit:684"
+  },
+  {
+    "query": "Chanelgr",
+    "normalized": "chanelgr",
+    "familyId": "miscrit:684"
+  },
+  {
+    "query": "Stagermeister",
+    "normalized": "stagermeister",
+    "familyId": "miscrit:684"
+  },
+  {
+    "query": "Amphibunny",
+    "normalized": "amphibunny",
+    "familyId": "miscrit:685"
+  },
+  {
+    "query": "Hoppole",
+    "normalized": "hoppole",
+    "familyId": "miscrit:685"
+  },
+  {
+    "query": "Cottonthrash",
+    "normalized": "cottonthrash",
+    "familyId": "miscrit:685"
+  },
+  {
+    "query": "Foliare",
+    "normalized": "foliare",
+    "familyId": "miscrit:685"
+  },
+  {
+    "query": "Quackers",
+    "normalized": "quackers",
+    "familyId": "miscrit:686"
+  },
+  {
+    "query": "Billava",
+    "normalized": "billava",
+    "familyId": "miscrit:686"
+  },
+  {
+    "query": "Mallardrock",
+    "normalized": "mallardrock",
+    "familyId": "miscrit:686"
+  },
+  {
+    "query": "Duckrust",
+    "normalized": "duckrust",
+    "familyId": "miscrit:686"
+  },
+  {
+    "query": "Aveony",
+    "normalized": "aveony",
+    "familyId": "miscrit:687"
+  },
+  {
+    "query": "Wadine",
+    "normalized": "wadine",
+    "familyId": "miscrit:687"
+  },
+  {
+    "query": "Daisle",
+    "normalized": "daisle",
+    "familyId": "miscrit:687"
+  },
+  {
+    "query": "Floringo",
+    "normalized": "floringo",
+    "familyId": "miscrit:687"
+  },
+  {
+    "query": "Smokey",
+    "normalized": "smokey",
+    "familyId": "miscrit:688"
+  },
+  {
+    "query": "Fumber",
+    "normalized": "fumber",
+    "familyId": "miscrit:688"
+  },
+  {
+    "query": "Calcifire",
+    "normalized": "calcifire",
+    "familyId": "miscrit:688"
+  },
+  {
+    "query": "Smougorn",
+    "normalized": "smougorn",
+    "familyId": "miscrit:688"
+  },
+  {
+    "query": "Sheldon",
+    "normalized": "sheldon",
+    "familyId": "miscrit:689"
+  },
+  {
+    "query": "Huskin",
+    "normalized": "huskin",
+    "familyId": "miscrit:689"
+  },
+  {
+    "query": "Splashix",
+    "normalized": "splashix",
+    "familyId": "miscrit:689"
+  },
+  {
+    "query": "Moon Pie",
+    "normalized": "moonpie",
+    "familyId": "miscrit:689"
+  },
+  {
+    "query": "Patrik",
+    "normalized": "patrik",
+    "familyId": "miscrit:690"
+  },
+  {
+    "query": "Kismala",
+    "normalized": "kismala",
+    "familyId": "miscrit:690"
+  },
+  {
+    "query": "Viridius",
+    "normalized": "viridius",
+    "familyId": "miscrit:690"
+  },
+  {
+    "query": "Basiluck",
+    "normalized": "basiluck",
+    "familyId": "miscrit:690"
+  },
+  {
+    "query": "Woolaboo",
+    "normalized": "woolaboo",
+    "familyId": "miscrit:691"
+  },
+  {
+    "query": "Stelker",
+    "normalized": "stelker",
+    "familyId": "miscrit:691"
+  },
+  {
+    "query": "Deathfaller",
+    "normalized": "deathfaller",
+    "familyId": "miscrit:691"
+  },
+  {
+    "query": "Silvigo",
+    "normalized": "silvigo",
+    "familyId": "miscrit:691"
+  },
+  {
+    "query": "Boomble",
+    "normalized": "boomble",
+    "familyId": "miscrit:692"
+  },
+  {
+    "query": "Shroomsie",
+    "normalized": "shroomsie",
+    "familyId": "miscrit:692"
+  },
+  {
+    "query": "Octomush",
+    "normalized": "octomush",
+    "familyId": "miscrit:692"
+  },
+  {
+    "query": "Wizen",
+    "normalized": "wizen",
+    "familyId": "miscrit:692"
+  },
+  {
+    "query": "Beeple",
+    "normalized": "beeple",
+    "familyId": "miscrit:693"
+  },
+  {
+    "query": "Scarabud",
+    "normalized": "scarabud",
+    "familyId": "miscrit:693"
+  },
+  {
+    "query": "Bizzaps",
+    "normalized": "bizzaps",
+    "familyId": "miscrit:693"
+  },
+  {
+    "query": "Hercules",
+    "normalized": "hercules",
+    "familyId": "miscrit:693"
+  },
+  {
+    "query": "Light Crabbles",
+    "normalized": "lightcrabbles",
+    "familyId": "miscrit:694"
+  },
+  {
+    "query": "Light Wabbles",
+    "normalized": "lightwabbles",
+    "familyId": "miscrit:694"
+  },
+  {
+    "query": "Light Pabbles",
+    "normalized": "lightpabbles",
+    "familyId": "miscrit:694"
+  },
+  {
+    "query": "Light Stabbles",
+    "normalized": "lightstabbles",
+    "familyId": "miscrit:694"
+  },
+  {
+    "query": "Harerazor",
+    "normalized": "harerazor",
+    "familyId": "miscrit:695"
+  },
+  {
+    "query": "Flasheous",
+    "normalized": "flasheous",
+    "familyId": "miscrit:695"
+  },
+  {
+    "query": "Capacitous",
+    "normalized": "capacitous",
+    "familyId": "miscrit:695"
+  },
+  {
+    "query": "Surgerunner",
+    "normalized": "surgerunner",
+    "familyId": "miscrit:695"
+  },
+  {
+    "query": "Smole",
+    "normalized": "smole",
+    "familyId": "miscrit:696"
+  },
+  {
+    "query": "Stevie",
+    "normalized": "stevie",
+    "familyId": "miscrit:696"
+  },
+  {
+    "query": "Axcavear",
+    "normalized": "axcavear",
+    "familyId": "miscrit:696"
+  },
+  {
+    "query": "Dwarfor",
+    "normalized": "dwarfor",
+    "familyId": "miscrit:696"
+  },
+  {
+    "query": "Toothy",
+    "normalized": "toothy",
+    "familyId": "miscrit:697"
+  },
+  {
+    "query": "Prongs",
+    "normalized": "prongs",
+    "familyId": "miscrit:697"
+  },
+  {
+    "query": "Livewire",
+    "normalized": "livewire",
+    "familyId": "miscrit:697"
+  },
+  {
+    "query": "Heero",
+    "normalized": "heero",
+    "familyId": "miscrit:697"
+  },
+  {
+    "query": "Spookah",
+    "normalized": "spookah",
+    "familyId": "miscrit:698"
+  },
+  {
+    "query": "Badreem",
+    "normalized": "badreem",
+    "familyId": "miscrit:698"
+  },
+  {
+    "query": "Specterror",
+    "normalized": "specterror",
+    "familyId": "miscrit:698"
+  },
+  {
+    "query": "Nightmara",
+    "normalized": "nightmara",
+    "familyId": "miscrit:698"
+  },
+  {
+    "query": "Glaucos",
+    "normalized": "glaucos",
+    "familyId": "miscrit:699"
+  },
+  {
+    "query": "Luminaria",
+    "normalized": "luminaria",
+    "familyId": "miscrit:699"
+  },
+  {
+    "query": "Slaukie",
+    "normalized": "slaukie",
+    "familyId": "miscrit:699"
+  },
+  {
+    "query": "Galamos",
+    "normalized": "galamos",
+    "familyId": "miscrit:699"
+  },
+  {
+    "query": "Kiri",
+    "normalized": "kiri",
+    "familyId": "miscrit:700"
+  },
+  {
+    "query": "Tavi",
+    "normalized": "tavi",
+    "familyId": "miscrit:700"
+  },
+  {
+    "query": "Mongusto",
+    "normalized": "mongusto",
+    "familyId": "miscrit:700"
+  },
+  {
+    "query": "Ziki",
+    "normalized": "ziki",
+    "familyId": "miscrit:700"
+  },
+  {
+    "query": "Junglotl",
+    "normalized": "junglotl",
+    "familyId": "miscrit:701"
+  },
+  {
+    "query": "Verda",
+    "normalized": "verda",
+    "familyId": "miscrit:701"
+  },
+  {
+    "query": "Bogatta",
+    "normalized": "bogatta",
+    "familyId": "miscrit:701"
+  },
+  {
+    "query": "Teotlera",
+    "normalized": "teotlera",
+    "familyId": "miscrit:701"
+  },
+  {
+    "query": "Iguanar",
+    "normalized": "iguanar",
+    "familyId": "miscrit:702"
+  },
+  {
+    "query": "Cyleaf",
+    "normalized": "cyleaf",
+    "familyId": "miscrit:702"
+  },
+  {
+    "query": "Beardrus",
+    "normalized": "beardrus",
+    "familyId": "miscrit:702"
+  },
+  {
+    "query": "Twistrix",
+    "normalized": "twistrix",
+    "familyId": "miscrit:702"
+  },
+  {
+    "query": "Pujin",
+    "normalized": "pujin",
+    "familyId": "miscrit:703"
+  },
+  {
+    "query": "Haesotael",
+    "normalized": "haesotael",
+    "familyId": "miscrit:703"
+  },
+  {
+    "query": "Samoymist",
+    "normalized": "samoymist",
+    "familyId": "miscrit:703"
+  },
+  {
+    "query": "Riddlefrost",
+    "normalized": "riddlefrost",
+    "familyId": "miscrit:703"
+  },
+  {
+    "query": "Wisper",
+    "normalized": "wisper",
+    "familyId": "miscrit:704"
+  },
+  {
+    "query": "Brizzle",
+    "normalized": "brizzle",
+    "familyId": "miscrit:704"
+  },
+  {
+    "query": "Gustin",
+    "normalized": "gustin",
+    "familyId": "miscrit:704"
+  },
+  {
+    "query": "Waftig",
+    "normalized": "waftig",
+    "familyId": "miscrit:704"
+  },
+  {
+    "query": "Shocrack",
+    "normalized": "shocrack",
+    "familyId": "miscrit:705"
+  },
+  {
+    "query": "Peepshock",
+    "normalized": "peepshock",
+    "familyId": "miscrit:705"
+  },
+  {
+    "query": "Amperian",
+    "normalized": "amperian",
+    "familyId": "miscrit:705"
+  },
+  {
+    "query": "Aethenix",
+    "normalized": "aethenix",
+    "familyId": "miscrit:705"
+  },
+  {
+    "query": "Molly",
+    "normalized": "molly",
+    "familyId": "miscrit:706"
+  },
+  {
+    "query": "Clamvius",
+    "normalized": "clamvius",
+    "familyId": "miscrit:706"
+  },
+  {
+    "query": "Protoshell",
+    "normalized": "protoshell",
+    "familyId": "miscrit:706"
+  },
+  {
+    "query": "Clutch",
+    "normalized": "clutch",
+    "familyId": "miscrit:706"
+  },
+  {
+    "query": "Zimbabo",
+    "normalized": "zimbabo",
+    "familyId": "miscrit:707"
+  },
+  {
+    "query": "Tatsumi",
+    "normalized": "tatsumi",
+    "familyId": "miscrit:707"
+  },
+  {
+    "query": "Ryuu",
+    "normalized": "ryuu",
+    "familyId": "miscrit:707"
+  },
+  {
+    "query": "Uwibami",
+    "normalized": "uwibami",
+    "familyId": "miscrit:707"
+  },
+  {
+    "query": "Dark Drilldent",
+    "normalized": "darkdrilldent",
+    "familyId": "miscrit:708"
+  },
+  {
+    "query": "Dark Gropher",
+    "normalized": "darkgropher",
+    "familyId": "miscrit:708"
+  },
+  {
+    "query": "Dark Moledozer",
+    "normalized": "darkmoledozer",
+    "familyId": "miscrit:708"
+  },
+  {
+    "query": "Dark Demolasher",
+    "normalized": "darkdemolasher",
+    "familyId": "miscrit:708"
+  },
+  {
+    "query": "Magixio",
+    "normalized": "magixio",
+    "familyId": "miscrit:709"
+  },
+  {
+    "query": "Necromanous",
+    "normalized": "necromanous",
+    "familyId": "miscrit:709"
+  },
+  {
+    "query": "Alchemenace",
+    "normalized": "alchemenace",
+    "familyId": "miscrit:709"
+  },
+  {
+    "query": "Conjurinx",
+    "normalized": "conjurinx",
+    "familyId": "miscrit:709"
+  },
+  {
+    "query": "Petalina",
+    "normalized": "petalina",
+    "familyId": "miscrit:710"
+  },
+  {
+    "query": "Florablisk",
+    "normalized": "florablisk",
+    "familyId": "miscrit:710"
+  },
+  {
+    "query": "Ivyanodon",
+    "normalized": "ivyanodon",
+    "familyId": "miscrit:710"
+  },
+  {
+    "query": "Glorysaur",
+    "normalized": "glorysaur",
+    "familyId": "miscrit:710"
+  },
+  {
+    "query": "Tabbey",
+    "normalized": "tabbey",
+    "familyId": "miscrit:711"
+  },
+  {
+    "query": "Purrbreeze",
+    "normalized": "purrbreeze",
+    "familyId": "miscrit:711"
+  },
+  {
+    "query": "Pawnado",
+    "normalized": "pawnado",
+    "familyId": "miscrit:711"
+  },
+  {
+    "query": "Cyclaw",
+    "normalized": "cyclaw",
+    "familyId": "miscrit:711"
+  },
+  {
+    "query": "Flaro",
+    "normalized": "flaro",
+    "familyId": "miscrit:712"
+  },
+  {
+    "query": "Ignola",
+    "normalized": "ignola",
+    "familyId": "miscrit:712"
+  },
+  {
+    "query": "Gafuu",
+    "normalized": "gafuu",
+    "familyId": "miscrit:712"
+  },
+  {
+    "query": "Fuegno",
+    "normalized": "fuegno",
+    "familyId": "miscrit:712"
+  },
+  {
+    "query": "Hydro",
+    "normalized": "hydro",
+    "familyId": "miscrit:713"
+  },
+  {
+    "query": "Rayne",
+    "normalized": "rayne",
+    "familyId": "miscrit:713"
+  },
+  {
+    "query": "Aquado",
+    "normalized": "aquado",
+    "familyId": "miscrit:713"
+  },
+  {
+    "query": "Vayper",
+    "normalized": "vayper",
+    "familyId": "miscrit:713"
+  },
+  {
+    "query": "Azteko",
+    "normalized": "azteko",
+    "familyId": "miscrit:714"
+  },
+  {
+    "query": "Newthua",
+    "normalized": "newthua",
+    "familyId": "miscrit:714"
+  },
+  {
+    "query": "Mesomander",
+    "normalized": "mesomander",
+    "familyId": "miscrit:714"
+  },
+  {
+    "query": "Macuahuitile",
+    "normalized": "macuahuitile",
+    "familyId": "miscrit:714"
+  },
+  {
+    "query": "Kukoatl",
+    "normalized": "kukoatl",
+    "familyId": "miscrit:715"
+  },
+  {
+    "query": "Strelitzal",
+    "normalized": "strelitzal",
+    "familyId": "miscrit:715"
+  },
+  {
+    "query": "Koastrelus",
+    "normalized": "koastrelus",
+    "familyId": "miscrit:715"
+  },
+  {
+    "query": "Quetzulkhan",
+    "normalized": "quetzulkhan",
+    "familyId": "miscrit:715"
+  },
+  {
+    "query": "Dark Snatcher",
+    "normalized": "darksnatcher",
+    "familyId": "miscrit:716"
+  },
+  {
+    "query": "Dark Hedgebagger",
+    "normalized": "darkhedgebagger",
+    "familyId": "miscrit:716"
+  },
+  {
+    "query": "Dark Barbwiler",
+    "normalized": "darkbarbwiler",
+    "familyId": "miscrit:716"
+  },
+  {
+    "query": "Dark Snapdragon",
+    "normalized": "darksnapdragon",
+    "familyId": "miscrit:716"
+  },
+  {
+    "query": "Dogu",
+    "normalized": "dogu",
+    "familyId": "miscrit:717"
+  },
+  {
+    "query": "Yoi",
+    "normalized": "yoi",
+    "familyId": "miscrit:717"
+  },
+  {
+    "query": "Tajir",
+    "normalized": "tajir",
+    "familyId": "miscrit:717"
+  },
+  {
+    "query": "Shakou",
+    "normalized": "shakou",
+    "familyId": "miscrit:717"
+  },
+  {
+    "query": "Dark Bloombat",
+    "normalized": "darkbloombat",
+    "familyId": "miscrit:718"
+  },
+  {
+    "query": "Dark Petalrat",
+    "normalized": "darkpetalrat",
+    "familyId": "miscrit:718"
+  },
+  {
+    "query": "Dark Fluttermaus",
+    "normalized": "darkfluttermaus",
+    "familyId": "miscrit:718"
+  },
+  {
+    "query": "Dark Vampvine",
+    "normalized": "darkvampvine",
+    "familyId": "miscrit:718"
+  },
+  {
+    "query": "Pennypincher",
+    "normalized": "pennypincher",
+    "familyId": "miscrit:719"
+  },
+  {
+    "query": "Hoardacio",
+    "normalized": "hoardacio",
+    "familyId": "miscrit:719"
+  },
+  {
+    "query": "Pincermiser",
+    "normalized": "pincermiser",
+    "familyId": "miscrit:719"
+  },
+  {
+    "query": "Crustreasure",
+    "normalized": "crustreasure",
+    "familyId": "miscrit:719"
+  },
+  {
+    "query": "Posy",
+    "normalized": "posy",
+    "familyId": "miscrit:720"
+  },
+  {
+    "query": "Pompon",
+    "normalized": "pompon",
+    "familyId": "miscrit:720"
+  },
+  {
+    "query": "Efflora",
+    "normalized": "efflora",
+    "familyId": "miscrit:720"
+  },
+  {
+    "query": "Perenniblade",
+    "normalized": "perenniblade",
+    "familyId": "miscrit:720"
+  },
+  {
+    "query": "Chico",
+    "normalized": "chico",
+    "familyId": "miscrit:721"
+  },
+  {
+    "query": "Jaguarro",
+    "normalized": "jaguarro",
+    "familyId": "miscrit:721"
+  },
+  {
+    "query": "Zuma",
+    "normalized": "zuma",
+    "familyId": "miscrit:721"
+  },
+  {
+    "query": "Olmeca",
+    "normalized": "olmeca",
+    "familyId": "miscrit:721"
+  },
+  {
+    "query": "Tzicatl",
+    "normalized": "tzicatl",
+    "familyId": "miscrit:722"
+  },
+  {
+    "query": "Yohuacocoon",
+    "normalized": "yohuacocoon",
+    "familyId": "miscrit:722"
+  },
+  {
+    "query": "Mictzolin",
+    "normalized": "mictzolin",
+    "familyId": "miscrit:722"
+  },
+  {
+    "query": "Mictehecatl",
+    "normalized": "mictehecatl",
+    "familyId": "miscrit:722"
+  },
+  {
+    "query": "Rocapez",
+    "normalized": "rocapez",
+    "familyId": "miscrit:723"
+  },
+  {
+    "query": "Idolfin",
+    "normalized": "idolfin",
+    "familyId": "miscrit:723"
+  },
+  {
+    "query": "Runacuda",
+    "normalized": "runacuda",
+    "familyId": "miscrit:723"
+  },
+  {
+    "query": "Graven Maw",
+    "normalized": "gravenmaw",
+    "familyId": "miscrit:723"
+  },
+  {
+    "query": "Oxo",
+    "normalized": "oxo",
+    "familyId": "miscrit:724"
+  },
+  {
+    "query": "Gruffalox",
+    "normalized": "gruffalox",
+    "familyId": "miscrit:724"
+  },
+  {
+    "query": "Brutox",
+    "normalized": "brutox",
+    "familyId": "miscrit:724"
+  },
+  {
+    "query": "Behemox",
+    "normalized": "behemox",
+    "familyId": "miscrit:724"
+  },
+  {
+    "query": "Flow",
+    "normalized": "flow",
+    "familyId": "miscrit:725"
+  },
+  {
+    "query": "Fluttrix",
+    "normalized": "fluttrix",
+    "familyId": "miscrit:725"
+  },
+  {
+    "query": "Serpaero",
+    "normalized": "serpaero",
+    "familyId": "miscrit:725"
+  },
+  {
+    "query": "Arania",
+    "normalized": "arania",
+    "familyId": "miscrit:725"
+  },
+  {
+    "query": "Boltipede",
+    "normalized": "boltipede",
+    "familyId": "miscrit:726"
+  },
+  {
+    "query": "Zomalla",
+    "normalized": "zomalla",
+    "familyId": "miscrit:726"
+  },
+  {
+    "query": "Bahamite",
+    "normalized": "bahamite",
+    "familyId": "miscrit:726"
+  },
+  {
+    "query": "Fulminox",
+    "normalized": "fulminox",
+    "familyId": "miscrit:726"
+  },
+  {
+    "query": "Quartex",
+    "normalized": "quartex",
+    "familyId": "miscrit:727"
+  },
+  {
+    "query": "Crystalax",
+    "normalized": "crystalax",
+    "familyId": "miscrit:727"
+  },
+  {
+    "query": "Prismax",
+    "normalized": "prismax",
+    "familyId": "miscrit:727"
+  },
+  {
+    "query": "Clustor",
+    "normalized": "clustor",
+    "familyId": "miscrit:727"
+  },
+  {
+    "query": "Chinook",
+    "normalized": "chinook",
+    "familyId": "miscrit:728"
+  },
+  {
+    "query": "Samoyed",
+    "normalized": "samoyed",
+    "familyId": "miscrit:728"
+  },
+  {
+    "query": "Malamute",
+    "normalized": "malamute",
+    "familyId": "miscrit:728"
+  },
+  {
+    "query": "Sakhalin",
+    "normalized": "sakhalin",
+    "familyId": "miscrit:728"
+  },
+  {
+    "query": "Yelen",
+    "normalized": "yelen",
+    "familyId": "miscrit:729"
+  },
+  {
+    "query": "Gromorog",
+    "normalized": "gromorog",
+    "familyId": "miscrit:729"
+  },
+  {
+    "query": "Deerod",
+    "normalized": "deerod",
+    "familyId": "miscrit:729"
+  },
+  {
+    "query": "Voltifer",
+    "normalized": "voltifer",
+    "familyId": "miscrit:729"
+  },
+  {
+    "query": "Piglly",
+    "normalized": "piglly",
+    "familyId": "miscrit:730"
+  },
+  {
+    "query": "Whistlet",
+    "normalized": "whistlet",
+    "familyId": "miscrit:730"
+  },
+  {
+    "query": "Zephoar",
+    "normalized": "zephoar",
+    "familyId": "miscrit:730"
+  },
+  {
+    "query": "Whirlhoof",
+    "normalized": "whirlhoof",
+    "familyId": "miscrit:730"
+  },
+  {
+    "query": "Dravo",
+    "normalized": "dravo",
+    "familyId": "miscrit:731"
+  },
+  {
+    "query": "Aviagon",
+    "normalized": "aviagon",
+    "familyId": "miscrit:731"
+  },
+  {
+    "query": "Avialae",
+    "normalized": "avialae",
+    "familyId": "miscrit:731"
+  },
+  {
+    "query": "Dracotiel",
+    "normalized": "dracotiel",
+    "familyId": "miscrit:731"
+  },
+  {
+    "query": "Electryo",
+    "normalized": "electryo",
+    "familyId": "miscrit:732"
+  },
+  {
+    "query": "Buzzord",
+    "normalized": "buzzord",
+    "familyId": "miscrit:732"
+  },
+  {
+    "query": "Volture",
+    "normalized": "volture",
+    "familyId": "miscrit:732"
+  },
+  {
+    "query": "Conductor",
+    "normalized": "conductor",
+    "familyId": "miscrit:732"
+  },
+  {
+    "query": "Dark Electryo",
+    "normalized": "darkelectryo",
+    "familyId": "miscrit:733"
+  },
+  {
+    "query": "Dark Buzzord",
+    "normalized": "darkbuzzord",
+    "familyId": "miscrit:733"
+  },
+  {
+    "query": "Dark Volture",
+    "normalized": "darkvolture",
+    "familyId": "miscrit:733"
+  },
+  {
+    "query": "Dark Conductor",
+    "normalized": "darkconductor",
+    "familyId": "miscrit:733"
+  },
+  {
+    "query": "Foil Opigum",
+    "normalized": "foilopigum",
+    "familyId": "miscrit:734"
+  },
+  {
+    "query": "Foil Carrion",
+    "normalized": "foilcarrion",
+    "familyId": "miscrit:734"
+  },
+  {
+    "query": "Foil Hoggus",
+    "normalized": "foilhoggus",
+    "familyId": "miscrit:734"
+  },
+  {
+    "query": "Foil Poggle",
+    "normalized": "foilpoggle",
+    "familyId": "miscrit:734"
+  },
+  {
+    "query": "Griffix",
+    "normalized": "griffix",
+    "familyId": "miscrit:735"
+  },
+  {
+    "query": "Triffer",
+    "normalized": "triffer",
+    "familyId": "miscrit:735"
+  },
+  {
+    "query": "Hoffinex",
+    "normalized": "hoffinex",
+    "familyId": "miscrit:735"
+  },
+  {
+    "query": "Mazeffon",
+    "normalized": "mazeffon",
+    "familyId": "miscrit:735"
+  },
+  {
+    "query": "Nipuppy",
+    "normalized": "nipuppy",
+    "familyId": "miscrit:736"
+  },
+  {
+    "query": "Leapurr",
+    "normalized": "leapurr",
+    "familyId": "miscrit:736"
+  },
+  {
+    "query": "Venture",
+    "normalized": "venture",
+    "familyId": "miscrit:736"
+  },
+  {
+    "query": "Stormtail",
+    "normalized": "stormtail",
+    "familyId": "miscrit:736"
+  },
+  {
+    "query": "Joltzer",
+    "normalized": "joltzer",
+    "familyId": "miscrit:737"
+  },
+  {
+    "query": "Doberstrike",
+    "normalized": "doberstrike",
+    "familyId": "miscrit:737"
+  },
+  {
+    "query": "Gigapinscher",
+    "normalized": "gigapinscher",
+    "familyId": "miscrit:737"
+  },
+  {
+    "query": "Fulgurous",
+    "normalized": "fulgurous",
+    "familyId": "miscrit:737"
+  },
+  {
+    "query": "Pebbler",
+    "normalized": "pebbler",
+    "familyId": "miscrit:738"
+  },
+  {
+    "query": "Triatort",
+    "normalized": "triatort",
+    "familyId": "miscrit:738"
+  },
+  {
+    "query": "Triterra",
+    "normalized": "triterra",
+    "familyId": "miscrit:738"
+  },
+  {
+    "query": "Tortrio",
+    "normalized": "tortrio",
+    "familyId": "miscrit:738"
+  },
+  {
+    "query": "Dark Narlope",
+    "normalized": "darknarlope",
+    "familyId": "miscrit:739"
+  },
+  {
+    "query": "Dark Specklite",
+    "normalized": "darkspecklite",
+    "familyId": "miscrit:739"
+  },
+  {
+    "query": "Dark Thundray",
+    "normalized": "darkthundray",
+    "familyId": "miscrit:739"
+  },
+  {
+    "query": "Dark Majestrike",
+    "normalized": "darkmajestrike",
+    "familyId": "miscrit:739"
+  },
+  {
+    "query": "Pfists",
+    "normalized": "pfists",
+    "familyId": "miscrit:740"
+  },
+  {
+    "query": "Poundling",
+    "normalized": "poundling",
+    "familyId": "miscrit:740"
+  },
+  {
+    "query": "Smashix",
+    "normalized": "smashix",
+    "familyId": "miscrit:740"
+  },
+  {
+    "query": "Wilder",
+    "normalized": "wilder",
+    "familyId": "miscrit:740"
+  },
+  {
+    "query": "Dark Equestrion",
+    "normalized": "darkequestrion",
+    "familyId": "miscrit:741"
+  },
+  {
+    "query": "Dark Equestrius",
+    "normalized": "darkequestrius",
+    "familyId": "miscrit:741"
+  },
+  {
+    "query": "Dark Duocornious",
+    "normalized": "darkduocornious",
+    "familyId": "miscrit:741"
+  },
+  {
+    "query": "Dark Sagittarion",
+    "normalized": "darksagittarion",
+    "familyId": "miscrit:741"
+  },
+  {
+    "query": "Monk Munk",
+    "normalized": "monkmunk",
+    "familyId": "miscrit:742"
+  },
+  {
+    "query": "Caviakendo",
+    "normalized": "caviakendo",
+    "familyId": "miscrit:742"
+  },
+  {
+    "query": "Marmota",
+    "normalized": "marmota",
+    "familyId": "miscrit:742"
+  },
+  {
+    "query": "Jidmoonh",
+    "normalized": "jidmoonh",
+    "familyId": "miscrit:742"
+  },
+  {
+    "query": "Fracture",
+    "normalized": "fracture",
+    "familyId": "miscrit:743"
+  },
+  {
+    "query": "Beaksy",
+    "normalized": "beaksy",
+    "familyId": "miscrit:743"
+  },
+  {
+    "query": "Raptoria",
+    "normalized": "raptoria",
+    "familyId": "miscrit:743"
+  },
+  {
+    "query": "Wingrus",
+    "normalized": "wingrus",
+    "familyId": "miscrit:743"
+  },
+  {
+    "query": "Dillorock",
+    "normalized": "dillorock",
+    "familyId": "miscrit:744"
+  },
+  {
+    "query": "Rubaiyat",
+    "normalized": "rubaiyat",
+    "familyId": "miscrit:744"
+  },
+  {
+    "query": "Sapphirald",
+    "normalized": "sapphirald",
+    "familyId": "miscrit:744"
+  },
+  {
+    "query": "Chrystooth",
+    "normalized": "chrystooth",
+    "familyId": "miscrit:744"
+  },
+  {
+    "query": "Dark Monk Munk",
+    "normalized": "darkmonkmunk",
+    "familyId": "miscrit:745"
+  },
+  {
+    "query": "Dark Caviakendo",
+    "normalized": "darkcaviakendo",
+    "familyId": "miscrit:745"
+  },
+  {
+    "query": "Dark Marmota",
+    "normalized": "darkmarmota",
+    "familyId": "miscrit:745"
+  },
+  {
+    "query": "Dark Jidmoonh",
+    "normalized": "darkjidmoonh",
+    "familyId": "miscrit:745"
+  },
+  {
+    "query": "Dark Dillorock",
+    "normalized": "darkdillorock",
+    "familyId": "miscrit:746"
+  },
+  {
+    "query": "Dark Rubaiyat",
+    "normalized": "darkrubaiyat",
+    "familyId": "miscrit:746"
+  },
+  {
+    "query": "Dark Sapphirald",
+    "normalized": "darksapphirald",
+    "familyId": "miscrit:746"
+  },
+  {
+    "query": "Dark Chrystooth",
+    "normalized": "darkchrystooth",
+    "familyId": "miscrit:746"
+  },
+  {
+    "query": "Foil Pollifog",
+    "normalized": "foilpollifog",
+    "familyId": "miscrit:747"
+  },
+  {
+    "query": "Foil Koighust",
+    "normalized": "foilkoighust",
+    "familyId": "miscrit:747"
+  },
+  {
+    "query": "Foil Loch",
+    "normalized": "foilloch",
+    "familyId": "miscrit:747"
+  },
+  {
+    "query": "Foil Kinginrin",
+    "normalized": "foilkinginrin",
+    "familyId": "miscrit:747"
+  },
+  {
+    "query": "Jynku",
+    "normalized": "jynku",
+    "familyId": "miscrit:748"
+  },
+  {
+    "query": "Brill",
+    "normalized": "brill",
+    "familyId": "miscrit:748"
+  },
+  {
+    "query": "Exferno",
+    "normalized": "exferno",
+    "familyId": "miscrit:748"
+  },
+  {
+    "query": "Propaen",
+    "normalized": "propaen",
+    "familyId": "miscrit:748"
+  },
+  {
+    "query": "Dark Gog",
+    "normalized": "darkgog",
+    "familyId": "miscrit:749"
+  },
+  {
+    "query": "Dark Gizmodius",
+    "normalized": "darkgizmodius",
+    "familyId": "miscrit:749"
+  },
+  {
+    "query": "Dark Titanex",
+    "normalized": "darktitanex",
+    "familyId": "miscrit:749"
+  },
+  {
+    "query": "Dark Primordion",
+    "normalized": "darkprimordion",
+    "familyId": "miscrit:749"
+  },
+  {
+    "query": "Electrak",
+    "normalized": "electrak",
+    "familyId": "miscrit:750"
+  },
+  {
+    "query": "Sparkon",
+    "normalized": "sparkon",
+    "familyId": "miscrit:750"
+  },
+  {
+    "query": "Charco",
+    "normalized": "charco",
+    "familyId": "miscrit:750"
+  },
+  {
+    "query": "Joltagon",
+    "normalized": "joltagon",
+    "familyId": "miscrit:750"
+  }
+]

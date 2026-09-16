@@ -1,0 +1,17 @@
+const test=require('node:test');
+const assert=require('node:assert/strict');
+const C=require('../src/domain/calculations/core.ts');
+const S=require('../src/domain/calculations/session.ts');
+const reference=require('../examples/core.js');
+const fs=require('node:fs');
+const abilities=JSON.parse(fs.readFileSync('data/abilities.json','utf8'));
+const flue={hp:3,spd:1,ea:1,pa:4,ed:3,pd:3};
+test('application stats match Flue fixture and relic modifiers',()=>{const stats=C.totalStats(flue,35,C.statRecord('green'),C.statRecord(0));assert.deepEqual(stats,{hp:167,spd:60,ea:60,pa:95,ed:83,pd:83});assert.equal(C.totalStats(flue,35,C.statRecord('green'),C.statRecord(0),[{statModifiers:{hp:5}}]).hp,172);assert.equal(C.baseStat(1,35,'red'),42);});
+test('actual ability: direct component, enchant delta and unknown accuracy',()=>{const stats=C.totalStats(flue,35,C.statRecord('green'),C.statRecord(0));const bash=abilities.find(a=>a.name==='Mighty Bash');const result=C.abilityDamage(bash,stats,stats,['fire']);assert.equal(result.min,27);assert.equal(result.max,33);assert.equal(result.partial,true);assert.equal(result.accuracyPercent,null);const enchanted=C.abilityDamage(bash,stats,stats,['fire'],true);assert.equal(enchanted.min,30);assert.equal(enchanted.max,37);assert.equal(bash.ap,27);});
+test('unsupported primary abilities never return invented damage',()=>{const stats=C.statRecord(100);for(const ability of abilities.filter(a=>a.calculationSupport==='requires-effect-handler'))assert.throws(()=>C.abilityDamage(ability,stats,stats,['fire']));});
+test('invalid numbers and bonus pools rejected',()=>{for(const defense of [0,-1,NaN,Infinity])assert.throws(()=>C.directDamage({ap:27,attack:95,defense,hp:167}));assert.throws(()=>C.bonusTotal(C.statRecord(23)));assert.throws(()=>C.baseStat(3,0,'green'));assert.throws(()=>C.elementMultiplier('fire',['nature','nature']));});
+test('dual elements cancel and each hit rounds separately',()=>{assert.equal(C.elementMultiplier('fire',['nature','water']),1);const r=C.directDamage({ap:7,attack:60,defense:83,hp:167,hits:3});assert.equal(r.min,12);assert.equal(r.max,15);});
+test('application rebonus exactly reproduces reference across all priority counts',()=>{for(let d=0;d<=5;d++){const own=C.seededRandom(420+d),ref=reference.seededRandom(420+d);for(let n=0;n<2000;n++){const sample=C.rebonus(C.KEYS.slice(0,d),own);assert.deepEqual(sample,reference.rebonus(C.KEYS.slice(0,d),ref));const values=Object.values(sample).sort((a,b)=>a-b);assert.equal(values.reduce((a,b)=>a+b),136);assert.ok(values[0]>=1);assert.ok(values[0]+values[1]<=34);}}});
+test('rebonus rejects invalid random and priority inputs',()=>{assert.throws(()=>C.rebonus(C.KEYS));assert.throws(()=>C.rebonus(['spd','spd']));assert.throws(()=>C.rebonus([],()=>1));assert.throws(()=>C.rebonus([],()=>NaN));});
+test('reject keeps current and spent; accept uses candidate only; pending protects double roll',()=>{const start=S.initialSession();const pending=S.generate(start,['spd','ea'],C.seededRandom(42));assert.deepEqual(start.current,pending.current);assert.equal(pending.spent,50);assert.throws(()=>S.generate(pending,[],C.seededRandom(42)));const rejected=S.decide(pending,false);assert.deepEqual(rejected.current,start.current);assert.equal(rejected.attempts,1);assert.equal(rejected.spent,50);assert.equal(rejected.candidate,null);assert.deepEqual(S.decide(pending,true).current,pending.candidate.bonuses);});
+test('zero observations retain positive Wilson upper bound',()=>assert.ok(C.wilson(0,10000).high>0));

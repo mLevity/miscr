@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "status": "illustrative-paths-replace-with-real-files",
+  "assets": {
+    "fire": {
+      "path": "assets/elements/fire.png",
+      "width": 64,
+      "height": 64
+    },
+    "flue": {
+      "path": "assets/miscrits/flue.png",
+      "width": 256,
+      "height": 256
+    }
+  },
+  "note": "Use actual forms[].assetKey rather than deriving it from this illustration; spell variants can share one image through an explicit mapping."
+}

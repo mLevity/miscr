@@ -1,0 +1,2242 @@
+[
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "12"
+      },
+      {
+        "currency": "Gems",
+        "value": "6"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +2",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +1",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +2",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Blessed Pollen",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/blessed_pollen.png\" alt=\"Blessed Pollen\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.10</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Blessed Pollen</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">12</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">6</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title="
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "12"
+      },
+      {
+        "currency": "Gems",
+        "value": "6"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +2",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +1",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +2",
+        "title": "Physical Attack"
+      }
+    ],
+    "name": "Brash's Kiss",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/brashs_kiss.png\" alt=\"Brash's Kiss\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.10</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Brash's Kiss</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">12</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">6</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Elemen"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "12"
+      },
+      {
+        "currency": "Gems",
+        "value": "6"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +3",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +1",
+        "title": "Speed"
+      }
+    ],
+    "name": "Cloud Cake",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/cloud_cake.png\" alt=\"Cloud Cake\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.10</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Cloud Cake</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">12</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">6</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Elemental A"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "12"
+      },
+      {
+        "currency": "Gems",
+        "value": "6"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +1",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +3",
+        "title": "Speed"
+      }
+    ],
+    "name": "Dark Owlie Feather",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/dark_owlie_feather.png\" alt=\"Dark Owlie Feather\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.10</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Dark Owlie Feather</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">12</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">6</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat posi"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "12"
+      },
+      {
+        "currency": "Gems",
+        "value": "6"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +3",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +1",
+        "title": "Health"
+      }
+    ],
+    "name": "Elefauna Flower",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/elefauna_flower.png\" alt=\"Elefauna Flower\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.10</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Elefauna Flower</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">12</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">6</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" tit"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "12"
+      },
+      {
+        "currency": "Gems",
+        "value": "6"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +1",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +3",
+        "title": "Health"
+      }
+    ],
+    "name": "Eternal Falls Mushroom",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/eternal_falls_mushroom.png\" alt=\"Eternal Falls Mushroom\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.10</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Eternal Falls Mushroom</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">12</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">6</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effe"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "24"
+      },
+      {
+        "currency": "Gems",
+        "value": "12"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat immunity",
+        "text": "Sleep Immunity",
+        "title": "Sleep Immunity"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "EA: -1",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "ED: -1",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "PA: -1",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "PD: -1",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Frost Root",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/frost_root.png\" alt=\"Frost Root\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.10</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Frost Root</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">24</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">12</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat immunity\" title=\"Sleep Immu"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "12"
+      },
+      {
+        "currency": "Gems",
+        "value": "6"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +4",
+        "title": "Speed"
+      }
+    ],
+    "name": "GK's Slippers",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/gks_slippers.png\" alt=\"GK's Slippers\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.10</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">GK's Slippers</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">12</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">6</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Spe"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "12"
+      },
+      {
+        "currency": "Gems",
+        "value": "6"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +1",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +3",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +1",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Lake Azore Pearl",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/lake_azore_pearl.png\" alt=\"Lake Azore Pearl\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.10</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Lake Azore Pearl</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">12</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">6</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" "
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "12"
+      },
+      {
+        "currency": "Gems",
+        "value": "6"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +5",
+        "title": "Health"
+      }
+    ],
+    "name": "Pamboo Cane",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/pamboo_cane.png\" alt=\"Pamboo Cane\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.10</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Pamboo Cane</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">12</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">6</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Health\">"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "24"
+      },
+      {
+        "currency": "Gems",
+        "value": "12"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat immunity",
+        "text": "Confuse Immunity",
+        "title": "Confuse Immunity"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "EA: -1",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "ED: -1",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "PA: -1",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "PD: -1",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Quartex Crystal",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/quartex_crystal.png\" alt=\"Quartex Crystal\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.10</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Quartex Crystal</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">24</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">12</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat immunity\" ti"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "12"
+      },
+      {
+        "currency": "Gems",
+        "value": "6"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +1",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +3",
+        "title": "Speed"
+      }
+    ],
+    "name": "Skelepup's Spark",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/skelepups_spark.png\" alt=\"Skelepup's Spark\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.10</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Skelepup's Spark</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">12</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">6</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" t"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "12"
+      },
+      {
+        "currency": "Gems",
+        "value": "6"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +1",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +3",
+        "title": "Physical Attack"
+      }
+    ],
+    "name": "Woodsman's Axe Head",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/woodsmans_axe_head.png\" alt=\"Woodsman's Axe Head\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.10</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Woodsman's Axe Head</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">12</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">6</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat po"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +11",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +2",
+        "title": "Health"
+      }
+    ],
+    "name": "Bean Stalk",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/bean_stalk.png\" alt=\"Bean Stalk\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Bean Stalk</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Elemental "
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +6",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +6",
+        "title": "Health"
+      }
+    ],
+    "name": "Elemental Explosion",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/elemental_explosion.png\" alt=\"Elemental Explosion\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Elemental Explosion</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat "
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +9",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +3",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Emerald Scales",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/emerald_scales.png\" alt=\"Emerald Scales\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Emerald Scales</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +6",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +6",
+        "title": "Physical Attack"
+      }
+    ],
+    "name": "Flower of Despair",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/flower_of_despair.png\" alt=\"Flower of Despair\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Flower of Despair</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positi"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +10",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +4",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Forest Banner",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/forest_banner.png\" alt=\"Forest Banner\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Forest Banner</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"H"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +5",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "ED: -1",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +9",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +5",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "PD: -1",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Forging Hammer",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/forging_hammer.png\" alt=\"Forging Hammer\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Forging Hammer</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +5",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +4",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +5",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Frozen Claws",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/frozen_claws.png\" alt=\"Frozen Claws\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Frozen Claws</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Elem"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +6",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +10",
+        "title": "Speed"
+      }
+    ],
+    "name": "Helzbelz Bells",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/helzbelz_bells.png\" alt=\"Helzbelz Bells\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Helzbelz Bells</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +4",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +10",
+        "title": "Health"
+      }
+    ],
+    "name": "Jungle Banner",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/jungle_banner.png\" alt=\"Jungle Banner\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Jungle Banner</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"E"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +8",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +4",
+        "title": "Physical Attack"
+      }
+    ],
+    "name": "Monk's Mountain Banner",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/monks_mountain_banner.png\" alt=\"Monk's Mountain Banner\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Monk's Mountain Banner</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effe"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +2",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +11",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Monk's Robe",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/monks_robe.png\" alt=\"Monk's Robe\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Monk's Robe</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Health\">"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat negative",
+        "text": "EA: -3",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +4",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +10",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "PA: -3",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +4",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Mt. Gemma Banner",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/mt._gemma_banner.png\" alt=\"Mt. Gemma Banner\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Mt. Gemma Banner</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat negative\""
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +6",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +6",
+        "title": "Physical Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +3",
+        "title": "Speed"
+      }
+    ],
+    "name": "Nero's Orb",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/neros_orb.png\" alt=\"Nero's Orb\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Nero's Orb</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Elemental A"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +7",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +7",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Obsidian Lava",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/obsidian_lava.png\" alt=\"Obsidian Lava\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Obsidian Lava</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"E"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +4",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +6",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +6",
+        "title": "Speed"
+      }
+    ],
+    "name": "Ship Captain's Log",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/ship_captains_log.png\" alt=\"Ship Captain's Log\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Ship Captain's Log</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat posi"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +14",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +2",
+        "title": "Speed"
+      }
+    ],
+    "name": "Skyline Peak Gem",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/skyline_peak_gem.png\" alt=\"Skyline Peak Gem\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Skyline Peak Gem</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\""
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +4",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +8",
+        "title": "Elemental Defense"
+      }
+    ],
+    "name": "Stony Shield",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/stony_shield.png\" alt=\"Stony Shield\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Stony Shield</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Elem"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +9",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +3",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Sunfall Shores Banner",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/sunfall_shores_banner.png\" alt=\"Sunfall Shores Banner\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Sunfall Shores Banner</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "36"
+      },
+      {
+        "currency": "Gems",
+        "value": "16"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +9",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +9",
+        "title": "Physical Attack"
+      }
+    ],
+    "name": "Volcano Banner",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/volcano_banner.png\" alt=\"Volcano Banner\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.20</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Volcano Banner</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">36</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">16</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +20",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +4",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +14",
+        "title": "Speed"
+      }
+    ],
+    "name": "Arrow of Love",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/arrow_of_love.png\" alt=\"Arrow of Love\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Arrow of Love</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"E"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +7",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +28",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +7",
+        "title": "Physical Attack"
+      }
+    ],
+    "name": "Bauble of the Dawn",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/bauble_of_the_dawn.png\" alt=\"Bauble of the Dawn\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Bauble of the Dawn</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat pos"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +9",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +9",
+        "title": "Physical Defense"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "SPD: -10",
+        "title": "Speed"
+      }
+    ],
+    "name": "Cactus Flower",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/cactus_flower.png\" alt=\"Cactus Flower\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Cactus Flower</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"E"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +7",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +17",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +7",
+        "title": "Physical Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +3",
+        "title": "Speed"
+      }
+    ],
+    "name": "Dark Warro Thorn",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/dark_warro_thorn.png\" alt=\"Dark Warro Thorn\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Dark Warro Thorn</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\""
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +13",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +13",
+        "title": "Physical Defense"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "SPD: -5",
+        "title": "Speed"
+      }
+    ],
+    "name": "Dragon Shackle",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/dragon_shackle.png\" alt=\"Dragon Shackle\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Dragon Shackle</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +18",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +18",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Echino Shell",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/echino_shell.png\" alt=\"Echino Shell\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Echino Shell</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Heal"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +15",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +15",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Everlasting Snowball",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/everlasting_snowball.png\" alt=\"Everlasting Snowball\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Everlasting Snowball</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-st"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +18",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +18",
+        "title": "Health"
+      }
+    ],
+    "name": "Fractured Shell",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/fractured_shell.png\" alt=\"Fractured Shell\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Fractured Shell</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" ti"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +12",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +12",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "SPD: -5",
+        "title": "Speed"
+      }
+    ],
+    "name": "Geotoad Teeth",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/geotoad_teeth.png\" alt=\"Geotoad Teeth\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Geotoad Teeth</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"H"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +12",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +6",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +12",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +6",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Gold Piece Die",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/gold_piece_die.png\" alt=\"Gold Piece Die\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Gold Piece Die</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +26",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +13",
+        "title": "Speed"
+      }
+    ],
+    "name": "Gravitron Pebble",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/gravitron_pebble.png\" alt=\"Gravitron Pebble\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Gravitron Pebble</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\""
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +4",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +20",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +14",
+        "title": "Speed"
+      }
+    ],
+    "name": "Lost Swords",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/lost_swords.png\" alt=\"Lost Swords\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Lost Swords</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Health\""
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +17",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +7",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +7",
+        "title": "Physical Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +3",
+        "title": "Speed"
+      }
+    ],
+    "name": "Magicite Staff",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/magicite_staff.png\" alt=\"Magicite Staff\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Magicite Staff</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +9",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +18",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +9",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Monastery Idol",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/monastery_idol.png\" alt=\"Monastery Idol\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Monastery Idol</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +14",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +16",
+        "title": "Physical Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +10",
+        "title": "Speed"
+      }
+    ],
+    "name": "Mushles",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/mushles.png\" alt=\"Mushles\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Mushles</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Health\">HP: +14</sp"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +9",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +9",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "SPD: -10",
+        "title": "Speed"
+      }
+    ],
+    "name": "Mystic Map",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/mystic_map.png\" alt=\"Mystic Map\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Mystic Map</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Elemental "
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +12",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +12",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "SPD: -5",
+        "title": "Speed"
+      }
+    ],
+    "name": "Nanaslug's Horn",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/nanaslugs_horn.png\" alt=\"Nanaslug's Horn\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Nanaslug's Horn</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" tit"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +12",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +12",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "SPD: -10",
+        "title": "Speed"
+      }
+    ],
+    "name": "Nox's Nightmare",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/noxs_nightmare.png\" alt=\"Nox's Nightmare\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Nox's Nightmare</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" tit"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +9",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +9",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "SPD: -10",
+        "title": "Speed"
+      }
+    ],
+    "name": "Palmda's Talon",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/palmdas_talon.png\" alt=\"Palmda's Talon\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Palmda's Talon</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title="
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +15",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +15",
+        "title": "Physical Attack"
+      }
+    ],
+    "name": "Papa's Antlers",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/papas_antlers.png\" alt=\"Papa's Antlers\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Papa's Antlers</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title="
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +14",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +7",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +14",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "SPD: -5",
+        "title": "Speed"
+      }
+    ],
+    "name": "Patchkin's Rind",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/patchkins_rind.png\" alt=\"Patchkin's Rind\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Patchkin's Rind</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" tit"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +15",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +15",
+        "title": "Elemental Defense"
+      }
+    ],
+    "name": "Peepsie Eggs",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/peepsie_eggs.png\" alt=\"Peepsie Eggs\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Peepsie Eggs</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Elem"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +14",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +7",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +14",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Shackler's Gem",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/shacklers_gem.png\" alt=\"Shackler's Gem\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Shackler's Gem</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title="
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +16",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +16",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +8",
+        "title": "Speed"
+      }
+    ],
+    "name": "Shard of Dawn's Landing",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/shard_of_dawns_landing.png\" alt=\"Shard of Dawn's Landing\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Shard of Dawn's Landing</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"e"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +16",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +14",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +10",
+        "title": "Speed"
+      }
+    ],
+    "name": "Shattered Gatestone",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/shattered_gatestone.png\" alt=\"Shattered Gatestone\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Shattered Gatestone</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat "
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +16",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +16",
+        "title": "Health"
+      }
+    ],
+    "name": "Temple Stone",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/temple_stone.png\" alt=\"Temple Stone\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Temple Stone</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Elem"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +26",
+        "title": "Physical Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +13",
+        "title": "Speed"
+      }
+    ],
+    "name": "Tiki Idol",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/tiki_idol.png\" alt=\"Tiki Idol\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Tiki Idol</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Physical Defe"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +15",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +15",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Truncherous Hammer",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/truncherous_hammer.png\" alt=\"Truncherous Hammer\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Truncherous Hammer</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat pos"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "90"
+      },
+      {
+        "currency": "Gems",
+        "value": "42"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +16",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +16",
+        "title": "Physical Attack"
+      }
+    ],
+    "name": "Vanquished Soul",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/vanquished_soul.png\" alt=\"Vanquished Soul\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.30</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Vanquished Soul</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">90</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">42</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" ti"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "120"
+      },
+      {
+        "currency": "Gems",
+        "value": "58"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +12",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +16",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +12",
+        "title": "Physical Defense"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "SPD: -10",
+        "title": "Speed"
+      }
+    ],
+    "name": "Cage of Despair",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/cage_of_despair.png\" alt=\"Cage of Despair\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.35</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Cage of Despair</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">120</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">58</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" t"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "120"
+      },
+      {
+        "currency": "Gems",
+        "value": "58"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +5",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +26",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +5",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +26",
+        "title": "Speed"
+      }
+    ],
+    "name": "Charcoal Idol",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/charcoal_idol.png\" alt=\"Charcoal Idol\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.35</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Charcoal Idol</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">120</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">58</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\""
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "120"
+      },
+      {
+        "currency": "Gems",
+        "value": "58"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +25",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +20",
+        "title": "Health"
+      }
+    ],
+    "name": "Dark Wind's Venom",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/dark_winds_venom.png\" alt=\"Dark Wind's Venom\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.35</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Dark Wind's Venom</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">120</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">58</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positi"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "120"
+      },
+      {
+        "currency": "Gems",
+        "value": "58"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +20",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +15",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "PA: -10",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "SPD: -10",
+        "title": "Speed"
+      }
+    ],
+    "name": "Flying Carpet Fragment",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/flying_carpet_fragment.png\" alt=\"Flying Carpet Fragment\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.35</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Flying Carpet Fragment</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">120</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">58</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"ef"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "120"
+      },
+      {
+        "currency": "Gems",
+        "value": "58"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +15",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +7",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +15",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +7",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Frozen Coin",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/frozen_coin.png\" alt=\"Frozen Coin\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.35</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Frozen Coin</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">120</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">58</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Elemen"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "120"
+      },
+      {
+        "currency": "Gems",
+        "value": "58"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat negative",
+        "text": "EA: -10",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +15",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +20",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "SPD: -10",
+        "title": "Speed"
+      }
+    ],
+    "name": "Gog's Cog",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/gogs_cog.png\" alt=\"Gog's Cog\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.35</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Gog's Cog</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">120</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">58</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat negative\" title=\"Elemental Att"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "120"
+      },
+      {
+        "currency": "Gems",
+        "value": "58"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +20",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +25",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Leggy Eggs",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/leggy_eggs.png\" alt=\"Leggy Eggs\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.35</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Leggy Eggs</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">120</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">58</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Health\">H"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "120"
+      },
+      {
+        "currency": "Gems",
+        "value": "58"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +8",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +16",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +8",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +16",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Molten Coin",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/molten_coin.png\" alt=\"Molten Coin\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.35</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Molten Coin</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">120</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">58</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Elemen"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "120"
+      },
+      {
+        "currency": "Gems",
+        "value": "58"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +17",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +10",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +17",
+        "title": "Physical Defense"
+      }
+    ],
+    "name": "Moon Rock",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/moon_rock.png\" alt=\"Moon Rock\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.35</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Moon Rock</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">120</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">58</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\" title=\"Elemental De"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "120"
+      },
+      {
+        "currency": "Gems",
+        "value": "58"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +15",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PD: +24",
+        "title": "Physical Defense"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "SPD: -10",
+        "title": "Speed"
+      }
+    ],
+    "name": "Petrified Dragon Egg",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/petrified_dragon_egg.png\" alt=\"Petrified Dragon Egg\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.35</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Petrified Dragon Egg</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">120</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">58</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-s"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "120"
+      },
+      {
+        "currency": "Gems",
+        "value": "58"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "ED: +24",
+        "title": "Elemental Defense"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +15",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "SPD: -10",
+        "title": "Speed"
+      }
+    ],
+    "name": "Petrified Mama Baby",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/petrified_mama_baby.png\" alt=\"Petrified Mama Baby\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.35</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Petrified Mama Baby</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">120</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">58</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "120"
+      },
+      {
+        "currency": "Gems",
+        "value": "58"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +15",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +20",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +10",
+        "title": "Speed"
+      }
+    ],
+    "name": "Saiyam's Trident",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/saiyams_trident.png\" alt=\"Saiyam's Trident\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.35</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Saiyam's Trident</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">120</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">58</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat positive\""
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "120"
+      },
+      {
+        "currency": "Gems",
+        "value": "58"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +16",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +10",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "PA: +16",
+        "title": "Physical Attack"
+      },
+      {
+        "className": "effect-stat negative",
+        "text": "SPD: -10",
+        "title": "Speed"
+      }
+    ],
+    "name": "Scent of Skustunk",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/scent_of_skustunk.png\" alt=\"Scent of Skustunk\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.35</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Scent of Skustunk</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">120</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">58</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat posit"
+  },
+  {
+    "costs": [
+      {
+        "currency": "Platinum",
+        "value": "120"
+      },
+      {
+        "currency": "Gems",
+        "value": "58"
+      }
+    ],
+    "effects": [
+      {
+        "className": "effect-stat positive",
+        "text": "EA: +20",
+        "title": "Elemental Attack"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "HP: +18",
+        "title": "Health"
+      },
+      {
+        "className": "effect-stat positive",
+        "text": "SPD: +10",
+        "title": "Speed"
+      }
+    ],
+    "name": "Shard of Rudolffe",
+    "parent": "<div class=\"relic-card\"><div class=\"relic-image-container\"><img src=\"https://cdn.worldofmiscrits.com/relics/shard_of_rudolffe.png\" alt=\"Shard of Rudolffe\" class=\"relic-image\"><div class=\"relic-level-badge\">Lv.35</div></div><div class=\"relic-info\"><h3 class=\"relic-name\">Shard of Rudolffe</h3><div class=\"relic-cost\"><div class=\"cost-row platinum\"><span class=\"cost-value\">120</span><span class=\"cost-currency\">Platinum</span></div><div class=\"cost-row gems\"><span class=\"cost-value\">58</span><span class=\"cost-currency\">Gems</span></div></div><div class=\"relic-effects\"><span class=\"effect-stat posit"
+  }
+]

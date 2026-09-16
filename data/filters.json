@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "combination": "AND-between-groups; OR-within-group-unless-mode-all",
+  "search": {
+    "fields": [
+      "allEvolutionNames",
+      "aliases"
+    ],
+    "normalize": [
+      "unicode-NFKC",
+      "trim",
+      "casefold",
+      "collapse-spaces"
+    ],
+    "ranking": [
+      "exact",
+      "prefix",
+      "substring"
+    ],
+    "fuzzy": "optional; never auto-join data"
+  },
+  "groups": [
+    {
+      "id": "elements",
+      "values": [
+        "fire",
+        "water",
+        "nature",
+        "earth",
+        "lightning",
+        "wind"
+      ],
+      "modes": [
+        "any",
+        "all",
+        "exact"
+      ]
+    },
+    {
+      "id": "rarity",
+      "values": [
+        "common",
+        "rare",
+        "epic",
+        "exotic",
+        "legendary"
+      ]
+    },
+    {
+      "id": "baseRanks",
+      "stats": [
+        "hp",
+        "spd",
+        "ea",
+        "pa",
+        "ed",
+        "pd"
+      ],
+      "range": [
+        1,
+        5
+      ],
+      "labels": {
+        "Weak": 1,
+        "Moderate": 2,
+        "Strong": 3,
+        "Max": 4,
+        "Elite": 5
+      }
+    },
+    {
+      "id": "abilityTags",
+      "values": [
+        "ai",
+        "antiheal",
+        "attack",
+        "barbed",
+        "bleed",
+        "block",
+        "bot",
+        "buff",
+        "ci",
+        "cleanser",
+        "conditional",
+        "confuse",
+        "debuff",
+        "disease",
+        "dot",
+        "ethereal",
+        "forceswitch",
+        "heal",
+        "hot",
+        "lifesteal",
+        "negate",
+        "paralyze",
+        "pi",
+        "poison",
+        "purge",
+        "si",
+        "sleep",
+        "special",
+        "statsteal",
+        "surprise",
+        "switchcurse",
+        "timebomb"
+      ],
+      "modes": [
+        "any",
+        "all"
+      ]
+    },
+    {
+      "id": "abilityName",
+      "type": "text"
+    },
+    {
+      "id": "caught",
+      "values": [
+        "all",
+        "caught",
+        "missing"
+      ]
+    },
+    {
+      "id": "favorite",
+      "values": [
+        "all",
+        "favorites"
+      ]
+    },
+    {
+      "id": "availability",
+      "values": [
+        "all",
+        "today",
+        "weekday",
+        "unknown"
+      ],
+      "timezone": "UTC"
+    },
+    {
+      "id": "locationIds",
+      "dataset": "locations.json"
+    },
+    {
+      "id": "areaIds",
+      "dataset": "areas.json",
+      "dependsOn": "locationIds"
+    },
+    {
+      "id": "acquisition",
+      "values": [
+        "wild",
+        "shop",
+        "unknown"
+      ]
+    },
+    {
+      "id": "formVariant",
+      "values": [
+        "base",
+        "dark",
+        "light",
+        "blighted",
+        "foil"
+      ],
+      "derive": "explicit alias metadata reviewed; do not substring-filter user input"
+    }
+  ],
+  "sorts": [
+    "name-asc",
+    "name-desc",
+    "rarity-desc",
+    "rarity-asc",
+    "id-asc",
+    "base-hp-desc",
+    "base-spd-desc",
+    "base-ea-desc",
+    "base-pa-desc",
+    "base-ed-desc",
+    "base-pd-desc"
+  ],
+  "stableTieBreak": "familyId"
+}

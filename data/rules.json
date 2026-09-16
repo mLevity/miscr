@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "rulesVersion": "snapshot-2026-09-15",
+  "stats": {
+    "rankMap": {
+      "Weak": 1,
+      "Moderate": 2,
+      "Strong": 3,
+      "Max": 4,
+      "Elite": 5
+    },
+    "colorFactors": {
+      "red": 1,
+      "white": 2,
+      "green": 3
+    },
+    "levelRange": [
+      1,
+      35
+    ],
+    "hpFormula": "floor(((12 + 2*rank + 1.5*color)/5)*level + 10)",
+    "otherFormula": "floor(((3 + 2*rank + 1.5*color)/6)*level + 5)",
+    "totalFormula": "base + bonus + relicModifiers + temporaryFlatModifiers",
+    "ordinaryBonusPointsPerLevel": 3,
+    "platinumBonusPointsPerLevel": 1,
+    "level35FullBonusPool": 136,
+    "provenance": [
+      {
+        "sourceId": "hub-stats-source",
+        "retrievedOn": "2026-09-15",
+        "method": "public-client-code",
+        "gameVerified": false
+      },
+      {
+        "sourceId": "simulator-package",
+        "retrievedOn": "2026-09-15",
+        "method": "public-unencrypted-package-analysis",
+        "gameVerified": false
+      }
+    ]
+  },
+  "damage": {
+    "modelId": "hub-direct-v1",
+    "formula": "AP * attackStat / defenseStat * elementMultiplier",
+    "rollBounds": [
+      0.9,
+      1.1
+    ],
+    "rounding": "floor-per-hit",
+    "attackStats": {
+      "physical": [
+        "pa",
+        "pd"
+      ],
+      "elemental": [
+        "ea",
+        "ed"
+      ]
+    },
+    "strong": {
+      "water": "fire",
+      "fire": "nature",
+      "nature": "water",
+      "earth": "lightning",
+      "wind": "earth",
+      "lightning": "wind"
+    },
+    "strongMultiplier": 2,
+    "weakMultiplier": 0.5,
+    "dualElements": "multiply-once-per-distinct-defender-element",
+    "provenance": {
+      "sourceId": "hub-damage-source",
+      "retrievedOn": "2026-09-15",
+      "method": "public-client-code",
+      "gameVerified": false
+    }
+  },
+  "rebonus": {
+    "modelId": "nekkoyato-package-17517733",
+    "total": 136,
+    "minimumPerStat": 1,
+    "statOrder": [
+      "hp",
+      "spd",
+      "ea",
+      "pa",
+      "ed",
+      "pd"
+    ],
+    "maximumDeprioritizedStats": 5,
+    "lowProbability": 0.14666666666666667,
+    "highProbabilityFormula": "(1 - deprioritizedCount*lowProbability)/(6-deprioritizedCount)",
+    "correction": "if sum of two smallest residual counts >32, move the excess from second-smallest to random one of four other stats; then add one to all stats",
+    "costByDeprioritizedCount": {
+      "0": 25,
+      "1": 60,
+      "2": 50,
+      "3": 45,
+      "4": 50,
+      "5": 60
+    },
+    "costFormula": "136 - sum(currentBonuses) + costByDeprioritizedCount[d]",
+    "level": 35,
+    "gameParity": "unverified",
+    "provenance": {
+      "sourceId": "simulator-package",
+      "retrievedOn": "2026-09-15",
+      "method": "public-unencrypted-package-analysis",
+      "gameVerified": false
+    }
+  }
+}

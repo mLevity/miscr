@@ -1,0 +1,21 @@
+- generic [ref=f12e2]:
+  - link "К содержимому" [ref=f12e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f12e4]:
+    - generic [ref=f12e5]:
+      - link "Miscrits Энциклопедия" [ref=f12e6] [cursor=pointer]:
+        - /url: /
+      - navigation "Основная навигация" [ref=f12e7]:
+        - link "Мискриты" [ref=f12e8] [cursor=pointer]:
+          - /url: /
+        - link "Карта мира" [ref=f12e11] [cursor=pointer]:
+          - /url: /map
+        - link "Моя коллекция" [ref=f12e14] [cursor=pointer]:
+          - /url: /collection
+        - link "Инструменты" [ref=f12e17] [cursor=pointer]:
+          - /url: /tools
+      - link "Данные на устройстве" [ref=f12e20] [cursor=pointer]:
+        - /url: /settings
+  - main [ref=f12e23]:
+    - status [ref=f12e24]: Загружаем раздел…
+  - generic [ref=f12e25]: Загружается коллекция

@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "familyId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 160,
+      "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+    },
+    "level": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 35
+    },
+    "colors": {
+      "type": "object",
+      "properties": {
+        "hp": {
+          "enum": [
+            "red",
+            "white",
+            "green"
+          ]
+        },
+        "spd": {
+          "enum": [
+            "red",
+            "white",
+            "green"
+          ]
+        },
+        "ea": {
+          "enum": [
+            "red",
+            "white",
+            "green"
+          ]
+        },
+        "pa": {
+          "enum": [
+            "red",
+            "white",
+            "green"
+          ]
+        },
+        "ed": {
+          "enum": [
+            "red",
+            "white",
+            "green"
+          ]
+        },
+        "pd": {
+          "enum": [
+            "red",
+            "white",
+            "green"
+          ]
+        }
+      },
+      "required": [
+        "hp",
+        "spd",
+        "ea",
+        "pa",
+        "ed",
+        "pd"
+      ],
+      "additionalProperties": false
+    },
+    "bonuses": {
+      "type": "object",
+      "properties": {
+        "hp": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 136
+        },
+        "spd": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 136
+        },
+        "ea": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 136
+        },
+        "pa": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 136
+        },
+        "ed": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 136
+        },
+        "pd": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 136
+        }
+      },
+      "required": [
+        "hp",
+        "spd",
+        "ea",
+        "pa",
+        "ed",
+        "pd"
+      ],
+      "additionalProperties": false
+    },
+    "relicIds": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160,
+            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "maxItems": 4
+    },
+    "datasetVersion": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "rulesVersion": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "label": {
+      "type": "string",
+      "maxLength": 100
+    }
+  },
+  "required": [
+    "id",
+    "familyId",
+    "level",
+    "colors",
+    "bonuses",
+    "relicIds",
+    "datasetVersion",
+    "rulesVersion",
+    "label"
+  ],
+  "additionalProperties": false
+}

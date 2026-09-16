@@ -1,0 +1,334 @@
+{
+  "elements/accuracy_buff": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\accuracy_buff.png",
+    "sha256": "710851734e5b34d52fd4486a2339bc2f33c4412803015d1482d1bb84369127ec"
+  },
+  "elements/accuracy_debuff": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\accuracy_debuff.png",
+    "sha256": "f34e35c763c48b3ad8e72619d49e2d4a81b2473bda3d99fcf02194de1a00aff5"
+  },
+  "elements/antiheal": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\antiheal.png",
+    "sha256": "bfdfa82be29b0a1ba44d6460e08c7e49e0297f782773d304bf1a03673c7d5b1f"
+  },
+  "elements/barbed": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\barbed.png",
+    "sha256": "90323be2e70799f331aa67f5cab9ff5ed860bac8e750cc1dc2027a45061130fb"
+  },
+  "elements/bleed": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\bleed.png",
+    "sha256": "5a4b3c42a71138d746e7cab95d6ea9f0aadd842ff8f070fdca1b816fa8584b32"
+  },
+  "elements/block": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\block.png",
+    "sha256": "d6a02dc3e7c767dbb941feb8e073bc5d40857c45cda6c52bc6e22acd59f1fb25"
+  },
+  "elements/bomb_earth": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\bomb_earth.png",
+    "sha256": "697e4fb651307c1b80ef11f69c60a03760333be2901a43b3d6bef317e3fe4d64"
+  },
+  "elements/bomb_fire": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\bomb_fire.png",
+    "sha256": "9ac4ea057fdcfe339f8c1b04985c1484c10e3be3210090b7f585f8e360fb6e3b"
+  },
+  "elements/bomb_lightning": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\bomb_lightning.png",
+    "sha256": "db47e7f0a2c5017d6e2458b3750a8914a376e1e442c650f0050ac4760040feca"
+  },
+  "elements/bomb_nature": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\bomb_nature.png",
+    "sha256": "a7aaa2e8ac637dfbf995ea35ed7a4546983cad5e60a59105a520a557031b4a69"
+  },
+  "elements/bomb_water": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\bomb_water.png",
+    "sha256": "f511f4afbd0ac03cd52986d16762b756f7d02491682b3d6f28ed1477cd12bfaa"
+  },
+  "elements/bomb_wind": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\bomb_wind.png",
+    "sha256": "15d3149f158c891cd29c8d6146cd754a4ab03582ce96919441d423a30fb94203"
+  },
+  "elements/bot_buff": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\bot_buff.png",
+    "sha256": "de25a5f749712c66e27e4444a474dbdf6ff67f1e9f00c55010d9ee377946b5cb"
+  },
+  "elements/bot_debuff": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\bot_debuff.png",
+    "sha256": "be641bcb23f85c76197a8db0cff87c4a396e858bb99b2935572708ee9062b4c0"
+  },
+  "elements/buff": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\buff.png",
+    "sha256": "9c5ebccec40dd5a09c46244e1d279f764336166bd6fef906e733a214e7489f67"
+  },
+  "elements/ci": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\ci.png",
+    "sha256": "e02118ac4e805d4b50f47107a468923bed05e6c234b69944d79d0728273367ae"
+  },
+  "elements/cleanser": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\cleanser.png",
+    "sha256": "e8335529e607e1d1f8b63421b04b0748b8d6e40092ea17bc1d5a242e4c8d38d9"
+  },
+  "elements/confuse": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\confuse.png",
+    "sha256": "3fbbf40f68a55f00efb1a7532240b0db39f58a146e70d4b21422434418cd1495"
+  },
+  "elements/debuff": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\debuff.png",
+    "sha256": "deb16c732c7e84a6f648a5df65f8fd56b2034b7fab640c6fd27605c17a088820"
+  },
+  "elements/disease": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\disease.png",
+    "sha256": "7538b5be18135088dbac3596fb834fbae6ce2746d7ac39023d045654784fe095"
+  },
+  "elements/earth": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\earth.png",
+    "sha256": "104257f118f4ca51562079790fc0f7913376816df23e5055225218e6c8b2e78b"
+  },
+  "elements/earth_physical": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\earth_physical.png",
+    "sha256": "16eac2a70deab876d1a5c6a95e7dc81a32a105031c0e33aed4cb34c0461d523a"
+  },
+  "elements/earth_poison": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\earth_poison.png",
+    "sha256": "b288619c4054f77f38e2807499be4170540281448a582118d44e83bc420d2100"
+  },
+  "elements/empty": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\empty.png",
+    "sha256": "f44a8de07f1a4ee9cd9bb83a5eb59b6217cce8b996ea54ea638a62277ed0ac1e"
+  },
+  "elements/ethereal": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\ethereal.png",
+    "sha256": "fb45b3480235eef76f2967e1c07151871f69aa33aced7306b9a3541f1066eb4f"
+  },
+  "elements/fire": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\fire.png",
+    "sha256": "9cb7065770b765ee463d93328e37e27a38436e652e7fd2a70ee04a092be5dc0b"
+  },
+  "elements/fire_physical": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\fire_physical.png",
+    "sha256": "3aace3e2e3676cf79349b21a84a6fc1be78825a18a9abc884e9b90da6742caa8"
+  },
+  "elements/fire_poison": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\fire_poison.png",
+    "sha256": "fd9d1d8fa9c3c261be485fa5f4389ca25d3d0541be5d978d6406ac91fc5d7040"
+  },
+  "elements/fireearth": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\fireearth.png",
+    "sha256": "b0bfa7dbdeb340a6424392eebf67d41a0c5d6e6d3d717daf7714f216257979a6"
+  },
+  "elements/firelightning": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\firelightning.png",
+    "sha256": "04b21f14a20b0dfc26bf66f96561ce266099db89a9f5c57c3430df94275b0ecd"
+  },
+  "elements/firewind": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\firewind.png",
+    "sha256": "946503865ac7b6b964103f45f34bb22eabf9bef87a8a01d21e038f3c3245e942"
+  },
+  "elements/heal": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\heal.png",
+    "sha256": "9e16fe03af7bf45dadd646d729cb418ed2f770e5bcefb5f68f1376000cf9c781"
+  },
+  "elements/lastchance": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\lastchance.png",
+    "sha256": "fad42219eaa4bba9cd1c9d810b1580582c87c7c4dd2b9260b646fb0527adfca5"
+  },
+  "elements/lifesteal": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\lifesteal.png",
+    "sha256": "4d3b1b17ae38d89dd47228f602aca272673f45c2a5a1743f7521ed4f9c811587"
+  },
+  "elements/lightning": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\lightning.png",
+    "sha256": "e0ffe082337f2d7e88bb73c23d46728f12b783eab8aa9df5908dc3b3a42c8d00"
+  },
+  "elements/lightning_physical": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\lightning_physical.png",
+    "sha256": "af4a006dcafb5c781ec42e383a9fb83b20f4c43ca374422e2479926c7123c613"
+  },
+  "elements/lightning_poison": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\lightning_poison.png",
+    "sha256": "3f75ce9c76c4f44239680d18453bdb162795c386e8f16f9ea06536d1e246ccec"
+  },
+  "elements/nature": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\nature.png",
+    "sha256": "d3c3da5d637552b7f8461423ad7ba3af99b3097a96539c5de79206cede213b16"
+  },
+  "elements/nature_physical": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\nature_physical.png",
+    "sha256": "a7480d7d90c41537236060ee9a00601654c4b17ec73eb154dc15b703beb2eec4"
+  },
+  "elements/nature_poison": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\nature_poison.png",
+    "sha256": "71803049c16a9eb931e3ea8e40481ccd67dded6e2b1dff078a6dc8b4927db910"
+  },
+  "elements/natureearth": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\natureearth.png",
+    "sha256": "1ea0d291a045b7f691fbadc057966da97d3a7d85098c3260db801a291762c537"
+  },
+  "elements/naturelightning": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\naturelightning.png",
+    "sha256": "a71f485b23108fbe835b4b23d1b18c7e404484a7c2f305ccfcee19cbe250a66b"
+  },
+  "elements/naturewind": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\naturewind.png",
+    "sha256": "600094e66b5c57e478906b34c46357b6a78878e01a8189a05e08e117331da177"
+  },
+  "elements/negate": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\negate.png",
+    "sha256": "ab1c248ef315173b3468c10000479c127c54d8e1d8acf03d38af14ef006f8d38"
+  },
+  "elements/paralyze": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\paralyze.png",
+    "sha256": "850acaddc7c098220e1cc66a8456910d1a5b7d816837734fa4f29116ab5c8454"
+  },
+  "elements/physical": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\physical.png",
+    "sha256": "7b820bcd3c1deb5a84c2ca380561bbb1cbfe08fe94633f0368e95a5cb1785d82"
+  },
+  "elements/physical_poison": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\physical_poison.png",
+    "sha256": "0422aee999e1f413ac248ab9a7d33b90180ba2a429ab62b6925e5b4c786c4ab0"
+  },
+  "elements/pi": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\pi.png",
+    "sha256": "ac4a0c69dc856b321c522bbe7183d1c5100b7c9abcc17003c09db50fcffd8792"
+  },
+  "elements/poison": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\poison.png",
+    "sha256": "7515bfcd1ea65de6e12be45c685c6b9c7c725e27781e6cb3932e73b6a89408d2"
+  },
+  "elements/purge": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\purge.png",
+    "sha256": "e8335529e607e1d1f8b63421b04b0748b8d6e40092ea17bc1d5a242e4c8d38d9"
+  },
+  "elements/si": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\si.png",
+    "sha256": "bbb4748069a23e1d45ed07947fe3aa318c7acafa77953d8c0cb1a4afcf2301d1"
+  },
+  "elements/sleep": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\sleep.png",
+    "sha256": "491f498945d15b512a9c22365aad55b1362f65f4f2f6724574005a7c078abe20"
+  },
+  "elements/special": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\special.png",
+    "sha256": "3fbbf40f68a55f00efb1a7532240b0db39f58a146e70d4b21422434418cd1495"
+  },
+  "elements/switchcurse": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\switchcurse.png",
+    "sha256": "c445c407a60cbb5ae955d14ae3d5030320702c4f82e7a74615f11ccc0611c2c9"
+  },
+  "elements/truedamage": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\truedamage.png",
+    "sha256": "3c4c36024b42a3753b9a38c6fba38038c135cef498c790589b0e6b7c00ac079d"
+  },
+  "elements/water": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\water.png",
+    "sha256": "bd8647270e9a2deaa25b41f3f3cee0c211433c5e975786ffd473085610c149e5"
+  },
+  "elements/water_physical": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\water_physical.png",
+    "sha256": "b4426036fc89f0ba74566b85b2313841e92cadbcc726578158ac42bdfc8abec0"
+  },
+  "elements/water_poison": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\water_poison.png",
+    "sha256": "cd739d3c543f02d49f53d0c28e4b172da655cbc4fbfc382f6972f7479807a805"
+  },
+  "elements/waterearth": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\waterearth.png",
+    "sha256": "8bd979c4516463064cfb6667c9f859ebc0d41e680f11e1cca1d3755ad81003c3"
+  },
+  "elements/waterlightning": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\waterlightning.png",
+    "sha256": "474ffa6dbf34bc75787c42f0b049cf07353cee747a0ccd169dbed8a0e167d79e"
+  },
+  "elements/waterwind": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\waterwind.png",
+    "sha256": "fac06940fc6fe17d5499a5b4174fc116e9bc76c75690cf1222b21d848358b6e1"
+  },
+  "elements/wind": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\wind.png",
+    "sha256": "6e8e528d962f0e5590628b566270d2bce2b8fc7d2418c411ff62098b1615d548"
+  },
+  "elements/wind_physical": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\wind_physical.png",
+    "sha256": "052ea3fc93706a797b59c3178a1b9807bc1167763fcbb95f33545ca13238b96c"
+  },
+  "elements/wind_poison": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\elements\\large\\wind_poison.png",
+    "sha256": "d4abeb7ea816cdff5d2939382664882613f835f223b3f31d6fb84269c6d3c9fd"
+  },
+  "stats/ea": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\stats\\large\\ea.png",
+    "sha256": "2a6fc9c4df3e5176c9e4c3760bdfb03cfca3155dfd7ad97199a40a3f0db22c62"
+  },
+  "stats/ed": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\stats\\large\\ed.png",
+    "sha256": "67b5e8659aa81cce6f5bc468e110409c879fe8d1d3e846b4501680eba96915c8"
+  },
+  "stats/hp": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\stats\\large\\hp.png",
+    "sha256": "fcc85999482891194d2fb0fca11b57d39a7f0ebd2f14bdb12ebc057cc947be57"
+  },
+  "stats/pa": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\stats\\large\\pa.png",
+    "sha256": "d5bd17438840f5a6491a4d465eb6231350b2bd7e0879272d190edfa223ff151d"
+  },
+  "stats/pd": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\stats\\large\\pd.png",
+    "sha256": "0892baceb0d835b4388ddabd136c267dde23de0b0397687d4448e12d14244d65"
+  },
+  "stats/spd": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\stats\\large\\spd.png",
+    "sha256": "c34dd760939299ab9f72fde5e7ab7af047086e759a45e80034b9269182577e2c"
+  },
+  "rarity/common": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\rarity\\Common.png",
+    "sha256": "a5b6950b9c75fdcee133677e98ed635aff99fa3c83ba3342ced8ceef3238b003"
+  },
+  "rarity/epic": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\rarity\\Epic.png",
+    "sha256": "63376abf7882e899b0c04b86d66ae2edbea789c919a3874a02714afac42352ad"
+  },
+  "rarity/exotic": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\rarity\\Exotic.png",
+    "sha256": "da7713a385345468fd4dd4d905883a60854743b2f11c344ccf71c7686b59c8ff"
+  },
+  "rarity/legendary": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\rarity\\Legendary.png",
+    "sha256": "bd37954904c5e0b238873d33d3f45873ed194473532cc4ae7b1fb46d6ff2ef87"
+  },
+  "rarity/rare": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\rarity\\Rare.png",
+    "sha256": "6fa92124c6721562fe0ad2534bbbfef21aff8a5c167392bfe9f654923d0aa941"
+  },
+  "chunks/e_chunk": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\..\\miscripedia\\chunks\\e_chunk.png",
+    "sha256": "774129d2db0bfcf724f65d421996f819a289f7a442d317f96577071da1e6049d"
+  },
+  "chunks/e_chunktainer": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\..\\miscripedia\\chunks\\e_chunktainer.png",
+    "sha256": "4d96e8aebe2998c0b5828721c09a39778de05901be1c70bed05222083282b73d"
+  },
+  "chunks/hp_chunk": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\..\\miscripedia\\chunks\\hp_chunk.png",
+    "sha256": "ecf41dd936323d83d56a2c519a2373eb2300a814a683c7873480120ace632e8f"
+  },
+  "chunks/hp_chunktainer": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\..\\miscripedia\\chunks\\hp_chunktainer.png",
+    "sha256": "6458b091080b0e4ec9f2b23e8fabcce70d649a72234f1535b84ad4aef66cc51e"
+  },
+  "chunks/p_chunk": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\..\\miscripedia\\chunks\\p_chunk.png",
+    "sha256": "e5185735b5f85a2420ee938e8258c883b0e29933680dc1ca0ef098323da62a1e"
+  },
+  "chunks/p_chunktainer": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\..\\miscripedia\\chunks\\p_chunktainer.png",
+    "sha256": "43328bb99a4bd91e9ee67f02a109207b27ab917bbd32e189b212782af7ed3519"
+  },
+  "chunks/spd_chunk": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\..\\miscripedia\\chunks\\spd_chunk.png",
+    "sha256": "656c744b99b9bf97f9f2cd4e3c60bcfa284ad28344db7d1af95b666e80d8ea73"
+  },
+  "chunks/spd_chunktainer": {
+    "source": "C:\\lvt_proj\\yandex\\miscrits\\recovered_assets\\assets\\scenes\\common\\..\\miscripedia\\chunks\\spd_chunktainer.png",
+    "sha256": "21a5387f49294e69d1371222b633dc8840feb7c6dd9969d4127de4fb6adbd38e"
+  }
+}

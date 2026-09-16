@@ -1,0 +1,279 @@
+.icon.nav-icon { filter: none; }
+.game-rank-segments {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  gap: 0;
+  height: 32px;
+}
+.rank-segments.game-rank-segments button {
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex: 0 0 22.38806%;
+  margin-right: -2.985075%;
+}
+.rank-segments.game-rank-segments button:last-child {
+  margin-right: 0;
+}
+.rank-segments.game-rank-segments button.filled {
+  background-color: transparent;
+  border: 0;
+}
+.card-portrait .rarity-overlay {
+  width: 175px;
+  height: 175px;
+}
+.detail-page .detail-layout {
+  display: grid;
+  grid-template-columns: minmax(300px, 0.85fr) minmax(600px, 1.65fr);
+  align-items: start;
+  gap: 24px;
+}
+.detail-page .detail-art-panel {
+  position: static;
+  padding: 16px;
+  min-width: 0;
+}
+.evolution-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px 8px;
+}
+.evolution-gallery figure {
+  margin: 0;
+  min-width: 0;
+  text-align: center;
+}
+.evolution-gallery .first-evolution {
+  grid-column: 1/-1;
+}
+.evolution-gallery .first-evolution .creature-art {
+  max-width: 300px;
+  margin: auto;
+}
+.evolution-gallery .next-evolution .creature-art {
+  min-height: 0;
+  aspect-ratio: 1;
+}
+.evolution-gallery figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 8px 0;
+}
+.evolution-gallery figcaption small {
+  color: #a7ad98;
+  font-size: 10px;
+}
+.evolution-gallery figcaption strong {
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+.evolution-gallery .first-evolution figcaption strong {
+  font-size: 19px;
+}
+.stats-and-abilities {
+  display: grid;
+  grid-template-columns: minmax(250px, 1fr) minmax(250px, 1fr);
+  gap: 16px;
+  align-items: stretch;
+}
+.detail-page .stats-and-abilities .content-panel {
+  margin: 0;
+  padding: 18px;
+  min-width: 0;
+}
+.stats-and-abilities h2 {
+  font-size: 17px;
+  margin: 0 0 20px;
+}
+.species-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.species-stat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 32px;
+}
+.species-stat .stat-symbol {
+  width: 27px;
+  height: 27px;
+  object-fit: contain;
+}
+.species-stat strong {
+  width: 27px;
+  font-size: 12px;
+  flex-shrink: 0;
+}
+.game-stat-bar {
+  position: relative;
+  flex: 1;
+  height: 25px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.game-stat-bar img {
+  position: absolute;
+  top: 0;
+  width: 22.38806%;
+  height: 100%;
+}
+.stat-number {
+  color: #ddd5b4;
+  font-size: 12px;
+  width: 10px;
+  text-align: right;
+}
+.abilities-panel .section-heading {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.abilities-panel .section-heading h2 {
+  margin: 0;
+}
+.abilities-panel .checkbox-line {
+  font-size: 10px;
+  gap: 5px;
+  margin: 0;
+}
+.abilities-panel .custom-checkbox {
+  min-height: 18px;
+  height: 18px;
+  width: 18px;
+  flex-basis: 18px;
+}
+.ability-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-rows: 58px;
+  gap: 9px;
+}
+.ability-tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 0;
+  padding: 7px;
+  background: linear-gradient(#2b3022, #1a2017);
+  border-color: #53573b;
+  border-radius: 10px;
+}
+.ability-tile img {
+  height: 42px;
+  width: 42px;
+  object-fit: contain;
+  transition: transform 0.15s;
+}
+.ability-tile:hover img {
+  transform: scale(1.1);
+}
+.ability-tile[aria-expanded="true"] {
+  border-color: #edce73;
+  background: #353927;
+}
+.ability-tooltip {
+  position: fixed;
+  z-index: 80;
+  width: min(330px, calc(100vw - 24px));
+  max-height: calc(100dvh - 24px);
+  overflow: auto;
+  background: #22281d;
+  border: 1px solid #a09257;
+  padding: 17px;
+  border-radius: 12px;
+  box-shadow: 0 16px 48px #000b;
+  font-size: 12px;
+  color: #e7e8d9;
+}
+.ability-tooltip > strong {
+  color: #f0d581;
+  font-size: 17px;
+}
+.ability-tooltip p {
+  line-height: 1.6;
+  margin: 10px 0 0;
+}
+.ability-tooltip dl {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border-block: 1px solid #555b3f;
+  padding: 10px 0;
+}
+.ability-tooltip dt {
+  font-size: 10px;
+  color: #afb69f;
+}
+.ability-tooltip dd {
+  margin: 3px 0 0;
+}
+.ability-effects,
+.enchant-description {
+  color: #bac4a7;
+}
+.enchant-active {
+  color: #f0d581;
+}
+.detail-content > .stats-and-abilities {
+  margin-bottom: 20px;
+}
+@media (max-width: 1100px) {
+  .detail-page .detail-layout {
+    grid-template-columns: minmax(230px, 0.7fr) minmax(510px, 1.6fr);
+    gap: 16px;
+  }
+  .stats-and-abilities {
+    grid-template-columns: minmax(220px, 1fr) minmax(230px, 1fr);
+    gap: 12px;
+  }
+  .detail-page .stats-and-abilities .content-panel {
+    padding: 14px;
+  }
+}
+@media (max-width: 850px) {
+  .detail-page .detail-layout {
+    grid-template-columns: 1fr;
+  }
+  .evolution-gallery {
+    max-width: 520px;
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 650px) {
+  .card-portrait .rarity-overlay {
+    width: 150px;
+    height: 150px;
+  }
+  .stats-and-abilities {
+    grid-template-columns: 1fr;
+  }
+  .game-stat-bar {
+    height: 30px;
+  }
+  .species-stats {
+    gap: 12px;
+  }
+  .species-stat {
+    gap: 12px;
+  }
+  .ability-grid {
+    grid-auto-rows: 65px;
+    gap: 10px;
+  }
+  .ability-tile img {
+    height: 46px;
+    width: 46px;
+  }
+  .abilities-panel .section-heading {
+    justify-content: space-between;
+  }
+}

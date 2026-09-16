@@ -1,0 +1,263 @@
+- generic [ref=e2]:
+  - link "К содержимому" [ref=e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "Miscrits Helper" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - navigation "Основная навигация" [ref=e7]:
+        - link "Мискриты" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "Карта мира" [ref=e12] [cursor=pointer]:
+          - /url: /map
+        - link "Моя коллекция" [ref=e16] [cursor=pointer]:
+          - /url: /collection
+        - link "Инструменты" [ref=e20] [cursor=pointer]:
+          - /url: /tools
+      - link "Данные на устройстве" [ref=e24] [cursor=pointer]:
+        - /url: /settings
+  - main [ref=e27]:
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - paragraph [ref=e30]: Найди своего мискрита
+        - heading "Мискриты" [level=1] [ref=e31]
+        - paragraph [ref=e32]: 420 семейств · 1 680 эволюций · одна коллекция
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e36]: Поиск по мискритам и эволюциям
+          - searchbox "Поиск по мискритам и эволюциям" [ref=e37]
+        - generic [ref=e38]:
+          - button "Rarity Редкость" [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]:
+              - text: Rarity
+              - generic [ref=e42]: Редкость
+            - generic [aria-hidden] [ref=e43]: ⌄
+          - button "Stats Статы" [ref=e45] [cursor=pointer]:
+            - generic [ref=e46]:
+              - text: Stats
+              - generic [ref=e47]: Статы
+            - generic [aria-hidden] [ref=e48]: ⌄
+          - generic [ref=e49]:
+            - button "Tags Теги" [expanded] [active] [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]:
+                - text: Tags
+                - generic [ref=e52]: Теги
+              - generic [aria-hidden] [ref=e53]: ⌄
+            - generic [ref=e1456]:
+              - generic [ref=e1457]:
+                - text: Эффекты способностей
+                - button "Сбросить" [ref=e1458] [cursor=pointer]
+              - paragraph [ref=e1459]: Включая зачарования. Все выбранные теги должны присутствовать.
+              - generic [ref=e1460]:
+                - button "AI Иммунитет к Anti-heal 7" [ref=e1461] [cursor=pointer]:
+                  - generic [ref=e1462]:
+                    - text: AI
+                    - generic [ref=e1463]: Иммунитет к Anti-heal
+                  - generic [ref=e1464]: "7"
+                - button "Anti-heal Запрет лечения 42" [ref=e1465] [cursor=pointer]:
+                  - generic [ref=e1466]:
+                    - text: Anti-heal
+                    - generic [ref=e1467]: Запрет лечения
+                  - generic [ref=e1468]: "42"
+                - button "Attack Атака 420" [ref=e1469] [cursor=pointer]:
+                  - generic [ref=e1470]:
+                    - text: Attack
+                    - generic [ref=e1471]: Атака
+                  - generic [ref=e1472]: "420"
+                - button "Barbed Шипы 26" [ref=e1473] [cursor=pointer]:
+                  - generic [ref=e1474]:
+                    - text: Barbed
+                    - generic [ref=e1475]: Шипы
+                  - generic [ref=e1476]: "26"
+                - button "Bleed Кровотечение 39" [ref=e1477] [cursor=pointer]:
+                  - generic [ref=e1478]:
+                    - text: Bleed
+                    - generic [ref=e1479]: Кровотечение
+                  - generic [ref=e1480]: "39"
+                - button "Block Блок 75" [ref=e1481] [cursor=pointer]:
+                  - generic [ref=e1482]:
+                    - text: Block
+                    - generic [ref=e1483]: Блок
+                  - generic [ref=e1484]: "75"
+                - button "Buff Усиление 413" [ref=e1485] [cursor=pointer]:
+                  - generic [ref=e1486]:
+                    - text: Buff
+                    - generic [ref=e1487]: Усиление
+                  - generic [ref=e1488]: "413"
+                - button "Buff over Time Изменение статов по ходам 20" [ref=e1489] [cursor=pointer]:
+                  - generic [ref=e1490]:
+                    - text: Buff over Time
+                    - generic [ref=e1491]: Изменение статов по ходам
+                  - generic [ref=e1492]: "20"
+                - button "CI CI 36" [ref=e1493] [cursor=pointer]:
+                  - generic [ref=e1494]:
+                    - text: CI
+                    - generic [ref=e1495]: CI
+                  - generic [ref=e1496]: "36"
+                - button "Cleanser Очищение 13" [ref=e1497] [cursor=pointer]:
+                  - generic [ref=e1498]:
+                    - text: Cleanser
+                    - generic [ref=e1499]: Очищение
+                  - generic [ref=e1500]: "13"
+                - button "Conditional Условный эффект 6" [ref=e1501] [cursor=pointer]:
+                  - generic [ref=e1502]:
+                    - text: Conditional
+                    - generic [ref=e1503]: Условный эффект
+                  - generic [ref=e1504]: "6"
+                - button "Confuse Замешательство 91" [ref=e1505] [cursor=pointer]:
+                  - generic [ref=e1506]:
+                    - text: Confuse
+                    - generic [ref=e1507]: Замешательство
+                  - generic [ref=e1508]: "91"
+                - button "Damage over Time Периодический урон 77" [ref=e1509] [cursor=pointer]:
+                  - generic [ref=e1510]:
+                    - text: Damage over Time
+                    - generic [ref=e1511]: Периодический урон
+                  - generic [ref=e1512]: "77"
+                - button "Debuff Ослабление 377" [ref=e1513] [cursor=pointer]:
+                  - generic [ref=e1514]:
+                    - text: Debuff
+                    - generic [ref=e1515]: Ослабление
+                  - generic [ref=e1516]: "377"
+                - button "Disease Болезнь 23" [ref=e1517] [cursor=pointer]:
+                  - generic [ref=e1518]:
+                    - text: Disease
+                    - generic [ref=e1519]: Болезнь
+                  - generic [ref=e1520]: "23"
+                - button "Ethereal Бесплотность 18" [ref=e1521] [cursor=pointer]:
+                  - generic [ref=e1522]:
+                    - text: Ethereal
+                    - generic [ref=e1523]: Бесплотность
+                  - generic [ref=e1524]: "18"
+                - button "Force Switch Принудительная смена 22" [ref=e1525] [cursor=pointer]:
+                  - generic [ref=e1526]:
+                    - text: Force Switch
+                    - generic [ref=e1527]: Принудительная смена
+                  - generic [ref=e1528]: "22"
+                - button "Heal Лечение 388" [ref=e1529] [cursor=pointer]:
+                  - generic [ref=e1530]:
+                    - text: Heal
+                    - generic [ref=e1531]: Лечение
+                  - generic [ref=e1532]: "388"
+                - button "Heal over Time Периодическое лечение 36" [ref=e1533] [cursor=pointer]:
+                  - generic [ref=e1534]:
+                    - text: Heal over Time
+                    - generic [ref=e1535]: Периодическое лечение
+                  - generic [ref=e1536]: "36"
+                - button "Life Steal Кража здоровья 40" [ref=e1537] [cursor=pointer]:
+                  - generic [ref=e1538]:
+                    - text: Life Steal
+                    - generic [ref=e1539]: Кража здоровья
+                  - generic [ref=e1540]: "40"
+                - button "Negate Отмена эффекта 211" [ref=e1541] [cursor=pointer]:
+                  - generic [ref=e1542]:
+                    - text: Negate
+                    - generic [ref=e1543]: Отмена эффекта
+                  - generic [ref=e1544]: "211"
+                - button "Paralyze Паралич 70" [ref=e1545] [cursor=pointer]:
+                  - generic [ref=e1546]:
+                    - text: Paralyze
+                    - generic [ref=e1547]: Паралич
+                  - generic [ref=e1548]: "70"
+                - button "PI PI 8" [ref=e1549] [cursor=pointer]:
+                  - generic [ref=e1550]:
+                    - text: PI
+                    - generic [ref=e1551]: PI
+                  - generic [ref=e1552]: "8"
+                - button "Poison Яд 158" [ref=e1553] [cursor=pointer]:
+                  - generic [ref=e1554]:
+                    - text: Poison
+                    - generic [ref=e1555]: Яд
+                  - generic [ref=e1556]: "158"
+                - button "Purge Снятие эффектов 11" [ref=e1557] [cursor=pointer]:
+                  - generic [ref=e1558]:
+                    - text: Purge
+                    - generic [ref=e1559]: Снятие эффектов
+                  - generic [ref=e1560]: "11"
+                - button "SI SI 32" [ref=e1561] [cursor=pointer]:
+                  - generic [ref=e1562]:
+                    - text: SI
+                    - generic [ref=e1563]: SI
+                  - generic [ref=e1564]: "32"
+                - button "Sleep Сон 104" [ref=e1565] [cursor=pointer]:
+                  - generic [ref=e1566]:
+                    - text: Sleep
+                    - generic [ref=e1567]: Сон
+                  - generic [ref=e1568]: "104"
+                - button "Special Особый эффект 16" [ref=e1569] [cursor=pointer]:
+                  - generic [ref=e1570]:
+                    - text: Special
+                    - generic [ref=e1571]: Особый эффект
+                  - generic [ref=e1572]: "16"
+                - button "Stat Steal Кража статов 23" [ref=e1573] [cursor=pointer]:
+                  - generic [ref=e1574]:
+                    - text: Stat Steal
+                    - generic [ref=e1575]: Кража статов
+                  - generic [ref=e1576]: "23"
+                - button "Surprise Сюрприз 4" [ref=e1577] [cursor=pointer]:
+                  - generic [ref=e1578]:
+                    - text: Surprise
+                    - generic [ref=e1579]: Сюрприз
+                  - generic [ref=e1580]: "4"
+                - button "Switch Curse Проклятие при смене 19" [ref=e1581] [cursor=pointer]:
+                  - generic [ref=e1582]:
+                    - text: Switch Curse
+                    - generic [ref=e1583]: Проклятие при смене
+                  - generic [ref=e1584]: "19"
+                - button "Time Bomb Отложенный урон 14" [ref=e1585] [cursor=pointer]:
+                  - generic [ref=e1586]:
+                    - text: Time Bomb
+                    - generic [ref=e1587]: Отложенный урон
+                  - generic [ref=e1588]: "14"
+                - button "True Damage Чистый урон 6" [ref=e1589] [cursor=pointer]:
+                  - generic [ref=e1590]:
+                    - text: True Damage
+                    - generic [ref=e1591]: Чистый урон
+                  - generic [ref=e1592]: "6"
+        - 'group "Стихии: все выбранные одновременно" [ref=e54]':
+          - button "Огонь" [pressed] [ref=e55] [cursor=pointer]
+          - button "Вода" [ref=e56] [cursor=pointer]
+          - button "Природа" [ref=e57] [cursor=pointer]
+          - button "Земля" [ref=e58] [cursor=pointer]
+          - button "Молния" [pressed] [ref=e59] [cursor=pointer]
+          - button "Ветер" [ref=e60] [cursor=pointer]
+        - paragraph [ref=e61]: Огонь + Молния · сочетание по «И»
+      - group [ref=e62]:
+        - generic "+Коллекция и места обитания" [ref=e63] [cursor=pointer]
+      - region "Результаты поиска" [ref=e64]:
+        - generic [ref=e65]:
+          - strong [ref=e66]: "Найдено: 2"
+          - generic [ref=e67]:
+            - button "Сбросить фильтры" [ref=e753] [cursor=pointer]
+            - combobox "Сортировка" [ref=e69] [cursor=pointer]:
+              - generic [ref=e70]: Имя A–Z
+              - generic [aria-hidden] [ref=e71]: ⌄
+        - generic [ref=e72]:
+          - article [ref=e1334]:
+            - link "Light Ignios Легендарный Light Ignios Огонь Молния" [ref=e1335] [cursor=pointer]:
+              - /url: /miscrits/light-ignios
+              - generic [ref=e1336]:
+                - img "Light Ignios" [ref=e1338]
+                - img "Легендарный"
+              - generic [ref=e1340]:
+                - strong [ref=e1341]: Light Ignios
+                - generic [ref=e1342]:
+                  - generic [ref=e1343]: Огонь
+                  - generic [ref=e1344]: Молния
+            - generic [ref=e1345]:
+              - button "Пойман?" [ref=e1346] [cursor=pointer]
+              - button "Добавить Light Ignios в избранное" [ref=e1348] [cursor=pointer]
+          - article [ref=e1382]:
+            - link "Smokey Обычный Smokey Огонь Молния" [ref=e1383] [cursor=pointer]:
+              - /url: /miscrits/smokey
+              - generic [ref=e1384]:
+                - img "Smokey" [ref=e1386]
+                - img "Обычный"
+              - generic [ref=e1388]:
+                - strong [ref=e1389]: Smokey
+                - generic [ref=e1390]:
+                  - generic [ref=e1391]: Огонь
+                  - generic [ref=e1392]: Молния
+            - generic [ref=e1393]:
+              - button "Пойман?" [ref=e1394] [cursor=pointer]
+              - button "Добавить Smokey в избранное" [ref=e1396] [cursor=pointer]

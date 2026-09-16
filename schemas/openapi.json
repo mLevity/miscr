@@ -1,0 +1,3245 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Miscrits public data API draft",
+    "version": "1.0.0",
+    "description": "Контракт будущего публичного API. MVP читает локальные JSON через тот же repository interface. Auth/private endpoints не входят в этот OpenAPI."
+  },
+  "paths": {
+    "/api/v1/miscrits": {
+      "get": {
+        "operationId": "listMiscrits",
+        "summary": "Публичный список miscrits",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 200,
+              "default": 50
+            }
+          },
+          {
+            "name": "cursor",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "maxLength": 120
+            }
+          },
+          {
+            "name": "If-None-Match",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "elements",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "description": "CSV IDs; OR по умолчанию"
+            }
+          },
+          {
+            "name": "elementMode",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "any",
+                "all",
+                "exact"
+              ],
+              "default": "any"
+            }
+          },
+          {
+            "name": "rarity",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "description": "CSV common,rare,epic,exotic,legendary"
+            }
+          },
+          {
+            "name": "locationId",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "maxItems": 50,
+              "uniqueItems": true
+            },
+            "style": "form",
+            "explode": false,
+            "description": "CSV canonical IDs; OR within this group"
+          },
+          {
+            "name": "areaId",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "maxItems": 50,
+              "uniqueItems": true
+            },
+            "style": "form",
+            "explode": false,
+            "description": "CSV canonical IDs; OR within this group"
+          },
+          {
+            "name": "day",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 7,
+              "description": "ISO weekday UTC; условия дня и места относятся к одной spawn-записи"
+            }
+          },
+          {
+            "name": "acquisition",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "wild",
+                "shop",
+                "unknown"
+              ]
+            }
+          },
+          {
+            "name": "abilityTags",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "description": "CSV нормализованных тегов"
+            }
+          },
+          {
+            "name": "abilityTagMode",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "any",
+                "all"
+              ]
+            }
+          },
+          {
+            "name": "abilityName",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "maxLength": 120
+            }
+          },
+          {
+            "name": "variant",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "base",
+                "dark",
+                "light",
+                "blighted",
+                "foil"
+              ]
+            }
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "name-asc",
+                "name-desc",
+                "rarity-desc",
+                "rarity-asc",
+                "id-asc",
+                "base-hp-desc",
+                "base-spd-desc",
+                "base-ea-desc",
+                "base-pa-desc",
+                "base-ed-desc",
+                "base-pd-desc"
+              ],
+              "default": "name-asc"
+            }
+          },
+          {
+            "name": "hpMin",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "hpMax",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "spdMin",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "spdMax",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "eaMin",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "eaMax",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "paMin",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "paMax",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "edMin",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "edMax",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "pdMin",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "pdMax",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "days",
+            "in": "query",
+            "style": "form",
+            "explode": false,
+            "description": "ISO weekdays UTC; OR. Mutually exclusive with day; both together return400.",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 7
+              },
+              "uniqueItems": true,
+              "maxItems": 7
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Список",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "sourceIds": {
+                            "type": "object",
+                            "additionalProperties": {
+                              "type": "string",
+                              "maxLength": 200
+                            }
+                          },
+                          "slug": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "name": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "aliases": {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "maxLength": 200
+                            },
+                            "maxItems": 32
+                          },
+                          "elements": {
+                            "type": "array",
+                            "items": {
+                              "enum": [
+                                "fire",
+                                "water",
+                                "nature",
+                                "earth",
+                                "lightning",
+                                "wind"
+                              ]
+                            },
+                            "maxItems": 2,
+                            "minItems": 1,
+                            "uniqueItems": true
+                          },
+                          "rarity": {
+                            "enum": [
+                              "common",
+                              "rare",
+                              "epic",
+                              "exotic",
+                              "legendary"
+                            ]
+                          },
+                          "baseRanks": {
+                            "type": "object",
+                            "properties": {
+                              "hp": {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 5
+                              },
+                              "spd": {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 5
+                              },
+                              "ea": {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 5
+                              },
+                              "pa": {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 5
+                              },
+                              "ed": {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 5
+                              },
+                              "pd": {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 5
+                              }
+                            },
+                            "required": [
+                              "hp",
+                              "spd",
+                              "ea",
+                              "pa",
+                              "ed",
+                              "pd"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "formIds": {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 160,
+                              "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                            },
+                            "maxItems": 8
+                          },
+                          "provenance": {
+                            "type": "object",
+                            "properties": {
+                              "sourceId": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "retrievedOn": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "method": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "gameVerified": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "sourceId",
+                              "retrievedOn",
+                              "method",
+                              "gameVerified"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "sourceIds",
+                          "slug",
+                          "name",
+                          "aliases",
+                          "elements",
+                          "rarity",
+                          "baseRanks",
+                          "formIds",
+                          "provenance"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "maxItems": 200
+                    },
+                    "total": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000
+                    },
+                    "nextCursor": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "maxLength": 1000
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "datasetVersion": {
+                      "type": "string",
+                      "maxLength": 200
+                    }
+                  },
+                  "required": [
+                    "items",
+                    "total",
+                    "nextCursor",
+                    "datasetVersion"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "headers": {
+              "ETag": {
+                "schema": {
+                  "type": "string"
+                },
+                "description": "Версия публичного ресурса"
+              }
+            }
+          },
+          "400": {
+            "description": "Ошибка запроса",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "304": {
+            "description": "ETag совпадает, без тела"
+          }
+        }
+      }
+    },
+    "/api/v1/abilities": {
+      "get": {
+        "operationId": "listAbilities",
+        "summary": "Публичный список abilities",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 200,
+              "default": 50
+            }
+          },
+          {
+            "name": "cursor",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "maxLength": 120
+            }
+          },
+          {
+            "name": "If-None-Match",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "familyId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Список",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "sourceId": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "name": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "kind": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "element": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "ap": {
+                            "anyOf": [
+                              {
+                                "type": "number"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "accuracyPercent": {
+                            "anyOf": [
+                              {
+                                "type": "number"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "hits": {
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 100
+                          },
+                          "turns": {
+                            "anyOf": [
+                              {
+                                "type": "integer",
+                                "minimum": 0,
+                                "maximum": 1000
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "cooldown": {
+                            "anyOf": [
+                              {
+                                "type": "integer",
+                                "minimum": 0,
+                                "maximum": 1000
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "maxUses": {
+                            "anyOf": [
+                              {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 1000
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "affectedStats": {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "maxLength": 200
+                            },
+                            "maxItems": 16
+                          },
+                          "target": {
+                            "anyOf": [
+                              {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "tags": {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "maxLength": 200
+                            },
+                            "maxItems": 100
+                          },
+                          "descriptionEn": {
+                            "type": "string",
+                            "maxLength": 10000
+                          },
+                          "enchantDescriptionEn": {
+                            "type": "string",
+                            "maxLength": 10000
+                          },
+                          "enchant": {
+                            "type": "object"
+                          },
+                          "rawEffects": {
+                            "type": "array",
+                            "items": {
+                              "type": "object"
+                            },
+                            "maxItems": 100
+                          },
+                          "trueDamage": {
+                            "type": "boolean"
+                          },
+                          "calculationSupport": {
+                            "enum": [
+                              "direct",
+                              "direct-component-only",
+                              "requires-effect-handler"
+                            ]
+                          },
+                          "provenance": {
+                            "type": "object",
+                            "properties": {
+                              "sourceId": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "retrievedOn": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "method": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "gameVerified": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "sourceId",
+                              "retrievedOn",
+                              "method",
+                              "gameVerified"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "sourceTiming": {
+                            "type": "object",
+                            "properties": {
+                              "turns": {
+                                "anyOf": [
+                                  {
+                                    "type": "integer",
+                                    "minimum": -1,
+                                    "maximum": 1000
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "cooldown": {
+                                "anyOf": [
+                                  {
+                                    "type": "integer",
+                                    "minimum": -1,
+                                    "maximum": 1000
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "maxUses": {
+                                "anyOf": [
+                                  {
+                                    "type": "integer",
+                                    "minimum": -1,
+                                    "maximum": 1000
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "turns",
+                              "cooldown",
+                              "maxUses"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "timingNotes": {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "maxLength": 300
+                            },
+                            "maxItems": 10
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "sourceId",
+                          "name",
+                          "kind",
+                          "element",
+                          "ap",
+                          "accuracyPercent",
+                          "hits",
+                          "turns",
+                          "cooldown",
+                          "maxUses",
+                          "affectedStats",
+                          "target",
+                          "tags",
+                          "descriptionEn",
+                          "enchantDescriptionEn",
+                          "enchant",
+                          "rawEffects",
+                          "trueDamage",
+                          "calculationSupport",
+                          "provenance",
+                          "sourceTiming",
+                          "timingNotes"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "maxItems": 200
+                    },
+                    "total": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000
+                    },
+                    "nextCursor": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "maxLength": 1000
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "datasetVersion": {
+                      "type": "string",
+                      "maxLength": 200
+                    }
+                  },
+                  "required": [
+                    "items",
+                    "total",
+                    "nextCursor",
+                    "datasetVersion"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "headers": {
+              "ETag": {
+                "schema": {
+                  "type": "string"
+                },
+                "description": "Версия публичного ресурса"
+              }
+            }
+          },
+          "400": {
+            "description": "Ошибка запроса",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "304": {
+            "description": "ETag совпадает, без тела"
+          }
+        }
+      }
+    },
+    "/api/v1/locations": {
+      "get": {
+        "operationId": "listLocations",
+        "summary": "Публичный список locations",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 200,
+              "default": 50
+            }
+          },
+          {
+            "name": "cursor",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "maxLength": 120
+            }
+          },
+          {
+            "name": "If-None-Match",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Список",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "name": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "sortOrder": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "maximum": 100000
+                          },
+                          "kind": {
+                            "enum": [
+                              "world",
+                              "shop"
+                            ]
+                          },
+                          "mapId": {
+                            "anyOf": [
+                              {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 160,
+                                "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "provenance": {
+                            "type": "object",
+                            "properties": {
+                              "sourceId": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "retrievedOn": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "method": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "gameVerified": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "sourceId",
+                              "retrievedOn",
+                              "method",
+                              "gameVerified"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "name",
+                          "sortOrder",
+                          "kind",
+                          "mapId",
+                          "provenance"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "maxItems": 200
+                    },
+                    "total": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000
+                    },
+                    "nextCursor": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "maxLength": 1000
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "datasetVersion": {
+                      "type": "string",
+                      "maxLength": 200
+                    }
+                  },
+                  "required": [
+                    "items",
+                    "total",
+                    "nextCursor",
+                    "datasetVersion"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "headers": {
+              "ETag": {
+                "schema": {
+                  "type": "string"
+                },
+                "description": "Версия публичного ресурса"
+              }
+            }
+          },
+          "400": {
+            "description": "Ошибка запроса",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "304": {
+            "description": "ETag совпадает, без тела"
+          }
+        }
+      }
+    },
+    "/api/v1/spawns": {
+      "get": {
+        "operationId": "listSpawns",
+        "summary": "Публичный список spawns",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 200,
+              "default": 50
+            }
+          },
+          {
+            "name": "cursor",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "maxLength": 120
+            }
+          },
+          {
+            "name": "If-None-Match",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "familyId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "locationId",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "maxItems": 50,
+              "uniqueItems": true
+            },
+            "style": "form",
+            "explode": false,
+            "description": "CSV canonical IDs; OR within this group"
+          },
+          {
+            "name": "areaId",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "maxItems": 50,
+              "uniqueItems": true
+            },
+            "style": "form",
+            "explode": false,
+            "description": "CSV canonical IDs; OR within this group"
+          },
+          {
+            "name": "day",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 7
+            }
+          },
+          {
+            "name": "days",
+            "in": "query",
+            "style": "form",
+            "explode": false,
+            "description": "ISO weekdays UTC; OR. Mutually exclusive with day; both together return400.",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 7
+              },
+              "uniqueItems": true,
+              "maxItems": 7
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Список",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "familyId": {
+                            "anyOf": [
+                              {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 160,
+                                "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "sourceName": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "locationId": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "areaId": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "acquisition": {
+                            "enum": [
+                              "wild",
+                              "shop",
+                              "unknown"
+                            ]
+                          },
+                          "schedule": {
+                            "type": "object",
+                            "properties": {
+                              "timezone": {
+                                "enum": [
+                                  "UTC"
+                                ]
+                              },
+                              "weekdays": {
+                                "type": "array",
+                                "items": {
+                                  "type": "integer",
+                                  "minimum": 1,
+                                  "maximum": 7
+                                },
+                                "maxItems": 7,
+                                "uniqueItems": true
+                              },
+                              "rule": {
+                                "enum": [
+                                  "weekly",
+                                  "unknown"
+                                ]
+                              },
+                              "validFrom": {
+                                "anyOf": [
+                                  {
+                                    "type": "string",
+                                    "format": "date-time"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "validUntil": {
+                                "anyOf": [
+                                  {
+                                    "type": "string",
+                                    "format": "date-time"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "observedOn": {
+                                "type": "string",
+                                "format": "date"
+                              }
+                            },
+                            "required": [
+                              "timezone",
+                              "weekdays",
+                              "rule",
+                              "validFrom",
+                              "validUntil",
+                              "observedOn"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "precision": {
+                            "enum": [
+                              "area",
+                              "point",
+                              "point-area-ambiguous"
+                            ]
+                          },
+                          "markerIds": {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 160,
+                              "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                            },
+                            "maxItems": 100
+                          },
+                          "sourceRarity": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "sourceElement": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "conditionsText": {
+                            "type": "string",
+                            "maxLength": 20000
+                          },
+                          "encounterProbability": {
+                            "anyOf": [
+                              {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 1
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "provenance": {
+                            "type": "object",
+                            "properties": {
+                              "sourceId": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "retrievedOn": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "method": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "gameVerified": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "sourceId",
+                              "retrievedOn",
+                              "method",
+                              "gameVerified"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "familyId",
+                          "sourceName",
+                          "locationId",
+                          "areaId",
+                          "acquisition",
+                          "schedule",
+                          "precision",
+                          "markerIds",
+                          "sourceRarity",
+                          "sourceElement",
+                          "conditionsText",
+                          "encounterProbability",
+                          "provenance"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "maxItems": 200
+                    },
+                    "total": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000
+                    },
+                    "nextCursor": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "maxLength": 1000
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "datasetVersion": {
+                      "type": "string",
+                      "maxLength": 200
+                    }
+                  },
+                  "required": [
+                    "items",
+                    "total",
+                    "nextCursor",
+                    "datasetVersion"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "headers": {
+              "ETag": {
+                "schema": {
+                  "type": "string"
+                },
+                "description": "Версия публичного ресурса"
+              }
+            }
+          },
+          "400": {
+            "description": "Ошибка запроса",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "304": {
+            "description": "ETag совпадает, без тела"
+          }
+        }
+      }
+    },
+    "/api/v1/relics": {
+      "get": {
+        "operationId": "listRelics",
+        "summary": "Публичный список relics",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 200,
+              "default": 50
+            }
+          },
+          {
+            "name": "cursor",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "maxLength": 120
+            }
+          },
+          {
+            "name": "If-None-Match",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Список",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "name": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "requiredSlotLevel": {
+                            "anyOf": [
+                              {
+                                "enum": [
+                                  10,
+                                  20,
+                                  30,
+                                  35
+                                ]
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "statModifiers": {
+                            "type": "object",
+                            "properties": {
+                              "hp": {
+                                "type": "integer",
+                                "minimum": -1000,
+                                "maximum": 1000
+                              },
+                              "spd": {
+                                "type": "integer",
+                                "minimum": -1000,
+                                "maximum": 1000
+                              },
+                              "ea": {
+                                "type": "integer",
+                                "minimum": -1000,
+                                "maximum": 1000
+                              },
+                              "pa": {
+                                "type": "integer",
+                                "minimum": -1000,
+                                "maximum": 1000
+                              },
+                              "ed": {
+                                "type": "integer",
+                                "minimum": -1000,
+                                "maximum": 1000
+                              },
+                              "pd": {
+                                "type": "integer",
+                                "minimum": -1000,
+                                "maximum": 1000
+                              }
+                            },
+                            "additionalProperties": false
+                          },
+                          "specialEffectsText": {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "maxLength": 1000
+                            },
+                            "maxItems": 100
+                          },
+                          "costs": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "integer",
+                                  "minimum": 0,
+                                  "maximum": 100000
+                                },
+                                "currency": {
+                                  "type": "string",
+                                  "maxLength": 200
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "maxItems": 20
+                          },
+                          "image": {
+                            "anyOf": [
+                              {
+                                "type": "string",
+                                "maxLength": 300
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "sourceImageUrl": {
+                            "anyOf": [
+                              {
+                                "type": "string",
+                                "maxLength": 1000
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "provenance": {
+                            "type": "object",
+                            "properties": {
+                              "sourceId": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "retrievedOn": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "method": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "gameVerified": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "sourceId",
+                              "retrievedOn",
+                              "method",
+                              "gameVerified"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "name",
+                          "requiredSlotLevel",
+                          "statModifiers",
+                          "specialEffectsText",
+                          "costs",
+                          "image",
+                          "sourceImageUrl",
+                          "provenance"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "maxItems": 200
+                    },
+                    "total": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000
+                    },
+                    "nextCursor": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "maxLength": 1000
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "datasetVersion": {
+                      "type": "string",
+                      "maxLength": 200
+                    }
+                  },
+                  "required": [
+                    "items",
+                    "total",
+                    "nextCursor",
+                    "datasetVersion"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "headers": {
+              "ETag": {
+                "schema": {
+                  "type": "string"
+                },
+                "description": "Версия публичного ресурса"
+              }
+            }
+          },
+          "400": {
+            "description": "Ошибка запроса",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "304": {
+            "description": "ETag совпадает, без тела"
+          }
+        }
+      }
+    },
+    "/api/v1/collections": {
+      "get": {
+        "operationId": "listCollections",
+        "summary": "Публичный список collections",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 200,
+              "default": 50
+            }
+          },
+          {
+            "name": "cursor",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "maxLength": 120
+            }
+          },
+          {
+            "name": "If-None-Match",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Список",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "name": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "sourceGroup": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "requirements": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "familyId": {
+                                  "anyOf": [
+                                    {
+                                      "type": "string",
+                                      "minLength": 1,
+                                      "maxLength": 160,
+                                      "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                                    },
+                                    {
+                                      "type": "null"
+                                    }
+                                  ]
+                                },
+                                "sourceName": {
+                                  "type": "string",
+                                  "maxLength": 200
+                                },
+                                "quantity": {
+                                  "type": "integer",
+                                  "minimum": 1,
+                                  "maximum": 1000
+                                },
+                                "formId": {
+                                  "anyOf": [
+                                    {
+                                      "type": "string",
+                                      "minLength": 1,
+                                      "maxLength": 160,
+                                      "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                                    },
+                                    {
+                                      "type": "null"
+                                    }
+                                  ]
+                                },
+                                "levelConstraint": {
+                                  "anyOf": [
+                                    {
+                                      "type": "integer",
+                                      "minimum": 1,
+                                      "maximum": 35
+                                    },
+                                    {
+                                      "type": "null"
+                                    }
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "familyId",
+                                "sourceName",
+                                "quantity",
+                                "formId",
+                                "levelConstraint"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "maxItems": 1000
+                          },
+                          "rewards": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "quantity": {
+                                  "type": "integer",
+                                  "minimum": 1,
+                                  "maximum": 100000
+                                },
+                                "name": {
+                                  "type": "string",
+                                  "maxLength": 200
+                                }
+                              },
+                              "required": [
+                                "quantity",
+                                "name"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "maxItems": 100
+                          },
+                          "claimPolicy": {
+                            "enum": [
+                              "manual-user-tracking"
+                            ]
+                          },
+                          "provenance": {
+                            "type": "object",
+                            "properties": {
+                              "sourceId": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "retrievedOn": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "method": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "gameVerified": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "sourceId",
+                              "retrievedOn",
+                              "method",
+                              "gameVerified"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "name",
+                          "sourceGroup",
+                          "requirements",
+                          "rewards",
+                          "claimPolicy",
+                          "provenance"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "maxItems": 200
+                    },
+                    "total": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100000
+                    },
+                    "nextCursor": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "maxLength": 1000
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "datasetVersion": {
+                      "type": "string",
+                      "maxLength": 200
+                    }
+                  },
+                  "required": [
+                    "items",
+                    "total",
+                    "nextCursor",
+                    "datasetVersion"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "headers": {
+              "ETag": {
+                "schema": {
+                  "type": "string"
+                },
+                "description": "Версия публичного ресурса"
+              }
+            }
+          },
+          "400": {
+            "description": "Ошибка запроса",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "304": {
+            "description": "ETag совпадает, без тела"
+          }
+        }
+      }
+    },
+    "/api/v1/miscrits/{id}": {
+      "get": {
+        "operationId": "getMiscrit",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 160,
+              "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+            }
+          },
+          {
+            "name": "If-None-Match",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Семейство",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "family",
+                    "forms",
+                    "abilityBindings",
+                    "datasetVersion"
+                  ],
+                  "properties": {
+                    "family": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 160,
+                          "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                        },
+                        "sourceIds": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "string",
+                            "maxLength": 200
+                          }
+                        },
+                        "slug": {
+                          "type": "string",
+                          "maxLength": 200
+                        },
+                        "name": {
+                          "type": "string",
+                          "maxLength": 200
+                        },
+                        "aliases": {
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "maxItems": 32
+                        },
+                        "elements": {
+                          "type": "array",
+                          "items": {
+                            "enum": [
+                              "fire",
+                              "water",
+                              "nature",
+                              "earth",
+                              "lightning",
+                              "wind"
+                            ]
+                          },
+                          "maxItems": 2,
+                          "minItems": 1,
+                          "uniqueItems": true
+                        },
+                        "rarity": {
+                          "enum": [
+                            "common",
+                            "rare",
+                            "epic",
+                            "exotic",
+                            "legendary"
+                          ]
+                        },
+                        "baseRanks": {
+                          "type": "object",
+                          "properties": {
+                            "hp": {
+                              "type": "integer",
+                              "minimum": 1,
+                              "maximum": 5
+                            },
+                            "spd": {
+                              "type": "integer",
+                              "minimum": 1,
+                              "maximum": 5
+                            },
+                            "ea": {
+                              "type": "integer",
+                              "minimum": 1,
+                              "maximum": 5
+                            },
+                            "pa": {
+                              "type": "integer",
+                              "minimum": 1,
+                              "maximum": 5
+                            },
+                            "ed": {
+                              "type": "integer",
+                              "minimum": 1,
+                              "maximum": 5
+                            },
+                            "pd": {
+                              "type": "integer",
+                              "minimum": 1,
+                              "maximum": 5
+                            }
+                          },
+                          "required": [
+                            "hp",
+                            "spd",
+                            "ea",
+                            "pa",
+                            "ed",
+                            "pd"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "formIds": {
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "maxItems": 8
+                        },
+                        "provenance": {
+                          "type": "object",
+                          "properties": {
+                            "sourceId": {
+                              "type": "string",
+                              "maxLength": 200
+                            },
+                            "retrievedOn": {
+                              "type": "string",
+                              "format": "date"
+                            },
+                            "method": {
+                              "type": "string",
+                              "maxLength": 200
+                            },
+                            "gameVerified": {
+                              "type": "boolean"
+                            }
+                          },
+                          "required": [
+                            "sourceId",
+                            "retrievedOn",
+                            "method",
+                            "gameVerified"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "sourceIds",
+                        "slug",
+                        "name",
+                        "aliases",
+                        "elements",
+                        "rarity",
+                        "baseRanks",
+                        "formIds",
+                        "provenance"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "forms": {
+                      "$schema": "https://json-schema.org/draft/2020-12/schema",
+                      "$id": "urn:miscrits:forms:v1",
+                      "title": "forms",
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "familyId": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "stage": {
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 8
+                          },
+                          "name": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "assetKey": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "minimumLevel": {
+                            "anyOf": [
+                              {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 35
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "provenance": {
+                            "type": "object",
+                            "properties": {
+                              "sourceId": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "retrievedOn": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "method": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "gameVerified": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "sourceId",
+                              "retrievedOn",
+                              "method",
+                              "gameVerified"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "familyId",
+                          "stage",
+                          "name",
+                          "assetKey",
+                          "minimumLevel",
+                          "provenance"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "abilityBindings": {
+                      "$schema": "https://json-schema.org/draft/2020-12/schema",
+                      "$id": "urn:miscrits:miscrit-abilities:v1",
+                      "title": "miscrit-abilities",
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "familyId": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "abilityId": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "order": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "maximum": 100
+                          },
+                          "unlockLevel": {
+                            "anyOf": [
+                              {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 35
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "unlockLevelStatus": {
+                            "type": "string",
+                            "maxLength": 200
+                          }
+                        },
+                        "required": [
+                          "familyId",
+                          "abilityId",
+                          "order",
+                          "unlockLevel",
+                          "unlockLevelStatus"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "datasetVersion": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "headers": {
+              "ETag": {
+                "schema": {
+                  "type": "string"
+                },
+                "description": "Версия публичного ресурса"
+              }
+            }
+          },
+          "404": {
+            "description": "Ошибка запроса",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "304": {
+            "description": "ETag совпадает, без тела"
+          }
+        }
+      }
+    },
+    "/api/v1/maps/{id}": {
+      "get": {
+        "operationId": "getMap",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 160,
+              "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+            }
+          },
+          {
+            "name": "If-None-Match",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Карта с маркерами",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "map": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 160,
+                          "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                        },
+                        "locationId": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 160,
+                          "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                        },
+                        "image": {
+                          "type": "string",
+                          "maxLength": 300
+                        },
+                        "width": {
+                          "type": "integer",
+                          "minimum": 1,
+                          "maximum": 20000
+                        },
+                        "height": {
+                          "type": "integer",
+                          "minimum": 1,
+                          "maximum": 20000
+                        },
+                        "sourceWidth": {
+                          "type": "integer",
+                          "minimum": 1,
+                          "maximum": 20000
+                        },
+                        "sourceHeight": {
+                          "type": "integer",
+                          "minimum": 1,
+                          "maximum": 20000
+                        },
+                        "sourceUrl": {
+                          "type": "string",
+                          "maxLength": 1000
+                        },
+                        "captureMethod": {
+                          "type": "string",
+                          "maxLength": 200
+                        },
+                        "quality": {
+                          "type": "string",
+                          "maxLength": 200
+                        },
+                        "coordinateSystem": {
+                          "enum": [
+                            "normalized-0-1-top-left"
+                          ]
+                        },
+                        "provenance": {
+                          "type": "object",
+                          "properties": {
+                            "sourceId": {
+                              "type": "string",
+                              "maxLength": 200
+                            },
+                            "retrievedOn": {
+                              "type": "string",
+                              "format": "date"
+                            },
+                            "method": {
+                              "type": "string",
+                              "maxLength": 200
+                            },
+                            "gameVerified": {
+                              "type": "boolean"
+                            }
+                          },
+                          "required": [
+                            "sourceId",
+                            "retrievedOn",
+                            "method",
+                            "gameVerified"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "locationId",
+                        "image",
+                        "width",
+                        "height",
+                        "sourceWidth",
+                        "sourceHeight",
+                        "sourceUrl",
+                        "captureMethod",
+                        "quality",
+                        "coordinateSystem",
+                        "provenance"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "markers": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "mapId": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "familyId": {
+                            "anyOf": [
+                              {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 160,
+                                "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "sourceName": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "x": {
+                            "type": "number",
+                            "minimum": 0,
+                            "maximum": 1
+                          },
+                          "y": {
+                            "type": "number",
+                            "minimum": 0,
+                            "maximum": 1
+                          },
+                          "anchor": {
+                            "enum": [
+                              "bottom-center"
+                            ]
+                          },
+                          "candidateAreaIds": {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 160,
+                              "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                            },
+                            "maxItems": 100
+                          },
+                          "areaId": {
+                            "anyOf": [
+                              {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 160,
+                                "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "areaResolution": {
+                            "enum": [
+                              "unique-name-location-join",
+                              "ambiguous"
+                            ]
+                          },
+                          "provenance": {
+                            "type": "object",
+                            "properties": {
+                              "sourceId": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "retrievedOn": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "method": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "gameVerified": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "sourceId",
+                              "retrievedOn",
+                              "method",
+                              "gameVerified"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "mapId",
+                          "familyId",
+                          "sourceName",
+                          "x",
+                          "y",
+                          "anchor",
+                          "candidateAreaIds",
+                          "areaId",
+                          "areaResolution",
+                          "provenance"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "maxItems": 10000
+                    },
+                    "datasetVersion": {
+                      "type": "string",
+                      "maxLength": 200
+                    }
+                  },
+                  "required": [
+                    "map",
+                    "markers",
+                    "datasetVersion"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "headers": {
+              "ETag": {
+                "schema": {
+                  "type": "string"
+                },
+                "description": "Версия публичного ресурса"
+              }
+            }
+          },
+          "404": {
+            "description": "Ошибка запроса",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "304": {
+            "description": "ETag совпадает, без тела"
+          }
+        }
+      }
+    },
+    "/api/v1/forms": {
+      "get": {
+        "operationId": "listForms",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 200,
+              "default": 50
+            }
+          },
+          {
+            "name": "cursor",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "familyId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Список",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "items",
+                    "total",
+                    "nextCursor",
+                    "datasetVersion"
+                  ],
+                  "properties": {
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "familyId": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "stage": {
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 8
+                          },
+                          "name": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "assetKey": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "minimumLevel": {
+                            "anyOf": [
+                              {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 35
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "provenance": {
+                            "type": "object",
+                            "properties": {
+                              "sourceId": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "retrievedOn": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "method": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "gameVerified": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "sourceId",
+                              "retrievedOn",
+                              "method",
+                              "gameVerified"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "familyId",
+                          "stage",
+                          "name",
+                          "assetKey",
+                          "minimumLevel",
+                          "provenance"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "total": {
+                      "type": "integer"
+                    },
+                    "nextCursor": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "datasetVersion": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Ошибка запроса",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/areas": {
+      "get": {
+        "operationId": "listAreas",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 200,
+              "default": 50
+            }
+          },
+          {
+            "name": "cursor",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "locationId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Список",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "items",
+                    "total",
+                    "nextCursor",
+                    "datasetVersion"
+                  ],
+                  "properties": {
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "locationId": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "name": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "sortOrder": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "maximum": 100000
+                          },
+                          "polygon": {
+                            "anyOf": [
+                              {
+                                "type": "array",
+                                "items": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "number",
+                                    "minimum": 0,
+                                    "maximum": 1
+                                  },
+                                  "maxItems": 2
+                                },
+                                "maxItems": 1000
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "geometryStatus": {
+                            "type": "string",
+                            "maxLength": 200
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "locationId",
+                          "name",
+                          "sortOrder",
+                          "polygon",
+                          "geometryStatus"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "total": {
+                      "type": "integer"
+                    },
+                    "nextCursor": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "datasetVersion": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Ошибка запроса",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/markers": {
+      "get": {
+        "operationId": "listMarkers",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 200,
+              "default": 50
+            }
+          },
+          {
+            "name": "cursor",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "mapId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Список",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "items",
+                    "total",
+                    "nextCursor",
+                    "datasetVersion"
+                  ],
+                  "properties": {
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "mapId": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160,
+                            "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                          },
+                          "familyId": {
+                            "anyOf": [
+                              {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 160,
+                                "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "sourceName": {
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "x": {
+                            "type": "number",
+                            "minimum": 0,
+                            "maximum": 1
+                          },
+                          "y": {
+                            "type": "number",
+                            "minimum": 0,
+                            "maximum": 1
+                          },
+                          "anchor": {
+                            "enum": [
+                              "bottom-center"
+                            ]
+                          },
+                          "candidateAreaIds": {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 160,
+                              "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                            },
+                            "maxItems": 100
+                          },
+                          "areaId": {
+                            "anyOf": [
+                              {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 160,
+                                "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "areaResolution": {
+                            "enum": [
+                              "unique-name-location-join",
+                              "ambiguous"
+                            ]
+                          },
+                          "provenance": {
+                            "type": "object",
+                            "properties": {
+                              "sourceId": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "retrievedOn": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "method": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "gameVerified": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "sourceId",
+                              "retrievedOn",
+                              "method",
+                              "gameVerified"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "mapId",
+                          "familyId",
+                          "sourceName",
+                          "x",
+                          "y",
+                          "anchor",
+                          "candidateAreaIds",
+                          "areaId",
+                          "areaResolution",
+                          "provenance"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "total": {
+                      "type": "integer"
+                    },
+                    "nextCursor": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "datasetVersion": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Ошибка запроса",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/manifest": {
+      "get": {
+        "operationId": "getManifest",
+        "responses": {
+          "200": {
+            "description": "Версии опубликованных данных; repository проверяет hashes перед атомарным переключением",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "datasetVersion",
+                    "rulesVersion",
+                    "files"
+                  ],
+                  "properties": {
+                    "datasetVersion": {
+                      "type": "string"
+                    },
+                    "rulesVersion": {
+                      "type": "string"
+                    },
+                    "files": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "path",
+                          "sha256",
+                          "bytes"
+                        ],
+                        "properties": {
+                          "path": {
+                            "type": "string"
+                          },
+                          "sha256": {
+                            "type": "string",
+                            "pattern": "^[a-f0-9]{64}$"
+                          },
+                          "bytes": {
+                            "type": "integer",
+                            "minimum": 0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/rules/{version}": {
+      "get": {
+        "operationId": "getRules",
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Структура data/rules.json; формулы представлены параметрами и документацией, не исполняемым eval",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "schemaVersion",
+                    "rulesVersion",
+                    "stats",
+                    "damage",
+                    "rebonus"
+                  ],
+                  "properties": {
+                    "schemaVersion": {
+                      "type": "integer",
+                      "const": 1
+                    },
+                    "rulesVersion": {
+                      "type": "string"
+                    },
+                    "stats": {
+                      "type": "object"
+                    },
+                    "damage": {
+                      "type": "object"
+                    },
+                    "rebonus": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Ошибка запроса",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Error": {
+        "type": "object",
+        "required": [
+          "error"
+        ],
+        "properties": {
+          "error": {
+            "type": "object",
+            "required": [
+              "code",
+              "message"
+            ],
+            "properties": {
+              "code": {
+                "type": "string"
+              },
+              "message": {
+                "type": "string"
+              },
+              "details": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

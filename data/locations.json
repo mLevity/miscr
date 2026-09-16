@@ -1,0 +1,171 @@
+[
+  {
+    "id": "location:forest",
+    "name": "Forest",
+    "sortOrder": 0,
+    "kind": "world",
+    "mapId": "map:forest",
+    "provenance": {
+      "sourceId": "companion-map",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "location:hidden-forest",
+    "name": "Hidden Forest",
+    "sortOrder": 1,
+    "kind": "world",
+    "mapId": "map:hidden-forest",
+    "provenance": {
+      "sourceId": "companion-map",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "location:mansion",
+    "name": "Mansion",
+    "sortOrder": 2,
+    "kind": "world",
+    "mapId": "map:mansion",
+    "provenance": {
+      "sourceId": "companion-map",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "location:mount-gemma",
+    "name": "Mount Gemma",
+    "sortOrder": 3,
+    "kind": "world",
+    "mapId": "map:mount-gemma",
+    "provenance": {
+      "sourceId": "companion-map",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "location:cave",
+    "name": "Cave",
+    "sortOrder": 4,
+    "kind": "world",
+    "mapId": "map:cave",
+    "provenance": {
+      "sourceId": "companion-map",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "location:shack",
+    "name": "Shack",
+    "sortOrder": 5,
+    "kind": "world",
+    "mapId": "map:shack",
+    "provenance": {
+      "sourceId": "companion-map",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "location:sunfall-shores",
+    "name": "Sunfall Shores",
+    "sortOrder": 6,
+    "kind": "world",
+    "mapId": "map:sunfall-shores",
+    "provenance": {
+      "sourceId": "companion-map",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "location:miscrian-jungle",
+    "name": "Miscrian Jungle",
+    "sortOrder": 7,
+    "kind": "world",
+    "mapId": "map:miscrian-jungle",
+    "provenance": {
+      "sourceId": "companion-map",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "location:moon",
+    "name": "Moon",
+    "sortOrder": 8,
+    "kind": "world",
+    "mapId": "map:moon",
+    "provenance": {
+      "sourceId": "companion-map",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "location:emerald-isle",
+    "name": "Emerald Isle",
+    "sortOrder": 9,
+    "kind": "world",
+    "mapId": "map:emerald-isle",
+    "provenance": {
+      "sourceId": "companion-map",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "location:temple",
+    "name": "Temple",
+    "sortOrder": 10,
+    "kind": "world",
+    "mapId": "map:temple",
+    "provenance": {
+      "sourceId": "companion-map",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "location:monks-mountain",
+    "name": "Monks Mountain",
+    "sortOrder": 11,
+    "kind": "world",
+    "mapId": "map:monks-mountain",
+    "provenance": {
+      "sourceId": "companion-map",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "location:shop-exclusive",
+    "name": "Shop Exclusive",
+    "sortOrder": 12,
+    "kind": "shop",
+    "mapId": null,
+    "provenance": {
+      "sourceId": "companion-map",
+      "retrievedOn": "2026-09-15",
+      "method": "rendered-dom",
+      "gameVerified": false
+    }
+  }
+]

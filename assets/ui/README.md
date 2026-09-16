@@ -1,0 +1,1 @@
+Собственные утилитарные SVG этого комплекта. 24×24, currentColor, stroke 1.75. Для кнопки задавать aria-label на button, декоративному SVG aria-hidden=true. Внешний img не наследует currentColor: использовать безопасный статический inline SVG либо CSS mask с локальным URL. Ни один SVG не содержит скриптов, foreignObject или внешних ссылок.

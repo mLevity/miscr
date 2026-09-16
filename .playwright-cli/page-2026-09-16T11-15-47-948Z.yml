@@ -1,0 +1,207 @@
+- generic [ref=e2]:
+  - link "К содержимому" [ref=e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "Miscrits Helper" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - navigation "Основная навигация" [ref=e7]:
+        - link "Мискриты" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "Карта мира" [ref=e12] [cursor=pointer]:
+          - /url: /map
+        - link "Моя коллекция" [ref=e16] [cursor=pointer]:
+          - /url: /collection
+        - link "Инструменты" [ref=e20] [cursor=pointer]:
+          - /url: /tools
+      - link "Данные на устройстве" [ref=e24] [cursor=pointer]:
+        - /url: /settings
+  - main [ref=e27]:
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - paragraph [ref=e30]: Найди своего мискрита
+        - heading "Мискриты" [level=1] [ref=e31]
+        - paragraph [ref=e32]: 420 семейств · 1 680 эволюций · одна коллекция
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e36]: Поиск по мискритам и эволюциям
+          - searchbox "Поиск по мискритам и эволюциям" [ref=e37]
+        - generic [ref=e38]:
+          - button "Rarity Редкость" [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]:
+              - text: Rarity
+              - generic [ref=e42]: Редкость
+            - generic [aria-hidden] [ref=e43]: ⌄
+          - generic [ref=e44]:
+            - button "Stats Статы" [expanded] [active] [ref=e45] [cursor=pointer]:
+              - generic [ref=e46]:
+                - text: Stats
+                - generic [ref=e47]: Статы
+              - generic [aria-hidden] [ref=e48]: ⌄
+            - generic [ref=e1398]:
+              - generic [ref=e1399]:
+                - text: Базовый ранг
+                - button "Сбросить" [ref=e1400] [cursor=pointer]
+              - generic [ref=e1401]:
+                - strong [ref=e1402]: HP
+                - 'group "HP: точный ранг" [ref=e1403]':
+                  - 'button "HP: ранг 1" [ref=e1404] [cursor=pointer]'
+                  - 'button "HP: ранг 2" [ref=e1405] [cursor=pointer]'
+                  - 'button "HP: ранг 3" [ref=e1406] [cursor=pointer]'
+                  - 'button "HP: ранг 4" [ref=e1407] [cursor=pointer]'
+                  - 'button "HP: ранг 5" [ref=e1408] [cursor=pointer]'
+                - generic [ref=e1409]: —
+              - generic [ref=e1410]:
+                - strong [ref=e1411]: SPD
+                - 'group "SPD: точный ранг" [ref=e1412]':
+                  - 'button "SPD: ранг 1" [ref=e1413] [cursor=pointer]'
+                  - 'button "SPD: ранг 2" [ref=e1414] [cursor=pointer]'
+                  - 'button "SPD: ранг 3" [ref=e1415] [cursor=pointer]'
+                  - 'button "SPD: ранг 4" [ref=e1416] [cursor=pointer]'
+                  - 'button "SPD: ранг 5" [ref=e1417] [cursor=pointer]'
+                - generic [ref=e1418]: —
+              - generic [ref=e1419]:
+                - strong [ref=e1420]: EA
+                - 'group "EA: точный ранг" [ref=e1421]':
+                  - 'button "EA: ранг 1" [ref=e1422] [cursor=pointer]'
+                  - 'button "EA: ранг 2" [ref=e1423] [cursor=pointer]'
+                  - 'button "EA: ранг 3" [ref=e1424] [cursor=pointer]'
+                  - 'button "EA: ранг 4" [ref=e1425] [cursor=pointer]'
+                  - 'button "EA: ранг 5" [ref=e1426] [cursor=pointer]'
+                - generic [ref=e1427]: —
+              - generic [ref=e1428]:
+                - strong [ref=e1429]: ED
+                - 'group "ED: точный ранг" [ref=e1430]':
+                  - 'button "ED: ранг 1" [ref=e1431] [cursor=pointer]'
+                  - 'button "ED: ранг 2" [ref=e1432] [cursor=pointer]'
+                  - 'button "ED: ранг 3" [ref=e1433] [cursor=pointer]'
+                  - 'button "ED: ранг 4" [ref=e1434] [cursor=pointer]'
+                  - 'button "ED: ранг 5" [ref=e1435] [cursor=pointer]'
+                - generic [ref=e1436]: —
+              - generic [ref=e1437]:
+                - strong [ref=e1438]: PA
+                - 'group "PA: точный ранг" [ref=e1439]':
+                  - 'button "PA: ранг 1" [ref=e1440] [cursor=pointer]'
+                  - 'button "PA: ранг 2" [ref=e1441] [cursor=pointer]'
+                  - 'button "PA: ранг 3" [ref=e1442] [cursor=pointer]'
+                  - 'button "PA: ранг 4" [ref=e1443] [cursor=pointer]'
+                  - 'button "PA: ранг 5" [ref=e1444] [cursor=pointer]'
+                - generic [ref=e1445]: —
+              - generic [ref=e1446]:
+                - strong [ref=e1447]: PD
+                - 'group "PD: точный ранг" [ref=e1448]':
+                  - 'button "PD: ранг 1" [ref=e1449] [cursor=pointer]'
+                  - 'button "PD: ранг 2" [ref=e1450] [cursor=pointer]'
+                  - 'button "PD: ранг 3" [ref=e1451] [cursor=pointer]'
+                  - 'button "PD: ранг 4" [ref=e1452] [cursor=pointer]'
+                  - 'button "PD: ранг 5" [ref=e1453] [cursor=pointer]'
+                - generic [ref=e1454]: —
+              - paragraph [ref=e1455]: Точный ранг · повторное нажатие снимает выбор.
+          - button "Tags Теги" [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]:
+              - text: Tags
+              - generic [ref=e52]: Теги
+            - generic [aria-hidden] [ref=e53]: ⌄
+        - 'group "Стихии: все выбранные одновременно" [ref=e54]':
+          - button "Огонь" [pressed] [ref=e55] [cursor=pointer]
+          - button "Вода" [ref=e56] [cursor=pointer]
+          - button "Природа" [ref=e57] [cursor=pointer]
+          - button "Земля" [ref=e58] [cursor=pointer]
+          - button "Молния" [pressed] [ref=e59] [cursor=pointer]
+          - button "Ветер" [ref=e60] [cursor=pointer]
+        - paragraph [ref=e61]: Огонь + Молния · сочетание по «И»
+      - group [ref=e62]:
+        - generic "+Коллекция и места обитания" [ref=e63] [cursor=pointer]
+      - region "Результаты поиска" [ref=e64]:
+        - generic [ref=e65]:
+          - strong [ref=e66]: "Найдено: 6"
+          - generic [ref=e67]:
+            - button "Сбросить фильтры" [ref=e753] [cursor=pointer]
+            - combobox "Сортировка" [ref=e69] [cursor=pointer]:
+              - generic [ref=e70]: Имя A–Z
+              - generic [aria-hidden] [ref=e71]: ⌄
+        - generic [ref=e72]:
+          - article [ref=e1003]:
+            - link "Dorux Эпический Dorux Огонь Молния" [ref=e1004] [cursor=pointer]:
+              - /url: /miscrits/dorux
+              - generic [ref=e1005]:
+                - img "Dorux" [ref=e1332]
+                - img "Эпический" [ref=e1007]
+              - generic [ref=e1008]:
+                - strong [ref=e1009]: Dorux
+                - generic [ref=e1010]:
+                  - generic [ref=e1011]: Огонь
+                  - generic [ref=e1012]: Молния
+            - generic [ref=e1013]:
+              - button "Пойман?" [ref=e1014] [cursor=pointer]
+              - button "Добавить Dorux в избранное" [ref=e1016] [cursor=pointer]
+          - article [ref=e1216]:
+            - link "Jynku Экзотический Jynku Огонь Молния" [ref=e1217] [cursor=pointer]:
+              - /url: /miscrits/jynku
+              - generic [ref=e1218]:
+                - img "Jynku" [ref=e1333]
+                - img "Экзотический" [ref=e1220]
+              - generic [ref=e1221]:
+                - strong [ref=e1222]: Jynku
+                - generic [ref=e1223]:
+                  - generic [ref=e1224]: Огонь
+                  - generic [ref=e1225]: Молния
+            - generic [ref=e1226]:
+              - button "Пойман?" [ref=e1227] [cursor=pointer]
+              - button "Добавить Jynku в избранное" [ref=e1229] [cursor=pointer]
+          - article [ref=e1334]:
+            - link "Light Ignios Легендарный Light Ignios Огонь Молния" [ref=e1335] [cursor=pointer]:
+              - /url: /miscrits/light-ignios
+              - generic [ref=e1336]:
+                - img "Light Ignios" [ref=e1338]
+                - img "Легендарный" [ref=e1339]
+              - generic [ref=e1340]:
+                - strong [ref=e1341]: Light Ignios
+                - generic [ref=e1342]:
+                  - generic [ref=e1343]: Огонь
+                  - generic [ref=e1344]: Молния
+            - generic [ref=e1345]:
+              - button "Пойман?" [ref=e1346] [cursor=pointer]
+              - button "Добавить Light Ignios в избранное" [ref=e1348] [cursor=pointer]
+          - article [ref=e1350]:
+            - link "Light Rafiery Эпический Light Rafiery Огонь Молния" [ref=e1351] [cursor=pointer]:
+              - /url: /miscrits/light-rafiery
+              - generic [ref=e1352]:
+                - img "Light Rafiery" [ref=e1354]
+                - img "Эпический" [ref=e1355]
+              - generic [ref=e1356]:
+                - strong [ref=e1357]: Light Rafiery
+                - generic [ref=e1358]:
+                  - generic [ref=e1359]: Огонь
+                  - generic [ref=e1360]: Молния
+            - generic [ref=e1361]:
+              - button "Пойман?" [ref=e1362] [cursor=pointer]
+              - button "Добавить Light Rafiery в избранное" [ref=e1364] [cursor=pointer]
+          - article [ref=e1366]:
+            - link "Light Statikat Экзотический Light Statikat Огонь Молния" [ref=e1367] [cursor=pointer]:
+              - /url: /miscrits/light-statikat
+              - generic [ref=e1368]:
+                - img "Light Statikat" [ref=e1370]
+                - img "Экзотический" [ref=e1371]
+              - generic [ref=e1372]:
+                - strong [ref=e1373]: Light Statikat
+                - generic [ref=e1374]:
+                  - generic [ref=e1375]: Огонь
+                  - generic [ref=e1376]: Молния
+            - generic [ref=e1377]:
+              - button "Пойман?" [ref=e1378] [cursor=pointer]
+              - button "Добавить Light Statikat в избранное" [ref=e1380] [cursor=pointer]
+          - article [ref=e1382]:
+            - link "Smokey Обычный Smokey Огонь Молния" [ref=e1383] [cursor=pointer]:
+              - /url: /miscrits/smokey
+              - generic [ref=e1384]:
+                - img "Smokey" [ref=e1386]
+                - img "Обычный" [ref=e1387]
+              - generic [ref=e1388]:
+                - strong [ref=e1389]: Smokey
+                - generic [ref=e1390]:
+                  - generic [ref=e1391]: Огонь
+                  - generic [ref=e1392]: Молния
+            - generic [ref=e1393]:
+              - button "Пойман?" [ref=e1394] [cursor=pointer]
+              - button "Добавить Smokey в избранное" [ref=e1396] [cursor=pointer]

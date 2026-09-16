@@ -1,0 +1,572 @@
+- generic [ref=f5e2]:
+  - link "К содержимому" [ref=f5e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f5e4]:
+    - generic [ref=f5e5]:
+      - link "Miscrits Энциклопедия" [ref=f5e6] [cursor=pointer]:
+        - /url: /
+      - link "Данные на устройстве" [ref=f5e7] [cursor=pointer]:
+        - /url: /settings
+  - main [ref=f5e9]:
+    - generic [ref=f5e26]:
+      - link "← Инструменты" [ref=f5e27] [cursor=pointer]:
+        - /url: /tools
+      - heading "Симулятор ребонуса" [level=1] [ref=f5e28]
+      - paragraph [ref=f5e29]: Модель Rebonus Simulator · snapshot-2026-09-15. Соответствие игровому серверу не подтверждено.
+      - generic [ref=f5e30]:
+        - generic [ref=f5e31]:
+          - text: Мискрит
+          - combobox "Мискрит" [ref=f5e32]:
+            - option "Flue" [selected]
+            - option "Flowerpiller"
+            - option "Prawnja"
+            - option "Weevern"
+            - option "Cubsprout"
+            - option "Sparkupine"
+            - option "Hydroseal"
+            - option "Snortus"
+            - option "Quirk"
+            - option "Flameling"
+            - option "Lumera"
+            - option "Snatcher"
+            - option "Elefauna"
+            - option "Nessy"
+            - option "Hotfoot"
+            - option "Twiggum"
+            - option "Shellbee"
+            - option "Squibee"
+            - option "Steamguin"
+            - option "Waddles"
+            - option "Treemur"
+            - option "Tulipinny"
+            - option "Dark Flue"
+            - option "Dark Flowerpiller"
+            - option "Dark Prawnja"
+            - option "Blazebit"
+            - option "Frostmite"
+            - option "Blazertooth"
+            - option "Statikat"
+            - option "Equestrion"
+            - option "Drilldent"
+            - option "Kiloray"
+            - option "Breezycheeks"
+            - option "Mumbah"
+            - option "Aria"
+            - option "Jellyshock"
+            - option "Croaky"
+            - option "Sparkslug"
+            - option "Craggy"
+            - option "Owlie"
+            - option "Luna"
+            - option "Poltergust"
+            - option "Fossillia"
+            - option "Eggy"
+            - option "Thundercracker"
+            - option "Mun Kee"
+            - option "Microblast"
+            - option "Sledgehog"
+            - option "Sapphron"
+            - option "Sparkspeck"
+            - option "Grubbean"
+            - option "Echino"
+            - option "Wavesling"
+            - option "Sparkitten"
+            - option "Arigato"
+            - option "Jack"
+            - option "Quebble"
+            - option "Digsy"
+            - option "Hippoke"
+            - option "Leggy"
+            - option "Orcatide"
+            - option "Flutterpat"
+            - option "Snorkels"
+            - option "Kelpa"
+            - option "Ignios"
+            - option "Beelzebug"
+            - option "Winnebeargo"
+            - option "Fennie"
+            - option "Patchkin"
+            - option "Flurrious"
+            - option "Fangly"
+            - option "Dark Kiloray"
+            - option "Dark Croaky"
+            - option "Valentino"
+            - option "Dark Cubsprout"
+            - option "Dark Sparkitten"
+            - option "Dark Snortus"
+            - option "Boltzee"
+            - option "Dark Owlie"
+            - option "Dark Echino"
+            - option "Dark Arigato"
+            - option "Dark Hydroseal"
+            - option "Peepsie"
+            - option "Dark Eggy"
+            - option "Dark Flameling"
+            - option "Dark Elefauna"
+            - option "Mama"
+            - option "Dark Nessy"
+            - option "Dark Hotfoot"
+            - option "Dark Breezycheeks"
+            - option "Papa"
+            - option "Whik"
+            - option "Slithero"
+            - option "Spinnerette"
+            - option "Crickin"
+            - option "Bubbles"
+            - option "Humbug"
+            - option "Lavarilla"
+            - option "Bloomple"
+            - option "Pamboo"
+            - option "Rockodile"
+            - option "Boneshee"
+            - option "Ursiwave"
+            - option "Bludger"
+            - option "Zaptor"
+            - option "Narlope"
+            - option "Vexie"
+            - option "Tongutail"
+            - option "Hawkai"
+            - option "Nero"
+            - option "Pollifog"
+            - option "Felis"
+            - option "Tectonyx"
+            - option "Nibbles"
+            - option "Skustunk"
+            - option "Flintly"
+            - option "Gog"
+            - option "Octavio"
+            - option "Crabbles"
+            - option "Inferno"
+            - option "Hotdog"
+            - option "Rafiery"
+            - option "Nanaslug"
+            - option "Vhisp"
+            - option "Raldio"
+            - option "Freedom"
+            - option "Gemix"
+            - option "Podo"
+            - option "Lavazard"
+            - option "Shurikoon"
+            - option "Skelepup"
+            - option "Foil Waddles"
+            - option "Foil Fossillia"
+            - option "Foil Thundercracker"
+            - option "Hoopty"
+            - option "Foil Kiloray"
+            - option "Spangles"
+            - option "Opigum"
+            - option "Foil Flintly"
+            - option "Light Tectonyx"
+            - option "Flaring"
+            - option "Cadbunny"
+            - option "Fiender"
+            - option "Pillblaze"
+            - option "Blub"
+            - option "Cerberuff"
+            - option "Auger"
+            - option "Flurfy"
+            - option "Squirmle"
+            - option "Lil Bubs"
+            - option "Peekly"
+            - option "Splender"
+            - option "Dorux"
+            - option "Fubby"
+            - option "Pennon"
+            - option "Ekkult"
+            - option "Defilio"
+            - option "Blighted Cubsprout"
+            - option "Blighted Flue"
+            - option "Blobroller"
+            - option "Light Nibbles"
+            - option "Light Frostmite"
+            - option "Light Bludger"
+            - option "Light Zaptor"
+            - option "Light Quirk"
+            - option "Light Statikat"
+            - option "Dark Spinnerette"
+            - option "Light Twiggum"
+            - option "Aquarion"
+            - option "Blighted Fiender"
+            - option "Blighted Kiloray"
+            - option "Dark Shellbee"
+            - option "Liothning"
+            - option "Dark Lumera"
+            - option "Dark Steamguin"
+            - option "Dark Poltergust"
+            - option "Dark Treemur"
+            - option "Foil Vexie"
+            - option "Foil Vhisp"
+            - option "Dark Sparkupine"
+            - option "Dark Squibee"
+            - option "Dark Waddles"
+            - option "Dark Twiggum"
+            - option "Dark Auger"
+            - option "Dark Aria"
+            - option "Light Rafiery"
+            - option "Light Fossillia"
+            - option "Light Nanaslug"
+            - option "Light Crickin"
+            - option "Light Flue"
+            - option "Light Grubbean"
+            - option "Ribos"
+            - option "Light Sparkspeck"
+            - option "Light Wavesling"
+            - option "Light Jack"
+            - option "Light Flurfy"
+            - option "Light Slithero"
+            - option "Light Squibee"
+            - option "Light Digsy"
+            - option "Light Ignios"
+            - option "Light Mumbah"
+            - option "Dark Tongutail"
+            - option "Dark Lavarilla"
+            - option "Dark Frostmite"
+            - option "Dark Tulipinny"
+            - option "Dark Flutterpat"
+            - option "Dark Slithero"
+            - option "Keeper"
+            - option "Dark Luna"
+            - option "Foil Luna"
+            - option "Sol"
+            - option "Dreamger"
+            - option "Light Weevern"
+            - option "Dark Quirk"
+            - option "Dark Squirmle"
+            - option "Blighted Flowerpiller"
+            - option "Dark Jellyshock"
+            - option "Light Hawkai"
+            - option "Dark Vexie"
+            - option "Da Windy"
+            - option "Light Snorkels"
+            - option "Foil Croaky"
+            - option "Freezet"
+            - option "Dark Pillblaze"
+            - option "Rudy"
+            - option "Manio"
+            - option "Mistraxol"
+            - option "Orbling"
+            - option "Zappup"
+            - option "Pestling"
+            - option "Woolly"
+            - option "Frozy"
+            - option "Stalkra"
+            - option "Mech"
+            - option "Rexie"
+            - option "Warrian"
+            - option "Aebex"
+            - option "Charix"
+            - option "Alpha"
+            - option "Charpy"
+            - option "Lambolt"
+            - option "Gravitron"
+            - option "Babakku"
+            - option "Smolderfry"
+            - option "Moondrip"
+            - option "Shroolet"
+            - option "Lumite"
+            - option "Voidotron"
+            - option "Niboro"
+            - option "Pinplar"
+            - option "Lithos"
+            - option "Brainzer"
+            - option "Pyrex"
+            - option "Oozie"
+            - option "Lunako"
+            - option "Rephily"
+            - option "Eluzar"
+            - option "Furiko"
+            - option "Bunplop"
+            - option "Drilune"
+            - option "Flaclay"
+            - option "Enex"
+            - option "Voltombra"
+            - option "Eclipso"
+            - option "Osmeron"
+            - option "Mooncrit"
+            - option "Beateorite"
+            - option "Silkire"
+            - option "Zephry"
+            - option "Fungask"
+            - option "Larbunni"
+            - option "Yuefira"
+            - option "Mucora"
+            - option "Goo"
+            - option "Avarus"
+            - option "Beakka"
+            - option "Whispen"
+            - option "Fickra"
+            - option "Pirate Bludger"
+            - option "Lutox"
+            - option "Deetlee"
+            - option "Ampupine"
+            - option "Hekatom"
+            - option "Scarecrow Charix"
+            - option "Vamp Skustunk"
+            - option "Grimm Kiloray"
+            - option "Rocker Octavio"
+            - option "Boo Blazertooth"
+            - option "Geneseed"
+            - option "Sora"
+            - option "Dark Sparkslug"
+            - option "Phoboros"
+            - option "Lagoony"
+            - option "Poppet"
+            - option "Nubyll"
+            - option "Elphin"
+            - option "Luvcraft"
+            - option "Damse"
+            - option "Beldame"
+            - option "Viperd"
+            - option "Blowpuffle"
+            - option "Squawcat"
+            - option "Dark Weevern"
+            - option "Pangoleaf"
+            - option "Foil Pamboo"
+            - option "Gippo"
+            - option "Hoghedge"
+            - option "Shroomer"
+            - option "Daloo"
+            - option "Dark Whik"
+            - option "Bloombat"
+            - option "Nyma"
+            - option "Kitpole"
+            - option "Magpole"
+            - option "Beetor"
+            - option "Liquifien"
+            - option "Glary"
+            - option "Foil Liquifien"
+            - option "Pachydo"
+            - option "Gurgleplops"
+            - option "Budillo"
+            - option "Pithapillar"
+            - option "Dark Bubbles"
+            - option "Pyras"
+            - option "Foil Rockodile"
+            - option "Bunaken"
+            - option "Lheon"
+            - option "Dark Hoghedge"
+            - option "Dark Beetor"
+            - option "Zhakor"
+            - option "Foil Pangoleaf"
+            - option "Blug"
+            - option "Dark Humbug"
+            - option "Kawanko"
+            - option "Casanova"
+            - option "Dabee"
+            - option "Dark Viperd"
+            - option "Dark Gurgleplops"
+            - option "Agnuf"
+            - option "Piskie"
+            - option "Dark Gippo"
+            - option "Aguapogo"
+            - option "Padma"
+            - option "Light Lavarilla"
+            - option "Shockell"
+            - option "Mustella"
+            - option "Pumillo"
+            - option "Leafbeard"
+            - option "Wiggle"
+            - option "Wapy"
+            - option "Cuado"
+            - option "Ammurupt"
+            - option "Ruhog"
+            - option "Elkenhoof"
+            - option "Amphibunny"
+            - option "Quackers"
+            - option "Aveony"
+            - option "Smokey"
+            - option "Sheldon"
+            - option "Patrik"
+            - option "Woolaboo"
+            - option "Boomble"
+            - option "Beeple"
+            - option "Light Crabbles"
+            - option "Harerazor"
+            - option "Smole"
+            - option "Toothy"
+            - option "Spookah"
+            - option "Glaucos"
+            - option "Kiri"
+            - option "Junglotl"
+            - option "Iguanar"
+            - option "Pujin"
+            - option "Wisper"
+            - option "Shocrack"
+            - option "Molly"
+            - option "Zimbabo"
+            - option "Dark Drilldent"
+            - option "Magixio"
+            - option "Petalina"
+            - option "Tabbey"
+            - option "Flaro"
+            - option "Hydro"
+            - option "Azteko"
+            - option "Kukoatl"
+            - option "Dark Snatcher"
+            - option "Dogu"
+            - option "Dark Bloombat"
+            - option "Pennypincher"
+            - option "Posy"
+            - option "Chico"
+            - option "Tzicatl"
+            - option "Rocapez"
+            - option "Oxo"
+            - option "Flow"
+            - option "Boltipede"
+            - option "Quartex"
+            - option "Chinook"
+            - option "Yelen"
+            - option "Piglly"
+            - option "Dravo"
+            - option "Electryo"
+            - option "Dark Electryo"
+            - option "Foil Opigum"
+            - option "Griffix"
+            - option "Nipuppy"
+            - option "Joltzer"
+            - option "Pebbler"
+            - option "Dark Narlope"
+            - option "Pfists"
+            - option "Dark Equestrion"
+            - option "Monk Munk"
+            - option "Fracture"
+            - option "Dillorock"
+            - option "Dark Monk Munk"
+            - option "Dark Dillorock"
+            - option "Foil Pollifog"
+            - option "Jynku"
+            - option "Dark Gog"
+            - option "Electrak"
+        - paragraph [ref=f5e33]: Пример начальных бонусов — 136 очков. Можно ввести свои значения, сумма не больше 136.
+        - paragraph [ref=f5e34]: Выберите до пяти статов с пониженной вероятностью. Хотя бы один стат должен остаться без понижения.
+        - generic [ref=f5e35]:
+          - generic [ref=f5e36]:
+            - checkbox "HP · 16.67%" [ref=f5e37]
+            - text: HP · 16.67%
+          - generic [ref=f5e38]:
+            - checkbox "SPD · 16.67%" [ref=f5e39]
+            - text: SPD · 16.67%
+          - generic [ref=f5e40]:
+            - checkbox "EA · 16.67%" [ref=f5e41]
+            - text: EA · 16.67%
+          - generic [ref=f5e42]:
+            - checkbox "PA · 16.67%" [ref=f5e43]
+            - text: PA · 16.67%
+          - generic [ref=f5e44]:
+            - checkbox "ED · 16.67%" [ref=f5e45]
+            - text: ED · 16.67%
+          - generic [ref=f5e46]:
+            - checkbox "PD · 16.67%" [ref=f5e47]
+            - text: PD · 16.67%
+        - text: Вероятности отдельного выбора до коррекции; не средняя доля итогового пула.
+        - generic [ref=f5e48]:
+          - generic [ref=f5e49]:
+            - text: Seed
+            - spinbutton "Seed" [ref=f5e50]: "42"
+          - button "Новая попытка" [ref=f5e51] [cursor=pointer]
+        - paragraph [ref=f5e52]: "Попыток: 1 · Потрачено в симуляции: 25 platinum · Следующая стоимость: 25."
+      - table [ref=f5e54]:
+        - rowgroup [ref=f5e55]:
+          - row [ref=f5e56]:
+            - columnheader "Стат" [ref=f5e57]
+            - columnheader "Текущее" [ref=f5e58]
+            - columnheader "Новая попытка" [ref=f5e59]
+            - columnheader "Разница" [ref=f5e60]
+        - rowgroup [ref=f5e61]:
+          - row [ref=f5e129]:
+            - rowheader "HP" [ref=f5e63]
+            - cell [ref=f5e64]:
+              - spinbutton "Текущий бонус HP" [ref=f5e65]: "23"
+            - cell "—" [ref=f5e130]
+            - cell "—" [ref=f5e131]
+          - row [ref=f5e132]:
+            - rowheader "SPD" [ref=f5e69]
+            - cell [ref=f5e70]:
+              - spinbutton "Текущий бонус SPD" [ref=f5e71]: "22"
+            - cell "—" [ref=f5e133]
+            - cell "—" [ref=f5e134]
+          - row [ref=f5e135]:
+            - rowheader "EA" [ref=f5e75]
+            - cell [ref=f5e76]:
+              - spinbutton "Текущий бонус EA" [ref=f5e77]: "22"
+            - cell "—" [ref=f5e136]
+            - cell "—" [ref=f5e137]
+          - row [ref=f5e138]:
+            - rowheader "PA" [ref=f5e81]
+            - cell [ref=f5e82]:
+              - spinbutton "Текущий бонус PA" [ref=f5e83]: "23"
+            - cell "—" [ref=f5e139]
+            - cell "—" [ref=f5e140]
+          - row [ref=f5e141]:
+            - rowheader "ED" [ref=f5e87]
+            - cell [ref=f5e88]:
+              - spinbutton "Текущий бонус ED" [ref=f5e89]: "23"
+            - cell "—" [ref=f5e142]
+            - cell "—" [ref=f5e143]
+          - row [ref=f5e144]:
+            - rowheader "PD" [ref=f5e93]
+            - cell [ref=f5e94]:
+              - spinbutton "Текущий бонус PD" [ref=f5e95]: "23"
+            - cell "—" [ref=f5e145]
+            - cell "—" [ref=f5e146]
+        - rowgroup [ref=f5e98]:
+          - row [ref=f5e147]:
+            - rowheader "Сумма" [ref=f5e100]
+            - cell "136" [ref=f5e101]
+            - cell "—" [ref=f5e148]
+            - cell [ref=f5e103]
+      - group [ref=f5e149]:
+        - generic "История · последние 1 попыток" [ref=f5e150] [cursor=pointer]
+      - group [ref=f5e104]:
+        - generic "Серия попыток и цель" [active] [ref=f5e105] [cursor=pointer]
+        - paragraph [ref=f5e151]: Независимые попытки с постоянными правилами. Серия не меняет текущий профиль и расходы сессии.
+        - generic [ref=f5e152]:
+          - generic [ref=f5e153]:
+            - text: HP · от / до
+            - generic [ref=f5e154]:
+              - spinbutton "hp цель минимум" [ref=f5e155]: "1"
+              - spinbutton "hp цель максимум" [ref=f5e156]: "136"
+          - generic [ref=f5e157]:
+            - text: SPD · от / до
+            - generic [ref=f5e158]:
+              - spinbutton "spd цель минимум" [ref=f5e159]: "1"
+              - spinbutton "spd цель максимум" [ref=f5e160]: "136"
+          - generic [ref=f5e161]:
+            - text: EA · от / до
+            - generic [ref=f5e162]:
+              - spinbutton "ea цель минимум" [ref=f5e163]: "1"
+              - spinbutton "ea цель максимум" [ref=f5e164]: "136"
+          - generic [ref=f5e165]:
+            - text: PA · от / до
+            - generic [ref=f5e166]:
+              - spinbutton "pa цель минимум" [ref=f5e167]: "1"
+              - spinbutton "pa цель максимум" [ref=f5e168]: "136"
+          - generic [ref=f5e169]:
+            - text: ED · от / до
+            - generic [ref=f5e170]:
+              - spinbutton "ed цель минимум" [ref=f5e171]: "1"
+              - spinbutton "ed цель максимум" [ref=f5e172]: "136"
+          - generic [ref=f5e173]:
+            - text: PD · от / до
+            - generic [ref=f5e174]:
+              - spinbutton "pd цель минимум" [ref=f5e175]: "1"
+              - spinbutton "pd цель максимум" [ref=f5e176]: "136"
+        - generic [ref=f5e177]:
+          - generic [ref=f5e178]:
+            - text: Попытки
+            - combobox "Попытки" [ref=f5e179]:
+              - option "100"
+              - option "1 000"
+              - option "10 000" [selected]
+              - option "100 000"
+          - button "Запустить серию" [ref=f5e180] [cursor=pointer]
+        - status
+  - navigation "Основная навигация" [ref=f5e11]:
+    - link "Мискриты" [ref=f5e12] [cursor=pointer]:
+      - /url: /
+    - link "Карта мира" [ref=f5e15] [cursor=pointer]:
+      - /url: /map
+    - link "Моя коллекция" [ref=f5e18] [cursor=pointer]:
+      - /url: /collection
+    - link "Инструменты" [ref=f5e21] [cursor=pointer]:
+      - /url: /tools

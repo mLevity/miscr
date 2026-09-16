@@ -1,0 +1,12 @@
+[
+  {
+    "file": "reference/maps.html",
+    "script": 0,
+    "passed": true
+  },
+  {
+    "file": "examples/calculators.html",
+    "script": 1,
+    "passed": true
+  }
+]

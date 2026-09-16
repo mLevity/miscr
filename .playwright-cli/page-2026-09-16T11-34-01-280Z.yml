@@ -1,0 +1,689 @@
+- generic [ref=f5e2]:
+  - link "К содержимому" [ref=f5e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f5e4]:
+    - generic [ref=f5e5]:
+      - link "Miscrits Helper" [ref=f5e6] [cursor=pointer]:
+        - /url: /
+      - link "Данные на устройстве" [ref=f5e7] [cursor=pointer]:
+        - /url: /settings
+  - main [ref=f5e9]:
+    - generic [ref=f5e10]:
+      - generic [ref=f5e11]:
+        - paragraph [ref=f5e12]: Найди своего мискрита
+        - heading "Мискриты" [level=1] [ref=f5e13]
+        - paragraph [ref=f5e14]: 420 семейств · 1 680 эволюций · одна коллекция
+      - generic [ref=f5e15]:
+        - generic [ref=f5e16]:
+          - generic [ref=f5e18]: Поиск по мискритам и эволюциям
+          - searchbox "Поиск по мискритам и эволюциям" [ref=f5e19]
+        - generic [ref=f5e20]:
+          - button "Rarity Редкость" [ref=f5e22] [cursor=pointer]:
+            - generic [ref=f5e23]:
+              - text: Rarity
+              - generic [ref=f5e24]: Редкость
+            - generic [aria-hidden] [ref=f5e25]: ⌄
+          - button "Stats Статы" [ref=f5e27] [cursor=pointer]:
+            - generic [ref=f5e28]:
+              - text: Stats
+              - generic [ref=f5e29]: Статы
+            - generic [aria-hidden] [ref=f5e30]: ⌄
+          - button "Tags Теги" [ref=f5e32] [cursor=pointer]:
+            - generic [ref=f5e33]:
+              - text: Tags
+              - generic [ref=f5e34]: Теги
+            - generic [aria-hidden] [ref=f5e35]: ⌄
+        - 'group "Стихии: все выбранные одновременно" [ref=f5e36]':
+          - button "Огонь" [ref=f5e37] [cursor=pointer]
+          - button "Вода" [ref=f5e38] [cursor=pointer]
+          - button "Природа" [ref=f5e39] [cursor=pointer]
+          - button "Земля" [ref=f5e40] [cursor=pointer]
+          - button "Молния" [ref=f5e41] [cursor=pointer]
+          - button "Ветер" [ref=f5e42] [cursor=pointer]
+        - paragraph [ref=f5e43]: Выберите стихии · сочетание по «И»
+      - group [ref=f5e44]:
+        - generic "+Коллекция и места обитания" [ref=f5e45] [cursor=pointer]
+      - region "Результаты поиска" [ref=f5e46]:
+        - generic [ref=f5e47]:
+          - strong [ref=f5e48]: "Найдено: 420"
+          - combobox "Сортировка" [ref=f5e51] [cursor=pointer]:
+            - generic [ref=f5e52]: Имя A–Z
+            - generic [aria-hidden] [ref=f5e53]: ⌄
+        - generic [ref=f5e54]:
+          - article [ref=f5e55]:
+            - link "Aebex Обычный Aebex Природа Ветер" [ref=f5e56] [cursor=pointer]:
+              - /url: /miscrits/aebex
+              - generic [ref=f5e57]:
+                - img "Aebex" [ref=f5e59]
+                - img "Обычный"
+              - generic [ref=f5e60]:
+                - strong [ref=f5e61]: Aebex
+                - generic [ref=f5e62]:
+                  - generic [ref=f5e63]: Природа
+                  - generic [ref=f5e64]: Ветер
+            - generic [ref=f5e65]:
+              - button "Пойман?" [ref=f5e66] [cursor=pointer]
+              - button "Добавить Aebex в избранное" [ref=f5e68] [cursor=pointer]
+          - article [ref=f5e70]:
+            - link "Agnuf Эпический Agnuf Природа" [ref=f5e71] [cursor=pointer]:
+              - /url: /miscrits/agnuf
+              - generic [ref=f5e72]:
+                - img "Agnuf" [ref=f5e74]
+                - img "Эпический"
+              - generic [ref=f5e75]:
+                - strong [ref=f5e76]: Agnuf
+                - generic [ref=f5e77]: Природа
+            - generic [ref=f5e79]:
+              - button "Пойман?" [ref=f5e80] [cursor=pointer]
+              - button "Добавить Agnuf в избранное" [ref=f5e82] [cursor=pointer]
+          - article [ref=f5e84]:
+            - link "Aguapogo Эпический Aguapogo Вода Ветер" [ref=f5e85] [cursor=pointer]:
+              - /url: /miscrits/aguapogo
+              - generic [ref=f5e86]:
+                - img "Aguapogo" [ref=f5e88]
+                - img "Эпический"
+              - generic [ref=f5e89]:
+                - strong [ref=f5e90]: Aguapogo
+                - generic [ref=f5e91]:
+                  - generic [ref=f5e92]: Вода
+                  - generic [ref=f5e93]: Ветер
+            - generic [ref=f5e94]:
+              - button "Пойман?" [ref=f5e95] [cursor=pointer]
+              - button "Добавить Aguapogo в избранное" [ref=f5e97] [cursor=pointer]
+          - article [ref=f5e99]:
+            - link "Alpha Экзотический Alpha Природа" [ref=f5e100] [cursor=pointer]:
+              - /url: /miscrits/alpha
+              - generic [ref=f5e101]:
+                - img "Alpha" [ref=f5e103]
+                - img "Экзотический"
+              - generic [ref=f5e104]:
+                - strong [ref=f5e105]: Alpha
+                - generic [ref=f5e106]: Природа
+            - generic [ref=f5e108]:
+              - button "Пойман?" [ref=f5e109] [cursor=pointer]
+              - button "Добавить Alpha в избранное" [ref=f5e111] [cursor=pointer]
+          - article [ref=f5e113]:
+            - link "Ammurupt Редкий Ammurupt Огонь" [ref=f5e114] [cursor=pointer]:
+              - /url: /miscrits/ammurupt
+              - generic [ref=f5e115]:
+                - img "Ammurupt" [ref=f5e117]
+                - img "Редкий"
+              - generic [ref=f5e118]:
+                - strong [ref=f5e119]: Ammurupt
+                - generic [ref=f5e120]: Огонь
+            - generic [ref=f5e122]:
+              - button "Пойман?" [ref=f5e123] [cursor=pointer]
+              - button "Добавить Ammurupt в избранное" [ref=f5e125] [cursor=pointer]
+          - article [ref=f5e127]:
+            - link "Amphibunny Эпический Amphibunny Природа" [ref=f5e128] [cursor=pointer]:
+              - /url: /miscrits/amphibunny
+              - generic [ref=f5e129]:
+                - img "Amphibunny" [ref=f5e131]
+                - img "Эпический"
+              - generic [ref=f5e132]:
+                - strong [ref=f5e133]: Amphibunny
+                - generic [ref=f5e134]: Природа
+            - generic [ref=f5e136]:
+              - button "Пойман?" [ref=f5e137] [cursor=pointer]
+              - button "Добавить Amphibunny в избранное" [ref=f5e139] [cursor=pointer]
+          - article [ref=f5e141]:
+            - link "Ampupine Редкий Ampupine Молния" [ref=f5e142] [cursor=pointer]:
+              - /url: /miscrits/ampupine
+              - generic [ref=f5e143]:
+                - img "Ampupine" [ref=f5e145]
+                - img "Редкий"
+              - generic [ref=f5e146]:
+                - strong [ref=f5e147]: Ampupine
+                - generic [ref=f5e148]: Молния
+            - generic [ref=f5e150]:
+              - button "Пойман?" [ref=f5e151] [cursor=pointer]
+              - button "Добавить Ampupine в избранное" [ref=f5e153] [cursor=pointer]
+          - article [ref=f5e155]:
+            - link "Aquarion Легендарный Aquarion Вода" [ref=f5e156] [cursor=pointer]:
+              - /url: /miscrits/aquarion
+              - generic [ref=f5e157]:
+                - img "Aquarion" [ref=f5e159]
+                - img "Легендарный"
+              - generic [ref=f5e160]:
+                - strong [ref=f5e161]: Aquarion
+                - generic [ref=f5e162]: Вода
+            - generic [ref=f5e164]:
+              - button "Пойман?" [ref=f5e165] [cursor=pointer]
+              - button "Добавить Aquarion в избранное" [ref=f5e167] [cursor=pointer]
+          - article [ref=f5e169]:
+            - link "Aria Обычный Aria Ветер" [ref=f5e170] [cursor=pointer]:
+              - /url: /miscrits/aria
+              - generic [ref=f5e171]:
+                - img "Aria" [ref=f5e173]
+                - img "Обычный"
+              - generic [ref=f5e174]:
+                - strong [ref=f5e175]: Aria
+                - generic [ref=f5e176]: Ветер
+            - generic [ref=f5e178]:
+              - button "Пойман?" [ref=f5e179] [cursor=pointer]
+              - button "Добавить Aria в избранное" [ref=f5e181] [cursor=pointer]
+          - article [ref=f5e183]:
+            - link "Arigato Обычный Arigato Молния" [ref=f5e184] [cursor=pointer]:
+              - /url: /miscrits/arigato
+              - generic [ref=f5e185]:
+                - img "Arigato" [ref=f5e187]
+                - img "Обычный"
+              - generic [ref=f5e188]:
+                - strong [ref=f5e189]: Arigato
+                - generic [ref=f5e190]: Молния
+            - generic [ref=f5e192]:
+              - button "Пойман?" [ref=f5e193] [cursor=pointer]
+              - button "Добавить Arigato в избранное" [ref=f5e195] [cursor=pointer]
+          - article [ref=f5e197]:
+            - link "Auger Обычный Auger Земля" [ref=f5e198] [cursor=pointer]:
+              - /url: /miscrits/auger
+              - generic [ref=f5e199]:
+                - generic [ref=f5e200]:
+                  - img "Auger"
+                - img "Обычный"
+              - generic [ref=f5e201]:
+                - strong [ref=f5e202]: Auger
+                - generic [ref=f5e203]: Земля
+            - generic [ref=f5e205]:
+              - button "Пойман?" [ref=f5e206] [cursor=pointer]
+              - button "Добавить Auger в избранное" [ref=f5e208] [cursor=pointer]
+          - article [ref=f5e210]:
+            - link "Avarus Обычный Avarus Огонь Ветер" [ref=f5e211] [cursor=pointer]:
+              - /url: /miscrits/avarus
+              - generic [ref=f5e212]:
+                - generic [ref=f5e213]:
+                  - img "Avarus"
+                - img "Обычный"
+              - generic [ref=f5e214]:
+                - strong [ref=f5e215]: Avarus
+                - generic [ref=f5e216]:
+                  - generic [ref=f5e217]: Огонь
+                  - generic [ref=f5e218]: Ветер
+            - generic [ref=f5e219]:
+              - button "Пойман?" [ref=f5e220] [cursor=pointer]
+              - button "Добавить Avarus в избранное" [ref=f5e222] [cursor=pointer]
+          - article [ref=f5e224]:
+            - link "Aveony Обычный Aveony Природа" [ref=f5e225] [cursor=pointer]:
+              - /url: /miscrits/aveony
+              - generic [ref=f5e226]:
+                - generic [ref=f5e227]:
+                  - img "Aveony"
+                - img "Обычный"
+              - generic [ref=f5e228]:
+                - strong [ref=f5e229]: Aveony
+                - generic [ref=f5e230]: Природа
+            - generic [ref=f5e232]:
+              - button "Пойман?" [ref=f5e233] [cursor=pointer]
+              - button "Добавить Aveony в избранное" [ref=f5e235] [cursor=pointer]
+          - article [ref=f5e237]:
+            - link "Azteko Эпический Azteko Земля" [ref=f5e238] [cursor=pointer]:
+              - /url: /miscrits/azteko
+              - generic [ref=f5e239]:
+                - generic [ref=f5e240]:
+                  - img "Azteko"
+                - img "Эпический"
+              - generic [ref=f5e241]:
+                - strong [ref=f5e242]: Azteko
+                - generic [ref=f5e243]: Земля
+            - generic [ref=f5e245]:
+              - button "Пойман?" [ref=f5e246] [cursor=pointer]
+              - button "Добавить Azteko в избранное" [ref=f5e248] [cursor=pointer]
+          - article [ref=f5e250]:
+            - link "Babakku Эпический Babakku Земля" [ref=f5e251] [cursor=pointer]:
+              - /url: /miscrits/babakku
+              - generic [ref=f5e252]:
+                - generic [ref=f5e253]:
+                  - img "Babakku"
+                - img "Эпический"
+              - generic [ref=f5e254]:
+                - strong [ref=f5e255]: Babakku
+                - generic [ref=f5e256]: Земля
+            - generic [ref=f5e258]:
+              - button "Пойман?" [ref=f5e259] [cursor=pointer]
+              - button "Добавить Babakku в избранное" [ref=f5e261] [cursor=pointer]
+          - article [ref=f5e263]:
+            - link "Beakka Обычный Beakka Ветер" [ref=f5e264] [cursor=pointer]:
+              - /url: /miscrits/beakka
+              - generic [ref=f5e265]:
+                - generic [ref=f5e266]:
+                  - img "Beakka"
+                - img "Обычный"
+              - generic [ref=f5e267]:
+                - strong [ref=f5e268]: Beakka
+                - generic [ref=f5e269]: Ветер
+            - generic [ref=f5e271]:
+              - button "Пойман?" [ref=f5e272] [cursor=pointer]
+              - button "Добавить Beakka в избранное" [ref=f5e274] [cursor=pointer]
+          - article [ref=f5e276]:
+            - link "Beateorite Легендарный Beateorite Земля" [ref=f5e277] [cursor=pointer]:
+              - /url: /miscrits/beateorite
+              - generic [ref=f5e278]:
+                - generic [ref=f5e279]:
+                  - img "Beateorite"
+                - img "Легендарный"
+              - generic [ref=f5e280]:
+                - strong [ref=f5e281]: Beateorite
+                - generic [ref=f5e282]: Земля
+            - generic [ref=f5e284]:
+              - button "Пойман?" [ref=f5e285] [cursor=pointer]
+              - button "Добавить Beateorite в избранное" [ref=f5e287] [cursor=pointer]
+          - article [ref=f5e289]:
+            - link "Beelzebug Эпический Beelzebug Молния" [ref=f5e290] [cursor=pointer]:
+              - /url: /miscrits/beelzebug
+              - generic [ref=f5e291]:
+                - generic [ref=f5e292]:
+                  - img "Beelzebug"
+                - img "Эпический"
+              - generic [ref=f5e293]:
+                - strong [ref=f5e294]: Beelzebug
+                - generic [ref=f5e295]: Молния
+            - generic [ref=f5e297]:
+              - button "Пойман?" [ref=f5e298] [cursor=pointer]
+              - button "Добавить Beelzebug в избранное" [ref=f5e300] [cursor=pointer]
+          - article [ref=f5e302]:
+            - link "Beeple Редкий Beeple Молния" [ref=f5e303] [cursor=pointer]:
+              - /url: /miscrits/beeple
+              - generic [ref=f5e304]:
+                - generic [ref=f5e305]:
+                  - img "Beeple"
+                - img "Редкий"
+              - generic [ref=f5e306]:
+                - strong [ref=f5e307]: Beeple
+                - generic [ref=f5e308]: Молния
+            - generic [ref=f5e310]:
+              - button "Пойман?" [ref=f5e311] [cursor=pointer]
+              - button "Добавить Beeple в избранное" [ref=f5e313] [cursor=pointer]
+          - article [ref=f5e315]:
+            - link "Beetor Обычный Beetor Огонь" [ref=f5e316] [cursor=pointer]:
+              - /url: /miscrits/beetor
+              - generic [ref=f5e317]:
+                - generic [ref=f5e318]:
+                  - img "Beetor"
+                - img "Обычный"
+              - generic [ref=f5e319]:
+                - strong [ref=f5e320]: Beetor
+                - generic [ref=f5e321]: Огонь
+            - generic [ref=f5e323]:
+              - button "Пойман?" [ref=f5e324] [cursor=pointer]
+              - button "Добавить Beetor в избранное" [ref=f5e326] [cursor=pointer]
+          - article [ref=f5e328]:
+            - link "Beldame Легендарный Beldame Молния" [ref=f5e329] [cursor=pointer]:
+              - /url: /miscrits/beldame
+              - generic [ref=f5e330]:
+                - generic [ref=f5e331]:
+                  - img "Beldame"
+                - img "Легендарный"
+              - generic [ref=f5e332]:
+                - strong [ref=f5e333]: Beldame
+                - generic [ref=f5e334]: Молния
+            - generic [ref=f5e336]:
+              - button "Пойман?" [ref=f5e337] [cursor=pointer]
+              - button "Добавить Beldame в избранное" [ref=f5e339] [cursor=pointer]
+          - article [ref=f5e341]:
+            - link "Blazebit Редкий Blazebit Огонь" [ref=f5e342] [cursor=pointer]:
+              - /url: /miscrits/blazebit
+              - generic [ref=f5e343]:
+                - generic [ref=f5e344]:
+                  - img "Blazebit"
+                - img "Редкий"
+              - generic [ref=f5e345]:
+                - strong [ref=f5e346]: Blazebit
+                - generic [ref=f5e347]: Огонь
+            - generic [ref=f5e349]:
+              - button "Пойман?" [ref=f5e350] [cursor=pointer]
+              - button "Добавить Blazebit в избранное" [ref=f5e352] [cursor=pointer]
+          - article [ref=f5e354]:
+            - link "Blazertooth Эпический Blazertooth Огонь" [ref=f5e355] [cursor=pointer]:
+              - /url: /miscrits/blazertooth
+              - generic [ref=f5e356]:
+                - generic [ref=f5e357]:
+                  - img "Blazertooth"
+                - img "Эпический"
+              - generic [ref=f5e358]:
+                - strong [ref=f5e359]: Blazertooth
+                - generic [ref=f5e360]: Огонь
+            - generic [ref=f5e362]:
+              - button "Пойман?" [ref=f5e363] [cursor=pointer]
+              - button "Добавить Blazertooth в избранное" [ref=f5e365] [cursor=pointer]
+          - article [ref=f5e367]:
+            - link "Blighted Cubsprout Экзотический Blighted Cubsprout Природа" [ref=f5e368] [cursor=pointer]:
+              - /url: /miscrits/blighted-cubsprout
+              - generic [ref=f5e369]:
+                - generic [ref=f5e370]:
+                  - img "Blighted Cubsprout"
+                - img "Экзотический"
+              - generic [ref=f5e371]:
+                - strong [ref=f5e372]: Blighted Cubsprout
+                - generic [ref=f5e373]: Природа
+            - generic [ref=f5e375]:
+              - button "Пойман?" [ref=f5e376] [cursor=pointer]
+              - button "Добавить Blighted Cubsprout в избранное" [ref=f5e378] [cursor=pointer]
+          - article [ref=f5e380]:
+            - link "Blighted Fiender Экзотический Blighted Fiender Ветер" [ref=f5e381] [cursor=pointer]:
+              - /url: /miscrits/blighted-fiender
+              - generic [ref=f5e382]:
+                - generic [ref=f5e383]:
+                  - img "Blighted Fiender"
+                - img "Экзотический"
+              - generic [ref=f5e384]:
+                - strong [ref=f5e385]: Blighted Fiender
+                - generic [ref=f5e386]: Ветер
+            - generic [ref=f5e388]:
+              - button "Пойман?" [ref=f5e389] [cursor=pointer]
+              - button "Добавить Blighted Fiender в избранное" [ref=f5e391] [cursor=pointer]
+          - article [ref=f5e393]:
+            - link "Blighted Flowerpiller Легендарный Blighted Flowerpiller Природа" [ref=f5e394] [cursor=pointer]:
+              - /url: /miscrits/blighted-flowerpiller
+              - generic [ref=f5e395]:
+                - generic [ref=f5e396]:
+                  - img "Blighted Flowerpiller"
+                - img "Легендарный"
+              - generic [ref=f5e397]:
+                - strong [ref=f5e398]: Blighted Flowerpiller
+                - generic [ref=f5e399]: Природа
+            - generic [ref=f5e401]:
+              - button "Пойман?" [ref=f5e402] [cursor=pointer]
+              - button "Добавить Blighted Flowerpiller в избранное" [ref=f5e404] [cursor=pointer]
+          - article [ref=f5e406]:
+            - link "Blighted Flue Легендарный Blighted Flue Огонь" [ref=f5e407] [cursor=pointer]:
+              - /url: /miscrits/blighted-flue
+              - generic [ref=f5e408]:
+                - generic [ref=f5e409]:
+                  - img "Blighted Flue"
+                - img "Легендарный"
+              - generic [ref=f5e410]:
+                - strong [ref=f5e411]: Blighted Flue
+                - generic [ref=f5e412]: Огонь
+            - generic [ref=f5e414]:
+              - button "Пойман?" [ref=f5e415] [cursor=pointer]
+              - button "Добавить Blighted Flue в избранное" [ref=f5e417] [cursor=pointer]
+          - article [ref=f5e419]:
+            - link "Blighted Kiloray Экзотический Blighted Kiloray Молния" [ref=f5e420] [cursor=pointer]:
+              - /url: /miscrits/blighted-kiloray
+              - generic [ref=f5e421]:
+                - generic [ref=f5e422]:
+                  - img "Blighted Kiloray"
+                - img "Экзотический"
+              - generic [ref=f5e423]:
+                - strong [ref=f5e424]: Blighted Kiloray
+                - generic [ref=f5e425]: Молния
+            - generic [ref=f5e427]:
+              - button "Пойман?" [ref=f5e428] [cursor=pointer]
+              - button "Добавить Blighted Kiloray в избранное" [ref=f5e430] [cursor=pointer]
+          - article [ref=f5e432]:
+            - link "Blobroller Экзотический Blobroller Природа Молния" [ref=f5e433] [cursor=pointer]:
+              - /url: /miscrits/blobroller
+              - generic [ref=f5e434]:
+                - generic [ref=f5e435]:
+                  - img "Blobroller"
+                - img "Экзотический"
+              - generic [ref=f5e436]:
+                - strong [ref=f5e437]: Blobroller
+                - generic [ref=f5e438]:
+                  - generic [ref=f5e439]: Природа
+                  - generic [ref=f5e440]: Молния
+            - generic [ref=f5e441]:
+              - button "Пойман?" [ref=f5e442] [cursor=pointer]
+              - button "Добавить Blobroller в избранное" [ref=f5e444] [cursor=pointer]
+          - article [ref=f5e446]:
+            - link "Bloombat Редкий Bloombat Природа" [ref=f5e447] [cursor=pointer]:
+              - /url: /miscrits/bloombat
+              - generic [ref=f5e448]:
+                - generic [ref=f5e449]:
+                  - img "Bloombat"
+                - img "Редкий"
+              - generic [ref=f5e450]:
+                - strong [ref=f5e451]: Bloombat
+                - generic [ref=f5e452]: Природа
+            - generic [ref=f5e454]:
+              - button "Пойман?" [ref=f5e455] [cursor=pointer]
+              - button "Добавить Bloombat в избранное" [ref=f5e457] [cursor=pointer]
+          - article [ref=f5e459]:
+            - link "Bloomple Эпический Bloomple Природа" [ref=f5e460] [cursor=pointer]:
+              - /url: /miscrits/bloomple
+              - generic [ref=f5e461]:
+                - generic [ref=f5e462]:
+                  - img "Bloomple"
+                - img "Эпический"
+              - generic [ref=f5e463]:
+                - strong [ref=f5e464]: Bloomple
+                - generic [ref=f5e465]: Природа
+            - generic [ref=f5e467]:
+              - button "Пойман?" [ref=f5e468] [cursor=pointer]
+              - button "Добавить Bloomple в избранное" [ref=f5e470] [cursor=pointer]
+          - article [ref=f5e472]:
+            - link "Blowpuffle Обычный Blowpuffle Вода" [ref=f5e473] [cursor=pointer]:
+              - /url: /miscrits/blowpuffle
+              - generic [ref=f5e474]:
+                - generic [ref=f5e475]:
+                  - img "Blowpuffle"
+                - img "Обычный"
+              - generic [ref=f5e476]:
+                - strong [ref=f5e477]: Blowpuffle
+                - generic [ref=f5e478]: Вода
+            - generic [ref=f5e480]:
+              - button "Пойман?" [ref=f5e481] [cursor=pointer]
+              - button "Добавить Blowpuffle в избранное" [ref=f5e483] [cursor=pointer]
+          - article [ref=f5e485]:
+            - link "Blub Обычный Blub Молния" [ref=f5e486] [cursor=pointer]:
+              - /url: /miscrits/blub
+              - generic [ref=f5e487]:
+                - generic [ref=f5e488]:
+                  - img "Blub"
+                - img "Обычный"
+              - generic [ref=f5e489]:
+                - strong [ref=f5e490]: Blub
+                - generic [ref=f5e491]: Молния
+            - generic [ref=f5e493]:
+              - button "Пойман?" [ref=f5e494] [cursor=pointer]
+              - button "Добавить Blub в избранное" [ref=f5e496] [cursor=pointer]
+          - article [ref=f5e498]:
+            - link "Bludger Обычный Bludger Земля" [ref=f5e499] [cursor=pointer]:
+              - /url: /miscrits/bludger
+              - generic [ref=f5e500]:
+                - generic [ref=f5e501]:
+                  - img "Bludger"
+                - img "Обычный"
+              - generic [ref=f5e502]:
+                - strong [ref=f5e503]: Bludger
+                - generic [ref=f5e504]: Земля
+            - generic [ref=f5e506]:
+              - button "Пойман?" [ref=f5e507] [cursor=pointer]
+              - button "Добавить Bludger в избранное" [ref=f5e509] [cursor=pointer]
+          - article [ref=f5e511]:
+            - link "Blug Обычный Blug Огонь" [ref=f5e512] [cursor=pointer]:
+              - /url: /miscrits/blug
+              - generic [ref=f5e513]:
+                - generic [ref=f5e514]:
+                  - img "Blug"
+                - img "Обычный"
+              - generic [ref=f5e515]:
+                - strong [ref=f5e516]: Blug
+                - generic [ref=f5e517]: Огонь
+            - generic [ref=f5e519]:
+              - button "Пойман?" [ref=f5e520] [cursor=pointer]
+              - button "Добавить Blug в избранное" [ref=f5e522] [cursor=pointer]
+          - article [ref=f5e524]:
+            - link "Boltipede Обычный Boltipede Молния" [ref=f5e525] [cursor=pointer]:
+              - /url: /miscrits/boltipede
+              - generic [ref=f5e526]:
+                - generic [ref=f5e527]:
+                  - img "Boltipede"
+                - img "Обычный"
+              - generic [ref=f5e528]:
+                - strong [ref=f5e529]: Boltipede
+                - generic [ref=f5e530]: Молния
+            - generic [ref=f5e532]:
+              - button "Пойман?" [ref=f5e533] [cursor=pointer]
+              - button "Добавить Boltipede в избранное" [ref=f5e535] [cursor=pointer]
+          - article [ref=f5e537]:
+            - link "Boltzee Эпический Boltzee Молния" [ref=f5e538] [cursor=pointer]:
+              - /url: /miscrits/boltzee
+              - generic [ref=f5e539]:
+                - generic [ref=f5e540]:
+                  - img "Boltzee"
+                - img "Эпический"
+              - generic [ref=f5e541]:
+                - strong [ref=f5e542]: Boltzee
+                - generic [ref=f5e543]: Молния
+            - generic [ref=f5e545]:
+              - button "Пойман?" [ref=f5e546] [cursor=pointer]
+              - button "Добавить Boltzee в избранное" [ref=f5e548] [cursor=pointer]
+          - article [ref=f5e550]:
+            - link "Boneshee Эпический Boneshee Ветер" [ref=f5e551] [cursor=pointer]:
+              - /url: /miscrits/boneshee
+              - generic [ref=f5e552]:
+                - generic [ref=f5e553]:
+                  - img "Boneshee"
+                - img "Эпический"
+              - generic [ref=f5e554]:
+                - strong [ref=f5e555]: Boneshee
+                - generic [ref=f5e556]: Ветер
+            - generic [ref=f5e558]:
+              - button "Пойман?" [ref=f5e559] [cursor=pointer]
+              - button "Добавить Boneshee в избранное" [ref=f5e561] [cursor=pointer]
+          - article [ref=f5e563]:
+            - link "Boo Blazertooth Экзотический Boo Blazertooth Огонь" [ref=f5e564] [cursor=pointer]:
+              - /url: /miscrits/boo-blazertooth
+              - generic [ref=f5e565]:
+                - generic [ref=f5e566]:
+                  - img "Boo Blazertooth"
+                - img "Экзотический"
+              - generic [ref=f5e567]:
+                - strong [ref=f5e568]: Boo Blazertooth
+                - generic [ref=f5e569]: Огонь
+            - generic [ref=f5e571]:
+              - button "Пойман?" [ref=f5e572] [cursor=pointer]
+              - button "Добавить Boo Blazertooth в избранное" [ref=f5e574] [cursor=pointer]
+          - article [ref=f5e576]:
+            - link "Boomble Обычный Boomble Вода" [ref=f5e577] [cursor=pointer]:
+              - /url: /miscrits/boomble
+              - generic [ref=f5e578]:
+                - generic [ref=f5e579]:
+                  - img "Boomble"
+                - img "Обычный"
+              - generic [ref=f5e580]:
+                - strong [ref=f5e581]: Boomble
+                - generic [ref=f5e582]: Вода
+            - generic [ref=f5e584]:
+              - button "Пойман?" [ref=f5e585] [cursor=pointer]
+              - button "Добавить Boomble в избранное" [ref=f5e587] [cursor=pointer]
+          - article [ref=f5e589]:
+            - link "Brainzer Обычный Brainzer Молния" [ref=f5e590] [cursor=pointer]:
+              - /url: /miscrits/brainzer
+              - generic [ref=f5e591]:
+                - generic [ref=f5e592]:
+                  - img "Brainzer"
+                - img "Обычный"
+              - generic [ref=f5e593]:
+                - strong [ref=f5e594]: Brainzer
+                - generic [ref=f5e595]: Молния
+            - generic [ref=f5e597]:
+              - button "Пойман?" [ref=f5e598] [cursor=pointer]
+              - button "Добавить Brainzer в избранное" [ref=f5e600] [cursor=pointer]
+          - article [ref=f5e602]:
+            - link "Breezycheeks Обычный Breezycheeks Ветер" [ref=f5e603] [cursor=pointer]:
+              - /url: /miscrits/breezycheeks
+              - generic [ref=f5e604]:
+                - generic [ref=f5e605]:
+                  - img "Breezycheeks"
+                - img "Обычный"
+              - generic [ref=f5e606]:
+                - strong [ref=f5e607]: Breezycheeks
+                - generic [ref=f5e608]: Ветер
+            - generic [ref=f5e610]:
+              - button "Пойман?" [ref=f5e611] [cursor=pointer]
+              - button "Добавить Breezycheeks в избранное" [ref=f5e613] [cursor=pointer]
+          - article [ref=f5e615]:
+            - link "Bubbles Обычный Bubbles Вода" [ref=f5e616] [cursor=pointer]:
+              - /url: /miscrits/bubbles
+              - generic [ref=f5e617]:
+                - generic [ref=f5e618]:
+                  - img "Bubbles"
+                - img "Обычный"
+              - generic [ref=f5e619]:
+                - strong [ref=f5e620]: Bubbles
+                - generic [ref=f5e621]: Вода
+            - generic [ref=f5e623]:
+              - button "Пойман?" [ref=f5e624] [cursor=pointer]
+              - button "Добавить Bubbles в избранное" [ref=f5e626] [cursor=pointer]
+          - article [ref=f5e628]:
+            - link "Budillo Обычный Budillo Природа" [ref=f5e629] [cursor=pointer]:
+              - /url: /miscrits/budillo
+              - generic [ref=f5e630]:
+                - generic [ref=f5e631]:
+                  - img "Budillo"
+                - img "Обычный"
+              - generic [ref=f5e632]:
+                - strong [ref=f5e633]: Budillo
+                - generic [ref=f5e634]: Природа
+            - generic [ref=f5e636]:
+              - button "Пойман?" [ref=f5e637] [cursor=pointer]
+              - button "Добавить Budillo в избранное" [ref=f5e639] [cursor=pointer]
+          - article [ref=f5e641]:
+            - link "Bunaken Легендарный Bunaken Вода" [ref=f5e642] [cursor=pointer]:
+              - /url: /miscrits/bunaken
+              - generic [ref=f5e643]:
+                - generic [ref=f5e644]:
+                  - img "Bunaken"
+                - img "Легендарный"
+              - generic [ref=f5e645]:
+                - strong [ref=f5e646]: Bunaken
+                - generic [ref=f5e647]: Вода
+            - generic [ref=f5e649]:
+              - button "Пойман?" [ref=f5e650] [cursor=pointer]
+              - button "Добавить Bunaken в избранное" [ref=f5e652] [cursor=pointer]
+          - article [ref=f5e654]:
+            - link "Bunplop Эпический Bunplop Вода Земля" [ref=f5e655] [cursor=pointer]:
+              - /url: /miscrits/bunplop
+              - generic [ref=f5e656]:
+                - generic [ref=f5e657]:
+                  - img "Bunplop"
+                - img "Эпический"
+              - generic [ref=f5e658]:
+                - strong [ref=f5e659]: Bunplop
+                - generic [ref=f5e660]:
+                  - generic [ref=f5e661]: Вода
+                  - generic [ref=f5e662]: Земля
+            - generic [ref=f5e663]:
+              - button "Пойман?" [ref=f5e664] [cursor=pointer]
+              - button "Добавить Bunplop в избранное" [ref=f5e666] [cursor=pointer]
+          - article [ref=f5e668]:
+            - link "Cadbunny Экзотический Cadbunny Вода Земля" [ref=f5e669] [cursor=pointer]:
+              - /url: /miscrits/cadbunny
+              - generic [ref=f5e670]:
+                - generic [ref=f5e671]:
+                  - img "Cadbunny"
+                - img "Экзотический"
+              - generic [ref=f5e672]:
+                - strong [ref=f5e673]: Cadbunny
+                - generic [ref=f5e674]:
+                  - generic [ref=f5e675]: Вода
+                  - generic [ref=f5e676]: Земля
+            - generic [ref=f5e677]:
+              - button "Пойман?" [ref=f5e678] [cursor=pointer]
+              - button "Добавить Cadbunny в избранное" [ref=f5e680] [cursor=pointer]
+          - article [ref=f5e682]:
+            - link "Casanova Экзотический Casanova Огонь" [ref=f5e683] [cursor=pointer]:
+              - /url: /miscrits/casanova
+              - generic [ref=f5e684]:
+                - generic [ref=f5e685]:
+                  - img "Casanova"
+                - img "Экзотический"
+              - generic [ref=f5e686]:
+                - strong [ref=f5e687]: Casanova
+                - generic [ref=f5e688]: Огонь
+            - generic [ref=f5e690]:
+              - button "Пойман?" [ref=f5e691] [cursor=pointer]
+              - button "Добавить Casanova в избранное" [ref=f5e693] [cursor=pointer]
+        - button "Показать ещё · 372" [ref=f5e695] [cursor=pointer]
+  - navigation "Основная навигация" [ref=f5e696]:
+    - link "Мискриты" [ref=f5e697] [cursor=pointer]:
+      - /url: /
+    - link "Карта мира" [ref=f5e701] [cursor=pointer]:
+      - /url: /map
+    - link "Моя коллекция" [ref=f5e705] [cursor=pointer]:
+      - /url: /collection
+    - link "Инструменты" [ref=f5e709] [cursor=pointer]:
+      - /url: /tools
+  - generic [ref=f5e713]: Загружается коллекция

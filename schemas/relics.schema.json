@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:miscrits:relics:v1",
+  "title": "relics",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 160,
+        "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+      },
+      "name": {
+        "type": "string",
+        "maxLength": 200
+      },
+      "requiredSlotLevel": {
+        "anyOf": [
+          {
+            "enum": [
+              10,
+              20,
+              30,
+              35
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "statModifiers": {
+        "type": "object",
+        "properties": {
+          "hp": {
+            "type": "integer",
+            "minimum": -1000,
+            "maximum": 1000
+          },
+          "spd": {
+            "type": "integer",
+            "minimum": -1000,
+            "maximum": 1000
+          },
+          "ea": {
+            "type": "integer",
+            "minimum": -1000,
+            "maximum": 1000
+          },
+          "pa": {
+            "type": "integer",
+            "minimum": -1000,
+            "maximum": 1000
+          },
+          "ed": {
+            "type": "integer",
+            "minimum": -1000,
+            "maximum": 1000
+          },
+          "pd": {
+            "type": "integer",
+            "minimum": -1000,
+            "maximum": 1000
+          }
+        },
+        "additionalProperties": false
+      },
+      "specialEffectsText": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "maxItems": 100
+      },
+      "costs": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "amount": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000
+            },
+            "currency": {
+              "type": "string",
+              "maxLength": 200
+            }
+          },
+          "required": [
+            "amount",
+            "currency"
+          ],
+          "additionalProperties": false
+        },
+        "maxItems": 20
+      },
+      "image": {
+        "anyOf": [
+          {
+            "type": "string",
+            "maxLength": 300
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "sourceImageUrl": {
+        "anyOf": [
+          {
+            "type": "string",
+            "maxLength": 1000
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "provenance": {
+        "type": "object",
+        "properties": {
+          "sourceId": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "retrievedOn": {
+            "type": "string",
+            "format": "date"
+          },
+          "method": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "gameVerified": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "sourceId",
+          "retrievedOn",
+          "method",
+          "gameVerified"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "requiredSlotLevel",
+      "statModifiers",
+      "specialEffectsText",
+      "costs",
+      "image",
+      "sourceImageUrl",
+      "provenance"
+    ],
+    "additionalProperties": false
+  }
+}

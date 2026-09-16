@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:miscrits:miscrits:v1",
+  "title": "miscrits",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 160,
+        "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+      },
+      "sourceIds": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "string",
+          "maxLength": 200
+        }
+      },
+      "slug": {
+        "type": "string",
+        "maxLength": 200
+      },
+      "name": {
+        "type": "string",
+        "maxLength": 200
+      },
+      "aliases": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "maxItems": 32
+      },
+      "elements": {
+        "type": "array",
+        "items": {
+          "enum": [
+            "fire",
+            "water",
+            "nature",
+            "earth",
+            "lightning",
+            "wind"
+          ]
+        },
+        "maxItems": 2,
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "rarity": {
+        "enum": [
+          "common",
+          "rare",
+          "epic",
+          "exotic",
+          "legendary"
+        ]
+      },
+      "baseRanks": {
+        "type": "object",
+        "properties": {
+          "hp": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "spd": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "ea": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "pa": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "ed": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "pd": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          }
+        },
+        "required": [
+          "hp",
+          "spd",
+          "ea",
+          "pa",
+          "ed",
+          "pd"
+        ],
+        "additionalProperties": false
+      },
+      "formIds": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160,
+          "pattern": "^[a-z0-9][a-z0-9:_-]*$"
+        },
+        "maxItems": 8
+      },
+      "provenance": {
+        "type": "object",
+        "properties": {
+          "sourceId": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "retrievedOn": {
+            "type": "string",
+            "format": "date"
+          },
+          "method": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "gameVerified": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "sourceId",
+          "retrievedOn",
+          "method",
+          "gameVerified"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "id",
+      "sourceIds",
+      "slug",
+      "name",
+      "aliases",
+      "elements",
+      "rarity",
+      "baseRanks",
+      "formIds",
+      "provenance"
+    ],
+    "additionalProperties": false
+  }
+}

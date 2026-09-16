@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-15",
+  "families": 420,
+  "forms": 1680,
+  "abilityVariants": 1246,
+  "abilityBindings": 5040,
+  "locationsIncludingShop": 13,
+  "worldMaps": 12,
+  "areasIncludingShop": 46,
+  "spawnsIncludingShop": 488,
+  "markers": 182,
+  "relics": 75,
+  "collections": 105,
+  "unresolvedNameReferences": 0,
+  "sourceConflicts": 22,
+  "ambiguousMarkerAreaJoins": 0,
+  "areaOnlySpawns": 314,
+  "mapLimitation": "browser-rendered preview rasters, not original-resolution bytes",
+  "outOfScopeData": "encounter odds, exact area polygons, confirmed game RNG/critical/status formulas not supplied",
+  "baseStatConflicts": 17,
+  "relicStatConflicts": 5,
+  "sourceTimingSentinels": 50
+}

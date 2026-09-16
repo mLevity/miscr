@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "exportId": "example-export-001",
+  "exportedAt": "2026-09-15T12:00:00Z",
+  "sourceDatasetVersion": "2026-09-15.1",
+  "profile": {
+    "id": "example-local-profile",
+    "name": "Пример локальной коллекции"
+  },
+  "entries": [
+    {
+      "familyId": "miscrit:1",
+      "everCaught": true,
+      "obtainedFormIds": [
+        "miscrit:1:form:1"
+      ],
+      "currentOwnedCount": null,
+      "favorite": true,
+      "note": "Нужен отдельный RS",
+      "updatedAt": "2026-09-15T12:00:00Z",
+      "localRevision": 1,
+      "deletedAt": null
+    }
+  ],
+  "collectionClaims": [],
+  "presets": [
+    {
+      "id": "example-flue-splus",
+      "familyId": "miscrit:1",
+      "level": 35,
+      "colors": {
+        "hp": "green",
+        "spd": "green",
+        "ea": "green",
+        "pa": "green",
+        "ed": "green",
+        "pd": "green"
+      },
+      "bonuses": {
+        "hp": 0,
+        "spd": 0,
+        "ea": 0,
+        "pa": 0,
+        "ed": 0,
+        "pd": 0
+      },
+      "relicIds": [],
+      "datasetVersion": "2026-09-15.1",
+      "rulesVersion": "snapshot-2026-09-15",
+      "label": "Flue S+ — только база"
+    }
+  ]
+}

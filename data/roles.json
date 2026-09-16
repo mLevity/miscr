@@ -1,0 +1,40 @@
+{
+  "mvpRole": "local_guest",
+  "serverRolesReserved": [
+    "member",
+    "editor",
+    "admin"
+  ],
+  "capabilities": {
+    "anonymous": [
+      "read-catalog",
+      "read-maps",
+      "use-tools"
+    ],
+    "local_guest": [
+      "read-catalog",
+      "read-maps",
+      "use-tools",
+      "write-own-local-collection",
+      "write-own-local-presets",
+      "export-own-data",
+      "import-own-data"
+    ],
+    "member": [
+      "all-local-guest",
+      "sync-own-data"
+    ],
+    "editor": [
+      "read-catalog",
+      "edit-content-drafts",
+      "validate-content"
+    ],
+    "admin": [
+      "publish-content",
+      "manage-server-roles",
+      "read-audit-log"
+    ]
+  },
+  "enforcement": "server-only-for-server-capabilities; frontend visibility never grants permission",
+  "mvpAdminSurface": false
+}

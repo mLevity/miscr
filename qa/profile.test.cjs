@@ -1,0 +1,20 @@
+const test=require('node:test');const assert=require('node:assert/strict');
+require('fake-indexeddb/auto');
+const D=require('../src/storage/database.ts');const P=require('../src/domain/collection/profile.ts');
+const Ajv=require('ajv/dist/2020').default;const addFormats=require('ajv-formats');const ajv=new Ajv();addFormats(ajv);const valid=ajv.compile(require('../schemas/profile-export.schema.json'));
+const references={families:new Set(['miscrit:1','miscrit:23']),forms:new Map([['miscrit:1:form:1','miscrit:1']]),collections:new Set(['collection:001']),relics:new Set()};
+test('database: patches, revisions, preview, unknown preservation and atomic rejection',async()=>{
+  const initial=await D.readSnapshot();assert.equal(initial.entries.length,0);
+  await Promise.all([D.patchEntry('miscrit:1',{everCaught:true}),D.patchEntry('miscrit:1',{favorite:true})]);
+  const snapshot=await D.readSnapshot();assert.equal(snapshot.entries[0].everCaught,true);assert.equal(snapshot.entries[0].favorite,true);assert.equal(snapshot.revision,2);
+  const payload=D.makeExport(snapshot);assert.ok(valid(payload),JSON.stringify(valid.errors));
+  payload.entries.push({...P.blankEntry('miscrit:unknown'),everCaught:true,note:'Do not discard this unknown ID'});
+  const preview=P.prepareImport(payload,snapshot,references);assert.equal(preview.quarantine.length,1);assert.equal((await D.readSnapshot()).quarantine.length,0);
+  await D.commitImport(preview,'merge','local');
+  const imported=await D.readSnapshot();assert.equal(imported.quarantine.length,1);const exported=D.makeExport(imported);assert.ok(valid(exported),JSON.stringify(valid.errors));assert.equal(exported.entries.find(e=>e.familyId==='miscrit:unknown').note,'Do not discard this unknown ID');
+  const stale=P.prepareImport(exported,imported,references);await D.patchEntry('miscrit:23',{everCaught:true});await assert.rejects(D.commitImport(stale,'replace','incoming'),/изменилась/);assert.ok((await D.readSnapshot()).entries.some(e=>e.familyId==='miscrit:23'));
+  const before=await D.readSnapshot();const invalid={...exported,entries:[{...exported.entries.find(e=>e.familyId==='miscrit:unknown'),note:'conflicting payload'}]};const conflict=P.prepareImport(invalid,before,references);await assert.rejects(D.commitImport(conflict,'merge','local'),/конфликтует/);assert.deepEqual(await D.readSnapshot(),before);
+});
+test('unknown forms remain in whole quarantined entry and export',()=>{const entry={...P.blankEntry('miscrit:1'),obtainedFormIds:['miscrit:1:form:99']};const payload=D.makeExport({profile:null,entries:[entry],claims:[],presets:[],quarantine:[],revision:0});const preview=P.prepareImport(payload,{entries:[],claims:[],presets:[],quarantine:[],profile:null,revision:0},references);assert.deepEqual(preview.quarantine[0].value,entry);assert.equal(preview.entries.length,0);});
+test('schema rejects oversized fields, unknown keys, malformed dates and prototype keys',()=>{const base=D.makeExport({profile:null,entries:[],claims:[],presets:[],quarantine:[],revision:0});assert.ok(valid(base));for(const patch of [{schemaVersion:2},{exportedAt:'invalid'},{entries:[{...P.blankEntry('miscrit:1'),note:'x'.repeat(2001)}]},{unexpected:true}])assert.equal(valid({...base,...patch}),false);assert.equal(valid(JSON.parse(JSON.stringify(base).replace('"entries":[]','"__proto__":{"polluted":true},"entries":[]'))),false);});
+test('merge respects tombstone and explicit conflict policy',()=>{const local={...P.blankEntry('miscrit:1'),everCaught:true,note:'local'};const incoming={...P.blankEntry('miscrit:1'),note:'imported',deletedAt:new Date().toISOString()};assert.equal(P.mergeEntry(local,incoming,'local').everCaught,true);assert.equal(P.mergeEntry(local,incoming,'incoming').deletedAt,incoming.deletedAt);});

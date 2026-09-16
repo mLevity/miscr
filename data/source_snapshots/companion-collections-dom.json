@@ -1,0 +1,1101 @@
+[
+  {
+    "members": [
+      "Flue",
+      "Flowerpiller",
+      "Prawnja"
+    ],
+    "name": "The Original Three",
+    "parent": "Forest4",
+    "reward": "Reward: 10x Platinum"
+  },
+  {
+    "members": [
+      "Treemur",
+      "Dark Treemur"
+    ],
+    "name": "Withered Trees",
+    "parent": "Forest4",
+    "reward": "Reward: 15x Gems"
+  },
+  {
+    "members": [
+      "Dark Flue",
+      "Dark Flowerpiller",
+      "Dark Prawnja"
+    ],
+    "name": "The Dark Three",
+    "parent": "Forest4",
+    "reward": "Reward: 30x Platinum"
+  },
+  {
+    "members": [
+      "Blighted Cubsprout",
+      "Defilio",
+      "Blighted Flue",
+      "Blighted Flowerpiller"
+    ],
+    "name": "Blight Falls",
+    "parent": "Forest4",
+    "reward": "Reward: 1x Gold Pack"
+  },
+  {
+    "members": [
+      "Steamguin",
+      "Flurfy",
+      "Squibee",
+      "Nessy"
+    ],
+    "name": "Among The Elder Tree",
+    "parent": "Forest + Hidden Forest2",
+    "reward": "Reward: 2x XP Token (Huge)"
+  },
+  {
+    "members": [
+      "Steamguin",
+      "Squibee",
+      "Dark Steamguin",
+      "Dark Squibee"
+    ],
+    "name": "Dark Descent, III",
+    "parent": "Forest + Hidden Forest2",
+    "reward": "Reward: 20x Platinum"
+  },
+  {
+    "members": [
+      "Sparkupine",
+      "Cubsprout",
+      "Hydroseal"
+    ],
+    "name": "First Friends",
+    "parent": "Forest + Mansion8",
+    "reward": "Reward: 2x XP Token (Small)"
+  },
+  {
+    "members": [
+      "Flameling",
+      "Lumera",
+      "Quirk",
+      "Snortus"
+    ],
+    "name": "Pushing Onwards",
+    "parent": "Forest + Mansion8",
+    "reward": "Reward: 2x XP Token (Medium)"
+  },
+  {
+    "members": [
+      "Whik",
+      "Hotfoot",
+      "Snatcher",
+      "Shellbee"
+    ],
+    "name": "Growing Stronger",
+    "parent": "Forest + Mansion8",
+    "reward": "Reward: 2x XP Token (Large)"
+  },
+  {
+    "members": [
+      "Hotfoot",
+      "Shellbee",
+      "Dark Hotfoot",
+      "Dark Shellbee"
+    ],
+    "name": "Dark Descent, I",
+    "parent": "Forest + Mansion8",
+    "reward": "Reward: 15x Platinum"
+  },
+  {
+    "members": [
+      "Dark Sparkupine",
+      "Dark Cubsprout",
+      "Dark Hydroseal"
+    ],
+    "name": "Broken Bonds",
+    "parent": "Forest + Mansion8",
+    "reward": "Reward: 20x Gems"
+  },
+  {
+    "members": [
+      "Lumera",
+      "Squirmle",
+      "Dark Lumera",
+      "Dark Squirmle"
+    ],
+    "name": "Dark Descent, V",
+    "parent": "Forest + Mansion8",
+    "reward": "Reward: 15x Gems"
+  },
+  {
+    "members": [
+      "Tulipinny",
+      "Flutterpat",
+      "Dark Tulipinny",
+      "Dark Flutterpat"
+    ],
+    "name": "Dark Descent, VI",
+    "parent": "Forest + Mansion8",
+    "reward": "Reward: 40x Platinum"
+  },
+  {
+    "members": [
+      "Mama",
+      "Papa"
+    ],
+    "name": "Parental Bond",
+    "parent": "Forest + Mansion8",
+    "reward": "Reward: 50x Gems"
+  },
+  {
+    "members": [
+      "Waddles",
+      "Dark Waddles",
+      "Foil Waddles"
+    ],
+    "name": "Flock Of Waddles",
+    "parent": "Forest + Cave1",
+    "reward": "Reward: 40x Platinum"
+  },
+  {
+    "members": [
+      "Blazebit",
+      "Rockodile"
+    ],
+    "name": "Ancient Legends",
+    "parent": "Forest + Sunfall Shores1",
+    "reward": "Reward: 15x Gems"
+  },
+  {
+    "members": [
+      "Whik",
+      "Viperd",
+      "Dark Whik",
+      "Dark Viperd"
+    ],
+    "name": "Dark Descent, XIV",
+    "parent": "Forest + Miscrian Jungle1",
+    "reward": "Reward: 15x Platinum"
+  },
+  {
+    "members": [
+      "Twiggum",
+      "Nessy",
+      "Dark Twiggum",
+      "Dark Nessy"
+    ],
+    "name": "Dark Descent, II",
+    "parent": "Forest + Hidden Forest + Mansion1",
+    "reward": "Reward: 30x Gems"
+  },
+  {
+    "members": [
+      "Elefauna",
+      "Snortus",
+      "Dark Elefauna",
+      "Dark Snortus"
+    ],
+    "name": "Dark Descent, XI",
+    "parent": "Forest + Mansion + Cave1",
+    "reward": "Reward: 30x Gems"
+  },
+  {
+    "members": [
+      "Quirk",
+      "Sparkspeck",
+      "Light Sparkspeck",
+      "Light Quirk"
+    ],
+    "name": "Into The Light, I",
+    "parent": "Forest + Mansion + Sunfall Shores2",
+    "reward": "Reward: 25000x Gold"
+  },
+  {
+    "members": [
+      "Crickin",
+      "Twiggum",
+      "Light Crickin",
+      "Light Twiggum"
+    ],
+    "name": "Into The Light, III",
+    "parent": "Forest + Mansion + Sunfall Shores2",
+    "reward": "Reward: 70x Platinum"
+  },
+  {
+    "members": [
+      "Flameling",
+      "Tongutail",
+      "Dark Flameling",
+      "Dark Tongutail"
+    ],
+    "name": "Dark Descent, IV",
+    "parent": "Forest + Mansion + Monks Mountain1",
+    "reward": "Reward: 15x Gems"
+  },
+  {
+    "members": [
+      "Snatcher",
+      "Drilldent",
+      "Dark Snatcher",
+      "Dark Drilldent"
+    ],
+    "name": "Dark Descent, XVII",
+    "parent": "Forest + Mount Gemma + Temple1",
+    "reward": "Reward: 10x Gems"
+  },
+  {
+    "members": [
+      "Flaring",
+      "Amphibunny",
+      "Bunplop",
+      "Harerazor"
+    ],
+    "name": "Hunting Wabbits",
+    "parent": "Forest + Moon + Emerald Isle1",
+    "reward": "Reward: 1x Stat Swap"
+  },
+  {
+    "members": [
+      "Elefauna",
+      "Elphin",
+      "Woolly",
+      "Beldame"
+    ],
+    "name": "Trunk Terrors",
+    "parent": "Forest + Mansion + Cave + Shack1",
+    "reward": "Reward: 2x Silver Pack"
+  },
+  {
+    "members": [
+      "Rexie",
+      "Warrian",
+      "Stalkra",
+      "Mech"
+    ],
+    "name": "Hidden In The Trees",
+    "parent": "Hidden Forest1",
+    "reward": "Reward: 1x Bronze Pack"
+  },
+  {
+    "members": [
+      "Mun Kee",
+      "Thundercracker",
+      "Boltzee",
+      "Charpy"
+    ],
+    "name": "Monkeying Around",
+    "parent": "Hidden Forest + Mount Gemma1",
+    "reward": "Reward: 1x Silver Pack"
+  },
+  {
+    "members": [
+      "Poppet",
+      "Charix",
+      "Scarecrow Charix"
+    ],
+    "name": "Fuel To The Fire",
+    "parent": "Hidden Forest + Shack1",
+    "reward": "Reward: 2x Bronze Pack"
+  },
+  {
+    "members": [
+      "Freedom",
+      "Splender",
+      "Spangles"
+    ],
+    "name": "The Free Three",
+    "parent": "Hidden Forest + Temple + Monks Mountain1",
+    "reward": "Reward: 60x Gems"
+  },
+  {
+    "members": [
+      "Pestling",
+      "Vhisp",
+      "Raldio",
+      "Nanaslug"
+    ],
+    "name": "Collector Reselling",
+    "parent": "Mansion3",
+    "reward": "Reward: 25x Gems"
+  },
+  {
+    "members": [
+      "Shurikoon",
+      "Ekkult"
+    ],
+    "name": "Secret In The Shadows",
+    "parent": "Mansion3",
+    "reward": "Reward: 5x XP Token (Large)"
+  },
+  {
+    "members": [
+      "Keeper",
+      "Da Windy"
+    ],
+    "name": "Legends Of Recreation",
+    "parent": "Mansion3",
+    "reward": "Reward: 1x Silver Pack"
+  },
+  {
+    "members": [
+      "Vhisp",
+      "Vexie",
+      "Foil Vhisp",
+      "Foil Vexie"
+    ],
+    "name": "Glitter Glow-up, I",
+    "parent": "Mansion + Mount Gemma1",
+    "reward": "Reward: 60x Gems"
+  },
+  {
+    "members": [
+      "Grubbean",
+      "Wavesling",
+      "Digsy",
+      "Sparkspeck"
+    ],
+    "name": "Beach Trip",
+    "parent": "Mansion + Sunfall Shores1",
+    "reward": "Reward: 10000x Gold"
+  },
+  {
+    "members": [
+      "Lavarilla",
+      "Humbug",
+      "Weevern",
+      "Bubbles"
+    ],
+    "name": "Island Imports",
+    "parent": "Mansion + Miscrian Jungle5",
+    "reward": "Reward: 10x Gems"
+  },
+  {
+    "members": [
+      "Slithero",
+      "Spinnerette",
+      "Dark Slithero",
+      "Dark Spinnerette"
+    ],
+    "name": "Dark Descent, VII",
+    "parent": "Mansion + Miscrian Jungle5",
+    "reward": "Reward: 60x Platinum"
+  },
+  {
+    "members": [
+      "Slithero",
+      "Viperd",
+      "Blowpuffle",
+      "Spinnerette"
+    ],
+    "name": "Old Friends",
+    "parent": "Mansion + Miscrian Jungle5",
+    "reward": "Reward: 2x XP Token (Medium)"
+  },
+  {
+    "members": [
+      "Bubbles",
+      "Gippo",
+      "Dark Bubbles",
+      "Dark Gippo"
+    ],
+    "name": "Dark Descent, XVI",
+    "parent": "Mansion + Miscrian Jungle5",
+    "reward": "Reward: 10x Gems"
+  },
+  {
+    "members": [
+      "Lavarilla",
+      "Dark Lavarilla",
+      "Light Lavarilla"
+    ],
+    "name": "Island of the Apes",
+    "parent": "Mansion + Miscrian Jungle5",
+    "reward": "Reward: 60x Gems"
+  },
+  {
+    "members": [
+      "Narlope",
+      "Yelen"
+    ],
+    "name": "Lopsided Rivalry",
+    "parent": "Mansion + Monks Mountain2",
+    "reward": "Reward: 20x Platinum"
+  },
+  {
+    "members": [
+      "Monk Munk",
+      "Fracture",
+      "Dillorock",
+      "Nero"
+    ],
+    "name": "Thermal Shock",
+    "parent": "Mansion + Monks Mountain2",
+    "reward": "Reward: 1x Bronze Pack"
+  },
+  {
+    "members": [
+      "Pillblaze",
+      "Eggy",
+      "Dark Pillblaze",
+      "Dark Eggy"
+    ],
+    "name": "Dark Descent, XII",
+    "parent": "Mansion + Mount Gemma + Cave1",
+    "reward": "Reward: 35x Platinum"
+  },
+  {
+    "members": [
+      "Digsy",
+      "Cerberuff",
+      "Zappup",
+      "Hotdog"
+    ],
+    "name": "For All The Dogs",
+    "parent": "Mansion + Cave + Sunfall Shores1",
+    "reward": "Reward: 3x XP Token (Medium)"
+  },
+  {
+    "members": [
+      "Weevern",
+      "Dark Weevern",
+      "Light Weevern"
+    ],
+    "name": "Wee Bit Of Weevern",
+    "parent": "Mansion + Miscrian Jungle + Emerald Isle1",
+    "reward": "Reward: 20x Gems"
+  },
+  {
+    "members": [
+      "Mumbah",
+      "Bludger",
+      "Light Mumbah",
+      "Light Bludger"
+    ],
+    "name": "Into The Light, V",
+    "parent": "Mansion + Mount Gemma + Sunfall Shores + Monks Mountain1",
+    "reward": "Reward: 35x Platinum"
+  },
+  {
+    "members": [
+      "Equestrion",
+      "Mumbah",
+      "Drilldent",
+      "Statikat"
+    ],
+    "name": "Mountain's Base",
+    "parent": "Mount Gemma7",
+    "reward": "Reward: 10000x Gold"
+  },
+  {
+    "members": [
+      "Breezycheeks",
+      "Vexie",
+      "Croaky",
+      "Jellyshock"
+    ],
+    "name": "Across The River",
+    "parent": "Mount Gemma7",
+    "reward": "Reward: 2x XP Token (Large)"
+  },
+  {
+    "members": [
+      "Owlie",
+      "Aria",
+      "Auger",
+      "Sparkslug"
+    ],
+    "name": "Atop The Mudslide",
+    "parent": "Mount Gemma7",
+    "reward": "Reward: 2x XP Token (Huge)"
+  },
+  {
+    "members": [
+      "Auger",
+      "Jellyshock",
+      "Dark Auger",
+      "Dark Jellyshock"
+    ],
+    "name": "Dark Descent, VIII",
+    "parent": "Mount Gemma7",
+    "reward": "Reward: 20000x Gold"
+  },
+  {
+    "members": [
+      "Peekly",
+      "Craggy",
+      "Felis"
+    ],
+    "name": "Upon The Summit",
+    "parent": "Mount Gemma7",
+    "reward": "Reward: 10x Gems"
+  },
+  {
+    "members": [
+      "Fossillia",
+      "Thundercracker",
+      "Foil Fossillia",
+      "Foil Thundercracker"
+    ],
+    "name": "Glitter Glow-up, II",
+    "parent": "Mount Gemma7",
+    "reward": "Reward: 70x Platinum"
+  },
+  {
+    "members": [
+      "Poltergust",
+      "Dark Poltergust"
+    ],
+    "name": "Dark Winds Blow",
+    "parent": "Mount Gemma7",
+    "reward": "Reward: 3x Bronze Pack"
+  },
+  {
+    "members": [
+      "Croaky",
+      "Dark Croaky",
+      "Foil Croaky"
+    ],
+    "name": "Croaked Up",
+    "parent": "Mount Gemma + Cave3",
+    "reward": "Reward: 60x Gems"
+  },
+  {
+    "members": [
+      "Owlie",
+      "Aria",
+      "Dark Owlie",
+      "Dark Aria"
+    ],
+    "name": "Dark Descent, IX",
+    "parent": "Mount Gemma + Cave3",
+    "reward": "Reward: 20x Platinum"
+  },
+  {
+    "members": [
+      "Frostmite",
+      "Breezycheeks",
+      "Dark Frostmite",
+      "Dark Breezycheeks"
+    ],
+    "name": "Dark Descent, X",
+    "parent": "Mount Gemma + Cave3",
+    "reward": "Reward: 15000x Gold"
+  },
+  {
+    "members": [
+      "Sol",
+      "Luna",
+      "Dark Luna",
+      "Foil Luna"
+    ],
+    "name": "Day & Night",
+    "parent": "Mount Gemma + Sunfall Shores2",
+    "reward": "Reward: 35x Gems"
+  },
+  {
+    "members": [
+      "Fangly",
+      "Boneshee"
+    ],
+    "name": "Aerobian Visitors",
+    "parent": "Mount Gemma + Sunfall Shores2",
+    "reward": "Reward: 30x Gems"
+  },
+  {
+    "members": [
+      "Pollifog",
+      "Opigum",
+      "Foil Pollifog",
+      "Foil Opigum"
+    ],
+    "name": "Glitter Glow-up, V",
+    "parent": "Mount Gemma + Monks Mountain1",
+    "reward": "Reward: 30x Gems"
+  },
+  {
+    "members": [
+      "Kiloray",
+      "Dark Kiloray",
+      "Grimm Kiloray",
+      "Foil Kiloray"
+    ],
+    "name": "Kiloray Fever",
+    "parent": "Mount Gemma + Cave + Shack1",
+    "reward": "Reward: 50x Platinum"
+  },
+  {
+    "members": [
+      "Frostmite",
+      "Statikat",
+      "Light Statikat",
+      "Light Frostmite"
+    ],
+    "name": "Into The Light, II",
+    "parent": "Mount Gemma + Cave + Sunfall Shores1",
+    "reward": "Reward: 70x Gems"
+  },
+  {
+    "members": [
+      "Niboro",
+      "Babakku",
+      "Gemix",
+      "Kukoatl"
+    ],
+    "name": "Slithery Sneaky Snakes",
+    "parent": "Mount Gemma + Moon + Temple1",
+    "reward": "Reward: 1x Silver Pack"
+  },
+  {
+    "members": [
+      "Frozy",
+      "Mistraxol",
+      "Orbling",
+      "Zappup"
+    ],
+    "name": "Spelunking",
+    "parent": "Cave2",
+    "reward": "Reward: 10000x Gold"
+  },
+  {
+    "members": [
+      "Sledgehog",
+      "Sapphron",
+      "Microblast"
+    ],
+    "name": "Exclusive Triplet",
+    "parent": "Cave2",
+    "reward": "Reward: 30x Gems"
+  },
+  {
+    "members": [
+      "Sparkitten",
+      "Arigato",
+      "Dark Sparkitten",
+      "Dark Arigato"
+    ],
+    "name": "Dark Descent, XIII",
+    "parent": "Cave + Sunfall Shores3",
+    "reward": "Reward: 10000x Gold"
+  },
+  {
+    "members": [
+      "Cadbunny",
+      "Peepsie"
+    ],
+    "name": "Eggs In One Basket",
+    "parent": "Cave + Sunfall Shores3",
+    "reward": "Reward: 50x Gems"
+  },
+  {
+    "members": [
+      "Pamboo",
+      "Ursiwave",
+      "Winnebeargo",
+      "Manio"
+    ],
+    "name": "Bear Necessities",
+    "parent": "Cave + Sunfall Shores3",
+    "reward": "Reward: 2x Relic Sack"
+  },
+  {
+    "members": [
+      "Poppet",
+      "Whispen",
+      "Mucora",
+      "Fickra"
+    ],
+    "name": "Shadows Of The Shack",
+    "parent": "Shack6",
+    "reward": "Reward: 10x Gems"
+  },
+  {
+    "members": [
+      "Pirate Bludger",
+      "Vamp Skustunk",
+      "Boo Blazertooth",
+      "Rocker Octavio"
+    ],
+    "name": "Creations Of Ylil",
+    "parent": "Shack6",
+    "reward": "Reward: 70x Gems"
+  },
+  {
+    "members": [
+      "Avarus",
+      "Goo",
+      "Beakka",
+      "Sora"
+    ],
+    "name": "Depths Of The Shack",
+    "parent": "Shack6",
+    "reward": "Reward: 10x Gems"
+  },
+  {
+    "members": [
+      "Lutox",
+      "Deetlee",
+      "Ampupine",
+      "Nubyll"
+    ],
+    "name": "One With The Shadows",
+    "parent": "Shack6",
+    "reward": "Reward: 15000x Gold"
+  },
+  {
+    "members": [
+      "Lagoony",
+      "Skelepup",
+      "Damse"
+    ],
+    "name": "Shack Of Horrors",
+    "parent": "Shack6",
+    "reward": "Reward: 70x Gems"
+  },
+  {
+    "members": [
+      "Phoboros",
+      "Grimm Kiloray",
+      "Patchkin",
+      "Geneseed"
+    ],
+    "name": "Grim Harvest",
+    "parent": "Shack6",
+    "reward": "Reward: 120x Platinum"
+  },
+  {
+    "members": [
+      "Luvcraft",
+      "Bunaken"
+    ],
+    "name": "When Beauty Clashes",
+    "parent": "Shack + Miscrian Jungle1",
+    "reward": "Reward: 2x Stat Swap"
+  },
+  {
+    "members": [
+      "Sparkitten",
+      "Echino",
+      "Arigato",
+      "Hippoke"
+    ],
+    "name": "Among The Wreckage",
+    "parent": "Sunfall Shores6",
+    "reward": "Reward: 2x XP Token (Large)"
+  },
+  {
+    "members": [
+      "Nibbles",
+      "Hawkai",
+      "Tectonyx",
+      "Zaptor"
+    ],
+    "name": "Jagged Pass",
+    "parent": "Sunfall Shores6",
+    "reward": "Reward: 1x XP Token (Huge)"
+  },
+  {
+    "members": [
+      "Ignios",
+      "Kelpa",
+      "Snorkels"
+    ],
+    "name": "Beach Icons",
+    "parent": "Sunfall Shores6",
+    "reward": "Reward: 20x Gems"
+  },
+  {
+    "members": [
+      "Nibbles",
+      "Tectonyx",
+      "Light Nibbles",
+      "Light Tectonyx"
+    ],
+    "name": "Into The Light, IV",
+    "parent": "Sunfall Shores6",
+    "reward": "Reward: 30x Platinum"
+  },
+  {
+    "members": [
+      "Orcatide",
+      "Leggy",
+      "Quebble",
+      "Blub"
+    ],
+    "name": "Island Of Bones",
+    "parent": "Sunfall Shores6",
+    "reward": "Reward: 1x XP Token (Huge)"
+  },
+  {
+    "members": [
+      "Light Ignios",
+      "Aquarion"
+    ],
+    "name": "Jaws & Justice",
+    "parent": "Sunfall Shores6",
+    "reward": "Reward: 1x Silver Pack"
+  },
+  {
+    "members": [
+      "Pamboo",
+      "Liquifien",
+      "Foil Pamboo",
+      "Foil Liquifien"
+    ],
+    "name": "Glitter Glow-up, III",
+    "parent": "Sunfall Shores + Miscrian Jungle2",
+    "reward": "Reward: 70x Platinum"
+  },
+  {
+    "members": [
+      "Rockodile",
+      "Pangoleaf",
+      "Foil Pangoleaf",
+      "Foil Rockodile"
+    ],
+    "name": "Glitter Glow-up, IV",
+    "parent": "Sunfall Shores + Miscrian Jungle2",
+    "reward": "Reward: 80x Gems"
+  },
+  {
+    "members": [
+      "Jack",
+      "Light Jack",
+      "Crabbles",
+      "Light Crabbles"
+    ],
+    "name": "Into The Light, VI",
+    "parent": "Sunfall Shores + Emerald Isle1",
+    "reward": "Reward: 25x Platinum"
+  },
+  {
+    "members": [
+      "Blug",
+      "Shroomer",
+      "Hoghedge",
+      "Gippo"
+    ],
+    "name": "Shroom Streams",
+    "parent": "Miscrian Jungle6",
+    "reward": "Reward: 2x XP Token (Large)"
+  },
+  {
+    "members": [
+      "Kawanko",
+      "Kitpole",
+      "Padma"
+    ],
+    "name": "Distant Visitors",
+    "parent": "Miscrian Jungle6",
+    "reward": "Reward: 1x Relic Sack"
+  },
+  {
+    "members": [
+      "Beetor",
+      "Magpole",
+      "Dabee",
+      "Daloo"
+    ],
+    "name": "Temple Rejects",
+    "parent": "Miscrian Jungle6",
+    "reward": "Reward: 2x XP Token (Huge)"
+  },
+  {
+    "members": [
+      "Beetor",
+      "Hoghedge",
+      "Dark Beetor",
+      "Dark Hoghedge"
+    ],
+    "name": "Dark Descent, XV",
+    "parent": "Miscrian Jungle6",
+    "reward": "Reward: 10000x Gold"
+  },
+  {
+    "members": [
+      "Budillo",
+      "Pithapillar",
+      "Gurgleplops",
+      "Pachydo"
+    ],
+    "name": "By The Falls",
+    "parent": "Miscrian Jungle6",
+    "reward": "Reward: 1x Bronze Pack"
+  },
+  {
+    "members": [
+      "Magpole",
+      "Gurgleplops",
+      "Dark Weevern",
+      "Nyma"
+    ],
+    "name": "Eco-Contaminants",
+    "parent": "Miscrian Jungle6",
+    "reward": "Reward: 25x Gems"
+  },
+  {
+    "members": [
+      "Flaclay",
+      "Zephry",
+      "Lumite",
+      "Voltombra"
+    ],
+    "name": "Air Feels Thinner",
+    "parent": "Moon7",
+    "reward": "Reward: 10x Gems"
+  },
+  {
+    "members": [
+      "Pyrex",
+      "Gravitron"
+    ],
+    "name": "Thinking With Portals",
+    "parent": "Moon7",
+    "reward": "Reward: 50x Platinum"
+  },
+  {
+    "members": [
+      "Smolderfry",
+      "Beateorite"
+    ],
+    "name": "Planetary Problems",
+    "parent": "Moon7",
+    "reward": "Reward: 2x Stat Swap"
+  },
+  {
+    "members": [
+      "Silkire",
+      "Drilune",
+      "Yuefira",
+      "Fungask"
+    ],
+    "name": "The Dark Side",
+    "parent": "Moon7",
+    "reward": "Reward: 10x Gems"
+  },
+  {
+    "members": [
+      "Eluzar",
+      "Rephily"
+    ],
+    "name": "Territorial Dispute",
+    "parent": "Moon7",
+    "reward": "Reward: 4x XP Token (Small)"
+  },
+  {
+    "members": [
+      "Lambolt",
+      "Larbunni"
+    ],
+    "name": "Hunter x Hunted",
+    "parent": "Moon7",
+    "reward": "Reward: 30x Platinum"
+  },
+  {
+    "members": [
+      "Lithos",
+      "Voidotron"
+    ],
+    "name": "Celestial Clash",
+    "parent": "Moon7",
+    "reward": "Reward: 2x Relic Sack"
+  },
+  {
+    "members": [
+      "Mustella",
+      "Shockell",
+      "Wapy",
+      "Pumillo"
+    ],
+    "name": "The Forbidden Isle",
+    "parent": "Emerald Isle4",
+    "reward": "Reward: 10x Gems"
+  },
+  {
+    "members": [
+      "Smokey",
+      "Aveony",
+      "Boomble",
+      "Cuado"
+    ],
+    "name": "Among The Ruins",
+    "parent": "Emerald Isle4",
+    "reward": "Reward: 10x Platinum"
+  },
+  {
+    "members": [
+      "Patrik",
+      "Woolaboo"
+    ],
+    "name": "The Guardian & King",
+    "parent": "Emerald Isle4",
+    "reward": "Reward: 70x Gems"
+  },
+  {
+    "members": [
+      "Spookah",
+      "Glaucos"
+    ],
+    "name": "Isle Of Nightmares",
+    "parent": "Emerald Isle4",
+    "reward": "Reward: 2x Stat Swap"
+  },
+  {
+    "members": [
+      "Junglotl",
+      "Kiri",
+      "Pennypincher",
+      "Shocrack"
+    ],
+    "name": "Temple Entrance",
+    "parent": "Temple5",
+    "reward": "Reward: 10000x Gold"
+  },
+  {
+    "members": [
+      "Flaro",
+      "Petalina",
+      "Molly",
+      "Tabbey"
+    ],
+    "name": "Temple Depths",
+    "parent": "Temple5",
+    "reward": "Reward: 10x Platinum"
+  },
+  {
+    "members": [
+      "Magixio",
+      "Pujin",
+      "Azteko"
+    ],
+    "name": "Temple Guardians",
+    "parent": "Temple5",
+    "reward": "Reward: 30x Gems"
+  },
+  {
+    "members": [
+      "Zimbabo",
+      "Iguanar",
+      "Wisper",
+      "Chico"
+    ],
+    "name": "Ancient Winds",
+    "parent": "Temple5",
+    "reward": "Reward: 50x Platinum"
+  },
+  {
+    "members": [
+      "Tzicatl",
+      "Rocapez"
+    ],
+    "name": "Fan-tastic Finds",
+    "parent": "Temple5",
+    "reward": "Reward: 2x Relic Sack"
+  },
+  {
+    "members": [
+      "Jynku",
+      "Electrak"
+    ],
+    "name": "Thunderous Terrors",
+    "parent": "Monks Mountain1",
+    "reward": "Reward: 1x Silver Pack"
+  }
+]

@@ -1,0 +1,535 @@
+[      32ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17994
+[   30867ms] [ERROR] You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:15210
+[   30895ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511375310:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511375289:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[   30896ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   30895ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChildFromContainer (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:13972:128)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9177:19)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9274:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+[   30896ms] [WARNING] %s
+
+%s
+ An error occurred in the <a> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   30896ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChildFromContainer (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:13972:128)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9177:19)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9274:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+[   30897ms] [WARNING] %s
+
+%s
+ An error occurred in the <header> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   30896ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChildFromContainer (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:13972:128)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9177:19)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9274:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+[   30897ms] [WARNING] %s
+
+%s
+ An error occurred in the <main> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   30897ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChildFromContainer (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:13972:128)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9177:19)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9274:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+[   30897ms] [WARNING] %s
+
+%s
+ An error occurred in the <nav> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   30897ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChildFromContainer (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:13972:128)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9177:19)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9274:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+[   30897ms] [WARNING] %s
+
+%s
+ An error occurred in the <div> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   30897ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511375310:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511375289:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[   30898ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   30897ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChildFromContainer (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:13972:128)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9177:19)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9274:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+[   30898ms] [WARNING] %s
+
+%s
+ An error occurred in the <a> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   30897ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChildFromContainer (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:13972:128)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9177:19)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9274:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+[   30899ms] [WARNING] %s
+
+%s
+ An error occurred in the <header> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   30898ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChildFromContainer (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:13972:128)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9177:19)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9274:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+[   30899ms] [WARNING] %s
+
+%s
+ An error occurred in the <main> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   30898ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChildFromContainer (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:13972:128)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9177:19)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9274:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+[   30899ms] [WARNING] %s
+
+%s
+ An error occurred in the <nav> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   30898ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChildFromContainer (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:13972:128)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9177:19)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9274:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+[   30899ms] [WARNING] %s
+
+%s
+ An error occurred in the <div> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   30950ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511375310:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511375289:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[   30951ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   30951ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511375310:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511375289:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[   30952ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   30984ms] [ERROR] You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:15210
+[   31001ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511375423:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511375429:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[   31002ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   31001ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511375423:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511375429:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[   31002ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   31002ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511375423:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511375429:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[   31003ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   31003ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChildFromContainer (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:13972:128)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9177:19)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9274:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+[   31004ms] [WARNING] %s
+
+%s
+ An error occurred in the <a> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   31003ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChildFromContainer (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:13972:128)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9177:19)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9274:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+[   31004ms] [WARNING] %s
+
+%s
+ An error occurred in the <header> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   31003ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChildFromContainer (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:13972:128)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9177:19)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9274:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+[   31004ms] [WARNING] %s
+
+%s
+ An error occurred in the <main> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   31004ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChildFromContainer (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:13972:128)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9177:19)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9274:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+[   31004ms] [WARNING] %s
+
+%s
+ An error occurred in the <nav> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   31004ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChildFromContainer (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:13972:128)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9177:19)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9274:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+    at commitDeletionEffectsOnFiber (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9239:13)
+    at recursivelyTraverseDeletionEffects (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:9118:11)
+[   31004ms] [WARNING] %s
+
+%s
+ An error occurred in the <div> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   31006ms] [ERROR] You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:15210
+[   31006ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511375423:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511375423:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[   31007ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   31028ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511375423:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511375423:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[   31029ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   31029ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511375423:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511375423:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[   31029ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   31029ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511375423:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511375423:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[   31030ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   31029ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511375423:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511375423:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[   31030ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[   31099ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17994
+[  348387ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511375423:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511375423:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[  348387ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[  348562ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511375423:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511375423:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[  348563ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[  348604ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511375423:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511375423:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[  348602ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[  348617ms] [ERROR] You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:15210
+[  348619ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511692921:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511692921:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[  348619ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[  348637ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511692921:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511692921:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[  348638ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[  348638ms] Error: ProfileProvider required
+    at useProfile (http://127.0.0.1:5173/src/storage/profile.tsx?t=1789511692921:204:21)
+    at Shell (http://127.0.0.1:5173/src/main.tsx?t=1789511692921:109:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17424:20)
+    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:4206:24)
+    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6619:21)
+    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:7654:20)
+    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:1485:72)
+    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10868:98)
+    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10728:43)
+    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:10711:13)
+[  348639ms] [WARNING] %s
+
+%s
+ An error occurred in the <Shell> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:6228
+[  348720ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=546ecca0:17994

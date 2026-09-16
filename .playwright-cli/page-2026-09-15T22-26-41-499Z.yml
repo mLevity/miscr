@@ -1,0 +1,97 @@
+- generic [ref=f8e2]:
+  - link "К содержимому" [ref=f8e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f8e4]:
+    - generic [ref=f8e5]:
+      - link "Miscrits Энциклопедия" [ref=f8e6] [cursor=pointer]:
+        - /url: /
+      - link "Данные на устройстве" [ref=f8e7] [cursor=pointer]:
+        - /url: /settings
+  - main [ref=f8e9]:
+    - generic [ref=f8e10]:
+      - generic [ref=f8e12]:
+        - paragraph [ref=f8e13]: Игровая энциклопедия
+        - heading "Мискриты" [level=1] [ref=f8e14]
+        - paragraph [ref=f8e15]: "420 семейств и четыре эволюции каждого вида. Данные среза: 15 сентября 2026."
+      - generic [ref=f8e16]:
+        - generic [ref=f8e17]:
+          - generic [ref=f8e19]: Поиск по мискритам и эволюциям
+          - searchbox "Поиск по мискритам и эволюциям" [ref=f8e20]: Afterburn
+        - button "Фильтры" [ref=f8e21] [cursor=pointer]
+        - generic [ref=f8e23]:
+          - text: Сортировка
+          - combobox "Сортировка" [ref=f8e24]:
+            - option "Имя A–Z" [selected]
+            - option "Имя Z–A"
+            - option "Редкость ↑"
+            - option "Редкость ↓"
+            - option "Исходный ID"
+            - option "HP ↓"
+            - option "SPD ↓"
+            - option "EA ↓"
+            - option "PA ↓"
+            - option "ED ↓"
+            - option "PD ↓"
+      - region "Результаты поиска" [ref=f8e26]:
+        - strong [ref=f8e28]: 4 семейств
+        - generic [ref=f8e29]:
+          - article [ref=f8e30]:
+            - 'link "Flue Flue Огонь Обычный Совпадение: Afterburn — 4-я форма" [ref=f8e31] [cursor=pointer]':
+              - /url: /miscrits/flue?form=miscrit%3A1%3Aform%3A4
+              - img "Flue" [ref=f8e33]
+              - generic [ref=f8e34]:
+                - strong [ref=f8e35]: Flue
+                - generic [ref=f8e36]: Огонь
+                - generic [ref=f8e38]: Обычный
+                - generic [ref=f8e39]: "Совпадение: Afterburn — 4-я форма"
+            - generic [ref=f8e40]:
+              - button "Пойман?" [ref=f8e41] [cursor=pointer]
+              - button "Добавить Flue в избранное" [ref=f8e43] [cursor=pointer]
+          - article [ref=f8e45]:
+            - 'link "Blighted Flue Blighted Flue Огонь Легендарный Совпадение: Blighted Afterburn — 4-я форма" [ref=f8e46] [cursor=pointer]':
+              - /url: /miscrits/blighted-flue?form=miscrit%3A433%3Aform%3A4
+              - img "Blighted Flue" [ref=f8e48]
+              - generic [ref=f8e49]:
+                - strong [ref=f8e50]: Blighted Flue
+                - generic [ref=f8e51]: Огонь
+                - generic [ref=f8e53]: Легендарный
+                - generic [ref=f8e54]: "Совпадение: Blighted Afterburn — 4-я форма"
+            - generic [ref=f8e55]:
+              - button "Пойман?" [ref=f8e56] [cursor=pointer]
+              - button "Добавить Blighted Flue в избранное" [ref=f8e58] [cursor=pointer]
+          - article [ref=f8e60]:
+            - 'link "Dark Flue Dark Flue Огонь Редкий Совпадение: Dark Afterburn — 4-я форма" [ref=f8e61] [cursor=pointer]':
+              - /url: /miscrits/dark-flue?form=miscrit%3A23%3Aform%3A4
+              - img "Dark Flue" [ref=f8e63]
+              - generic [ref=f8e64]:
+                - strong [ref=f8e65]: Dark Flue
+                - generic [ref=f8e66]: Огонь
+                - generic [ref=f8e68]: Редкий
+                - generic [ref=f8e69]: "Совпадение: Dark Afterburn — 4-я форма"
+            - generic [ref=f8e70]:
+              - button "Пойман?" [ref=f8e71] [cursor=pointer]
+              - button "Добавить Dark Flue в избранное" [ref=f8e73] [cursor=pointer]
+          - article [ref=f8e75]:
+            - 'link "Light Flue Light Flue Огонь Ветер Эпический Совпадение: Light Afterburn — 4-я форма" [ref=f8e76] [cursor=pointer]':
+              - /url: /miscrits/light-flue?form=miscrit%3A520%3Aform%3A4
+              - img "Light Flue" [ref=f8e78]
+              - generic [ref=f8e79]:
+                - strong [ref=f8e80]: Light Flue
+                - generic [ref=f8e81]:
+                  - generic [ref=f8e82]: Огонь
+                  - generic [ref=f8e83]: Ветер
+                - generic [ref=f8e84]: Эпический
+                - generic [ref=f8e85]: "Совпадение: Light Afterburn — 4-я форма"
+            - generic [ref=f8e86]:
+              - button "Пойман?" [ref=f8e87] [cursor=pointer]
+              - button "Добавить Light Flue в избранное" [ref=f8e89] [cursor=pointer]
+  - navigation "Основная навигация" [ref=f8e91]:
+    - link "Мискриты" [ref=f8e92] [cursor=pointer]:
+      - /url: /
+    - link "Карта мира" [ref=f8e95] [cursor=pointer]:
+      - /url: /map
+    - link "Моя коллекция" [ref=f8e98] [cursor=pointer]:
+      - /url: /collection
+    - link "Инструменты" [ref=f8e101] [cursor=pointer]:
+      - /url: /tools
+  - generic [ref=f8e104]: Загружается коллекция

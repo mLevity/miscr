@@ -1,0 +1,444 @@
+[
+  {
+    "type": "base-stats-conflict",
+    "familyId": "miscrit:6",
+    "official": {
+      "hp": 3,
+      "spd": 1,
+      "ea": 1,
+      "pa": 3,
+      "ed": 3,
+      "pd": 4
+    },
+    "hub": {
+      "hp": 3,
+      "spd": 1,
+      "ea": 2,
+      "pa": 3,
+      "ed": 3,
+      "pd": 3
+    },
+    "selectedSource": "official-miscrits",
+    "familyName": "Sparkupine"
+  },
+  {
+    "type": "base-stats-conflict",
+    "familyId": "miscrit:42",
+    "official": {
+      "hp": 3,
+      "spd": 2,
+      "ea": 5,
+      "pa": 1,
+      "ed": 3,
+      "pd": 2
+    },
+    "hub": {
+      "hp": 3,
+      "spd": 2,
+      "ea": 4,
+      "pa": 2,
+      "ed": 3,
+      "pd": 2
+    },
+    "selectedSource": "official-miscrits",
+    "familyName": "Poltergust"
+  },
+  {
+    "type": "base-stats-conflict",
+    "familyId": "miscrit:142",
+    "official": {
+      "hp": 2,
+      "spd": 1,
+      "ea": 3,
+      "pa": 2,
+      "ed": 3,
+      "pd": 4
+    },
+    "hub": {
+      "hp": 2,
+      "spd": 2,
+      "ea": 3,
+      "pa": 2,
+      "ed": 2,
+      "pd": 4
+    },
+    "selectedSource": "official-miscrits",
+    "familyName": "Vexie"
+  },
+  {
+    "type": "base-stats-conflict",
+    "familyId": "miscrit:156",
+    "official": {
+      "hp": 2,
+      "spd": 2,
+      "ea": 1,
+      "pa": 4,
+      "ed": 3,
+      "pd": 3
+    },
+    "hub": {
+      "hp": 2,
+      "spd": 2,
+      "ea": 2,
+      "pa": 4,
+      "ed": 2,
+      "pd": 3
+    },
+    "selectedSource": "official-miscrits",
+    "familyName": "Felis"
+  },
+  {
+    "type": "base-stats-conflict",
+    "familyId": "miscrit:404",
+    "official": {
+      "hp": 3,
+      "spd": 5,
+      "ea": 5,
+      "pa": 1,
+      "ed": 2,
+      "pd": 2
+    },
+    "hub": {
+      "hp": 4,
+      "spd": 5,
+      "ea": 4,
+      "pa": 1,
+      "ed": 2,
+      "pd": 2
+    },
+    "selectedSource": "official-miscrits",
+    "familyName": "Splender"
+  },
+  {
+    "type": "base-stats-conflict",
+    "familyId": "miscrit:525",
+    "official": {
+      "hp": 3,
+      "spd": 1,
+      "ea": 4,
+      "pa": 2,
+      "ed": 3,
+      "pd": 3
+    },
+    "hub": {
+      "hp": 3,
+      "spd": 1,
+      "ea": 2,
+      "pa": 2,
+      "ed": 4,
+      "pd": 4
+    },
+    "selectedSource": "official-miscrits",
+    "familyName": "Light Jack"
+  },
+  {
+    "type": "base-stats-conflict",
+    "familyId": "miscrit:530",
+    "official": {
+      "hp": 4,
+      "spd": 5,
+      "ea": 5,
+      "pa": 1,
+      "ed": 3,
+      "pd": 2
+    },
+    "hub": {
+      "hp": 3,
+      "spd": 5,
+      "ea": 5,
+      "pa": 2,
+      "ed": 3,
+      "pd": 2
+    },
+    "selectedSource": "official-miscrits",
+    "familyName": "Light Ignios"
+  },
+  {
+    "type": "base-stats-conflict",
+    "familyId": "miscrit:531",
+    "official": {
+      "hp": 3,
+      "spd": 3,
+      "ea": 4,
+      "pa": 1,
+      "ed": 3,
+      "pd": 2
+    },
+    "hub": {
+      "hp": 2,
+      "spd": 4,
+      "ea": 3,
+      "pa": 2,
+      "ed": 3,
+      "pd": 2
+    },
+    "selectedSource": "official-miscrits",
+    "familyName": "Light Mumbah"
+  },
+  {
+    "type": "base-stats-conflict",
+    "familyId": "miscrit:537",
+    "official": {
+      "hp": 4,
+      "spd": 1,
+      "ea": 4,
+      "pa": 1,
+      "ed": 4,
+      "pd": 4
+    },
+    "hub": {
+      "hp": 3,
+      "spd": 1,
+      "ea": 4,
+      "pa": 2,
+      "ed": 4,
+      "pd": 4
+    },
+    "selectedSource": "official-miscrits",
+    "familyName": "Dark Slithero"
+  },
+  {
+    "type": "base-stats-conflict",
+    "familyId": "miscrit:538",
+    "official": {
+      "hp": 4,
+      "spd": 4,
+      "ea": 5,
+      "pa": 1,
+      "ed": 3,
+      "pd": 3
+    },
+    "hub": {
+      "hp": 4,
+      "spd": 5,
+      "ea": 2,
+      "pa": 1,
+      "ed": 4,
+      "pd": 4
+    },
+    "selectedSource": "official-miscrits",
+    "familyName": "Keeper"
+  },
+  {
+    "type": "base-stats-conflict",
+    "familyId": "miscrit:540",
+    "official": {
+      "hp": 3,
+      "spd": 3,
+      "ea": 4,
+      "pa": 1,
+      "ed": 3,
+      "pd": 4
+    },
+    "hub": {
+      "hp": 3,
+      "spd": 3,
+      "ea": 3,
+      "pa": 2,
+      "ed": 4,
+      "pd": 3
+    },
+    "selectedSource": "official-miscrits",
+    "familyName": "Foil Luna"
+  },
+  {
+    "type": "base-stats-conflict",
+    "familyId": "miscrit:549",
+    "official": {
+      "hp": 2,
+      "spd": 4,
+      "ea": 5,
+      "pa": 1,
+      "ed": 2,
+      "pd": 2
+    },
+    "hub": {
+      "hp": 2,
+      "spd": 5,
+      "ea": 4,
+      "pa": 1,
+      "ed": 2,
+      "pd": 2
+    },
+    "selectedSource": "official-miscrits",
+    "familyName": "Dark Vexie"
+  },
+  {
+    "type": "base-stats-conflict",
+    "familyId": "miscrit:558",
+    "official": {
+      "hp": 3,
+      "spd": 1,
+      "ea": 1,
+      "pa": 4,
+      "ed": 3,
+      "pd": 3
+    },
+    "hub": {
+      "hp": 3,
+      "spd": 1,
+      "ea": 2,
+      "pa": 3,
+      "ed": 3,
+      "pd": 3
+    },
+    "selectedSource": "official-miscrits",
+    "familyName": "Orbling"
+  },
+  {
+    "type": "base-stats-conflict",
+    "familyId": "miscrit:618",
+    "official": {
+      "hp": 4,
+      "spd": 1,
+      "ea": 5,
+      "pa": 1,
+      "ed": 3,
+      "pd": 4
+    },
+    "hub": {
+      "hp": 3,
+      "spd": 1,
+      "ea": 5,
+      "pa": 2,
+      "ed": 3,
+      "pd": 4
+    },
+    "selectedSource": "official-miscrits",
+    "familyName": "Boo Blazertooth"
+  },
+  {
+    "type": "base-stats-conflict",
+    "familyId": "miscrit:632",
+    "official": {
+      "hp": 3,
+      "spd": 2,
+      "ea": 1,
+      "pa": 4,
+      "ed": 3,
+      "pd": 3
+    },
+    "hub": {
+      "hp": 3,
+      "spd": 4,
+      "ea": 4,
+      "pa": 1,
+      "ed": 4,
+      "pd": 4
+    },
+    "selectedSource": "official-miscrits",
+    "familyName": "Squawcat"
+  },
+  {
+    "type": "base-stats-conflict",
+    "familyId": "miscrit:653",
+    "official": {
+      "hp": 3,
+      "spd": 1,
+      "ea": 5,
+      "pa": 1,
+      "ed": 4,
+      "pd": 2
+    },
+    "hub": {
+      "hp": 4,
+      "spd": 1,
+      "ea": 5,
+      "pa": 1,
+      "ed": 4,
+      "pd": 1
+    },
+    "selectedSource": "official-miscrits",
+    "familyName": "Dark Bubbles"
+  },
+  {
+    "type": "base-stats-conflict",
+    "familyId": "miscrit:661",
+    "official": {
+      "hp": 3,
+      "spd": 1,
+      "ea": 3,
+      "pa": 4,
+      "ed": 3,
+      "pd": 4
+    },
+    "hub": {
+      "hp": 3,
+      "spd": 1,
+      "ea": 2,
+      "pa": 4,
+      "ed": 3,
+      "pd": 5
+    },
+    "selectedSource": "official-miscrits",
+    "familyName": "Foil Pangoleaf"
+  },
+  {
+    "type": "relic-stats-conflict",
+    "name": "Pamboo Cane",
+    "selectedSource": "companion-relics",
+    "companion": {
+      "hp": 5
+    },
+    "hub": {
+      "HP": 4
+    }
+  },
+  {
+    "type": "relic-stats-conflict",
+    "name": "Lake Azore Pearl",
+    "selectedSource": "companion-relics",
+    "companion": {
+      "ed": 1,
+      "hp": 3,
+      "pd": 1
+    },
+    "hub": {
+      "ED": 1,
+      "HP": 2,
+      "PD": 1
+    }
+  },
+  {
+    "type": "relic-stats-conflict",
+    "name": "Blessed Pollen",
+    "selectedSource": "companion-relics",
+    "companion": {
+      "ed": 2,
+      "hp": 1,
+      "pd": 2
+    },
+    "hub": {
+      "ED": 2,
+      "PD": 2
+    }
+  },
+  {
+    "type": "relic-stats-conflict",
+    "name": "Quartex Crystal",
+    "selectedSource": "companion-relics",
+    "companion": {
+      "ea": -1,
+      "ed": -1,
+      "pa": -1,
+      "pd": -1
+    },
+    "hub": {
+      "HP": -7
+    }
+  },
+  {
+    "type": "relic-stats-conflict",
+    "name": "Frost Root",
+    "selectedSource": "companion-relics",
+    "companion": {
+      "ea": -1,
+      "ed": -1,
+      "pa": -1,
+      "pd": -1
+    },
+    "hub": {
+      "HP": -7
+    }
+  }
+]

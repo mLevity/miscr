@@ -1,0 +1,1008 @@
+[
+  {
+    "height": 1300,
+    "markers": [
+      {
+        "name": "Waddles",
+        "xPercent": "26.3556%",
+        "yPercent": "41.0497%"
+      },
+      {
+        "name": "Dark Nessy",
+        "xPercent": "42.6632%",
+        "yPercent": "47.1228%"
+      },
+      {
+        "name": "Flaring",
+        "xPercent": "83.4489%",
+        "yPercent": "54.6661%"
+      },
+      {
+        "name": "Dark Waddles",
+        "xPercent": "33.4923%",
+        "yPercent": "48.7209%"
+      },
+      {
+        "name": "Dark Flue",
+        "xPercent": "49.179%",
+        "yPercent": "75.0358%"
+      },
+      {
+        "name": "Dark Flue",
+        "xPercent": "47.3877%",
+        "yPercent": "79.2448%"
+      },
+      {
+        "name": "Waddles",
+        "xPercent": "27.2486%",
+        "yPercent": "41.1704%"
+      },
+      {
+        "name": "Waddles",
+        "xPercent": "27.538%",
+        "yPercent": "43.8052%"
+      },
+      {
+        "name": "Blighted Flue",
+        "xPercent": "74.4781%",
+        "yPercent": "7.7437%"
+      },
+      {
+        "name": "Defilio",
+        "xPercent": "65.2738%",
+        "yPercent": "45.9081%"
+      },
+      {
+        "name": "Dark Twiggum",
+        "xPercent": "54.1019%",
+        "yPercent": "20.9127%"
+      },
+      {
+        "name": "Mama",
+        "xPercent": "60.3715%",
+        "yPercent": "45.3967%"
+      },
+      {
+        "name": "Blighted Cubsprout",
+        "xPercent": "46.2681%",
+        "yPercent": "54.576%"
+      },
+      {
+        "name": "Blazebit",
+        "xPercent": "53.8351%",
+        "yPercent": "20.3373%"
+      },
+      {
+        "name": "Tulipinny",
+        "xPercent": "83.2155%",
+        "yPercent": "47.6981%"
+      },
+      {
+        "name": "Dark Treemur",
+        "xPercent": "50%",
+        "yPercent": "62.8744%"
+      },
+      {
+        "name": "Dark Flue",
+        "xPercent": "41.7898%",
+        "yPercent": "79.7572%"
+      },
+      {
+        "name": "Blighted Flowerpiller",
+        "xPercent": "18.9506%",
+        "yPercent": "32.1132%"
+      },
+      {
+        "name": "Treemur",
+        "xPercent": "12.3824%",
+        "yPercent": "38.5516%"
+      }
+    ],
+    "name": "Forest map",
+    "url": "https://api.miscritcompanion.com/api/maps/forest.jpg",
+    "width": 2492
+  },
+  {
+    "height": 1311,
+    "markers": [
+      {
+        "name": "Freedom",
+        "xPercent": "51.7073%",
+        "yPercent": "83.0866%"
+      },
+      {
+        "name": "Bloomple",
+        "xPercent": "51.5954%",
+        "yPercent": "18.6377%"
+      },
+      {
+        "name": "Charpy",
+        "xPercent": "35.1377%",
+        "yPercent": "24.8886%"
+      },
+      {
+        "name": "Alpha",
+        "xPercent": "57.9948%",
+        "yPercent": "53.0255%"
+      },
+      {
+        "name": "Blazertooth",
+        "xPercent": "48.5166%",
+        "yPercent": "19.4999%"
+      }
+    ],
+    "name": "Hidden Forest map",
+    "url": "https://api.miscritcompanion.com/api/maps/hidden_forest.jpg",
+    "width": 2524
+  },
+  {
+    "height": 4600,
+    "markers": [
+      {
+        "name": "Dark Spinnerette",
+        "xPercent": "58.403%",
+        "yPercent": "58.3055%"
+      },
+      {
+        "name": "Inferno",
+        "xPercent": "13.8274%",
+        "yPercent": "17.6088%"
+      },
+      {
+        "name": "Shurikoon",
+        "xPercent": "46.7917%",
+        "yPercent": "6.77706%"
+      },
+      {
+        "name": "Hotdog",
+        "xPercent": "63.5406%",
+        "yPercent": "51.4765%"
+      },
+      {
+        "name": "Da Windy",
+        "xPercent": "57.0098%",
+        "yPercent": "23.2379%"
+      },
+      {
+        "name": "Flutterpat",
+        "xPercent": "78.9533%",
+        "yPercent": "23.607%"
+      },
+      {
+        "name": "Hoopty",
+        "xPercent": "40.3779%",
+        "yPercent": "69.8101%"
+      },
+      {
+        "name": "Nanaslug",
+        "xPercent": "54.5716%",
+        "yPercent": "38.3108%"
+      },
+      {
+        "name": "Dorux",
+        "xPercent": "49.8694%",
+        "yPercent": "58.6746%"
+      },
+      {
+        "name": "Ekkult",
+        "xPercent": "48.653%",
+        "yPercent": "20.8272%"
+      },
+      {
+        "name": "Dark Tulipinny",
+        "xPercent": "86.3549%",
+        "yPercent": "79.346%"
+      },
+      {
+        "name": "Dark Flutterpat",
+        "xPercent": "70.1585%",
+        "yPercent": "32.8353%"
+      },
+      {
+        "name": "Keeper",
+        "xPercent": "23.5719%",
+        "yPercent": "79.346%"
+      },
+      {
+        "name": "Papa",
+        "xPercent": "52.1334%",
+        "yPercent": "23.1764%"
+      },
+      {
+        "name": "Fubby",
+        "xPercent": "0.844654%",
+        "yPercent": "77.5619%"
+      },
+      {
+        "name": "Dark Slithero",
+        "xPercent": "51.0014%",
+        "yPercent": "48.4619%"
+      }
+    ],
+    "name": "Mansion map",
+    "url": "https://api.miscritcompanion.com/api/maps/mansion_all.png",
+    "width": 3250
+  },
+  {
+    "height": 1273,
+    "markers": [
+      {
+        "name": "Thundercracker",
+        "xPercent": "17.1003%",
+        "yPercent": "36.6759%"
+      },
+      {
+        "name": "Dark Poltergust",
+        "xPercent": "40.748%",
+        "yPercent": "18.9459%"
+      },
+      {
+        "name": "Octavio",
+        "xPercent": "35.6975%",
+        "yPercent": "55.3891%"
+      },
+      {
+        "name": "Foil Fossillia",
+        "xPercent": "55.5077%",
+        "yPercent": "10.5796%"
+      },
+      {
+        "name": "Foil Vexie",
+        "xPercent": "6.78771%",
+        "yPercent": "47.9445%"
+      },
+      {
+        "name": "Foil Vhisp",
+        "xPercent": "94.6926%",
+        "yPercent": "42.2015%"
+      },
+      {
+        "name": "Fangly",
+        "xPercent": "48.1931%",
+        "yPercent": "10.4378%"
+      },
+      {
+        "name": "Foil Thundercracker",
+        "xPercent": "86.3767%",
+        "yPercent": "30.7155%"
+      },
+      {
+        "name": "Mun Kee",
+        "xPercent": "45.842%",
+        "yPercent": "4.26942%"
+      },
+      {
+        "name": "Boltzee",
+        "xPercent": "73.8375%",
+        "yPercent": "22.5619%"
+      },
+      {
+        "name": "Foil Croaky",
+        "xPercent": "89.468%",
+        "yPercent": "47.8736%"
+      },
+      {
+        "name": "Dark Jellyshock",
+        "xPercent": "83.2854%",
+        "yPercent": "46.101%"
+      },
+      {
+        "name": "Luna",
+        "xPercent": "38.0051%",
+        "yPercent": "50.5678%"
+      },
+      {
+        "name": "Gog",
+        "xPercent": "12.9702%",
+        "yPercent": "56.2399%"
+      },
+      {
+        "name": "Dark Luna",
+        "xPercent": "36.5247%",
+        "yPercent": "46.81%"
+      },
+      {
+        "name": "Dark Auger",
+        "xPercent": "30.7341%",
+        "yPercent": "29.3684%"
+      },
+      {
+        "name": "Eggy",
+        "xPercent": "81.8922%",
+        "yPercent": "39.5072%"
+      },
+      {
+        "name": "Foil Kiloray",
+        "xPercent": "85.6365%",
+        "yPercent": "66.8041%"
+      },
+      {
+        "name": "Foil Luna",
+        "xPercent": "27.4251%",
+        "yPercent": "43.9031%"
+      },
+      {
+        "name": "Gemix",
+        "xPercent": "64.3896%",
+        "yPercent": "18.0242%"
+      },
+      {
+        "name": "Fossillia",
+        "xPercent": "52.9389%",
+        "yPercent": "11.005%"
+      }
+    ],
+    "name": "Mount Gemma map",
+    "url": "https://api.miscritcompanion.com/api/maps/mount_gemma.png",
+    "width": 2073
+  },
+  {
+    "height": 1083,
+    "markers": [
+      {
+        "name": "Dark Elefauna",
+        "xPercent": "12.5651%",
+        "yPercent": "27.046%"
+      },
+      {
+        "name": "Sapphron",
+        "xPercent": "18.8425%",
+        "yPercent": "75.1143%"
+      },
+      {
+        "name": "Dark Snortus",
+        "xPercent": "13.8107%",
+        "yPercent": "27.2547%"
+      },
+      {
+        "name": "Microblast",
+        "xPercent": "57.0629%",
+        "yPercent": "19.4296%"
+      },
+      {
+        "name": "Dark Eggy",
+        "xPercent": "67.9946%",
+        "yPercent": "12.0219%"
+      },
+      {
+        "name": "Dark Pillblaze",
+        "xPercent": "55.7756%",
+        "yPercent": "76.3884%"
+      },
+      {
+        "name": "Foil Flintly",
+        "xPercent": "80.1837%",
+        "yPercent": "9.25705%"
+      },
+      {
+        "name": "Manio",
+        "xPercent": "37.4772%",
+        "yPercent": "32.5758%"
+      },
+      {
+        "name": "Podo",
+        "xPercent": "92.4619%",
+        "yPercent": "17.0821%"
+      },
+      {
+        "name": "Sledgehog",
+        "xPercent": "55.7609%",
+        "yPercent": "24.542%"
+      },
+      {
+        "name": "Foil Waddles",
+        "xPercent": "20.706%",
+        "yPercent": "7.90071%"
+      },
+      {
+        "name": "Cadbunny",
+        "xPercent": "46.8637%",
+        "yPercent": "28.2459%"
+      },
+      {
+        "name": "Woolly",
+        "xPercent": "38.3224%",
+        "yPercent": "81.8737%"
+      }
+    ],
+    "name": "Cave map",
+    "url": "https://api.miscritcompanion.com/api/maps/cave.png",
+    "width": 1270
+  },
+  {
+    "height": 2735,
+    "markers": [
+      {
+        "name": "Geneseed",
+        "xPercent": "78.0417%",
+        "yPercent": "76.7348%"
+      },
+      {
+        "name": "Beldame",
+        "xPercent": "39.9711%",
+        "yPercent": "15.7068%"
+      },
+      {
+        "name": "Damse",
+        "xPercent": "31.219%",
+        "yPercent": "33.921%"
+      },
+      {
+        "name": "Patchkin",
+        "xPercent": "28.1299%",
+        "yPercent": "44.2175%"
+      },
+      {
+        "name": "Hekatom",
+        "xPercent": "40.0813%",
+        "yPercent": "27.9323%"
+      },
+      {
+        "name": "Lagoony",
+        "xPercent": "60.4085%",
+        "yPercent": "65.1177%"
+      },
+      {
+        "name": "Rocker Octavio",
+        "xPercent": "29.8442%",
+        "yPercent": "60.0253%"
+      },
+      {
+        "name": "Boo Blazertooth",
+        "xPercent": "55.5594%",
+        "yPercent": "23.1051%"
+      },
+      {
+        "name": "Skelepup",
+        "xPercent": "71.2333%",
+        "yPercent": "32.9717%"
+      },
+      {
+        "name": "Scarecrow Charix",
+        "xPercent": "11.0844%",
+        "yPercent": "56.4181%"
+      },
+      {
+        "name": "Elphin",
+        "xPercent": "55.1675%",
+        "yPercent": "38.4885%"
+      },
+      {
+        "name": "Luvcraft",
+        "xPercent": "77.2091%",
+        "yPercent": "42.9444%"
+      },
+      {
+        "name": "Phoboros",
+        "xPercent": "35.2322%",
+        "yPercent": "76.4166%"
+      },
+      {
+        "name": "Grimm Kiloray",
+        "xPercent": "43.5359%",
+        "yPercent": "61.7864%"
+      },
+      {
+        "name": "Vamp Skustunk",
+        "xPercent": "84.2134%",
+        "yPercent": "50.0526%"
+      }
+    ],
+    "name": "Shack map",
+    "url": "https://api.miscritcompanion.com/api/maps/shack_all.jpg",
+    "width": 2962
+  },
+  {
+    "height": 1099,
+    "markers": [
+      {
+        "name": "Ignios",
+        "xPercent": "5.02997%",
+        "yPercent": "60.7746%"
+      },
+      {
+        "name": "Light Bludger",
+        "xPercent": "67.3933%",
+        "yPercent": "88.6706%"
+      },
+      {
+        "name": "Light Ignios",
+        "xPercent": "80.7384%",
+        "yPercent": "97.9693%"
+      },
+      {
+        "name": "Rockodile",
+        "xPercent": "89.1668%",
+        "yPercent": "80.3314%"
+      },
+      {
+        "name": "Winnebeargo",
+        "xPercent": "83.4464%",
+        "yPercent": "17.5446%"
+      },
+      {
+        "name": "Light Statikat",
+        "xPercent": "81.2232%",
+        "yPercent": "40.5134%"
+      },
+      {
+        "name": "Fennie",
+        "xPercent": "13.0966%",
+        "yPercent": "50.5985%"
+      },
+      {
+        "name": "Ursiwave",
+        "xPercent": "87.5317%",
+        "yPercent": "29.4728%"
+      },
+      {
+        "name": "Kelpa",
+        "xPercent": "74.8591%",
+        "yPercent": "41.4565%"
+      },
+      {
+        "name": "Lavazard",
+        "xPercent": "86.2464%",
+        "yPercent": "75.4606%"
+      },
+      {
+        "name": "Pennon",
+        "xPercent": "55.5269%",
+        "yPercent": "77.896%"
+      },
+      {
+        "name": "Peepsie",
+        "xPercent": "88.3536%",
+        "yPercent": "90.2942%"
+      },
+      {
+        "name": "Aquarion",
+        "xPercent": "35.9713%",
+        "yPercent": "44.6865%"
+      },
+      {
+        "name": "Boneshee",
+        "xPercent": "80.1469%",
+        "yPercent": "83.5047%"
+      },
+      {
+        "name": "Light Frostmite",
+        "xPercent": "96.8972%",
+        "yPercent": "17.9885%"
+      },
+      {
+        "name": "Light Quirk",
+        "xPercent": "42.8102%",
+        "yPercent": "35.1664%"
+      },
+      {
+        "name": "Light Twiggum",
+        "xPercent": "41.997%",
+        "yPercent": "24.3918%"
+      },
+      {
+        "name": "Light Crickin",
+        "xPercent": "10.4272%",
+        "yPercent": "56.6419%"
+      },
+      {
+        "name": "Light Nanaslug",
+        "xPercent": "16.9703%",
+        "yPercent": "65.4978%"
+      },
+      {
+        "name": "Light Nibbles",
+        "xPercent": "38.1154%",
+        "yPercent": "62.6196%"
+      },
+      {
+        "name": "Snorkels",
+        "xPercent": "26.6926%",
+        "yPercent": "57.8965%"
+      },
+      {
+        "name": "Light Tectonyx",
+        "xPercent": "46.7657%",
+        "yPercent": "74.3536%"
+      }
+    ],
+    "name": "Sunfall Shores map",
+    "url": "https://api.miscritcompanion.com/api/maps/sunfall_shores.jpg",
+    "width": 2194
+  },
+  {
+    "height": 1460,
+    "markers": [
+      {
+        "name": "Foil Pamboo",
+        "xPercent": "26.2675%",
+        "yPercent": "82.2057%"
+      },
+      {
+        "name": "Bloombat",
+        "xPercent": "78.6732%",
+        "yPercent": "81.0155%"
+      },
+      {
+        "name": "Nyma",
+        "xPercent": "46.1667%",
+        "yPercent": "85.9165%"
+      },
+      {
+        "name": "Kitpole",
+        "xPercent": "57.3429%",
+        "yPercent": "93.058%"
+      },
+      {
+        "name": "Glary",
+        "xPercent": "73.9369%",
+        "yPercent": "63.2317%"
+      },
+      {
+        "name": "Foil Rockodile",
+        "xPercent": "64.1882%",
+        "yPercent": "4.90931%"
+      },
+      {
+        "name": "Bunaken",
+        "xPercent": "68.3353%",
+        "yPercent": "12.3571%"
+      },
+      {
+        "name": "Pangoleaf",
+        "xPercent": "26.472%",
+        "yPercent": "29.5545%"
+      },
+      {
+        "name": "Foil Liquifien",
+        "xPercent": "79.968%",
+        "yPercent": "43.3474%"
+      },
+      {
+        "name": "Pyras",
+        "xPercent": "34.277%",
+        "yPercent": "28.8631%"
+      },
+      {
+        "name": "Squawcat",
+        "xPercent": "50.6304%",
+        "yPercent": "53.7096%"
+      },
+      {
+        "name": "Dark Bubbles",
+        "xPercent": "73.0538%",
+        "yPercent": "32.5004%"
+      },
+      {
+        "name": "Dark Bubbles",
+        "xPercent": "71.6432%",
+        "yPercent": "33.6813%"
+      },
+      {
+        "name": "Dark Bubbles",
+        "xPercent": "69.3966%",
+        "yPercent": "30.568%"
+      },
+      {
+        "name": "Liquifien",
+        "xPercent": "82.0806%",
+        "yPercent": "43.6975%"
+      },
+      {
+        "name": "Liquifien",
+        "xPercent": "78.2984%",
+        "yPercent": "39.3566%"
+      },
+      {
+        "name": "Zhakor",
+        "xPercent": "98.3338%",
+        "yPercent": "35.8558%"
+      },
+      {
+        "name": "Foil Pangoleaf",
+        "xPercent": "47.7341%",
+        "yPercent": "40.6868%"
+      },
+      {
+        "name": "Kawanko",
+        "xPercent": "37.7504%",
+        "yPercent": "44.4677%"
+      },
+      {
+        "name": "Casanova",
+        "xPercent": "89.202%",
+        "yPercent": "45.0978%"
+      },
+      {
+        "name": "Agnuf",
+        "xPercent": "63.0673%",
+        "yPercent": "54.4098%"
+      },
+      {
+        "name": "Agnuf",
+        "xPercent": "61.534%",
+        "yPercent": "87.3868%"
+      },
+      {
+        "name": "Piskie",
+        "xPercent": "26.3016%",
+        "yPercent": "54.5498%"
+      },
+      {
+        "name": "Padma",
+        "xPercent": "54.2422%",
+        "yPercent": "85.7065%"
+      },
+      {
+        "name": "Aguapogo",
+        "xPercent": "53.5782%",
+        "yPercent": "6.01178%"
+      },
+      {
+        "name": "Light Lavarilla",
+        "xPercent": "58.7341%",
+        "yPercent": "28.5569%"
+      }
+    ],
+    "name": "Miscrian Jungle map",
+    "url": "https://api.miscritcompanion.com/api/maps/jungle.webp",
+    "width": 3000
+  },
+  {
+    "height": 3230,
+    "markers": [
+      {
+        "name": "Pinplar",
+        "xPercent": "29.7269%",
+        "yPercent": "66.0705%"
+      },
+      {
+        "name": "Niboro",
+        "xPercent": "31.0056%",
+        "yPercent": "52.8017%"
+      },
+      {
+        "name": "Lithos",
+        "xPercent": "63.5497%",
+        "yPercent": "8.22862%"
+      },
+      {
+        "name": "Pyrex",
+        "xPercent": "78.8113%",
+        "yPercent": "48.5505%"
+      },
+      {
+        "name": "Smolderfry",
+        "xPercent": "48.082%",
+        "yPercent": "36.8275%"
+      },
+      {
+        "name": "Voidotron",
+        "xPercent": "12.931%",
+        "yPercent": "93.3635%"
+      },
+      {
+        "name": "Eclipso",
+        "xPercent": "42.8161%",
+        "yPercent": "81.2476%"
+      },
+      {
+        "name": "Bunplop",
+        "xPercent": "28.1183%",
+        "yPercent": "52.0287%"
+      },
+      {
+        "name": "Gravitron",
+        "xPercent": "76.8726%",
+        "yPercent": "26.1029%"
+      },
+      {
+        "name": "Liothning",
+        "xPercent": "42.5961%",
+        "yPercent": "18.0514%"
+      },
+      {
+        "name": "Beelzebug",
+        "xPercent": "34.5529%",
+        "yPercent": "4.78258%"
+      },
+      {
+        "name": "Beateorite",
+        "xPercent": "48.3295%",
+        "yPercent": "24.8791%"
+      }
+    ],
+    "name": "Moon map",
+    "url": "https://api.miscritcompanion.com/api/maps/moon.png",
+    "width": 2522
+  },
+  {
+    "height": 2490,
+    "markers": [
+      {
+        "name": "Woolaboo",
+        "xPercent": "27.388%",
+        "yPercent": "29.338%"
+      },
+      {
+        "name": "Light Weevern",
+        "xPercent": "44.336%",
+        "yPercent": "75.4063%"
+      },
+      {
+        "name": "Patrik",
+        "xPercent": "9.6395%",
+        "yPercent": "14.7196%"
+      },
+      {
+        "name": "Sheldon",
+        "xPercent": "20.3975%",
+        "yPercent": "42.3591%"
+      },
+      {
+        "name": "Amphibunny",
+        "xPercent": "65.4246%",
+        "yPercent": "45.1059%"
+      },
+      {
+        "name": "Quackers",
+        "xPercent": "61.633%",
+        "yPercent": "31.2338%"
+      },
+      {
+        "name": "Elkenhoof",
+        "xPercent": "87.8313%",
+        "yPercent": "53.6896%"
+      },
+      {
+        "name": "Light Crabbles",
+        "xPercent": "19.5141%",
+        "yPercent": "71.338%"
+      },
+      {
+        "name": "Harerazor",
+        "xPercent": "70.0446%",
+        "yPercent": "59.9499%"
+      },
+      {
+        "name": "Toothy",
+        "xPercent": "7.9338%",
+        "yPercent": "40.7241%"
+      },
+      {
+        "name": "Glaucos",
+        "xPercent": "5.7671%",
+        "yPercent": "65.2735%"
+      },
+      {
+        "name": "Spookah",
+        "xPercent": "32.8457%",
+        "yPercent": "70.8772%"
+      }
+    ],
+    "name": "Emerald Isle map",
+    "url": "https://api.miscritcompanion.com/api/maps/emerald_isle.webp",
+    "width": 3000
+  },
+  {
+    "height": 1893,
+    "markers": [
+      {
+        "name": "Pujin",
+        "xPercent": "43.6464%",
+        "yPercent": "21.522%"
+      },
+      {
+        "name": "Wisper",
+        "xPercent": "56.392%",
+        "yPercent": "52.5616%"
+      },
+      {
+        "name": "Kukoatl",
+        "xPercent": "67.6612%",
+        "yPercent": "8.83592%"
+      },
+      {
+        "name": "Magixio",
+        "xPercent": "27.2482%",
+        "yPercent": "84.3106%"
+      },
+      {
+        "name": "Dark Bloombat",
+        "xPercent": "59.3764%",
+        "yPercent": "39.9746%"
+      },
+      {
+        "name": "Rocapez",
+        "xPercent": "60.496%",
+        "yPercent": "21.1672%"
+      },
+      {
+        "name": "Tzicatl",
+        "xPercent": "3.22996%",
+        "yPercent": "66.3227%"
+      },
+      {
+        "name": "Posy",
+        "xPercent": "33.028%",
+        "yPercent": "52.9498%"
+      },
+      {
+        "name": "Splender",
+        "xPercent": "26.2196%",
+        "yPercent": "64.6713%"
+      },
+      {
+        "name": "Azteko",
+        "xPercent": "81.8623%",
+        "yPercent": "79.4978%"
+      },
+      {
+        "name": "Dogu",
+        "xPercent": "75.2988%",
+        "yPercent": "55.4338%"
+      },
+      {
+        "name": "Blobroller",
+        "xPercent": "91.3646%",
+        "yPercent": "80.6621%"
+      },
+      {
+        "name": "Chico",
+        "xPercent": "66.0903%",
+        "yPercent": "74.2968%"
+      }
+    ],
+    "name": "Temple map",
+    "url": "https://api.miscritcompanion.com/api/maps/temple.webp",
+    "width": 3000
+  },
+  {
+    "height": 3000,
+    "markers": [
+      {
+        "name": "Griffix",
+        "xPercent": "44.5372%",
+        "yPercent": "70.8446%"
+      },
+      {
+        "name": "Foil Opigum",
+        "xPercent": "29.8313%",
+        "yPercent": "75.2472%"
+      },
+      {
+        "name": "Dark Equestrion",
+        "xPercent": "8.3026%",
+        "yPercent": "48.2627%"
+      },
+      {
+        "name": "Foil Pollifog",
+        "xPercent": "79.4809%",
+        "yPercent": "45.6571%"
+      },
+      {
+        "name": "Jynku",
+        "xPercent": "62.1934%",
+        "yPercent": "10.4065%"
+      },
+      {
+        "name": "Electrak",
+        "xPercent": "76.0234%",
+        "yPercent": "18.3131%"
+      },
+      {
+        "name": "Dark Gog",
+        "xPercent": "80.1263%",
+        "yPercent": "31.461%"
+      },
+      {
+        "name": "Yelen",
+        "xPercent": "36.8385%",
+        "yPercent": "79.5599%"
+      }
+    ],
+    "name": "Monks Mountain map",
+    "url": "https://api.miscritcompanion.com/api/maps/monks_mountain.webp",
+    "width": 1949
+  }
+]

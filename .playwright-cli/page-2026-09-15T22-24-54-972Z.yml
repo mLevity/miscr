@@ -1,0 +1,224 @@
+- generic [ref=f2e2]:
+  - link "К содержимому" [ref=f2e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - link "Miscrits Энциклопедия" [ref=f2e6] [cursor=pointer]:
+        - /url: /
+      - navigation "Основная навигация" [ref=f2e7]:
+        - link "Мискриты" [ref=f2e8] [cursor=pointer]:
+          - /url: /
+        - link "Карта мира" [ref=f2e11] [cursor=pointer]:
+          - /url: /map
+        - link "Моя коллекция" [ref=f2e14] [cursor=pointer]:
+          - /url: /collection
+        - link "Инструменты" [ref=f2e17] [cursor=pointer]:
+          - /url: /tools
+      - link "Данные на устройстве" [ref=f2e20] [cursor=pointer]:
+        - /url: /settings
+  - main [ref=f2e23]:
+    - generic [ref=f2e766]:
+      - link "← К каталогу" [ref=f2e767] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f2e768]:
+        - generic [ref=f2e769]:
+          - paragraph [ref=f2e770]: Семейство мискритов
+          - heading "Flue" [level=1] [ref=f2e771]
+          - generic [ref=f2e772]: Огонь
+          - paragraph [ref=f2e774]: Обычный
+        - generic [ref=f2e775]:
+          - generic [ref=f2e776]:
+            - button "Пойман?" [ref=f2e777] [cursor=pointer]
+            - button "Добавить Flue в избранное" [ref=f2e779] [cursor=pointer]
+          - link "Рассчитать урон" [ref=f2e781] [cursor=pointer]:
+            - /url: /tools/damage?attacker=miscrit%3A1
+          - link "Ребонус" [ref=f2e783] [cursor=pointer]:
+            - /url: /tools/rebonus?family=miscrit%3A1
+      - generic [ref=f2e784]:
+        - generic [ref=f2e785]:
+          - img "Afterburn" [ref=f2e787]
+          - group "Эволюции" [ref=f2e788]:
+            - button "1. Flue" [ref=f2e789] [cursor=pointer]
+            - button "2. Chimnay" [ref=f2e790] [cursor=pointer]
+            - button "3. Firebrawl" [ref=f2e791] [cursor=pointer]
+            - button "4. Afterburn" [ref=f2e792] [cursor=pointer]
+          - generic [ref=f2e793]:
+            - strong [ref=f2e794]: Формы в коллекции
+            - generic [ref=f2e795]:
+              - button "Flue" [ref=f2e796] [cursor=pointer]
+              - button "Chimnay" [ref=f2e797] [cursor=pointer]
+              - button "Firebrawl" [ref=f2e798] [cursor=pointer]
+              - button "Afterburn" [ref=f2e799] [cursor=pointer]
+        - generic [ref=f2e800]:
+          - generic [ref=f2e801]:
+            - heading "Базовые характеристики" [level=2] [ref=f2e802]
+            - paragraph [ref=f2e803]: Рейтинг вида по шкале 1–5, не статы личного экземпляра.
+            - generic [ref=f2e804]:
+              - generic [ref=f2e805]:
+                - generic [ref=f2e806]: HP
+                - strong [ref=f2e807]: Strong · 3/5
+              - generic [ref=f2e810]:
+                - generic [ref=f2e811]: SPD
+                - strong [ref=f2e812]: Weak · 1/5
+              - generic [ref=f2e815]:
+                - generic [ref=f2e816]: EA
+                - strong [ref=f2e817]: Weak · 1/5
+              - generic [ref=f2e820]:
+                - generic [ref=f2e821]: PA
+                - strong [ref=f2e822]: Max · 4/5
+              - generic [ref=f2e825]:
+                - generic [ref=f2e826]: ED
+                - strong [ref=f2e827]: Strong · 3/5
+              - generic [ref=f2e830]:
+                - generic [ref=f2e831]: PD
+                - strong [ref=f2e832]: Strong · 3/5
+          - generic [ref=f2e835]:
+            - generic [ref=f2e836]:
+              - heading "Навыки" [level=2] [ref=f2e837]
+              - generic [ref=f2e838]:
+                - checkbox "Зачарование" [ref=f2e839]
+                - text: Зачарование
+            - table [ref=f2e841]:
+              - rowgroup [ref=f2e842]:
+                - row [ref=f2e843]:
+                  - columnheader "Ур." [ref=f2e844]
+                  - columnheader "Навык" [ref=f2e845]
+                  - columnheader "Тип / стихия" [ref=f2e846]
+                  - columnheader "AP" [ref=f2e847]
+                  - columnheader "Точность" [ref=f2e848]
+                  - columnheader "Удары" [ref=f2e849]
+              - rowgroup [ref=f2e850]:
+                - row [ref=f2e851]:
+                  - cell "1" [ref=f2e852]
+                  - cell [ref=f2e853]:
+                    - strong [ref=f2e854]: Burn
+                    - group [ref=f2e855]:
+                      - generic "Эффекты и описание" [ref=f2e856] [cursor=pointer]
+                  - cell "attack · fire" [ref=f2e857]
+                  - cell "7" [ref=f2e858]
+                  - cell "не указана" [ref=f2e859]
+                  - cell "1" [ref=f2e860]
+                - row [ref=f2e861]:
+                  - cell "1" [ref=f2e862]
+                  - cell [ref=f2e863]:
+                    - strong [ref=f2e864]: Power Up
+                    - group [ref=f2e865]:
+                      - generic "Эффекты и описание" [ref=f2e866] [cursor=pointer]
+                  - cell "buff · misc" [ref=f2e867]
+                  - cell "5" [ref=f2e868]
+                  - cell "не указана" [ref=f2e869]
+                  - cell "1" [ref=f2e870]
+                - row [ref=f2e871]:
+                  - cell "4" [ref=f2e872]
+                  - cell [ref=f2e873]:
+                    - strong [ref=f2e874]: Smack
+                    - group [ref=f2e875]:
+                      - generic "Эффекты и описание" [ref=f2e876] [cursor=pointer]
+                  - cell "attack · physical" [ref=f2e877]
+                  - cell "7" [ref=f2e878]
+                  - cell "не указана" [ref=f2e879]
+                  - cell "1" [ref=f2e880]
+                - row [ref=f2e881]:
+                  - cell "7" [ref=f2e882]
+                  - cell [ref=f2e883]:
+                    - strong [ref=f2e884]: Confuse
+                    - group [ref=f2e885]:
+                      - generic "Эффекты и описание" [ref=f2e886] [cursor=pointer]
+                  - cell "confuse · misc" [ref=f2e887]
+                  - cell "—" [ref=f2e888]
+                  - cell "40%" [ref=f2e889]
+                  - cell "1" [ref=f2e890]
+                - row [ref=f2e891]:
+                  - cell "10" [ref=f2e892]
+                  - cell [ref=f2e893]:
+                    - strong [ref=f2e894]: Fire Flight
+                    - group [ref=f2e895]:
+                      - generic "Эффекты и описание" [ref=f2e896] [cursor=pointer]
+                  - cell "attack · fire" [ref=f2e897]
+                  - cell "10" [ref=f2e898]
+                  - cell "не указана" [ref=f2e899]
+                  - cell "1" [ref=f2e900]
+                - row [ref=f2e901]:
+                  - cell "13" [ref=f2e902]
+                  - cell [ref=f2e903]:
+                    - strong [ref=f2e904]: Tickle
+                    - group [ref=f2e905]:
+                      - generic "Эффекты и описание" [ref=f2e906] [cursor=pointer]
+                  - cell "debuff · misc" [ref=f2e907]
+                  - cell "-8" [ref=f2e908]
+                  - cell "не указана" [ref=f2e909]
+                  - cell "1" [ref=f2e910]
+                - row [ref=f2e911]:
+                  - cell "16" [ref=f2e912]
+                  - cell [ref=f2e913]:
+                    - strong [ref=f2e914]: Bash
+                    - group [ref=f2e915]:
+                      - generic "Эффекты и описание" [ref=f2e916] [cursor=pointer]
+                  - cell "attack · physical" [ref=f2e917]
+                  - cell "15" [ref=f2e918]
+                  - cell "95%" [ref=f2e919]
+                  - cell "1" [ref=f2e920]
+                - row [ref=f2e921]:
+                  - cell "19" [ref=f2e922]
+                  - cell [ref=f2e923]:
+                    - strong [ref=f2e924]: Campfire
+                    - group [ref=f2e925]:
+                      - generic "Эффекты и описание" [ref=f2e926] [cursor=pointer]
+                  - cell "attack · fire" [ref=f2e927]
+                  - cell "15" [ref=f2e928]
+                  - cell "95%" [ref=f2e929]
+                  - cell "1" [ref=f2e930]
+                - row [ref=f2e931]:
+                  - cell "22" [ref=f2e932]
+                  - cell [ref=f2e933]:
+                    - strong [ref=f2e934]: Debilitate
+                    - group [ref=f2e935]:
+                      - generic "Эффекты и описание" [ref=f2e936] [cursor=pointer]
+                  - cell "debuff · misc" [ref=f2e937]
+                  - cell "-11" [ref=f2e938]
+                  - cell "не указана" [ref=f2e939]
+                  - cell "1" [ref=f2e940]
+                - row [ref=f2e941]:
+                  - cell "25" [ref=f2e942]
+                  - cell [ref=f2e943]:
+                    - strong [ref=f2e944]: Brimstone
+                    - group [ref=f2e945]:
+                      - generic "Эффекты и описание" [ref=f2e946] [cursor=pointer]
+                  - cell "attack · fire" [ref=f2e947]
+                  - cell "20" [ref=f2e948]
+                  - cell "95%" [ref=f2e949]
+                  - cell "1" [ref=f2e950]
+                - row [ref=f2e951]:
+                  - cell "28" [ref=f2e952]
+                  - cell [ref=f2e953]:
+                    - strong [ref=f2e954]: Bastion
+                    - group [ref=f2e955]:
+                      - generic "Эффекты и описание" [ref=f2e956] [cursor=pointer]
+                  - cell "buff · misc" [ref=f2e957]
+                  - cell "11" [ref=f2e958]
+                  - cell "не указана" [ref=f2e959]
+                  - cell "1" [ref=f2e960]
+                - row [ref=f2e961]:
+                  - cell "30" [ref=f2e962]
+                  - cell [ref=f2e963]:
+                    - strong [ref=f2e964]: Mighty Bash
+                    - group [ref=f2e965]:
+                      - generic "Эффекты и описание" [ref=f2e966] [cursor=pointer]
+                  - cell "attack · physical" [ref=f2e967]
+                  - cell "27" [ref=f2e968]
+                  - cell "не указана" [ref=f2e969]
+                  - cell "1" [ref=f2e970]
+          - generic [ref=f2e971]:
+            - heading "Где найти" [level=2] [ref=f2e972]
+            - article [ref=f2e974]:
+              - strong [ref=f2e975]: Forest
+              - generic [ref=f2e976]: Azore Lake · Дикая природа
+              - generic [ref=f2e977]: "Дни UTC: Пн, Вт, Ср, Чт, Пт, Сб, Вс"
+              - generic [ref=f2e978]: Известна зона; точная точка не указана
+          - generic [ref=f2e979]:
+            - heading "Игровые коллекции" [level=2] [ref=f2e980]
+            - list [ref=f2e981]:
+              - listitem [ref=f2e982]:
+                - link "The Original Three" [ref=f2e983] [cursor=pointer]:
+                  - /url: /collection?set=collection%3A001
+                - text: · Forest
