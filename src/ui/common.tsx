@@ -22,26 +22,48 @@ export const rarityNames: Record<string, string> = {
 };
 export const dayNames = ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"];
 export const rankNames = ["", "Weak", "Moderate", "Strong", "Max", "Elite"];
+const navIcons: Record<string, string[]> = {
+  book: [
+    "M12 7v14",
+    "M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z",
+  ],
+  map: [
+    "M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z",
+    "M15 5.76v15",
+    "M9 3.24v15",
+  ],
+  collection: [
+    "M4 10a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z",
+    "M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2",
+    "M8 21v-5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v5",
+    "M8 10h8",
+  ],
+  tools: [
+    "M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z",
+  ],
+  download: [
+    "M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v3H3Z",
+    "M21 10v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7",
+    "M7 15h.01M17 15h.01",
+  ],
+};
 export function Icon({ name }: { name: string }) {
-  const paths: Record<string, string> = {
-    book: "M4 4h6l2 2 2-2h6v15h-6l-2 2-2-2H4V4zm8 2v15M7 8h2m6 0h2M7 12h2m6 0h2",
-    map: "m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3V6zm6-3v15m6-12v15",
-    collection: "M4 4h6v6H4V4zm10 0h6v6h-6V4zM4 14h6v6H4v-6zm13 0v6m-3-3h6",
-    tools: "m14 4 3 3 4-3a6 6 0 0 1-8 8l-8 8-3-3 8-8a6 6 0 0 1 4-5z",
-  };
-  if (paths[name])
+  const paths = navIcons[name];
+  if (paths)
     return (
       <svg
         className="icon nav-icon"
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
-        strokeWidth="1.7"
+        strokeWidth="1.85"
         strokeLinecap="round"
         strokeLinejoin="round"
         aria-hidden="true"
       >
-        <path d={paths[name]} />
+        {paths.map((d) => (
+          <path key={d} d={d} />
+        ))}
       </svg>
     );
   return (
