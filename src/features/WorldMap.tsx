@@ -488,15 +488,18 @@ function MapStage({
         const y = event.clientY - rect.top;
         const worldX = (x - current.panX) / current.scale;
         const worldY = (y - current.panY) / current.scale;
+        const edge = 80;
         const w = current.baseW * scale;
         const h = current.baseH * scale;
-        const minX = Math.min(24, box.clientWidth - w - 24);
-        const minY = Math.min(24, box.clientHeight - h - 24);
+        const minX = edge - w;
+        const maxX = box.clientWidth - edge;
+        const minY = edge - h;
+        const maxY = box.clientHeight - edge;
         return {
           ...current,
           scale,
-          panX: Math.min(24, Math.max(minX, x - worldX * scale)),
-          panY: Math.min(24, Math.max(minY, y - worldY * scale)),
+          panX: Math.min(maxX, Math.max(minX, x - worldX * scale)),
+          panY: Math.min(maxY, Math.max(minY, y - worldY * scale)),
         };
       });
     };
@@ -515,13 +518,12 @@ function MapStage({
   ) => {
     const box = viewport.current;
     if (!box) return { panX, panY };
+    const edge = 80;
     const w = baseW * scale;
     const h = baseH * scale;
-    const minX = Math.min(24, box.clientWidth - w - 24);
-    const minY = Math.min(24, box.clientHeight - h - 24);
     return {
-      panX: Math.min(24, Math.max(minX, panX)),
-      panY: Math.min(24, Math.max(minY, panY)),
+      panX: Math.min(box.clientWidth - edge, Math.max(edge - w, panX)),
+      panY: Math.min(box.clientHeight - edge, Math.max(edge - h, panY)),
     };
   };
   const zoomAt = (clientX: number, clientY: number, nextScale: number) => {
@@ -653,48 +655,49 @@ function MapStage({
               height={map.height}
               draggable={false}
             />
-            {markers.map((marker, index) => {
-              const family = familyById.get(marker.familyId);
-              const avatar = familyAvatar(family);
-              const twins = markers.filter(
-                (item) =>
-                  Math.abs(item.x - marker.x) < 0.004 &&
-                  Math.abs(item.y - marker.y) < 0.004,
-              );
-              const offset = twins.findIndex((item) => item.id === marker.id);
-              const shift = twins.length > 1 ? (offset - (twins.length - 1) / 2) * 10 : 0;
-              const rarity = family?.rarity || "common";
-              return (
-                <button
-                  key={marker.id}
-                  type="button"
-                  className={`map-pin rarity-${rarity} ${selected === marker.familyId ? "selected" : ""}`}
-                  style={{
-                    left: `${marker.x * 100}%`,
-                    top: `${marker.y * 100}%`,
-                    zIndex: selected === marker.familyId ? 20 : 2 + index,
-                    transform: `translate(calc(-50% + ${shift}px), -100%) scale(${1 / view.scale})`,
-                  }}
-                  aria-label={`${family?.name || marker.familyId}, точка на карте`}
-                  title={family?.name}
-                  onClick={(event) => {
-                    event.stopPropagation();
-                    onSelect(marker.familyId);
-                  }}
-                  onPointerDown={(event) => event.stopPropagation()}
-                >
-                  <span className="marker-icon">
-                    {avatar ? (
-                      <img src={avatar} alt="" className="marker-avatar" />
-                    ) : (
-                      <span className="map-pin-fallback" />
-                    )}
-                  </span>
-                  <span className="marker-pointer" />
-                </button>
-              );
-            })}
           </div>
+          {markers.map((marker, index) => {
+            const family = familyById.get(marker.familyId);
+            const avatar = familyAvatar(family);
+            const twins = markers.filter(
+              (item) =>
+                Math.abs(item.x - marker.x) < 0.004 &&
+                Math.abs(item.y - marker.y) < 0.004,
+            );
+            const offset = twins.findIndex((item) => item.id === marker.id);
+            const shift = twins.length > 1 ? (offset - (twins.length - 1) / 2) * 10 : 0;
+            const rarity = family?.rarity || "common";
+            const left = view.panX + marker.x * view.baseW * view.scale + shift;
+            const top = view.panY + marker.y * view.baseH * view.scale;
+            return (
+              <button
+                key={marker.id}
+                type="button"
+                className={`map-pin rarity-${rarity} ${selected === marker.familyId ? "selected" : ""}`}
+                style={{
+                  left,
+                  top,
+                  zIndex: selected === marker.familyId ? 20 : 2 + index,
+                }}
+                aria-label={`${family?.name || marker.familyId}, точка на карте`}
+                title={family?.name}
+                onClick={(event) => {
+                  event.stopPropagation();
+                  onSelect(marker.familyId);
+                }}
+                onPointerDown={(event) => event.stopPropagation()}
+              >
+                <span className="marker-icon">
+                  {avatar ? (
+                    <img src={avatar} alt="" className="marker-avatar" />
+                  ) : (
+                    <span className="map-pin-fallback" />
+                  )}
+                </span>
+                <span className="marker-pointer" />
+              </button>
+            );
+          })}
         </div>
       ) : (
         <div className="empty-state">Изображение карты не предоставлено</div>

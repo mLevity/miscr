@@ -112,16 +112,19 @@
 }
 .game-stat-bar {
   position: relative;
-  flex: 1;
-  height: 25px;
+  flex: 1 1 auto;
+  max-width: 268px;
+  height: 32px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  image-rendering: pixelated;
 }
 .game-stat-bar img {
   position: absolute;
   top: 0;
   width: 22.38806%;
   height: 100%;
+  image-rendering: pixelated;
 }
 .stat-number {
   color: #ddd5b4;

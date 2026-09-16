@@ -101,6 +101,8 @@
   border: 0;
   background: transparent;
   min-height: 0;
+  transform: translate(-50%, -100%);
+  transform-origin: 50% 100%;
   filter: drop-shadow(0 2px 3px #0008);
 }
 .marker-icon {
