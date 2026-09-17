@@ -126,12 +126,6 @@
   height: 100%;
   image-rendering: pixelated;
 }
-.stat-number {
-  color: #ddd5b4;
-  font-size: 12px;
-  width: 10px;
-  text-align: right;
-}
 .abilities-panel .section-heading {
   display: flex;
   flex-wrap: wrap;

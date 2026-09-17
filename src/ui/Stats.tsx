@@ -36,9 +36,6 @@ export function Stats({ ranks }: { ranks: Family["baseRanks"] }) {
               />
             ))}
           </div>
-          <span className="stat-number" aria-hidden="true">
-            {ranks[key]}
-          </span>
         </div>
       ))}
     </div>
