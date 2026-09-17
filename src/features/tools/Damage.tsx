@@ -1,5 +1,6 @@
 import { Select, Checkbox } from '../../ui/controls';
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { Link, useSearchParams } from "react-router-dom";
 import {
   catalogRepository,
@@ -53,6 +54,146 @@ const relics = relicData as {
   image: string;
 }[];
 const slots = [10, 20, 30, 35];
+const colorOrder: Color[] = ["green", "white", "red"];
+function nextColor(current: Color): Color {
+  return colorOrder[(colorOrder.indexOf(current) + 1) % colorOrder.length];
+}
+function RelicMods({ mods }: { mods: Partial<Stats> }) {
+  const items = KEYS.filter((key) => mods[key]);
+  if (!items.length) return null;
+  return (
+    <span className="relic-mods">
+      {items.map((key) => (
+        <span
+          key={key}
+          className={`relic-mod ${(mods[key] || 0) < 0 ? "neg" : "pos"}`}
+        >
+          {key.toUpperCase()} {(mods[key] || 0) > 0 ? "+" : ""}
+          {mods[key]}
+        </span>
+      ))}
+    </span>
+  );
+}
+function RelicPicker({
+  label,
+  value,
+  disabled,
+  options,
+  onChange,
+}: {
+  label: string;
+  value: string;
+  disabled?: boolean;
+  options: typeof relics;
+  onChange: (id: string) => void;
+}) {
+  const [open, setOpen] = useState(false);
+  const wrap = useRef<HTMLDivElement>(null);
+  const button = useRef<HTMLButtonElement>(null);
+  const list = useRef<HTMLDivElement>(null);
+  const [pos, setPos] = useState({ left: 0, top: 0, width: 360 });
+  const selected = options.find((item) => item.id === value);
+  useEffect(() => {
+    if (!open || !button.current) return;
+    const box = button.current.getBoundingClientRect();
+    const width = Math.min(380, Math.max(280, window.innerWidth - 24));
+    const left = Math.min(Math.max(12, box.left), window.innerWidth - width - 12);
+    const below = box.bottom + 8;
+    const height = Math.min(420, window.innerHeight - 24);
+    const top =
+      below + height < window.innerHeight - 12
+        ? below
+        : Math.max(12, box.top - height - 8);
+    setPos({ left, top, width });
+    const close = (event: PointerEvent) => {
+      if (
+        !wrap.current?.contains(event.target as Node) &&
+        !list.current?.contains(event.target as Node)
+      )
+        setOpen(false);
+    };
+    document.addEventListener("pointerdown", close);
+    return () => document.removeEventListener("pointerdown", close);
+  }, [open]);
+  return (
+    <div className="relic-picker" ref={wrap}>
+      <span className="relic-slot-label">{label}</span>
+      <button
+        ref={button}
+        type="button"
+        className={`relic-trigger ${open ? "open" : ""} ${selected ? "filled" : ""}`}
+        disabled={disabled}
+        aria-expanded={open}
+        onClick={() => setOpen((current) => !current)}
+      >
+        {selected ? (
+          <img src={`/${selected.image}`} alt="" />
+        ) : (
+          <span className="relic-empty-icon" aria-hidden="true">
+            +
+          </span>
+        )}
+        <span className="relic-trigger-copy">
+          <strong>{selected ? selected.name : "Пустой слот"}</strong>
+          {selected ? (
+            <RelicMods mods={selected.statModifiers} />
+          ) : (
+            <em>Выбрать реликвию</em>
+          )}
+        </span>
+      </button>
+      {open &&
+        createPortal(
+          <div
+            ref={list}
+            className="relic-menu"
+            role="listbox"
+            aria-label={label}
+            style={{ left: pos.left, top: pos.top, width: pos.width }}
+          >
+            <button
+              type="button"
+              role="option"
+              className={`relic-option empty ${value === "" ? "active" : ""}`}
+              onClick={() => {
+                onChange("");
+                setOpen(false);
+              }}
+            >
+              <span className="relic-empty-icon">–</span>
+              <span className="relic-option-copy">
+                <strong>Без реликвии</strong>
+                <em>Слот свободен</em>
+              </span>
+            </button>
+            {options.map((item) => (
+              <button
+                type="button"
+                role="option"
+                key={item.id}
+                className={`relic-option ${item.id === value ? "active" : ""}`}
+                onClick={() => {
+                  onChange(item.id);
+                  setOpen(false);
+                }}
+              >
+                <img src={`/${item.image}`} alt="" />
+                <span className="relic-option-copy">
+                  <strong>{item.name}</strong>
+                  <RelicMods mods={item.statModifiers} />
+                  {item.specialEffectsText[0] && (
+                    <em className="relic-special">{item.specialEffectsText[0]}</em>
+                  )}
+                </span>
+              </button>
+            ))}
+          </div>,
+          document.body,
+        )}
+    </div>
+  );
+}
 const makeBuild = (id: string): Build => ({
   familyId: familyById.has(id) ? id : "miscrit:1",
   level: 35,
@@ -175,28 +316,24 @@ function ProfileEditor({
       <div className="stat-rows">
         {KEYS.map((key) => (
           <div className="stat-row" key={key}>
-            <span className="stat-row-key">
+            <button
+              type="button"
+              className={`stat-row-key color-${build.colors[key]}`}
+              title={`${colorLabels.find((item) => item.id === build.colors[key])?.name}. Нажмите, чтобы сменить цвет`}
+              aria-label={`${title}: ${key} цвет ${build.colors[key]}`}
+              onClick={() =>
+                onChange({
+                  ...build,
+                  colors: {
+                    ...build.colors,
+                    [key]: nextColor(build.colors[key]),
+                  },
+                })
+              }
+            >
               <img src={`/assets/filters/stats/${key}.png`} alt="" />
               {key.toUpperCase()}
-            </span>
-            <div className="color-picks" role="group" aria-label={`${title}: ${key} цвет`}>
-              {colorLabels.map((color) => (
-                <button
-                  key={color.id}
-                  type="button"
-                  className={`color-pick ${color.id}`}
-                  aria-label={color.name}
-                  aria-pressed={build.colors[key] === color.id}
-                  title={color.name}
-                  onClick={() =>
-                    onChange({
-                      ...build,
-                      colors: { ...build.colors, [key]: color.id },
-                    })
-                  }
-                />
-              ))}
-            </div>
+            </button>
             <input
               aria-label={`${title}: ${key} бонус`}
               type="number"
@@ -218,39 +355,23 @@ function ProfileEditor({
         ))}
       </div>
       <div className="relic-slots">
-        {slots.map((slot, index) => {
-          const equipped = relics.find((item) => item.id === build.relicIds[index]);
-          return (
-            <label className="relic-slot" key={slot}>
-              Слот {slot}
-              <Select
-                disabled={build.level < slot || !Number.isFinite(build.level)}
-                value={build.relicIds[index]}
-                onChange={(event) =>
-                  onChange({
-                    ...build,
-                    relicIds: build.relicIds.map((id, i) =>
-                      i === index ? event.target.value : id,
-                    ),
-                  })
-                }
-              >
-                <option value="">Нет</option>
-                {relics
-                  .filter((item) => item.requiredSlotLevel === slot)
-                  .map((item) => (
-                    <option key={item.id} value={item.id}>
-                      {item.name}
-                    </option>
-                  ))}
-              </Select>
-              <span className="relic-preview">
-                {equipped && <img src={`/${equipped.image}`} alt="" />}
-                {equipped ? equipped.name : "Пусто"}
-              </span>
-            </label>
-          );
-        })}
+        {slots.map((slot, index) => (
+          <RelicPicker
+            key={slot}
+            label={`Слот ${slot}`}
+            disabled={build.level < slot || !Number.isFinite(build.level)}
+            value={build.relicIds[index]}
+            options={relics.filter((item) => item.requiredSlotLevel === slot)}
+            onChange={(id) =>
+              onChange({
+                ...build,
+                relicIds: build.relicIds.map((current, i) =>
+                  i === index ? id : current,
+                ),
+              })
+            }
+          />
+        ))}
       </div>
       <details className="manual-block">
         <summary>Ручные значения</summary>
