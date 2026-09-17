@@ -119,10 +119,6 @@ export default function Rebonus() {
     <div className="tool-page">
       <Link to="/tools">← Инструменты</Link>
       <h1>Симулятор ребонуса</h1>
-      <p className="muted">
-        Модель Rebonus Simulator · snapshot-2026-09-15. Соответствие игровому
-        серверу не подтверждено.
-      </p>
       <section className="content-panel">
         <label className="field-label">
           Мискрит
@@ -395,10 +391,8 @@ export default function Rebonus() {
                 ? "Ноль наблюдений не означает невозможность цели."
                 : `Оценка числа попыток до успеха: ${(1 / batch.interval.p).toFixed(1)}.`}
             </p>
-            <p className="muted">
-              Интервал оценивает погрешность выборки в этой модели, а не
-              достоверность игровой механики.
-            </p>
+
+
             <div className="tool-grid">
               {KEYS.map((key) => (
                 <details key={key}>

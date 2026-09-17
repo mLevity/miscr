@@ -22,10 +22,6 @@ export default function Collection() {
         <div>
           <p className="eyebrow">Личный прогресс</p>
           <h1>Моя коллекция</h1>
-          <p className="muted">
-            История поимки хранится в этом браузере. Она не означает наличие
-            экземпляра для сдачи.
-          </p>
           <Link to="/settings">Экспорт и импорт данных →</Link>
         </div>
         <div className="collection-progress">
@@ -92,10 +88,6 @@ export default function Collection() {
                 {reward.quantity} × {reward.name}
               </p>
             ))}
-            <p className="muted">
-              Сайт не выдаёт награды в игре. Факт поимки всех участников не
-              подтверждает возможность сдачи.
-            </p>
           </section>
         </div>
       ) : (
