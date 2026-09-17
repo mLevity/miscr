@@ -175,9 +175,15 @@
   object-fit: contain;
   transition: transform 0.15s;
 }
+.ability-tile:hover,
+.ability-tile:focus,
+.ability-tile:focus-visible {
+  outline: none;
+}
 .ability-tile:hover img {
   transform: scale(1.1);
 }
+.ability-tile:hover,
 .ability-tile[aria-expanded="true"] {
   border-color: #edce73;
   background: #353927;
@@ -195,6 +201,7 @@
   box-shadow: 0 16px 48px #000b;
   font-size: 12px;
   color: #e7e8d9;
+  pointer-events: none;
 }
 .ability-tooltip > strong {
   color: #f0d581;

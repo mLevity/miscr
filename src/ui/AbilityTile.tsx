@@ -30,19 +30,19 @@ export function AbilityTile({
       const box = button.current!.getBoundingClientRect();
       const width = Math.min(330, window.innerWidth - 24);
       const height = tooltip.current?.getBoundingClientRect().height || 250;
-      setPosition({
-        left: Math.max(
-          12,
-          Math.min(
-            box.left + box.width / 2 - width / 2,
-            window.innerWidth - width - 12,
-          ),
-        ),
-        top:
-          box.bottom + height + 12 < window.innerHeight
-            ? box.bottom + 8
-            : Math.max(12, box.top - height - 8),
-      });
+      const right = box.right + 10;
+      const leftSide = box.left - width - 10;
+      const left =
+        right + width <= window.innerWidth - 12
+          ? right
+          : leftSide >= 12
+            ? leftSide
+            : Math.max(12, Math.min(box.left, window.innerWidth - width - 12));
+      const top = Math.max(
+        12,
+        Math.min(box.top, window.innerHeight - height - 12),
+      );
+      setPosition({ left, top });
     };
     positionTip();
     const close = (event: KeyboardEvent) => {
@@ -121,8 +121,6 @@ export function AbilityTile({
             role="tooltip"
             className="ability-tooltip"
             style={position}
-            onMouseEnter={show}
-            onMouseLeave={hide}
           >
             <strong>{ability.name}</strong>
             <p>{ability.descriptionEn || "Описание не указано"}</p>
