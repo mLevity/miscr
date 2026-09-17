@@ -1,7 +1,7 @@
 import { statChunk } from "../ui/Stats";
 import { useMemo, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import { areas, families, locations } from "../data/static";
+import { families, locations } from "../data/static";
 import tags from "../data/generated/tags.json";
 import {
   defaultFilter,
@@ -278,24 +278,6 @@ export default function Catalog() {
             </Select>
           </label>
           <label>
-            Зона
-            <Select
-              value={filter.areas[0] || ""}
-              onChange={(e) =>
-                change({ areas: e.target.value ? [e.target.value] : [] })
-              }
-            >
-              <option value="">Все зоны</option>
-              {areas
-                .filter((a) => filter.locations.includes(a.locationId))
-                .map((a) => (
-                  <option value={a.id} key={a.id}>
-                    {a.name}
-                  </option>
-                ))}
-            </Select>
-          </label>
-          <label>
             Получение
             <Select
               value={filter.acquisition[0] || ""}
@@ -307,22 +289,6 @@ export default function Catalog() {
               <option value="wild">Дикая природа</option>
               <option value="shop">Магазин</option>
               <option value="unknown">Неизвестно</option>
-            </Select>
-          </label>
-          <label>
-            Вариант
-            <Select
-              value={filter.variant[0] || ""}
-              onChange={(e) =>
-                change({ variant: e.target.value ? [e.target.value] : [] })
-              }
-            >
-              <option value="">Все варианты</option>
-              {["base", "dark", "light", "blighted", "foil"].map((v) => (
-                <option key={v} value={v}>
-                  {v}
-                </option>
-              ))}
             </Select>
           </label>
           <button
