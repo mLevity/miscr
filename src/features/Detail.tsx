@@ -163,11 +163,6 @@ export default function Detail() {
                             .join(", ")
                         : "неизвестно"}
                     </span>
-                    <span>
-                      {spawn.precision === "point"
-                        ? "Точная точка на карте"
-                        : "Известна зона; точная точка не указана"}
-                    </span>
                     {spawn.markerIds.length > 0 && (
                       <Link
                         to={`/map?location=${encodeURIComponent(spawn.locationId)}&family=${encodeURIComponent(family.id)}`}

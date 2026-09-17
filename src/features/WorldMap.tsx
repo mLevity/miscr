@@ -38,12 +38,7 @@ function formatDays(weekdays: number[] | null | undefined) {
 }
 function spawnPlace(item: Spawn) {
   const area = item.areaId ? areaById.get(item.areaId)?.name : "";
-  const point = item.markerIds.length
-    ? item.markerIds.length === 1
-      ? "точка на карте"
-      : `${item.markerIds.length} точек`
-    : "без точной точки";
-  return [area || "Зона не указана", point, formatDays(item.schedule.weekdays)]
+  return [area || "Зона не указана", formatDays(item.schedule.weekdays)]
     .filter(Boolean)
     .join(" · ");
 }
