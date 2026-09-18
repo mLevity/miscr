@@ -18,7 +18,11 @@ export type Entry = {
   deletedAt: string | null;
 };
 export function capturesOf(
-  entry?: { everCaught?: boolean; captures?: CaptureQuality[] | null; deletedAt?: string | null } | null,
+  entry?: {
+    everCaught?: boolean;
+    captures?: Array<CaptureQuality | string> | null;
+    deletedAt?: string | null;
+  } | null,
 ): CaptureQuality[] {
   if (!entry || entry.deletedAt) return [];
   if (entry.captures?.length)
