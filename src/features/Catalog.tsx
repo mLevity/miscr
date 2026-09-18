@@ -41,7 +41,6 @@ export default function Catalog() {
       <div className="catalog-heading">
         <p className="eyebrow">Найди своего мискрита</p>
         <h1>Мискриты</h1>
-        <p className="muted">420 семейств · 1 680 эволюций · одна коллекция</p>
       </div>
       <div className="catalog-search-area">
         <label className="search-box">
@@ -217,12 +216,6 @@ export default function Catalog() {
             </button>
           ))}
         </div>
-        <p className="element-help">
-          {filter.elements.length
-            ? filter.elements.map((x) => elementNames[x] || x).join(" или ")
-            : "Выберите стихии"}{" "}
-          · сочетание по «ИЛИ»
-        </p>
       </div>
       <details className="extra-filters">
         <summary>Коллекция и места обитания</summary>

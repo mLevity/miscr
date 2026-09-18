@@ -194,8 +194,6 @@ export default function WorldMap() {
     setOpenCluster(null);
     writeParams({ family: id });
   };
-  const familiesCount = new Set(filtered.map((item) => item.familyId)).size;
-  const pointCount = filtered.filter((item) => item.markerIds.length).length;
   const selectedSpawns = filtered.filter((item) => item.familyId === selected);
   return (
     <div className="page map-page">
@@ -203,10 +201,6 @@ export default function WorldMap() {
         <div>
           <p className="eyebrow">Мир мискритов</p>
           <h1>Карта мира</h1>
-          <p className="muted">
-            {familiesCount} мискритов · {filtered.length} появлений ·{" "}
-            {pointCount} с точкой · расписание UTC
-          </p>
         </div>
       </div>
       <div className="map-filters">
