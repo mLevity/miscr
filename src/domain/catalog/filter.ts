@@ -36,6 +36,29 @@ export const elements = [
   "lightning",
   "wind",
 ];
+export const elementCombos = [
+  ...elements,
+  "firelightning",
+  "firewind",
+  "fireearth",
+  "waterlightning",
+  "waterwind",
+  "waterearth",
+  "naturelightning",
+  "naturewind",
+  "natureearth",
+];
+export function familyElementKey(items: string[]) {
+  if (!items.length) return "";
+  if (items.length === 1) return items[0];
+  const [a, b] = items;
+  const keys = [`${a}${b}`, `${b}${a}`, `${a}_${b}`, `${b}_${a}`];
+  return keys.find((key) => elementCombos.includes(key)) || `${a}${b}`;
+}
+export function matchesElementFilter(items: string[], selected: string[]) {
+  if (!selected.length) return true;
+  return selected.includes(familyElementKey(items));
+}
 export const rarities = ["common", "rare", "epic", "exotic", "legendary"];
 export const rankKeys = ["hp", "spd", "ea", "ed", "pa", "pd"] as const;
 export const variantsByFamily = new Map(
@@ -47,7 +70,7 @@ export const variantsByFamily = new Map(
 export const defaultFilter: CatalogFilter = {
   q: "",
   elements: [],
-  elementMode: "all",
+  elementMode: "any",
   rarity: [],
   tags: [],
   caught: "all",
@@ -129,12 +152,7 @@ export function filterFamilies(
   for (const family of items) {
     const match = searchMatch(family, filter.q);
     if (!match) continue;
-    if (filter.elements.length) {
-      const selected = filter.elements;
-      const actual = family.elements;
-      const ok = selected.every((value) => actual.includes(value));
-      if (!ok) continue;
-    }
+    if (!matchesElementFilter(family.elements, filter.elements)) continue;
     if (filter.rarity.length && !filter.rarity.includes(family.rarity))
       continue;
     if (filter.tags.some((tag) => !familyTags[family.id]?.includes(tag)))
@@ -223,8 +241,8 @@ export function readFilter(params: URLSearchParams): CatalogFilter {
   ];
   return {
     q: (params.get("q") || "").slice(0, 120),
-    elements: csv("elements", elements),
-    elementMode: "all",
+    elements: csv("elements", elementCombos),
+    elementMode: "any",
     rarity: csv("rarity", rarities).slice(0, 1),
     tags: csv(
       "tags",

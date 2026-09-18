@@ -18,6 +18,15 @@ export const elementNames: Record<string, string> = {
   lightning: "Молния",
   wind: "Ветер",
   physical: "Физический",
+  firelightning: "Огонь / Молния",
+  firewind: "Огонь / Ветер",
+  fireearth: "Огонь / Земля",
+  waterlightning: "Вода / Молния",
+  waterwind: "Вода / Ветер",
+  waterearth: "Вода / Земля",
+  naturelightning: "Природа / Молния",
+  naturewind: "Природа / Ветер",
+  natureearth: "Природа / Земля",
 };
 export const rarityNames: Record<string, string> = {
   common: "Обычный",

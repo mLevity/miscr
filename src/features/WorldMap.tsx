@@ -24,7 +24,13 @@ import { CatchActions, dayNames, elementNames, Icon } from "../ui/common";
 import { isCaught } from "../domain/collection/profile";
 import { assetsForFormId } from "../ui/assets";
 import { useProfile } from "../storage/profile";
-import { elements, normalize, rarities, searchMatch } from "../domain/catalog/filter";
+import {
+  elementCombos,
+  matchesElementFilter,
+  normalize,
+  rarities,
+  searchMatch,
+} from "../domain/catalog/filter";
 
 const todayUTC = () => ((new Date().getUTCDay() + 6) % 7) + 1;
 const worldLocations = locations.filter((item) => item.mapId);
@@ -92,8 +98,11 @@ export default function WorldMap() {
   const [caught, setCaught] = useState<"all" | "caught" | "missing">(
     (params.get("caught") as "all" | "caught" | "missing") || "all",
   );
-  const [elementFilter, setElementFilter] = useState(
-    params.get("element") || "",
+  const [elementFilter, setElementFilter] = useState<string[]>(() =>
+    (params.get("element") || "")
+      .split(",")
+      .map((item) => item.trim())
+      .filter((item) => elementCombos.includes(item)),
   );
   const [rarityFilter, setRarityFilter] = useState(params.get("rarity") || "");
   const [areaFilter, setAreaFilter] = useState(params.get("area") || "");
@@ -118,8 +127,7 @@ export default function WorldMap() {
       if (day !== null && !item.schedule.weekdays?.includes(day)) return false;
       const family = familyById.get(item.familyId);
       if (!family) return false;
-      if (elementFilter && !family.elements.includes(elementFilter))
-        return false;
+      if (!matchesElementFilter(family.elements, elementFilter)) return false;
       if (rarityFilter && family.rarity !== rarityFilter) return false;
       if (caught === "missing" && isCaught(entries[item.familyId]))
         return false;
@@ -152,7 +160,7 @@ export default function WorldMap() {
     area?: string;
     day?: number | null;
     caught?: string;
-    element?: string;
+    element?: string[];
     rarity?: string;
     q?: string;
   }) => {
@@ -168,7 +176,7 @@ export default function WorldMap() {
     const nextCaught = next.caught ?? caught;
     if (nextCaught !== "all") search.set("caught", nextCaught);
     const nextElement = next.element === undefined ? elementFilter : next.element;
-    if (nextElement) search.set("element", nextElement);
+    if (nextElement.length) search.set("element", nextElement.join(","));
     const nextRarity = next.rarity === undefined ? rarityFilter : next.rarity;
     if (nextRarity) search.set("rarity", nextRarity);
     const nextQuery = next.q === undefined ? query : next.q;
@@ -316,18 +324,23 @@ export default function WorldMap() {
               {rarity}
             </button>
           ))}
-          {elements.map((element) => (
+          {elementCombos.map((element) => (
             <button
               key={element}
               type="button"
-              className={`map-chip ${elementFilter === element ? "active" : ""}`}
+              className={`map-chip map-chip-element ${elementFilter.includes(element) ? "active" : ""}`}
+              title={elementNames[element] || element}
+              aria-pressed={elementFilter.includes(element)}
               onClick={() => {
-                const next = elementFilter === element ? "" : element;
+                const next = elementFilter.includes(element)
+                  ? elementFilter.filter((item) => item !== element)
+                  : [...elementFilter, element];
                 setElementFilter(next);
                 writeParams({ element: next });
               }}
             >
-              {elementNames[element]}
+              <img src={`/assets/filters/elements/${element}.png`} alt="" />
+              {elementNames[element] || element}
             </button>
           ))}
         </div>

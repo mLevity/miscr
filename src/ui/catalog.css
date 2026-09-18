@@ -260,7 +260,8 @@
 .element-filters {
   display: flex;
   justify-content: center;
-  gap: 13px;
+  flex-wrap: wrap;
+  gap: 8px;
   margin-top: 22px;
 }
 .element-toggle {

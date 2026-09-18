@@ -5,7 +5,7 @@ import { families, locations } from "../data/static";
 import tags from "../data/generated/tags.json";
 import {
   defaultFilter,
-  elements,
+  elementCombos,
   filterFamilies,
   rankKeys,
   rarities,
@@ -200,15 +200,15 @@ export default function Catalog() {
         <div
           className="element-filters"
           role="group"
-          aria-label="Стихии: все выбранные одновременно"
+          aria-label="Стихии: любая из выбранных"
         >
-          {elements.map((value) => (
+          {elementCombos.map((value) => (
             <button
               key={value}
-              className={`element-toggle ${filter.elements.includes(value) ? "selected" : ""}`}
-              aria-label={elementNames[value]}
+              className={`element-toggle ${value.includes("/") || value.length > 10 ? "dual" : ""} ${filter.elements.includes(value) ? "selected" : ""}`}
+              aria-label={elementNames[value] || value}
               aria-pressed={filter.elements.includes(value)}
-              title={elementNames[value]}
+              title={elementNames[value] || value}
               onClick={() =>
                 change({ elements: toggle(filter.elements, value) })
               }
@@ -219,9 +219,9 @@ export default function Catalog() {
         </div>
         <p className="element-help">
           {filter.elements.length
-            ? filter.elements.map((x) => elementNames[x]).join(" + ")
+            ? filter.elements.map((x) => elementNames[x] || x).join(" или ")
             : "Выберите стихии"}{" "}
-          · сочетание по «И»
+          · сочетание по «ИЛИ»
         </p>
       </div>
       <details className="extra-filters">

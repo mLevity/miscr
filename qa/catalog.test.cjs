@@ -17,13 +17,15 @@ const families = require("../data/miscrits.json");
 const familyTags = require("../src/data/generated/family-tags.json");
 const { abilityTags } = require("../tools/build_tags.cjs");
 
-test("fire + lightning requires both, including old any-mode links", () => {
+test("element chips are OR across exact types including duals", () => {
   const filter = readFilter(
-    new URLSearchParams("elements=fire,lightning&elementMode=any"),
+    new URLSearchParams("elements=fire,firelightning"),
   );
   const result = filterFamilies(families, filter, {});
   const expected = families.filter(
-    (f) => f.elements.includes("fire") && f.elements.includes("lightning"),
+    (f) =>
+      (f.elements.length === 1 && f.elements[0] === "fire") ||
+      (f.elements.includes("fire") && f.elements.includes("lightning")),
   );
   assert.ok(expected.length > 0);
   assert.equal(result.length, expected.length);

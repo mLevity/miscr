@@ -108,6 +108,16 @@
   color: #d9d3bf;
   border: 1px solid #625737;
 }
+.map-chip-element {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.map-chip-element img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
 .map-chip.active,
 .map-chip[aria-pressed="true"] {
   background: #3a3824;
