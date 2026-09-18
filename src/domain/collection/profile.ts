@@ -39,6 +39,11 @@ export type Claim = {
   rewardClaimed: boolean;
   updatedAt: string;
 };
+export const blankClaim = (collectionId: string): Claim => ({
+  collectionId,
+  rewardClaimed: false,
+  updatedAt: new Date().toISOString(),
+});
 export type Preset = {
   id: string;
   familyId: string;

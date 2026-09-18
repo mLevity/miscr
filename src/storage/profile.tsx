@@ -9,20 +9,24 @@ import { families, forms, collections } from "../data/static";
 import relics from "../data/generated/relics.json";
 import {
   prepareImport,
+  blankClaim,
   blankEntry,
+  type Claim,
   type Entry,
   type Snapshot,
   type Preview,
   type ExportProfile,
 } from "../domain/collection/profile";
-import { commitImport, makeExport, patchEntry, readSnapshot } from "./database";
+import { commitImport, makeExport, patchClaim, patchEntry, readSnapshot } from "./database";
 export type { Entry } from "../domain/collection/profile";
 type State = {
   entries: Record<string, Entry>;
+  claims: Record<string, Claim>;
   status: "loading" | "ready" | "memory";
   error: string | null;
   quarantineCount: number;
   patch: (id: string, change: Partial<Entry>) => Promise<void>;
+  toggleQuest: (id: string) => Promise<void>;
   exportProfile: () => Promise<void>;
   previewImport: (file: File) => Promise<Preview>;
   applyImport: (
@@ -101,6 +105,37 @@ export function ProfileProvider({ children }: { children: ReactNode }) {
       const channel = new BroadcastChannel("miscrits-local-profile");
       channel.postMessage("updated");
       channel.close();
+    }
+  };
+  const toggleQuest = async (id: string) => {
+    if (!references.collections.has(id)) {
+      setError("Неизвестная коллекция");
+      return;
+    }
+    const current = snapshot.claims.find((item) => item.collectionId === id);
+    const next = {
+      ...(current ?? blankClaim(id)),
+      collectionId: id,
+      rewardClaimed: !current?.rewardClaimed,
+      updatedAt: new Date().toISOString(),
+    };
+    try {
+      if (status === "memory") {
+        setSnapshot((previous) => ({
+          ...previous,
+          claims: [
+            ...previous.claims.filter((item) => item.collectionId !== id),
+            next,
+          ],
+        }));
+        return;
+      }
+      await patchClaim(id, { rewardClaimed: next.rewardClaimed });
+      setSnapshot(await readSnapshot());
+      announce();
+      setError(null);
+    } catch {
+      setError("Не удалось сохранить отметку квеста.");
     }
   };
   const patch = async (id: string, change: Partial<Entry>) => {
@@ -185,6 +220,10 @@ export function ProfileProvider({ children }: { children: ReactNode }) {
         entries: Object.fromEntries(
           snapshot.entries.map((entry) => [entry.familyId, entry]),
         ),
+        claims: Object.fromEntries(
+          snapshot.claims.map((claim) => [claim.collectionId, claim]),
+        ),
+        toggleQuest,
         status,
         error,
         quarantineCount: snapshot.quarantine.length,

@@ -1,6 +1,8 @@
 import {
+  blankClaim,
   blankEntry,
   mergeEntry,
+  type Claim,
   type Entry,
   type Snapshot,
   type Preview,
@@ -94,6 +96,34 @@ function bumpRevision(tx: IDBTransaction) {
     tx
       .objectStore("settings")
       .put({ id: "revision", value: (request.result?.value ?? 0) + 1 });
+}
+export async function patchClaim(
+  id: string,
+  change: Partial<Claim>,
+): Promise<void> {
+  const db = await openDatabase();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(
+      ["collectionClaims", "profiles", "settings"],
+      "readwrite",
+    );
+    const store = tx.objectStore("collectionClaims");
+    const request = store.get(id);
+    request.onsuccess = () => {
+      const old: Claim = request.result ?? blankClaim(id);
+      store.put({
+        ...old,
+        ...change,
+        collectionId: id,
+        updatedAt: new Date().toISOString(),
+      });
+    };
+    ensureProfile(tx);
+    bumpRevision(tx);
+    tx.oncomplete = () => resolve();
+    tx.onerror = () => reject(tx.error);
+    tx.onabort = () => reject(tx.error);
+  });
 }
 export async function patchEntry(
   id: string,

@@ -180,15 +180,12 @@ export default function Detail() {
             )}
           </section>
           <section className="content-panel">
-            <h2>Игровые коллекции</h2>
+            <h2>Коллекционер</h2>
             {sets.length ? (
               <ul className="plain-list">
                 {sets.map((set) => (
                   <li key={set.id}>
-                    <Link to={`/collection?set=${encodeURIComponent(set.id)}`}>
-                      {set.name}
-                    </Link>{" "}
-                    · {set.sourceGroup}
+                    <Link to="/collection">{set.name}</Link> · {set.sourceGroup}
                   </li>
                 ))}
               </ul>

@@ -473,6 +473,53 @@ button:disabled {
     font-size: 13px;
   }
 }
+.quest-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px;
+  background: #1c1e17;
+  border: 1px solid #625737;
+  border-radius: 12px;
+}
+.quest-card.done {
+  border-color: #7aa35a;
+  background: #1a2216;
+}
+.quest-card-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: flex-start;
+}
+.quest-card-top span {
+  display: block;
+  color: #b7b29e;
+  font-size: 13px;
+}
+.quest-toggle {
+  min-height: 36px;
+  padding: 6px 10px;
+  white-space: nowrap;
+}
+.quest-toggle.is-done {
+  border-color: #8fe08a;
+  color: #8fe08a;
+}
+.quest-faces {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.quest-faces img,
+.quest-face-empty {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #14150f;
+  border: 1px solid #3d3f32;
+}
 @media (prefers-reduced-motion: reduce) {
   * {
     animation: none !important;
