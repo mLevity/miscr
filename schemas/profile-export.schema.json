@@ -49,6 +49,14 @@
           "everCaught": {
             "type": "boolean"
           },
+          "captures": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["any", "splus", "rs"]
+            },
+            "maxItems": 2
+          },
           "obtainedFormIds": {
             "type": "array",
             "items": {

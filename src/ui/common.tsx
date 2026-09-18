@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { type Family, formById } from "../data/static";
+import {
+  captureLabels,
+  captureQualities,
+  capturesOf,
+  type CaptureQuality,
+} from "../domain/collection/profile";
 import { useProfile } from "../storage/profile";
 import { assetsForName, assetManifest } from "./assets";
 
@@ -149,13 +155,9 @@ export function CatchActions({
   const { entries, patch } = useProfile();
   const [busy, setBusy] = useState(false);
   const entry = entries[family.id];
-  const caught = !!entry?.everCaught;
+  const slots = capturesOf(entry);
   const favorite = !!entry?.favorite;
-  const update = async (change: {
-    everCaught?: boolean;
-    favorite?: boolean;
-    obtainedFormIds?: string[];
-  }) => {
+  const update = async (change: Parameters<typeof patch>[1]) => {
     setBusy(true);
     try {
       await patch(family.id, change);
@@ -163,27 +165,49 @@ export function CatchActions({
       setBusy(false);
     }
   };
+  const saveSlots = (next: CaptureQuality[]) => {
+    const captures = next.slice(0, 2);
+    update({
+      captures,
+      everCaught: captures.length > 0,
+      obtainedFormIds:
+        captures.length && formId
+          ? Array.from(new Set([...(entry?.obtainedFormIds || []), formId]))
+          : entry?.obtainedFormIds || [],
+    });
+  };
+  const setSlot = (index: number, quality: CaptureQuality) => {
+    const next = [...slots];
+    if (next[index] === quality) next.splice(index, 1);
+    else next[index] = quality;
+    saveSlots(next);
+  };
   return (
     <div className="catch-actions">
-      <button
-        type="button"
-        disabled={busy}
-        className={`catch-button ${caught ? "is-caught" : ""}`}
-        onClick={() =>
-          update({
-            everCaught: !caught,
-            obtainedFormIds:
-              !caught && formId
-                ? Array.from(
-                    new Set([...(entry?.obtainedFormIds || []), formId]),
-                  )
-                : entry?.obtainedFormIds || [],
-          })
-        }
-      >
-        <Icon name="check" />
-        {caught ? "Пойман" : "Пойман?"}
-      </button>
+      <div className="capture-board" aria-label={`Поимки ${family.name}`}>
+        {[0, 1].map((index) => {
+          const locked = index === 1 && slots.length === 0;
+          return (
+            <div
+              key={index}
+              className={`capture-slot ${locked ? "locked" : ""}`}
+            >
+              {captureQualities.map((quality) => (
+                <button
+                  key={quality}
+                  type="button"
+                  disabled={busy || locked}
+                  aria-pressed={slots[index] === quality}
+                  className={`capture-chip quality-${quality}`}
+                  onClick={() => setSlot(index, quality)}
+                >
+                  {captureLabels[quality]}
+                </button>
+              ))}
+            </div>
+          );
+        })}
+      </div>
       <button
         type="button"
         className={`icon-button ${favorite ? "is-favorite" : ""}`}

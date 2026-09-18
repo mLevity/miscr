@@ -1,6 +1,14 @@
+export type CaptureQuality = "any" | "splus" | "rs";
+export const captureLabels: Record<CaptureQuality, string> = {
+  any: "Любая",
+  splus: "S+",
+  rs: "RS",
+};
+export const captureQualities: CaptureQuality[] = ["any", "splus", "rs"];
 export type Entry = {
   familyId: string;
   everCaught: boolean;
+  captures: CaptureQuality[];
   obtainedFormIds: string[];
   currentOwnedCount: number | null;
   favorite: boolean;
@@ -9,6 +17,23 @@ export type Entry = {
   localRevision: number;
   deletedAt: string | null;
 };
+export function capturesOf(
+  entry?: { everCaught?: boolean; captures?: CaptureQuality[] | null; deletedAt?: string | null } | null,
+): CaptureQuality[] {
+  if (!entry || entry.deletedAt) return [];
+  if (entry.captures?.length)
+    return entry.captures
+      .filter((item): item is CaptureQuality =>
+        captureQualities.includes(item as CaptureQuality),
+      )
+      .slice(0, 2);
+  return entry.everCaught ? ["any"] : [];
+}
+export function isCaught(
+  entry?: { everCaught?: boolean; captures?: CaptureQuality[] | null; deletedAt?: string | null } | null,
+) {
+  return capturesOf(entry).length > 0;
+}
 export type Claim = {
   collectionId: string;
   rewardClaimed: boolean;
@@ -63,6 +88,7 @@ export type Preview = {
 export const blankEntry = (familyId: string): Entry => ({
   familyId,
   everCaught: false,
+  captures: [],
   obtainedFormIds: [],
   currentOwnedCount: null,
   favorite: false,
@@ -87,6 +113,9 @@ export function mergeEntry(
   return {
     ...winner,
     everCaught: local.everCaught || incoming.everCaught,
+    captures: Array.from(
+      new Set([...capturesOf(local), ...capturesOf(incoming)]),
+    ).slice(0, 2),
     favorite: local.favorite || incoming.favorite,
     obtainedFormIds: Array.from(
       new Set([...local.obtainedFormIds, ...incoming.obtainedFormIds]),

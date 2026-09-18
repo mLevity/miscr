@@ -9,6 +9,7 @@ import {
 } from "../../data/static";
 import familyTagsRaw from "../../data/generated/family-tags.json";
 import tags from "../../data/generated/tags.json";
+import { isCaught } from "../collection/profile";
 const familyTags: Record<string, string[]> = familyTagsRaw;
 
 export type CatalogFilter = {
@@ -119,7 +120,7 @@ export function matchingSpawn(spawn: Spawn, filter: CatalogFilter): boolean {
 export function filterFamilies(
   items: Family[],
   filter: CatalogFilter,
-  entries: Record<string, { everCaught?: boolean; favorite?: boolean }>,
+  entries: Record<string, { everCaught?: boolean; favorite?: boolean; captures?: string[] }>,
 ): {
   family: Family;
   match: { score: number; formName?: string; formId?: string };
@@ -138,8 +139,8 @@ export function filterFamilies(
       continue;
     if (filter.tags.some((tag) => !familyTags[family.id]?.includes(tag)))
       continue;
-    if (filter.caught === "caught" && !entries[family.id]?.everCaught) continue;
-    if (filter.caught === "missing" && entries[family.id]?.everCaught) continue;
+    if (filter.caught === "caught" && !isCaught(entries[family.id])) continue;
+    if (filter.caught === "missing" && isCaught(entries[family.id])) continue;
     if (filter.favorite && !entries[family.id]?.favorite) continue;
     if (
       filter.variant.length &&

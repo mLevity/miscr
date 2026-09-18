@@ -1,15 +1,16 @@
 import { useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { collections, familyById, formById, families } from "../data/static";
+import { isCaught } from "../domain/collection/profile";
 import { useProfile } from "../storage/profile";
-import { Art, FamilyCard } from "../ui/common";
+import { Art, CatchActions, FamilyCard } from "../ui/common";
 export default function Collection() {
-  const { entries, patch } = useProfile();
+  const { entries } = useProfile();
   const [params] = useSearchParams();
   const [search, setSearch] = useState("");
   const [visible, setVisible] = useState(24);
   const caught = families
-    .filter((f) => entries[f.id]?.everCaught && !entries[f.id]?.deletedAt)
+    .filter((f) => isCaught(entries[f.id]))
     .sort((a, b) =>
       (entries[b.id]?.updatedAt || "").localeCompare(
         entries[a.id]?.updatedAt || "",
@@ -41,7 +42,7 @@ export default function Collection() {
           <p>
             {
               activeSet.requirements.filter(
-                (req) => entries[req.familyId]?.everCaught,
+                (req) => isCaught(entries[req.familyId]),
               ).length
             }{" "}
             / {activeSet.requirements.length} семейств поймано ·{" "}
@@ -54,7 +55,7 @@ export default function Collection() {
                 return (
                   <p key={index}>Неизвестный участник: {req.sourceName}</p>
                 );
-              const obtained = !!entries[family.id]?.everCaught;
+              const obtained = isCaught(entries[family.id]);
               return (
                 <article
                   className={`requirement ${obtained ? "caught" : ""}`}
@@ -71,12 +72,8 @@ export default function Collection() {
                         : "Любая форма"}{" "}
                       · требуется {req.quantity}
                     </span>
+                    <CatchActions family={family} />
                   </div>
-                  <button
-                    onClick={() => patch(family.id, { everCaught: !obtained })}
-                  >
-                    {obtained ? "✓ Пойман" : "Пойман?"}
-                  </button>
                 </article>
               );
             })}
@@ -138,7 +135,7 @@ export default function Collection() {
                 )
                 .map((c) => {
                   const complete = c.requirements.filter(
-                    (req) => entries[req.familyId]?.everCaught,
+                    (req) => isCaught(entries[req.familyId]),
                   ).length;
                   return (
                     <Link

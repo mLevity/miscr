@@ -20,7 +20,8 @@ import {
   type Marker,
   type Spawn,
 } from "../data/static";
-import { dayNames, elementNames, Icon } from "../ui/common";
+import { CatchActions, dayNames, elementNames, Icon } from "../ui/common";
+import { isCaught } from "../domain/collection/profile";
 import { assetsForFormId } from "../ui/assets";
 import { useProfile } from "../storage/profile";
 import { elements, normalize, rarities, searchMatch } from "../domain/catalog/filter";
@@ -120,9 +121,9 @@ export default function WorldMap() {
       if (elementFilter && !family.elements.includes(elementFilter))
         return false;
       if (rarityFilter && family.rarity !== rarityFilter) return false;
-      if (caught === "missing" && entries[item.familyId]?.everCaught)
+      if (caught === "missing" && isCaught(entries[item.familyId]))
         return false;
-      if (caught === "caught" && !entries[item.familyId]?.everCaught)
+      if (caught === "caught" && !isCaught(entries[item.familyId]))
         return false;
       if (needle && !searchMatch(family, query)) return false;
       return true;
@@ -374,18 +375,7 @@ export default function WorldMap() {
                               <small>{spawnPlace(item)}</small>
                             </span>
                           </button>
-                          <button
-                            className="small-catch"
-                            onClick={() =>
-                              patch(family.id, {
-                                everCaught: !entries[family.id]?.everCaught,
-                              })
-                            }
-                          >
-                            {entries[family.id]?.everCaught
-                              ? "✓ Пойман"
-                              : "Пойман?"}
-                          </button>
+                          <CatchActions family={family} />
                           <Link
                             to={`/miscrits/${family.slug}`}
                             aria-label={`Карточка ${family.name}`}
@@ -740,13 +730,7 @@ function MapStage({
                 ? `${selectedCount} точек на этой карте`
                 : "Место появления в этой локации не указано"}
           </span>
-          <label className="checkbox-line">
-            <Checkbox
-              checked={!!caughtIds[selectedFamily.id]?.everCaught}
-              onChange={() => onCaught(selectedFamily.id)}
-            />
-            Пойман
-          </label>
+          <CatchActions family={selectedFamily} />
           <Link to={`/miscrits/${selectedFamily.slug}`}>Карточка →</Link>
         </div>
       )}
