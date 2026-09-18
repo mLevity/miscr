@@ -30,7 +30,11 @@ export function capturesOf(
   return entry.everCaught ? ["any"] : [];
 }
 export function isCaught(
-  entry?: { everCaught?: boolean; captures?: CaptureQuality[] | null; deletedAt?: string | null } | null,
+  entry?: {
+    everCaught?: boolean;
+    captures?: Array<CaptureQuality | string> | null;
+    deletedAt?: string | null;
+  } | null,
 ) {
   return capturesOf(entry).length > 0;
 }
