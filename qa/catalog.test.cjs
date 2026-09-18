@@ -81,7 +81,7 @@ test("tag derivation includes enchant effects and unifies spellings", () => {
       rawEffects: [{ type: "SwitchCurse" }],
       enchant: { additional: [{ type: "Heal" }, { type: "Buff", ap: -5 }] },
     }),
-    ["debuff", "heal", "switchcurse"],
+    ["heal", "switchcurse"],
   );
   assert.throws(
     () => abilityTags({ tags: ["new_unknown_effect"] }),

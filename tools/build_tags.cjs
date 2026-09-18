@@ -8,7 +8,9 @@ const definitions = {
   attack: ["Attack", "Атака", "physical"],
   heal: ["Heal", "Лечение", "heal"],
   buff: ["Buff", "Усиление", "buff"],
-  debuff: ["Debuff", "Ослабление", "debuff"],
+  accuracydebuff: ["Accuracy Debuff", "Понижение точности", "accuracy_debuff"],
+  attacklower: ["Attack Lower", "Понижение атаки", "debuff"],
+  defenselower: ["Defense Lower", "Понижение защиты", "debuff"],
   confuse: ["Confuse", "Замешательство", "confuse"],
   poison: ["Poison", "Яд", "poison"],
   negate: ["Negate", "Отмена эффекта", "negate"],
@@ -43,14 +45,26 @@ const normalize = (value) =>
   String(value)
     .toLowerCase()
     .replace(/[\s_-]/g, "");
+function statsTags(stats) {
+  const keys = new Set(stats || []);
+  const tags = [];
+  if (keys.has("acc")) tags.push("accuracydebuff");
+  if (keys.has("ea") || keys.has("pa")) tags.push("attacklower");
+  if (keys.has("ed") || keys.has("pd")) tags.push("defenselower");
+  return tags;
+}
 function abilityTags(ability) {
-  const tags = new Set((ability.tags || []).map(normalize));
+  const incoming = (ability.tags || []).map(normalize);
+  const tags = new Set(incoming.filter((tag) => tag !== "debuff"));
+  if (incoming.includes("debuff") || normalize(ability.kind || "") === "debuff")
+    for (const tag of statsTags(ability.affectedStats)) tags.add(normalize(tag));
   for (const effect of [
     ...(ability.rawEffects || []),
     ...(ability.enchant?.additional || []),
   ]) {
     const tag = normalize(effect.type);
-    tags.add(tag === "buff" && effect.ap < 0 ? "debuff" : tag);
+    if (tag === "buff" && effect.ap < 0) continue;
+    tags.add(tag);
   }
   if (ability.trueDamage) tags.add("truedamage");
   for (const tag of tags)
