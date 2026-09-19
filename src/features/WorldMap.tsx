@@ -519,6 +519,7 @@ function MapStage({
     moved: boolean;
   } | null>(null);
   const panned = useRef(false);
+  const [ready, setReady] = useState(false);
   const fit = () => {
     if (!map || !stage.current) return;
     const availW = Math.max(160, stage.current.clientWidth);
@@ -538,6 +539,10 @@ function MapStage({
     });
   };
   useEffect(() => {
+    setReady(false);
+  }, [map?.image]);
+  useEffect(() => {
+    if (!ready) return;
     fit();
     const host = stage.current;
     if (!host) return;
@@ -580,7 +585,7 @@ function MapStage({
       window.removeEventListener("resize", fit);
       viewport.current?.removeEventListener("wheel", wheel);
     };
-  }, [map?.image, map?.width, map?.height]);
+  }, [ready, map?.image, map?.width, map?.height]);
   const clampPan = (
     scale: number,
     panX: number,
@@ -714,9 +719,12 @@ function MapStage({
       </div>
       {map ? (
         <div
-          className="map-viewport"
+          className={`map-viewport ${ready ? "" : "is-loading"}`}
           ref={viewport}
-          style={{ width: view.baseW, height: view.baseH }}
+          style={{
+            width: view.baseW || "100%",
+            height: view.baseH || 520,
+          }}
           onPointerDown={onPointerDown}
           onPointerMove={onPointerMove}
           onPointerUp={onPointerUp}
@@ -737,7 +745,14 @@ function MapStage({
               width={map.width}
               height={map.height}
               draggable={false}
+              onLoad={() => setReady(true)}
+              onError={() => setReady(true)}
             />
+            {!ready && (
+              <div className="map-loading" aria-live="polite">
+                Загрузка
+              </div>
+            )}
           </div>
           {markers.map((marker, index) => {
             const family = familyById.get(marker.familyId);
