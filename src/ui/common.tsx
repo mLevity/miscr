@@ -1,12 +1,7 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { type Family, formById } from "../data/static";
-import {
-  captureLabels,
-  captureQualities,
-  capturesOf,
-  type CaptureQuality,
-} from "../domain/collection/profile";
+import { capturesOf, type CaptureQuality } from "../domain/collection/profile";
 import { useProfile } from "../storage/profile";
 import { assetsForName, assetManifest } from "./assets";
 
@@ -154,6 +149,11 @@ export function Elements({ items }: { items: string[] }) {
     </div>
   );
 }
+const qualityShort: Record<CaptureQuality, string> = {
+  splus: "S+",
+  rs: "RS",
+  any: "Др.",
+};
 export function CatchActions({
   family,
   formId,
@@ -163,9 +163,21 @@ export function CatchActions({
 }) {
   const { entries, patch } = useProfile();
   const [busy, setBusy] = useState(false);
+  const [open, setOpen] = useState<number | null>(null);
+  const board = useRef<HTMLDivElement>(null);
   const entry = entries[family.id];
   const slots = capturesOf(entry);
   const favorite = !!entry?.favorite;
+  const marks: Array<CaptureQuality | null> =
+    slots.length >= 2 ? slots : [...slots, null];
+  useEffect(() => {
+    if (open === null) return;
+    const close = (event: PointerEvent) => {
+      if (!board.current?.contains(event.target as Node)) setOpen(null);
+    };
+    document.addEventListener("pointerdown", close);
+    return () => document.removeEventListener("pointerdown", close);
+  }, [open]);
   const update = async (change: Parameters<typeof patch>[1]) => {
     setBusy(true);
     try {
@@ -189,33 +201,50 @@ export function CatchActions({
     const next = [...slots];
     if (next[index] === quality) next.splice(index, 1);
     else next[index] = quality;
-    saveSlots(next);
+    saveSlots(next.filter(Boolean));
+    setOpen(null);
   };
   return (
     <div className="catch-actions">
-      <div className="capture-board" aria-label={`Поимки ${family.name}`}>
-        {[0, 1].map((index) => {
-          const locked = index === 1 && slots.length === 0;
-          return (
-            <div
-              key={index}
-              className={`capture-slot ${locked ? "locked" : ""}`}
+      <div
+        ref={board}
+        className="capture-board"
+        aria-label={`Поимки ${family.name}`}
+      >
+        {marks.map((quality, index) => (
+          <div className="capture-mark-wrap" key={index}>
+            <button
+              type="button"
+              disabled={busy}
+              className={`capture-mark ${quality ? `quality-${quality}` : "empty"}`}
+              aria-haspopup="true"
+              aria-expanded={open === index}
+              aria-label={
+                quality
+                  ? `${family.name}: ${qualityShort[quality]}`
+                  : `Отметить поимку ${family.name}`
+              }
+              onClick={() => setOpen(open === index ? null : index)}
             >
-              {captureQualities.map((quality) => (
-                <button
-                  key={quality}
-                  type="button"
-                  disabled={busy || locked}
-                  aria-pressed={slots[index] === quality}
-                  className={`capture-chip quality-${quality}`}
-                  onClick={() => setSlot(index, quality)}
-                >
-                  {captureLabels[quality]}
-                </button>
-              ))}
-            </div>
-          );
-        })}
+              <Icon name="check" />
+            </button>
+            {open === index && (
+              <div className="capture-pop" role="menu">
+                {(["splus", "rs", "any"] as CaptureQuality[]).map((item) => (
+                  <button
+                    key={item}
+                    type="button"
+                    role="menuitem"
+                    className={`capture-pop-item quality-${item} ${quality === item ? "active" : ""}`}
+                    onClick={() => setSlot(index, item)}
+                  >
+                    {qualityShort[item]}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        ))}
       </div>
       <button
         type="button"
