@@ -164,6 +164,7 @@ export function CatchActions({
   const { entries, patch } = useProfile();
   const [busy, setBusy] = useState(false);
   const [open, setOpen] = useState<number | null>(null);
+  const [pop, setPop] = useState({ top: 0, left: 0 });
   const board = useRef<HTMLDivElement>(null);
   const entry = entries[family.id];
   const slots = capturesOf(entry);
@@ -224,12 +225,35 @@ export function CatchActions({
                   ? `${family.name}: ${qualityShort[quality]}`
                   : `Отметить поимку ${family.name}`
               }
-              onClick={() => setOpen(open === index ? null : index)}
+              onClick={(event) => {
+                if (open === index) {
+                  setOpen(null);
+                  return;
+                }
+                const box = event.currentTarget.getBoundingClientRect();
+                const width = 148;
+                const height = 40;
+                setPop({
+                  top:
+                    box.bottom + height + 8 > window.innerHeight
+                      ? box.top - height - 6
+                      : box.bottom + 6,
+                  left: Math.min(
+                    window.innerWidth - width - 8,
+                    Math.max(8, box.right - width),
+                  ),
+                });
+                setOpen(index);
+              }}
             >
               <Icon name="check" />
             </button>
             {open === index && (
-              <div className="capture-pop" role="menu">
+              <div
+                className="capture-pop"
+                role="menu"
+                style={{ top: pop.top, left: pop.left }}
+              >
                 {(["splus", "rs", "any"] as CaptureQuality[]).map((item) => (
                   <button
                     key={item}

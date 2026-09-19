@@ -79,10 +79,8 @@
   color: #2a2a22;
 }
 .capture-pop {
-  position: absolute;
-  z-index: 40;
-  top: calc(100% + 4px);
-  right: 0;
+  position: fixed;
+  z-index: 80;
   display: flex;
   gap: 4px;
   padding: 4px;
@@ -103,9 +101,8 @@
 .capture-pop-item.active {
   border-color: #f0cc58;
 }
-.map-result .capture-pop {
-  top: auto;
-  bottom: calc(100% + 4px);
+.family-card {
+  overflow: visible;
 }
 .map-result .catch-actions,
 .map-selected .catch-actions,
