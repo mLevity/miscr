@@ -230,6 +230,22 @@
 .map-viewport:active {
   cursor: grabbing;
 }
+.map-loading {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: grid;
+  place-items: center;
+  background: #10100de6;
+  color: #f0cc58;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 13px;
+  pointer-events: none;
+}
+.map-viewport.is-loading .map-image {
+  opacity: 0;
+}
 .map-world {
   position: absolute;
   left: 0;
