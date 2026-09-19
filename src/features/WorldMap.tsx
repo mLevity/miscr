@@ -20,7 +20,7 @@ import {
   type Marker,
   type Spawn,
 } from "../data/static";
-import { CatchActions, dayNames, elementNames, Icon } from "../ui/common";
+import { CatchActions, dayNames, elementNames, Icon, rarityNames } from "../ui/common";
 import { isCaught } from "../domain/collection/profile";
 import { assetsForFormId } from "../ui/assets";
 import { useProfile } from "../storage/profile";
@@ -89,12 +89,14 @@ function clusterMarkers(
 export default function WorldMap() {
   const [params, setParams] = useSearchParams();
   const [query, setQuery] = useState(params.get("q") || "");
-  const [day, setDay] = useState<number | null>(() => {
+  const [day, setDay] = useState<number | "always" | null>(() => {
     const raw = params.get("day");
-    if (raw === "all") return null;
+    if (raw === "any" || raw === "all") return null;
+    if (raw === "always") return "always";
     if (raw && Number(raw) >= 1 && Number(raw) <= 7) return Number(raw);
     return todayUTC();
   });
+  const [filtersOpen, setFiltersOpen] = useState(false);
   const [caught, setCaught] = useState<"all" | "caught" | "missing">(
     (params.get("caught") as "all" | "caught" | "missing") || "all",
   );
@@ -110,21 +112,31 @@ export default function WorldMap() {
   const [openCluster, setOpenCluster] = useState<string | null>(null);
   const [showList, setShowList] = useState(true);
   const { entries, patch } = useProfile();
-  const locationId = locationById.has(params.get("location") || "")
-    ? params.get("location")!
-    : "location:forest";
+  const rawLocation = params.get("location") || "";
+  const allLocations = rawLocation === "all";
+  const [mapFocus, setMapFocus] = useState("location:forest");
+  const locationId = locationById.has(rawLocation)
+    ? rawLocation
+    : allLocations
+      ? mapFocus
+      : "location:forest";
   const location = locationById.get(locationId)!;
   const map = maps.find((item) => item.locationId === locationId);
   const locationAreas = useMemo(
-    () => areas.filter((item) => item.locationId === locationId),
-    [locationId],
+    () =>
+      allLocations ? [] : areas.filter((item) => item.locationId === locationId),
+    [locationId, allLocations],
   );
   const filtered = useMemo(() => {
     const needle = normalize(query);
     return spawns.filter((item) => {
-      if (item.locationId !== locationId) return false;
+      if (!allLocations && item.locationId !== locationId) return false;
       if (areaFilter && item.areaId !== areaFilter) return false;
-      if (day !== null && !item.schedule.weekdays?.includes(day)) return false;
+      if (day === "always") {
+        if ([...new Set(item.schedule.weekdays || [])].length !== 7)
+          return false;
+      } else if (day !== null && !item.schedule.weekdays?.includes(day))
+        return false;
       const family = familyById.get(item.familyId);
       if (!family) return false;
       if (!matchesElementFilter(family.elements, elementFilter)) return false;
@@ -136,7 +148,7 @@ export default function WorldMap() {
       if (needle && !searchMatch(family, query)) return false;
       return true;
     });
-  }, [locationId, areaFilter, day, caught, elementFilter, rarityFilter, query, entries]);
+  }, [locationId, allLocations, areaFilter, day, caught, elementFilter, rarityFilter, query, entries]);
   const visibleMarkers = useMemo(
     () =>
       Array.from(new Set(filtered.flatMap((item) => item.markerIds)))
@@ -158,20 +170,24 @@ export default function WorldMap() {
     location?: string;
     family?: string;
     area?: string;
-    day?: number | null;
+    day?: number | "always" | null;
     caught?: string;
     element?: string[];
     rarity?: string;
     q?: string;
   }) => {
     const search = new URLSearchParams();
-    search.set("location", next.location ?? locationId);
+    search.set(
+      "location",
+      next.location ?? (allLocations ? "all" : locationId),
+    );
     const family = next.family ?? selected;
     if (family) search.set("family", family);
     const area = next.area ?? areaFilter;
     if (area) search.set("area", area);
     const nextDay = next.day === undefined ? day : next.day;
-    if (nextDay === null) search.set("day", "all");
+    if (nextDay === null) search.set("day", "any");
+    else if (nextDay === "always") search.set("day", "always");
     else if (nextDay) search.set("day", String(nextDay));
     const nextCaught = next.caught ?? caught;
     if (nextCaught !== "all") search.set("caught", nextCaught);
@@ -187,11 +203,13 @@ export default function WorldMap() {
     setSelected("");
     setAreaFilter("");
     setOpenCluster(null);
+    if (id !== "all") setMapFocus(id);
     writeParams({ location: id, family: "", area: "" });
   };
-  const selectFamily = (id: string) => {
+  const selectFamily = (id: string, spawnLocation?: string) => {
     setSelected(id);
     setOpenCluster(null);
+    if (allLocations && spawnLocation) setMapFocus(spawnLocation);
     writeParams({ family: id });
   };
   const selectedSpawns = filtered.filter((item) => item.familyId === selected);
@@ -204,145 +222,179 @@ export default function WorldMap() {
         </div>
       </div>
       <div className="map-filters">
-        <label className="search-box map-search">
-          <Icon name="search" />
-          <span className="sr-only">Поиск на карте</span>
-          <input
-            type="search"
-            placeholder="Имя мискрита"
-            value={query}
-            onChange={(event) => {
-              const value = event.target.value.slice(0, 120);
-              setQuery(value);
-              writeParams({ q: value });
-            }}
-          />
-        </label>
-        <div className="map-chip-row" role="listbox" aria-label="Локация">
-          {worldLocations.map((item) => (
-            <button
-              key={item.id}
-              type="button"
-              className={`map-chip ${item.id === locationId ? "active" : ""}`}
-              aria-pressed={item.id === locationId}
-              onClick={() => changeLocation(item.id)}
-            >
-              {item.name}
-            </button>
-          ))}
-        </div>
-        {locationAreas.length > 1 && (
-          <div className="map-chip-row" aria-label="Зона">
-            <button
-              type="button"
-              className={`map-chip ${areaFilter === "" ? "active" : ""}`}
-              onClick={() => {
-                setAreaFilter("");
-                writeParams({ area: "" });
+        <div className="map-filter-bar">
+          <label className="search-box map-search">
+            <Icon name="search" />
+            <span className="sr-only">Поиск на карте</span>
+            <input
+              type="search"
+              placeholder="Имя мискрита"
+              value={query}
+              onChange={(event) => {
+                const value = event.target.value.slice(0, 120);
+                setQuery(value);
+                writeParams({ q: value });
               }}
-            >
-              Все зоны
-            </button>
-            {locationAreas.map((item) => (
-              <button
-                key={item.id}
-                type="button"
-                className={`map-chip ${areaFilter === item.id ? "active" : ""}`}
-                onClick={() => {
-                  setAreaFilter(item.id);
-                  writeParams({ area: item.id });
-                }}
-              >
-                {item.name}
-              </button>
-            ))}
-          </div>
-        )}
-        <div className="map-chip-row" aria-label="День недели UTC">
+            />
+          </label>
           <button
             type="button"
-            className={`map-chip ${day === null ? "active" : ""}`}
-            onClick={() => {
-              setDay(null);
-              writeParams({ day: null });
-            }}
+            className={`map-filter-toggle ${filtersOpen ? "open" : ""}`}
+            aria-expanded={filtersOpen}
+            onClick={() => setFiltersOpen((open) => !open)}
           >
-            Все дни
+            Фильтры
           </button>
-          {dayNames.map((name, index) => (
-            <button
-              key={name}
-              type="button"
-              className={`map-chip ${day === index + 1 ? "active" : ""}`}
-              onClick={() => {
-                setDay(index + 1);
-                writeParams({ day: index + 1 });
-              }}
-            >
-              {name}
-              {index + 1 === todayUTC() ? " · сегодня" : ""}
-            </button>
-          ))}
         </div>
-        <div className="map-chip-row">
-          {(
-            [
-              ["all", "Все"],
-              ["missing", "Не пойманы"],
-              ["caught", "Пойманы"],
-            ] as const
-          ).map(([value, label]) => (
-            <button
-              key={value}
-              type="button"
-              className={`map-chip ${caught === value ? "active" : ""}`}
-              onClick={() => {
-                setCaught(value);
-                writeParams({ caught: value });
-              }}
-            >
-              {label}
-            </button>
-          ))}
-          {rarities.map((rarity) => (
-            <button
-              key={rarity}
-              type="button"
-              className={`map-chip rarity-${rarity} ${rarityFilter === rarity ? "active" : ""}`}
-              onClick={() => {
-                const next = rarityFilter === rarity ? "" : rarity;
-                setRarityFilter(next);
-                writeParams({ rarity: next });
-              }}
-            >
-              {rarity}
-            </button>
-          ))}
-          {elementCombos.map((element) => (
-            <button
-              key={element}
-              type="button"
-              className={`map-chip map-chip-element ${elementFilter.includes(element) ? "active" : ""}`}
-              title={elementNames[element] || element}
-              aria-pressed={elementFilter.includes(element)}
-              onClick={() => {
-                const next = elementFilter.includes(element)
-                  ? elementFilter.filter((item) => item !== element)
-                  : [...elementFilter, element];
-                setElementFilter(next);
-                writeParams({ element: next });
-              }}
-            >
-              <img src={`/assets/filters/elements/${element}.png`} alt="" />
-              {elementNames[element] || element}
-            </button>
-          ))}
-        </div>
+        {filtersOpen && (
+          <div className="map-filter-panel">
+            <div className="map-chip-row" role="listbox" aria-label="Локация">
+              <button
+                type="button"
+                className={`map-chip ${allLocations ? "active" : ""}`}
+                aria-pressed={allLocations}
+                onClick={() => changeLocation("all")}
+              >
+                Все локации
+              </button>
+              {worldLocations.map((item) => (
+                <button
+                  key={item.id}
+                  type="button"
+                  className={`map-chip ${!allLocations && item.id === locationId ? "active" : ""}`}
+                  aria-pressed={!allLocations && item.id === locationId}
+                  onClick={() => changeLocation(item.id)}
+                >
+                  {item.name}
+                </button>
+              ))}
+            </div>
+            {locationAreas.length > 1 && (
+              <div className="map-chip-row" aria-label="Зона">
+                <button
+                  type="button"
+                  className={`map-chip ${areaFilter === "" ? "active" : ""}`}
+                  onClick={() => {
+                    setAreaFilter("");
+                    writeParams({ area: "" });
+                  }}
+                >
+                  Все зоны
+                </button>
+                {locationAreas.map((item) => (
+                  <button
+                    key={item.id}
+                    type="button"
+                    className={`map-chip ${areaFilter === item.id ? "active" : ""}`}
+                    onClick={() => {
+                      setAreaFilter(item.id);
+                      writeParams({ area: item.id });
+                    }}
+                  >
+                    {item.name}
+                  </button>
+                ))}
+              </div>
+            )}
+            <div className="map-chip-row" aria-label="День недели UTC">
+              <button
+                type="button"
+                className={`map-chip ${day === null ? "active" : ""}`}
+                onClick={() => {
+                  setDay(null);
+                  writeParams({ day: null });
+                }}
+              >
+                Любой день
+              </button>
+              <button
+                type="button"
+                className={`map-chip ${day === "always" ? "active" : ""}`}
+                onClick={() => {
+                  setDay("always");
+                  writeParams({ day: "always" });
+                }}
+              >
+                Все дни
+              </button>
+              {dayNames.map((name, index) => (
+                <button
+                  key={name}
+                  type="button"
+                  className={`map-chip ${day === index + 1 ? "active" : ""}`}
+                  onClick={() => {
+                    setDay(index + 1);
+                    writeParams({ day: index + 1 });
+                  }}
+                >
+                  {name}
+                  {index + 1 === todayUTC() ? " · сегодня" : ""}
+                </button>
+              ))}
+            </div>
+            <div className="map-chip-row">
+              {(
+                [
+                  ["all", "Все"],
+                  ["missing", "Не пойманы"],
+                  ["caught", "Пойманы"],
+                ] as const
+              ).map(([value, label]) => (
+                <button
+                  key={value}
+                  type="button"
+                  className={`map-chip ${caught === value ? "active" : ""}`}
+                  onClick={() => {
+                    setCaught(value);
+                    writeParams({ caught: value });
+                  }}
+                >
+                  {label}
+                </button>
+              ))}
+              {rarities.map((rarity) => (
+                <button
+                  key={rarity}
+                  type="button"
+                  className={`map-chip rarity-${rarity} ${rarityFilter === rarity ? "active" : ""}`}
+                  onClick={() => {
+                    const next = rarityFilter === rarity ? "" : rarity;
+                    setRarityFilter(next);
+                    writeParams({ rarity: next });
+                  }}
+                >
+                  {rarityNames[rarity] || rarity}
+                </button>
+              ))}
+            </div>
+            <div className="map-chip-row" aria-label="Стихии">
+              {elementCombos.map((element) => (
+                <button
+                  key={element}
+                  type="button"
+                  className={`map-chip map-chip-element ${elementFilter.includes(element) ? "active" : ""}`}
+                  title={elementNames[element] || element}
+                  aria-label={elementNames[element] || element}
+                  aria-pressed={elementFilter.includes(element)}
+                  onClick={() => {
+                    const next = elementFilter.includes(element)
+                      ? elementFilter.filter((item) => item !== element)
+                      : [...elementFilter, element];
+                    setElementFilter(next);
+                    writeParams({ element: next });
+                  }}
+                >
+                  <img src={`/assets/filters/elements/${element}.png`} alt="" />
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
       <div className="map-workspace">
         <div className={`map-results ${showList ? "" : "collapsed"}`}>
           <div className="map-list-heading">
-            <h2>{location.name}</h2>
+            <h2>{allLocations ? "Все локации" : location.name}</h2>
             <button
               className="icon-button"
               aria-label={showList ? "Свернуть список" : "Открыть список"}
@@ -358,7 +410,16 @@ export default function WorldMap() {
               ) : (
                 Array.from(grouped.entries()).map(([areaId, items]) => (
                   <section key={areaId}>
-                    <h3>{areaById.get(areaId)?.name || "Зона не указана"}</h3>
+                    <h3>
+                      {allLocations
+                        ? [
+                            locationById.get(items[0]?.locationId || "")?.name,
+                            areaById.get(areaId)?.name,
+                          ]
+                            .filter(Boolean)
+                            .join(" · ") || "Зона не указана"
+                        : areaById.get(areaId)?.name || "Зона не указана"}
+                    </h3>
                     {items.map((item) => {
                       const family = familyById.get(item.familyId);
                       if (!family) return null;
@@ -370,7 +431,7 @@ export default function WorldMap() {
                         >
                           <button
                             className="map-result-name"
-                            onClick={() => selectFamily(family.id)}
+                            onClick={() => selectFamily(family.id, item.locationId)}
                           >
                             {avatar ? (
                               <img src={avatar} alt="" className="map-list-avatar" />
