@@ -7138,5 +7138,90 @@
       "method": "public-json",
       "gameVerified": false
     }
+  },
+  {
+    "familyId": "miscrit:751",
+    "ranks": {
+      "hp": 4,
+      "spd": 1,
+      "ea": 5,
+      "pa": 1,
+      "ed": 2,
+      "pd": 2
+    },
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "familyId": "miscrit:752",
+    "ranks": {
+      "hp": 4,
+      "spd": 1,
+      "ea": 3,
+      "pa": 4,
+      "ed": 2,
+      "pd": 2
+    },
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "familyId": "miscrit:753",
+    "ranks": {
+      "hp": 5,
+      "spd": 1,
+      "ea": 3,
+      "pa": 1,
+      "ed": 3,
+      "pd": 3
+    },
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "familyId": "miscrit:754",
+    "ranks": {
+      "hp": 3,
+      "spd": 2,
+      "ea": 4,
+      "pa": 3,
+      "ed": 3,
+      "pd": 2
+    },
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "familyId": "miscrit:755",
+    "ranks": {
+      "hp": 2,
+      "spd": 5,
+      "ea": 5,
+      "pa": 1,
+      "ed": 3,
+      "pd": 2
+    },
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
   }
 ]

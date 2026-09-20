@@ -35278,5 +35278,425 @@
     "order": 11,
     "unlockLevel": 30,
     "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:751",
+    "abilityId": "ability:241:52fad647d6",
+    "order": 0,
+    "unlockLevel": 1,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:751",
+    "abilityId": "ability:77:46ae2949f8",
+    "order": 1,
+    "unlockLevel": 1,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:751",
+    "abilityId": "ability:176:590302ac76",
+    "order": 2,
+    "unlockLevel": 4,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:751",
+    "abilityId": "ability:97:421107b638",
+    "order": 3,
+    "unlockLevel": 7,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:751",
+    "abilityId": "ability:1676:c565878b54",
+    "order": 4,
+    "unlockLevel": 10,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:751",
+    "abilityId": "ability:967:6f8fcf3159",
+    "order": 5,
+    "unlockLevel": 13,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:751",
+    "abilityId": "ability:336:b3d20a2bd0",
+    "order": 6,
+    "unlockLevel": 16,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:751",
+    "abilityId": "ability:48:362d2cb7f8",
+    "order": 7,
+    "unlockLevel": 19,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:751",
+    "abilityId": "ability:285:d1ace73c8a",
+    "order": 8,
+    "unlockLevel": 22,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:751",
+    "abilityId": "ability:1492:1b2da9d291",
+    "order": 9,
+    "unlockLevel": 25,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:751",
+    "abilityId": "ability:94:7bb6e127be",
+    "order": 10,
+    "unlockLevel": 28,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:751",
+    "abilityId": "ability:1677:de39a93973",
+    "order": 11,
+    "unlockLevel": 30,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:752",
+    "abilityId": "ability:97:421107b638",
+    "order": 0,
+    "unlockLevel": 1,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:752",
+    "abilityId": "ability:252:40d365bf5c",
+    "order": 1,
+    "unlockLevel": 1,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:752",
+    "abilityId": "ability:177:6ef2d98492",
+    "order": 2,
+    "unlockLevel": 4,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:752",
+    "abilityId": "ability:523:8f267b8744",
+    "order": 3,
+    "unlockLevel": 7,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:752",
+    "abilityId": "ability:1678:3017004f3b",
+    "order": 4,
+    "unlockLevel": 10,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:752",
+    "abilityId": "ability:16:028d6478b0",
+    "order": 5,
+    "unlockLevel": 13,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:752",
+    "abilityId": "ability:72:8569b3af48",
+    "order": 6,
+    "unlockLevel": 16,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:752",
+    "abilityId": "ability:257:7ec050eea8",
+    "order": 7,
+    "unlockLevel": 19,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:752",
+    "abilityId": "ability:51:32a6167f51",
+    "order": 8,
+    "unlockLevel": 22,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:752",
+    "abilityId": "ability:1679:cfaeff5e94",
+    "order": 9,
+    "unlockLevel": 25,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:752",
+    "abilityId": "ability:525:b95f32ec65",
+    "order": 10,
+    "unlockLevel": 28,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:752",
+    "abilityId": "ability:1680:c191f21703",
+    "order": 11,
+    "unlockLevel": 30,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:753",
+    "abilityId": "ability:247:dd2dbc4159",
+    "order": 0,
+    "unlockLevel": 1,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:753",
+    "abilityId": "ability:61:747460aa0f",
+    "order": 1,
+    "unlockLevel": 1,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:753",
+    "abilityId": "ability:177:6ef2d98492",
+    "order": 2,
+    "unlockLevel": 4,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:753",
+    "abilityId": "ability:2:089dca43df",
+    "order": 3,
+    "unlockLevel": 7,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:753",
+    "abilityId": "ability:1681:ed64e0fba0",
+    "order": 4,
+    "unlockLevel": 10,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:753",
+    "abilityId": "ability:182:8130b34d39",
+    "order": 5,
+    "unlockLevel": 13,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:753",
+    "abilityId": "ability:779:fded46ecdb",
+    "order": 6,
+    "unlockLevel": 16,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:753",
+    "abilityId": "ability:87:8c5e537952",
+    "order": 7,
+    "unlockLevel": 19,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:753",
+    "abilityId": "ability:293:2e49774335",
+    "order": 8,
+    "unlockLevel": 22,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:753",
+    "abilityId": "ability:235:6ce19aa3ac",
+    "order": 9,
+    "unlockLevel": 25,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:753",
+    "abilityId": "ability:1682:8c4e9aae94",
+    "order": 10,
+    "unlockLevel": 28,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:753",
+    "abilityId": "ability:1683:0274ef5e4a",
+    "order": 11,
+    "unlockLevel": 30,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:754",
+    "abilityId": "ability:241:52fad647d6",
+    "order": 0,
+    "unlockLevel": 1,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:754",
+    "abilityId": "ability:78:aedd61fd7c",
+    "order": 1,
+    "unlockLevel": 1,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:754",
+    "abilityId": "ability:53:d1ee20198a",
+    "order": 2,
+    "unlockLevel": 4,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:754",
+    "abilityId": "ability:61:747460aa0f",
+    "order": 3,
+    "unlockLevel": 7,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:754",
+    "abilityId": "ability:1684:86d621a7bb",
+    "order": 4,
+    "unlockLevel": 10,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:754",
+    "abilityId": "ability:81:ed46d3c204",
+    "order": 5,
+    "unlockLevel": 13,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:754",
+    "abilityId": "ability:187:a55f319f54",
+    "order": 6,
+    "unlockLevel": 16,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:754",
+    "abilityId": "ability:235:6ce19aa3ac",
+    "order": 7,
+    "unlockLevel": 19,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:754",
+    "abilityId": "ability:293:2e49774335",
+    "order": 8,
+    "unlockLevel": 22,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:754",
+    "abilityId": "ability:1253:384a60d51a",
+    "order": 9,
+    "unlockLevel": 25,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:754",
+    "abilityId": "ability:1685:d392e1b072",
+    "order": 10,
+    "unlockLevel": 28,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:754",
+    "abilityId": "ability:1686:6d3f292770",
+    "order": 11,
+    "unlockLevel": 30,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:755",
+    "abilityId": "ability:264:84058ba50f",
+    "order": 0,
+    "unlockLevel": 1,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:755",
+    "abilityId": "ability:78:aedd61fd7c",
+    "order": 1,
+    "unlockLevel": 1,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:755",
+    "abilityId": "ability:177:6ef2d98492",
+    "order": 2,
+    "unlockLevel": 4,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:755",
+    "abilityId": "ability:90:f3e8a14d15",
+    "order": 3,
+    "unlockLevel": 7,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:755",
+    "abilityId": "ability:1687:5fe876ec83",
+    "order": 4,
+    "unlockLevel": 10,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:755",
+    "abilityId": "ability:776:77a5214336",
+    "order": 5,
+    "unlockLevel": 13,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:755",
+    "abilityId": "ability:72:8569b3af48",
+    "order": 6,
+    "unlockLevel": 16,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:755",
+    "abilityId": "ability:188:58fc39e2f8",
+    "order": 7,
+    "unlockLevel": 19,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:755",
+    "abilityId": "ability:1510:67675168b3",
+    "order": 8,
+    "unlockLevel": 22,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:755",
+    "abilityId": "ability:1688:79ab825bfe",
+    "order": 9,
+    "unlockLevel": 25,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:755",
+    "abilityId": "ability:1373:7db811dfb7",
+    "order": 10,
+    "unlockLevel": 28,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
+  },
+  {
+    "familyId": "miscrit:755",
+    "abilityId": "ability:1689:5f091a17c2",
+    "order": 11,
+    "unlockLevel": 30,
+    "unlockLevelStatus": "simulator-rule-applied-to-official-order"
   }
 ]

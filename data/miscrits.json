@@ -16007,5 +16007,195 @@
       "method": "public-json",
       "gameVerified": false
     }
+  },
+  {
+    "id": "miscrit:751",
+    "sourceIds": {
+      "official": "751"
+    },
+    "slug": "paco",
+    "name": "Paco",
+    "aliases": [
+      "Paco",
+      "Alpie",
+      "Andeas",
+      "Himalama"
+    ],
+    "elements": [
+      "earth"
+    ],
+    "rarity": "common",
+    "baseRanks": {
+      "hp": 4,
+      "spd": 1,
+      "ea": 5,
+      "pa": 1,
+      "ed": 2,
+      "pd": 2
+    },
+    "formIds": [
+      "miscrit:751:form:1",
+      "miscrit:751:form:2",
+      "miscrit:751:form:3",
+      "miscrit:751:form:4"
+    ],
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:752",
+    "sourceIds": {
+      "official": "752"
+    },
+    "slug": "toro",
+    "name": "Toro",
+    "aliases": [
+      "Toro",
+      "Buffalight",
+      "Wisent",
+      "Bisonite"
+    ],
+    "elements": [
+      "lightning"
+    ],
+    "rarity": "rare",
+    "baseRanks": {
+      "hp": 4,
+      "spd": 1,
+      "ea": 3,
+      "pa": 4,
+      "ed": 2,
+      "pd": 2
+    },
+    "formIds": [
+      "miscrit:752:form:1",
+      "miscrit:752:form:2",
+      "miscrit:752:form:3",
+      "miscrit:752:form:4"
+    ],
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:753",
+    "sourceIds": {
+      "official": "753"
+    },
+    "slug": "neolith",
+    "name": "Neolith",
+    "aliases": [
+      "Neolith",
+      "Aurigna",
+      "Chauvet",
+      "Lauscaux"
+    ],
+    "elements": [
+      "earth"
+    ],
+    "rarity": "rare",
+    "baseRanks": {
+      "hp": 5,
+      "spd": 1,
+      "ea": 3,
+      "pa": 1,
+      "ed": 3,
+      "pd": 3
+    },
+    "formIds": [
+      "miscrit:753:form:1",
+      "miscrit:753:form:2",
+      "miscrit:753:form:3",
+      "miscrit:753:form:4"
+    ],
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:754",
+    "sourceIds": {
+      "official": "754"
+    },
+    "slug": "goldigga",
+    "name": "Goldigga",
+    "aliases": [
+      "Goldigga",
+      "Glistenel",
+      "Whiskatooth",
+      "Aurous"
+    ],
+    "elements": [
+      "earth"
+    ],
+    "rarity": "epic",
+    "baseRanks": {
+      "hp": 3,
+      "spd": 2,
+      "ea": 4,
+      "pa": 3,
+      "ed": 3,
+      "pd": 2
+    },
+    "formIds": [
+      "miscrit:754:form:1",
+      "miscrit:754:form:2",
+      "miscrit:754:form:3",
+      "miscrit:754:form:4"
+    ],
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:755",
+    "sourceIds": {
+      "official": "755"
+    },
+    "slug": "lizzile",
+    "name": "Lizzile",
+    "aliases": [
+      "Lizzile",
+      "Dronagon",
+      "Jetwain",
+      "Skydra"
+    ],
+    "elements": [
+      "wind"
+    ],
+    "rarity": "exotic",
+    "baseRanks": {
+      "hp": 2,
+      "spd": 5,
+      "ea": 5,
+      "pa": 1,
+      "ed": 3,
+      "pd": 2
+    },
+    "formIds": [
+      "miscrit:755:form:1",
+      "miscrit:755:form:2",
+      "miscrit:755:form:3",
+      "miscrit:755:form:4"
+    ],
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
   }
 ]

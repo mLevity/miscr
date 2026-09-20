@@ -23518,5 +23518,285 @@
       "method": "public-json",
       "gameVerified": false
     }
+  },
+  {
+    "id": "miscrit:751:form:1",
+    "familyId": "miscrit:751",
+    "stage": 1,
+    "name": "Paco",
+    "assetKey": "paco",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:751:form:2",
+    "familyId": "miscrit:751",
+    "stage": 2,
+    "name": "Alpie",
+    "assetKey": "alpie",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:751:form:3",
+    "familyId": "miscrit:751",
+    "stage": 3,
+    "name": "Andeas",
+    "assetKey": "andeas",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:751:form:4",
+    "familyId": "miscrit:751",
+    "stage": 4,
+    "name": "Himalama",
+    "assetKey": "himalama",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:752:form:1",
+    "familyId": "miscrit:752",
+    "stage": 1,
+    "name": "Toro",
+    "assetKey": "toro",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:752:form:2",
+    "familyId": "miscrit:752",
+    "stage": 2,
+    "name": "Buffalight",
+    "assetKey": "buffalight",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:752:form:3",
+    "familyId": "miscrit:752",
+    "stage": 3,
+    "name": "Wisent",
+    "assetKey": "wisent",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:752:form:4",
+    "familyId": "miscrit:752",
+    "stage": 4,
+    "name": "Bisonite",
+    "assetKey": "bisonite",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:753:form:1",
+    "familyId": "miscrit:753",
+    "stage": 1,
+    "name": "Neolith",
+    "assetKey": "neolith",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:753:form:2",
+    "familyId": "miscrit:753",
+    "stage": 2,
+    "name": "Aurigna",
+    "assetKey": "aurigna",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:753:form:3",
+    "familyId": "miscrit:753",
+    "stage": 3,
+    "name": "Chauvet",
+    "assetKey": "chauvet",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:753:form:4",
+    "familyId": "miscrit:753",
+    "stage": 4,
+    "name": "Lauscaux",
+    "assetKey": "lauscaux",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:754:form:1",
+    "familyId": "miscrit:754",
+    "stage": 1,
+    "name": "Goldigga",
+    "assetKey": "goldigga",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:754:form:2",
+    "familyId": "miscrit:754",
+    "stage": 2,
+    "name": "Glistenel",
+    "assetKey": "glistenel",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:754:form:3",
+    "familyId": "miscrit:754",
+    "stage": 3,
+    "name": "Whiskatooth",
+    "assetKey": "whiskatooth",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:754:form:4",
+    "familyId": "miscrit:754",
+    "stage": 4,
+    "name": "Aurous",
+    "assetKey": "aurous",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:755:form:1",
+    "familyId": "miscrit:755",
+    "stage": 1,
+    "name": "Lizzile",
+    "assetKey": "lizzile",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:755:form:2",
+    "familyId": "miscrit:755",
+    "stage": 2,
+    "name": "Dronagon",
+    "assetKey": "dronagon",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:755:form:3",
+    "familyId": "miscrit:755",
+    "stage": 3,
+    "name": "Jetwain",
+    "assetKey": "jetwain",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "miscrit:755:form:4",
+    "familyId": "miscrit:755",
+    "stage": 4,
+    "name": "Skydra",
+    "assetKey": "skydra",
+    "minimumLevel": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
   }
 ]

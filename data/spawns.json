@@ -17350,5 +17350,176 @@
       "method": "rendered-dom",
       "gameVerified": false
     }
+  },
+  {
+    "id": "spawn:0489",
+    "familyId": "miscrit:751",
+    "sourceName": "Paco",
+    "locationId": "location:monks-mountain",
+    "areaId": "location:monks-mountain:area:area-2",
+    "acquisition": "wild",
+    "schedule": {
+      "timezone": "UTC",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rule": "weekly",
+      "validFrom": null,
+      "validUntil": null,
+      "observedOn": "2026-09-20"
+    },
+    "precision": "area",
+    "markerIds": [],
+    "sourceRarity": "common",
+    "sourceElement": "Earth",
+    "conditionsText": null,
+    "encounterProbability": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "spawn:0490",
+    "familyId": "miscrit:752",
+    "sourceName": "Toro",
+    "locationId": "location:monks-mountain",
+    "areaId": "location:monks-mountain:area:area-1",
+    "acquisition": "wild",
+    "schedule": {
+      "timezone": "UTC",
+      "weekdays": [
+        1,
+        2
+      ],
+      "rule": "weekly",
+      "validFrom": null,
+      "validUntil": null,
+      "observedOn": "2026-09-20"
+    },
+    "precision": "area",
+    "markerIds": [],
+    "sourceRarity": "rare",
+    "sourceElement": "Lightning",
+    "conditionsText": null,
+    "encounterProbability": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "spawn:0491",
+    "familyId": "miscrit:753",
+    "sourceName": "Neolith",
+    "locationId": "location:monks-mountain",
+    "areaId": "location:monks-mountain:area:area-2",
+    "acquisition": "wild",
+    "schedule": {
+      "timezone": "UTC",
+      "weekdays": [
+        5,
+        6,
+        7
+      ],
+      "rule": "weekly",
+      "validFrom": null,
+      "validUntil": null,
+      "observedOn": "2026-09-20"
+    },
+    "precision": "area",
+    "markerIds": [],
+    "sourceRarity": "rare",
+    "sourceElement": "Earth",
+    "conditionsText": null,
+    "encounterProbability": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "spawn:0492",
+    "familyId": "miscrit:754",
+    "sourceName": "Goldigga",
+    "locationId": "location:monks-mountain",
+    "areaId": "location:monks-mountain:area:area-1",
+    "acquisition": "wild",
+    "schedule": {
+      "timezone": "UTC",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rule": "weekly",
+      "validFrom": null,
+      "validUntil": null,
+      "observedOn": "2026-09-20"
+    },
+    "precision": "area",
+    "markerIds": [],
+    "sourceRarity": "epic",
+    "sourceElement": "Earth",
+    "conditionsText": null,
+    "encounterProbability": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
+  },
+  {
+    "id": "spawn:0493",
+    "familyId": "miscrit:755",
+    "sourceName": "Lizzile",
+    "locationId": "location:monks-mountain",
+    "areaId": "location:monks-mountain:area:area-3",
+    "acquisition": "wild",
+    "schedule": {
+      "timezone": "UTC",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rule": "weekly",
+      "validFrom": null,
+      "validUntil": null,
+      "observedOn": "2026-09-20"
+    },
+    "precision": "area",
+    "markerIds": [],
+    "sourceRarity": "exotic",
+    "sourceElement": "Wind",
+    "conditionsText": null,
+    "encounterProbability": null,
+    "provenance": {
+      "sourceId": "official-miscrits",
+      "retrievedOn": "2026-09-20",
+      "method": "public-json",
+      "gameVerified": false
+    }
   }
 ]

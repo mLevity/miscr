@@ -8398,5 +8398,105 @@
     "query": "Joltagon",
     "normalized": "joltagon",
     "familyId": "miscrit:750"
+  },
+  {
+    "query": "Paco",
+    "normalized": "paco",
+    "familyId": "miscrit:751"
+  },
+  {
+    "query": "Alpie",
+    "normalized": "alpie",
+    "familyId": "miscrit:751"
+  },
+  {
+    "query": "Andeas",
+    "normalized": "andeas",
+    "familyId": "miscrit:751"
+  },
+  {
+    "query": "Himalama",
+    "normalized": "himalama",
+    "familyId": "miscrit:751"
+  },
+  {
+    "query": "Toro",
+    "normalized": "toro",
+    "familyId": "miscrit:752"
+  },
+  {
+    "query": "Buffalight",
+    "normalized": "buffalight",
+    "familyId": "miscrit:752"
+  },
+  {
+    "query": "Wisent",
+    "normalized": "wisent",
+    "familyId": "miscrit:752"
+  },
+  {
+    "query": "Bisonite",
+    "normalized": "bisonite",
+    "familyId": "miscrit:752"
+  },
+  {
+    "query": "Neolith",
+    "normalized": "neolith",
+    "familyId": "miscrit:753"
+  },
+  {
+    "query": "Aurigna",
+    "normalized": "aurigna",
+    "familyId": "miscrit:753"
+  },
+  {
+    "query": "Chauvet",
+    "normalized": "chauvet",
+    "familyId": "miscrit:753"
+  },
+  {
+    "query": "Lauscaux",
+    "normalized": "lauscaux",
+    "familyId": "miscrit:753"
+  },
+  {
+    "query": "Goldigga",
+    "normalized": "goldigga",
+    "familyId": "miscrit:754"
+  },
+  {
+    "query": "Glistenel",
+    "normalized": "glistenel",
+    "familyId": "miscrit:754"
+  },
+  {
+    "query": "Whiskatooth",
+    "normalized": "whiskatooth",
+    "familyId": "miscrit:754"
+  },
+  {
+    "query": "Aurous",
+    "normalized": "aurous",
+    "familyId": "miscrit:754"
+  },
+  {
+    "query": "Lizzile",
+    "normalized": "lizzile",
+    "familyId": "miscrit:755"
+  },
+  {
+    "query": "Dronagon",
+    "normalized": "dronagon",
+    "familyId": "miscrit:755"
+  },
+  {
+    "query": "Jetwain",
+    "normalized": "jetwain",
+    "familyId": "miscrit:755"
+  },
+  {
+    "query": "Skydra",
+    "normalized": "skydra",
+    "familyId": "miscrit:755"
   }
 ]
