@@ -515,6 +515,8 @@ function MapStage({
   caughtIds: Record<string, { everCaught?: boolean } | undefined>;
   selectedSpawns: Spawn[];
 }) {
+  const { t } = useT();
+  const dayNames = useDays();
   const stage = useRef<HTMLDivElement>(null);
   const viewport = useRef<HTMLDivElement>(null);
   const [view, setView] = useState({
