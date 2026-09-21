@@ -1,5 +1,6 @@
 import type { Family } from "../data/static";
 import { rankKeys } from "../domain/catalog/filter";
+import { useT } from "../i18n/Language";
 
 export function statChunk(key: string) {
   return key === "ea" || key === "ed"
@@ -9,6 +10,7 @@ export function statChunk(key: string) {
       : key;
 }
 export function Stats({ ranks }: { ranks: Family["baseRanks"] }) {
+  const { t } = useT();
   return (
     <div className="species-stats">
       {rankKeys.map((key) => (
@@ -22,7 +24,7 @@ export function Stats({ ranks }: { ranks: Family["baseRanks"] }) {
           <div
             className="game-stat-bar"
             role="img"
-            aria-label={`${key.toUpperCase()}: ${ranks[key]} из 5`}
+            aria-label={t("stats.outOf", { stat: key.toUpperCase(), value: ranks[key] })}
             style={{
               backgroundImage: `url(/assets/filters/chunks/${statChunk(key)}_chunktainer.png)`,
             }}

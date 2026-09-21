@@ -1,6 +1,7 @@
 import { Select, Checkbox } from '../../ui/controls';
 import { useEffect, useRef, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
+import { useT } from "../../i18n/Language";
 import { families, familyById } from "../../data/static";
 import {
   KEYS,
@@ -18,6 +19,7 @@ import {
 import type { BatchRequest, BatchResult } from "../../workers/rebonus.worker";
 
 export default function Rebonus() {
+  const { t } = useT();
   const [params] = useSearchParams();
   const [familyId, setFamilyId] = useState(
     familyById.has(params.get("family") || "")
@@ -117,7 +119,7 @@ export default function Rebonus() {
   const candidate = session.candidate;
   return (
     <div className="tool-page">
-      <Link to="/tools">← Инструменты</Link>
+      <Link to="/tools">{t("tools.back")}</Link>
       <h1>Симулятор ребонуса</h1>
       <section className="content-panel">
         <label className="field-label">

@@ -5,6 +5,7 @@ import { isCaught } from "../domain/collection/profile";
 import { useProfile } from "../storage/profile";
 import { assetsForFormId } from "../ui/assets";
 import { FamilyCard } from "../ui/common";
+import { useT } from "../i18n/Language";
 import DataBackup from "./Settings";
 
 function questFace(familyId: string) {
@@ -15,6 +16,7 @@ function questFace(familyId: string) {
 }
 
 export default function Collection() {
+  const { t } = useT();
   const { entries, claims, toggleQuest } = useProfile();
   const [search, setSearch] = useState("");
   const [visible, setVisible] = useState(24);
@@ -30,20 +32,20 @@ export default function Collection() {
     <div className="page collection-page">
       <div className="page-intro">
         <div>
-          <p className="eyebrow">Личный прогресс</p>
-          <h1>Моя коллекция</h1>
-          <a href="#data-backup">Экспорт и импорт данных</a>
+          <p className="eyebrow">{t("collection.eyebrow")}</p>
+          <h1>{t("collection.title")}</h1>
+          <a href="#data-backup">{t("collection.backup")}</a>
         </div>
         <div className="collection-progress">
           <strong>{caught.length}</strong>
-          <span>из {families.length} семейств поймано</span>
+          <span>{t("collection.caughtOf", { total: families.length })}</span>
           <div className="progress-bar">
             <i style={{ width: `${(caught.length / families.length) * 100}%` }} />
           </div>
         </div>
       </div>
       <section className="collection-section">
-        <h2>Пойманные семейства</h2>
+        <h2>{t("collection.caughtTitle")}</h2>
         {caught.length ? (
           <>
             <div className="family-grid">
@@ -53,25 +55,25 @@ export default function Collection() {
             </div>
             {visible < caught.length && (
               <button className="load-more" onClick={() => setVisible(visible + 24)}>
-                Показать ещё
+                {t("collection.showMore")}
               </button>
             )}
           </>
         ) : (
           <div className="empty-state">
-            <p>Пока нет отметок поимки.</p>
+            <p>{t("collection.empty")}</p>
             <Link className="primary-button" to="/">
-              Найти мискрита
+              {t("collection.find")}
             </Link>
           </div>
         )}
       </section>
       <section className="collection-section">
         <h2>
-          Коллекционер · {doneCount} / {collections.length}
+          {t("collection.quests")} · {doneCount} / {collections.length}
         </h2>
         <label className="field-label">
-          Поиск квеста
+          {t("collection.questSearch")}
           <input
             type="search"
             value={search}
@@ -108,10 +110,10 @@ export default function Collection() {
                       aria-pressed={done}
                       onClick={() => toggleQuest(c.id)}
                     >
-                      {done ? "Выполнен" : "Не выполнен"}
+                      {done ? t("collection.done") : t("collection.todo")}
                     </button>
                   </div>
-                  <div className="quest-faces" aria-label="Участники квеста">
+                  <div className="quest-faces" aria-label={t("collection.faces")}>
                     {c.requirements.map((req, index) => {
                       const family = familyById.get(req.familyId);
                       const face = questFace(req.familyId);

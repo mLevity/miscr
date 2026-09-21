@@ -1,16 +1,18 @@
 import { useState } from "react";
+import { useT } from "../i18n/Language";
 
-const sections = [
-  "Каталог",
-  "Карта мира",
-  "Коллекция",
-  "Калькулятор урона",
-  "Ребонус",
-  "Другое",
-];
+const sectionKeys = [
+  "catalog",
+  "map",
+  "collection",
+  "damage",
+  "rebonus",
+  "other",
+] as const;
 
 export default function Feedback() {
-  const [section, setSection] = useState(sections[0]);
+  const { t } = useT();
+  const [section, setSection] = useState<(typeof sectionKeys)[number]>("catalog");
   const [details, setDetails] = useState("");
   const [contact, setContact] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(
@@ -25,10 +27,14 @@ export default function Feedback() {
       const response = await fetch("/api/feedback", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ section, details, contact }),
+        body: JSON.stringify({
+          section: t(`feedback.${section}`),
+          details,
+          contact,
+        }),
       });
       const payload = await response.json().catch(() => ({}));
-      if (!response.ok) throw new Error(payload.error || "Ошибка отправки");
+      if (!response.ok) throw new Error(payload.error || t("feedback.error"));
       setStatus("sent");
       setDetails("");
       setContact("");
@@ -39,25 +45,27 @@ export default function Feedback() {
   };
   return (
     <div className="page feedback-page">
-      <p className="eyebrow">Обратная связь</p>
-      <h1>Баги и предложения</h1>
-      <p>
-        Рассматриваем все заявки. Удачные идеи внедряем в следующих обновлениях.
-      </p>
+      <p className="eyebrow">{t("feedback.eyebrow")}</p>
+      <h1>{t("feedback.title")}</h1>
+      <p>{t("feedback.intro")}</p>
       <form className="content-panel feedback-form" onSubmit={send}>
         <label className="field-label">
-          Раздел
+          {t("feedback.section")}
           <select
             value={section}
-            onChange={(event) => setSection(event.target.value)}
+            onChange={(event) =>
+              setSection(event.target.value as (typeof sectionKeys)[number])
+            }
           >
-            {sections.map((item) => (
-              <option key={item}>{item}</option>
+            {sectionKeys.map((item) => (
+              <option key={item} value={item}>
+                {t(`feedback.${item}`)}
+              </option>
             ))}
           </select>
         </label>
         <label className="field-label">
-          Подробности
+          {t("feedback.details")}
           <textarea
             required
             minLength={8}
@@ -65,22 +73,22 @@ export default function Feedback() {
             rows={7}
             value={details}
             onChange={(event) => setDetails(event.target.value)}
-            placeholder="Что сломалось или что стоит добавить"
+            placeholder={t("feedback.detailsPh")}
           />
         </label>
         <label className="field-label">
-          Контакт
+          {t("feedback.contact")}
           <input
             value={contact}
             maxLength={200}
             onChange={(event) => setContact(event.target.value)}
-            placeholder="Telegram, Discord или почта — по желанию"
+            placeholder={t("feedback.contactPh")}
           />
         </label>
         <button className="primary-button" disabled={status === "sending"}>
-          {status === "sending" ? "Отправляем…" : "Отправить"}
+          {status === "sending" ? t("feedback.sending") : t("feedback.send")}
         </button>
-        {status === "sent" && <p role="status">Заявка ушла, спасибо.</p>}
+        {status === "sent" && <p role="status">{t("feedback.sent")}</p>}
         {status === "error" && <p role="alert">{error}</p>}
       </form>
     </div>

@@ -15,15 +15,18 @@ import {
 import {
   Art,
   CatchActions,
-  dayNames,
   Elements,
   Icon,
   rarityNames,
+  useDays,
 } from "../ui/common";
 import { Stats } from "../ui/Stats";
 import { AbilityTile } from "../ui/AbilityTile";
+import { useT } from "../i18n/Language";
 
 export default function Detail() {
+  const { t } = useT();
+  const dayNames = useDays();
   const { slug } = useParams();
   const family = familyBySlug.get(slug || "");
   const [abilities, setAbilities] = useState<
@@ -44,8 +47,8 @@ export default function Detail() {
   if (!family)
     return (
       <div className="page empty-state">
-        <h1>Мискрит не найден</h1>
-        <Link to="/">Вернуться в каталог</Link>
+        <h1>{t("detail.missing")}</h1>
+        <Link to="/">{t("detail.backCatalog")}</Link>
       </div>
     );
   const selected = family.formIds[0];
@@ -56,15 +59,15 @@ export default function Detail() {
   return (
     <div className="page detail-page">
       <Link className="back-link" to="/">
-        ← К каталогу
+        {t("detail.back")}
       </Link>
       <div className="detail-top">
         <div>
-          <p className="eyebrow">Семейство мискритов</p>
+          <p className="eyebrow">{t("detail.eyebrow")}</p>
           <h1 className="latin-title">{family.name}</h1>
           <Elements items={family.elements} />
           <p className={`rarity rarity-${family.rarity}`}>
-            {rarityNames[family.rarity]}
+            {t(`rarity.${family.rarity}`) === `rarity.${family.rarity}` ? rarityNames[family.rarity] : t(`rarity.${family.rarity}`)}
           </p>
         </div>
         <div className="detail-actions">
@@ -74,20 +77,20 @@ export default function Detail() {
             to={`/tools/damage?attacker=${encodeURIComponent(family.id)}`}
           >
             <Icon name="tools" />
-            Рассчитать урон
+            {t("detail.damage")}
           </Link>
           <Link
             className="secondary-button"
             to={`/tools/rebonus?family=${encodeURIComponent(family.id)}`}
           >
-            Ребонус
+            {t("detail.rebonus")}
           </Link>
         </div>
       </div>
       <div className="detail-layout">
         <section
           className="detail-art-panel evolution-gallery"
-          aria-label="Все формы персонажа"
+          aria-label={t("detail.forms")}
         >
           {family.formIds.map((id, index) => {
             const form = formById.get(id);
@@ -98,7 +101,7 @@ export default function Detail() {
               >
                 <Art name={form?.name || family.name} compact={index > 0} />
                 <figcaption>
-                  <small>{index + 1}-я форма</small>
+                  <small>{t("detail.formN", { n: index + 1 })}</small>
                   <strong>{form?.name}</strong>
                 </figcaption>
               </figure>
@@ -108,22 +111,22 @@ export default function Detail() {
         <div className="detail-content">
           <div className="stats-and-abilities">
             <section className="content-panel stats-panel">
-              <h2>Характеристики</h2>
+              <h2>{t("detail.stats")}</h2>
               <Stats ranks={family.baseRanks} />
             </section>
             <section className="content-panel abilities-panel">
               <div className="section-heading">
-                <h2>Способности</h2>
+                <h2>{t("detail.abilities")}</h2>
                 <label className="checkbox-line">
                   <Checkbox
                     checked={enchanted}
                     onChange={(event) => setEnchanted(event.target.checked)}
                   />
-                  Зачарование
+                  {t("detail.enchant")}
                 </label>
               </div>
               {abilities === null ? (
-                <p role="status">Загружаются способности…</p>
+                <p role="status">{t("detail.loadingAbilities")}</p>
               ) : (
                 <div className="ability-grid">
                   {abilities.map(({ binding, ability }) => (
@@ -138,7 +141,7 @@ export default function Detail() {
             </section>
           </div>
           <section className="content-panel">
-            <h2>Где найти</h2>
+            <h2>{t("detail.where")}</h2>
             {spawns.length ? (
               <div className="spawn-list">
                 {spawns.map((spawn) => (
@@ -149,25 +152,25 @@ export default function Detail() {
                     </strong>
                     <span>
                       {areaById.get(spawn.areaId || "")?.name ||
-                        "Зона не указана"}{" "}
+                        t("map.unknownArea")}{" "}
                       ·{" "}
                       {spawn.acquisition === "shop"
-                        ? "Магазин"
-                        : "Дикая природа"}
+                        ? t("catalog.shop")
+                        : t("catalog.wild")}
                     </span>
                     <span>
-                      Дни UTC:{" "}
+                      {t("detail.days")}{" "}
                       {spawn.schedule.weekdays?.length
                         ? spawn.schedule.weekdays
                             .map((day) => dayNames[day - 1])
                             .join(", ")
-                        : "неизвестно"}
+                        : t("detail.unknownDays")}
                     </span>
                     {spawn.markerIds.length > 0 && (
                       <Link
                         to={`/map?location=${encodeURIComponent(spawn.locationId)}&family=${encodeURIComponent(family.id)}`}
                       >
-                        На карте →
+                        {t("detail.onMap")}
                       </Link>
                     )}
                   </article>
@@ -175,12 +178,12 @@ export default function Detail() {
               </div>
             ) : (
               <p>
-                В актуальной версии игры место получения не указано.
+                {t("detail.noPlace")}
               </p>
             )}
           </section>
           <section className="content-panel">
-            <h2>Коллекционер</h2>
+            <h2>{t("detail.collector")}</h2>
             {sets.length ? (
               <ul className="plain-list">
                 {sets.map((set) => (
@@ -191,7 +194,7 @@ export default function Detail() {
               </ul>
             ) : (
               <p>
-                В актуальной версии игры этот мискрит не входит ни в одну коллекцию.
+                {t("detail.noSets")}
               </p>
             )}
           </section>

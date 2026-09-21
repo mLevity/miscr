@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 import { ProfileProvider, useProfile } from "./storage/profile";
 import { Icon } from "./ui/common";
+import { LanguageProvider, useT } from "./i18n/Language";
 import Catalog from "./features/Catalog";
 import "./style.css";
 import "./ui/improvements.css";
@@ -23,23 +24,20 @@ const Collection = lazy(() => import("./features/Collection"));
 const Tools = lazy(() => import("./features/Tools"));
 const Feedback = lazy(() => import("./features/Feedback"));
 const Roadmap = lazy(() => import("./features/Roadmap"));
-const nav = [
-  { to: "/", label: "Мискриты", icon: "book" },
-  { to: "/map", label: "Карта мира", icon: "map" },
-  { to: "/collection", label: "Моя коллекция", icon: "collection" },
-  { to: "/tools", label: "Инструменты", icon: "tools" },
-];
-const extra = [
-  { to: "/roadmap", label: "Планы" },
-  { to: "/feedback", label: "Баги" },
-];
 function Navigation({ mobile = false }: { mobile?: boolean }) {
+  const { t } = useT();
+  const items = [
+    { to: "/", label: t("nav.miscrits"), icon: "book" },
+    { to: "/map", label: t("nav.map"), icon: "map" },
+    { to: "/collection", label: t("nav.collection"), icon: "collection" },
+    { to: "/tools", label: t("nav.tools"), icon: "tools" },
+  ];
   return (
     <nav
       className={mobile ? "mobile-nav" : "desktop-nav"}
-      aria-label="Основная навигация"
+      aria-label={t("nav.main")}
     >
-      {nav.map((item) => (
+      {items.map((item) => (
         <NavLink key={item.to} to={item.to} end={item.to === "/"}>
           <Icon name={item.icon} />
           <span>{item.label}</span>
@@ -66,11 +64,12 @@ function ScrollPosition() {
 }
 function Shell() {
   const { status, error } = useProfile();
+  const { t, lang, setLang } = useT();
   return (
     <>
       <ScrollPosition />
       <a className="skip-link" href="#main-content">
-        К содержимому
+        {t("nav.skip")}
       </a>
       <header className="site-header">
         <div className="header-inner">
@@ -79,11 +78,28 @@ function Shell() {
           </Link>
           <Navigation />
           <div className="header-extra">
-            {extra.map((item) => (
-              <NavLink key={item.to} className="extra-link" to={item.to}>
-                {item.label}
-              </NavLink>
-            ))}
+            <NavLink className="extra-link" to="/roadmap">
+              {t("nav.plans")}
+            </NavLink>
+            <NavLink className="extra-link" to="/feedback">
+              {t("nav.bugs")}
+            </NavLink>
+            <div className="lang-toggle" role="group" aria-label={t("lang.switch")}>
+              <button
+                type="button"
+                className={lang === "ru" ? "active" : ""}
+                onClick={() => setLang("ru")}
+              >
+                RU
+              </button>
+              <button
+                type="button"
+                className={lang === "en" ? "active" : ""}
+                onClick={() => setLang("en")}
+              >
+                EN
+              </button>
+            </div>
           </div>
         </div>
       </header>
@@ -96,7 +112,7 @@ function Shell() {
         <Suspense
           fallback={
             <div className="page" role="status">
-              Загружаем раздел…
+              {t("nav.loading")}
             </div>
           }
         >
@@ -115,7 +131,7 @@ function Shell() {
       </main>
       <Navigation mobile />
       <div className="sr-only" aria-live="polite">
-        {status === "loading" ? "Загружается коллекция" : ""}
+        {status === "loading" ? t("nav.loadingCollection") : ""}
       </div>
     </>
   );
@@ -124,7 +140,9 @@ createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <BrowserRouter>
       <ProfileProvider>
-        <Shell />
+        <LanguageProvider>
+          <Shell />
+        </LanguageProvider>
       </ProfileProvider>
     </BrowserRouter>
   </React.StrictMode>,

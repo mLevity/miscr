@@ -2,6 +2,7 @@ import { Select, Checkbox } from '../../ui/controls';
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { Link, useSearchParams } from "react-router-dom";
+import { useT } from "../../i18n/Language";
 import {
   catalogRepository,
   families,
@@ -409,6 +410,7 @@ function ProfileEditor({
   );
 }
 export default function Damage() {
+  const { t } = useT();
   const [params] = useSearchParams();
   const [attacker, setAttacker] = useState(() =>
     makeBuild(params.get("attacker") || "miscrit:1"),
@@ -473,7 +475,7 @@ export default function Damage() {
     <div className="page tool-page damage-page">
       <div className="tool-heading">
         <div>
-          <Link to="/tools">← Инструменты</Link>
+          <Link to="/tools">{t("tools.back")}</Link>
           <h1>Калькулятор урона</h1>
         </div>
         <button
@@ -501,7 +503,7 @@ export default function Damage() {
             value={abilityId}
             onChange={(event) => setAbilityId(event.target.value)}
           >
-            {bindings.length === 0 && <option value="">Загрузка…</option>}
+            {bindings.length === 0 && <option value="">{t("damage.loading")}</option>}
             {bindings.map(({ ability, binding }) => (
               <option value={ability.id} key={ability.id}>
                 {ability.name} · ур. {binding.unlockLevel ?? "?"}

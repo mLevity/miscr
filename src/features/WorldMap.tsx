@@ -20,7 +20,8 @@ import {
   type Marker,
   type Spawn,
 } from "../data/static";
-import { CatchActions, dayNames, elementNames, Icon, rarityNames } from "../ui/common";
+import { CatchActions, elementNames, Icon, rarityNames, useDays } from "../ui/common";
+import { useT } from "../i18n/Language";
 import { isCaught } from "../domain/collection/profile";
 import { assetsForFormId } from "../ui/assets";
 import { useProfile } from "../storage/profile";
@@ -37,15 +38,26 @@ const worldLocations = locations.filter((item) => item.mapId);
 const MIN_SCALE = 1;
 const MAX_SCALE = 3.2;
 
-function formatDays(weekdays: number[] | null | undefined) {
-  if (!weekdays?.length) return "Дни неизвестны";
+function formatDays(
+  weekdays: number[] | null | undefined,
+  labels: string[],
+  every: string,
+  unknown: string,
+) {
+  if (!weekdays?.length) return unknown;
   const unique = [...new Set(weekdays)].sort((a, b) => a - b);
-  if (unique.length === 7) return "Все дни";
-  return unique.map((value) => dayNames[value - 1]).join(", ");
+  if (unique.length === 7) return every;
+  return unique.map((value) => labels[value - 1]).join(", ");
 }
-function spawnPlace(item: Spawn) {
+function spawnPlace(
+  item: Spawn,
+  labels: string[],
+  every: string,
+  unknownArea: string,
+  unknownDays: string,
+) {
   const area = item.areaId ? areaById.get(item.areaId)?.name : "";
-  return [area || "Зона не указана", formatDays(item.schedule.weekdays)]
+  return [area || unknownArea, formatDays(item.schedule.weekdays, labels, every, unknownDays)]
     .filter(Boolean)
     .join(" · ");
 }
@@ -87,6 +99,8 @@ function clusterMarkers(
 }
 
 export default function WorldMap() {
+  const { t } = useT();
+  const dayNames = useDays();
   const [params, setParams] = useSearchParams();
   const [query, setQuery] = useState(params.get("q") || "");
   const [day, setDay] = useState<number | "always" | null>(() => {
@@ -217,18 +231,18 @@ export default function WorldMap() {
     <div className="page map-page">
       <div className="map-heading">
         <div>
-          <p className="eyebrow">Мир мискритов</p>
-          <h1>Карта мира</h1>
+          <p className="eyebrow">{t("map.eyebrow")}</p>
+          <h1>{t("map.title")}</h1>
         </div>
       </div>
       <div className="map-filters">
         <div className="map-filter-bar">
           <label className="search-box map-search">
             <Icon name="search" />
-            <span className="sr-only">Поиск на карте</span>
+            <span className="sr-only">{t("map.search")}</span>
             <input
               type="search"
-              placeholder="Имя мискрита"
+              placeholder={t("map.searchPlaceholder")}
               value={query}
               onChange={(event) => {
                 const value = event.target.value.slice(0, 120);
@@ -243,19 +257,19 @@ export default function WorldMap() {
             aria-expanded={filtersOpen}
             onClick={() => setFiltersOpen((open) => !open)}
           >
-            Фильтры
+            {t("map.filters")}
           </button>
         </div>
         {filtersOpen && (
           <div className="map-filter-panel">
-            <div className="map-chip-row" role="listbox" aria-label="Локация">
+            <div className="map-chip-row" role="listbox" aria-label={t("map.location")}>
               <button
                 type="button"
                 className={`map-chip ${allLocations ? "active" : ""}`}
                 aria-pressed={allLocations}
                 onClick={() => changeLocation("all")}
               >
-                Все локации
+                {t("map.allLocations")}
               </button>
               {worldLocations.map((item) => (
                 <button
@@ -270,7 +284,7 @@ export default function WorldMap() {
               ))}
             </div>
             {locationAreas.length > 1 && (
-              <div className="map-chip-row" aria-label="Зона">
+              <div className="map-chip-row" aria-label={t("map.area")}>
                 <button
                   type="button"
                   className={`map-chip ${areaFilter === "" ? "active" : ""}`}
@@ -279,7 +293,7 @@ export default function WorldMap() {
                     writeParams({ area: "" });
                   }}
                 >
-                  Все зоны
+                  {t("map.allAreas")}
                 </button>
                 {locationAreas.map((item) => (
                   <button
@@ -296,7 +310,7 @@ export default function WorldMap() {
                 ))}
               </div>
             )}
-            <div className="map-chip-row" aria-label="День недели UTC">
+            <div className="map-chip-row" aria-label={t("map.weekday")}>
               <button
                 type="button"
                 className={`map-chip ${day === null ? "active" : ""}`}
@@ -305,7 +319,7 @@ export default function WorldMap() {
                   writeParams({ day: null });
                 }}
               >
-                Любой день
+                {t("map.anyDay")}
               </button>
               <button
                 type="button"
@@ -315,7 +329,7 @@ export default function WorldMap() {
                   writeParams({ day: "always" });
                 }}
               >
-                Все дни
+                {t("map.everyDay")}
               </button>
               {dayNames.map((name, index) => (
                 <button
@@ -328,16 +342,16 @@ export default function WorldMap() {
                   }}
                 >
                   {name}
-                  {index + 1 === todayUTC() ? " · сегодня" : ""}
+                  {index + 1 === todayUTC() ? ` · ${t("map.today")}` : ""}
                 </button>
               ))}
             </div>
             <div className="map-chip-row">
               {(
                 [
-                  ["all", "Все"],
-                  ["missing", "Не пойманы"],
-                  ["caught", "Пойманы"],
+                  ["all", t("map.all")],
+                  ["missing", t("map.missing")],
+                  ["caught", t("map.caught")],
                 ] as const
               ).map(([value, label]) => (
                 <button
@@ -363,18 +377,18 @@ export default function WorldMap() {
                     writeParams({ rarity: next });
                   }}
                 >
-                  {rarityNames[rarity] || rarity}
+                  {t(`rarity.${rarity}`) === `rarity.${rarity}` ? (rarityNames[rarity] || rarity) : t(`rarity.${rarity}`)}
                 </button>
               ))}
             </div>
-            <div className="map-chip-row" aria-label="Стихии">
+            <div className="map-chip-row" aria-label={t("map.elements")}>
               {elementCombos.map((element) => (
                 <button
                   key={element}
                   type="button"
                   className={`map-chip map-chip-element ${elementFilter.includes(element) ? "active" : ""}`}
-                  title={elementNames[element] || element}
-                  aria-label={elementNames[element] || element}
+                  title={t(`element.${element}`) === `element.${element}` ? (elementNames[element] || element) : t(`element.${element}`)}
+                  aria-label={t(`element.${element}`) === `element.${element}` ? (elementNames[element] || element) : t(`element.${element}`)}
                   aria-pressed={elementFilter.includes(element)}
                   onClick={() => {
                     const next = elementFilter.includes(element)
@@ -394,10 +408,10 @@ export default function WorldMap() {
       <div className="map-workspace">
         <div className={`map-results ${showList ? "" : "collapsed"}`}>
           <div className="map-list-heading">
-            <h2>{allLocations ? "Все локации" : location.name}</h2>
+            <h2>{allLocations ? t("map.allLocations") : location.name}</h2>
             <button
               className="icon-button"
-              aria-label={showList ? "Свернуть список" : "Открыть список"}
+              aria-label={showList ? t("map.collapse") : t("map.expand")}
               onClick={() => setShowList(!showList)}
             >
               <Icon name="chevron" />
@@ -406,7 +420,7 @@ export default function WorldMap() {
           {showList && (
             <div className="map-result-scroll">
               {filtered.length === 0 ? (
-                <p className="muted">По выбранным условиям нет записей.</p>
+                <p className="muted">{t("map.empty")}</p>
               ) : (
                 Array.from(grouped.entries()).map(([areaId, items]) => (
                   <section key={areaId}>
@@ -417,8 +431,8 @@ export default function WorldMap() {
                             areaById.get(areaId)?.name,
                           ]
                             .filter(Boolean)
-                            .join(" · ") || "Зона не указана"
-                        : areaById.get(areaId)?.name || "Зона не указана"}
+                            .join(" · ") || t("map.unknownArea")
+                        : areaById.get(areaId)?.name || t("map.unknownArea")}
                     </h3>
                     {items.map((item) => {
                       const family = familyById.get(item.familyId);
@@ -440,13 +454,13 @@ export default function WorldMap() {
                             )}
                             <span>
                               <strong>{family.name}</strong>
-                              <small>{spawnPlace(item)}</small>
+                              <small>{spawnPlace(item, dayNames, t("map.everyDay"), t("map.unknownArea"), t("map.unknownDays"))}</small>
                             </span>
                           </button>
                           <CatchActions family={family} />
                           <Link
                             to={`/miscrits/${family.slug}`}
-                            aria-label={`Карточка ${family.name}`}
+                            aria-label={t("map.card", { name: family.name })}
                           >
                             →
                           </Link>
@@ -681,7 +695,7 @@ function MapStage({
         <span>
           {map
             ? `${locationName} · ${map.width}×${map.height}`
-            : "Карта не приложена"}
+            : t("map.noMap")}
         </span>
         <div>
           <button
@@ -691,7 +705,7 @@ function MapStage({
               if (!box) return;
               zoomAt(box.left + box.width / 2, box.top + box.height / 2, view.scale / 1.2);
             }}
-            aria-label="Уменьшить карту"
+            aria-label={t("map.zoomOut")}
           >
             <Icon name="minus" />
           </button>
@@ -703,16 +717,16 @@ function MapStage({
               if (!box) return;
               zoomAt(box.left + box.width / 2, box.top + box.height / 2, view.scale * 1.2);
             }}
-            aria-label="Увеличить карту"
+            aria-label={t("map.zoomIn")}
           >
             <Icon name="plus" />
           </button>
           <button className="text-button" onClick={fit}>
-            Вписать
+            {t("map.fit")}
           </button>
           {selected && (
             <button className="text-button" onClick={focusSelected}>
-              К выбранному
+              {t("map.focus")}
             </button>
           )}
         </div>
@@ -740,7 +754,7 @@ function MapStage({
           >
             <img
               src={`/${map.image}`}
-              alt={`Карта ${locationName}`}
+              alt={t("map.alt", { name: locationName })}
               className="map-image"
               width={map.width}
               height={map.height}
@@ -750,7 +764,7 @@ function MapStage({
             />
             {!ready && (
               <div className="map-loading" aria-live="polite">
-                Загрузка
+                {t("map.loading")}
               </div>
             )}
           </div>
@@ -777,7 +791,7 @@ function MapStage({
                   top,
                   zIndex: selected === marker.familyId ? 20 : 2 + index,
                 }}
-                aria-label={`${family?.name || marker.familyId}, точка на карте`}
+                aria-label={t("map.pin", { name: family?.name || marker.familyId })}
                 title={family?.name}
                 onClick={(event) => {
                   event.stopPropagation();
@@ -798,7 +812,7 @@ function MapStage({
           })}
         </div>
       ) : (
-        <div className="empty-state">Изображение карты не предоставлено</div>
+        <div className="empty-state">{t("map.noImage")}</div>
       )}
       {selectedFamily && (
         <div className="map-selected">
@@ -808,13 +822,13 @@ function MapStage({
           <strong>{selectedFamily.name}</strong>
           <span>
             {selectedSpawns.length
-              ? selectedSpawns.map((item) => spawnPlace(item)).join(" · ")
+              ? selectedSpawns.map((item) => spawnPlace(item, dayNames, t("map.everyDay"), t("map.unknownArea"), t("map.unknownDays"))).join(" · ")
               : selectedCount
-                ? `${selectedCount} точек на этой карте`
-                : "Место появления в этой локации не указано"}
+                ? t("map.points", { count: selectedCount })
+                : t("map.noPoint")}
           </span>
           <CatchActions family={selectedFamily} />
-          <Link to={`/miscrits/${selectedFamily.slug}`}>Карточка →</Link>
+          <Link to={`/miscrits/${selectedFamily.slug}`}>{t("map.cardLink")}</Link>
         </div>
       )}
     </div>

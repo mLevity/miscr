@@ -1,7 +1,9 @@
 import { Link, Route, Routes } from "react-router-dom";
 import Damage from "./tools/Damage";
 import Rebonus from "./tools/Rebonus";
+import { useT } from "../i18n/Language";
 export default function Tools() {
+  const { t } = useT();
   return (
     <div className="page">
       <Routes>
@@ -9,24 +11,18 @@ export default function Tools() {
           index
           element={
             <>
-              <p className="eyebrow">Расчёты и планирование</p>
-              <h1>Инструменты</h1>
+              <p className="eyebrow">{t("tools.eyebrow")}</p>
+              <h1>{t("tools.title")}</h1>
               <div className="damage-layout">
                 <Link className="content-panel" to="damage">
-                  <h2>Калькулятор урона</h2>
-                  <p>
-                    Два профиля, навыки, зачарование и реликвии. Диапазон
-                    прямого урона при попадании.
-                  </p>
-                  <span>Рассчитать урон →</span>
+                  <h2>{t("tools.damageTitle")}</h2>
+                  <p>{t("tools.damageText")}</p>
+                  <span>{t("tools.damageCta")}</span>
                 </Link>
                 <Link className="content-panel" to="rebonus">
-                  <h2>Симулятор ребонуса</h2>
-                  <p>
-                    Сравните новую попытку с текущими бонусами или оцените цель
-                    в серии независимых попыток.
-                  </p>
-                  <span>Открыть симулятор →</span>
+                  <h2>{t("tools.rebonusTitle")}</h2>
+                  <p>{t("tools.rebonusText")}</p>
+                  <span>{t("tools.rebonusCta")}</span>
                 </Link>
               </div>
             </>
@@ -36,7 +32,7 @@ export default function Tools() {
         <Route path="rebonus" element={<Rebonus />} />
         <Route
           path="*"
-          element={<Link to="/tools">Вернуться к инструментам</Link>}
+          element={<Link to="/tools">{t("tools.return")}</Link>}
         />
       </Routes>
     </div>

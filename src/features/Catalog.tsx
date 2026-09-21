@@ -14,7 +14,8 @@ import {
   type CatalogFilter,
 } from "../domain/catalog/filter";
 import { useProfile } from "../storage/profile";
-import { dayNames, elementNames, FamilyCard, Icon } from "../ui/common";
+import { elementNames, FamilyCard, Icon, useDays } from "../ui/common";
+import { useT } from "../i18n/Language";
 import { Popover, Select } from "../ui/controls";
 const toggle = (values: string[], value: string) =>
   values.includes(value)
@@ -23,6 +24,8 @@ const toggle = (values: string[], value: string) =>
 const gameIcon = (name: string, kind = "elements") =>
   `/assets/filters/${kind}/${name}.png`;
 export default function Catalog() {
+  const { t } = useT();
+  const dayNames = useDays();
   const [params, setParams] = useSearchParams();
   const filter = readFilter(params);
   const { entries } = useProfile();
@@ -39,16 +42,16 @@ export default function Catalog() {
   return (
     <div className="page catalog-page">
       <div className="catalog-heading">
-        <p className="eyebrow">Найди своего мискрита</p>
-        <h1>Мискриты</h1>
+        <p className="eyebrow">{t("catalog.eyebrow")}</p>
+        <h1>{t("catalog.title")}</h1>
       </div>
       <div className="catalog-search-area">
         <label className="search-box">
           <Icon name="search" />
-          <span className="sr-only">Поиск по мискритам и эволюциям</span>
+          <span className="sr-only">{t("catalog.search")}</span>
           <input
             type="search"
-            placeholder="Имя мискрита или эволюции"
+            placeholder={t("catalog.searchPlaceholder")}
             value={filter.q}
             onChange={(e) => change({ q: e.target.value.slice(0, 120) })}
           />
@@ -60,7 +63,7 @@ export default function Catalog() {
             label={
               <>
                 <span>
-                  Rarity <small>Редкость</small>
+                  {t("catalog.rarity")}
                 </span>
                 {filter.rarity[0] && (
                   <i className={`rarity-dot rarity-${filter.rarity[0]}`} />
@@ -68,7 +71,7 @@ export default function Catalog() {
               </>
             }
           >
-            <div className="dropdown-title">Редкость</div>
+            <div className="dropdown-title">{t("catalog.rarity")}</div>
             {["", ...rarities].map((value) => (
               <button
                 key={value}
@@ -77,7 +80,7 @@ export default function Catalog() {
                 onClick={() => change({ rarity: value ? [value] : [] })}
               >
                 <span>
-                  {value ? value[0].toUpperCase() + value.slice(1) : "Все"}
+                  {value ? t(`rarity.${value}`) : t("catalog.all")}
                 </span>
                 <span aria-hidden="true">
                   {value === (filter.rarity[0] || "") ? "✓" : ""}
@@ -90,17 +93,17 @@ export default function Catalog() {
             active={!!Object.keys(filter.ranks).length}
             label={
               <span>
-                Stats <small>Статы</small>
+                {t("catalog.stats")}
               </span>
             }
           >
             <div className="dropdown-title">
-              Базовый ранг{" "}
+              {t("catalog.baseRank")}{" "}
               <button
                 className="text-button"
                 onClick={() => change({ ranks: {} })}
               >
-                Сбросить
+                {t("catalog.reset")}
               </button>
             </div>
             {rankKeys.map((key) => {
@@ -115,7 +118,7 @@ export default function Catalog() {
                       backgroundImage: `url(/assets/filters/chunks/${statChunk(key)}_chunktainer.png)`,
                     }}
                     role="group"
-                    aria-label={`${key.toUpperCase()}: точный ранг`}
+                    aria-label={t("catalog.exactRank", { stat: key.toUpperCase() })}
                   >
                     {[1, 2, 3, 4, 5].map((n) => (
                       <button
@@ -127,9 +130,9 @@ export default function Catalog() {
                               ? `url(/assets/filters/chunks/${statChunk(key)}_chunk.png)`
                               : undefined,
                         }}
-                        aria-label={`${key.toUpperCase()}: ранг ${n}`}
+                        aria-label={t("catalog.rankN", { stat: key.toUpperCase(), n })}
                         aria-pressed={value === n}
-                        title={`Ранг ${n}`}
+                        title={t("catalog.rankTitle", { n })}
                         onClick={() => {
                           const ranks = { ...filter.ranks };
                           if (value === n) delete ranks[key];
@@ -144,7 +147,7 @@ export default function Catalog() {
               );
             })}
             <p className="filter-help">
-              Точный ранг · повторное нажатие снимает выбор.
+              {t("catalog.exactHint")}
             </p>
           </Popover>
           <Popover
@@ -153,7 +156,7 @@ export default function Catalog() {
             label={
               <>
                 <span>
-                  Tags <small>Теги</small>
+                  {t("catalog.tags")}
                 </span>
                 {!!filter.tags.length && (
                   <b className="filter-count">{filter.tags.length}</b>
@@ -162,16 +165,16 @@ export default function Catalog() {
             }
           >
             <div className="dropdown-title">
-              Эффекты способностей{" "}
+              {t("catalog.abilityEffects")}{" "}
               <button
                 className="text-button"
                 onClick={() => change({ tags: [] })}
               >
-                Сбросить
+                {t("catalog.reset")}
               </button>
             </div>
             <p className="filter-help">
-              Включая зачарования. Все выбранные теги должны присутствовать.
+              {t("catalog.tagHint")}
             </p>
             <div className="tag-options">
               {tags.map((tag) => (
@@ -199,15 +202,15 @@ export default function Catalog() {
         <div
           className="element-filters"
           role="group"
-          aria-label="Стихии: любая из выбранных"
+          aria-label={t("catalog.elements")}
         >
           {elementCombos.map((value) => (
             <button
               key={value}
               className={`element-toggle ${value.includes("/") || value.length > 10 ? "dual" : ""} ${filter.elements.includes(value) ? "selected" : ""}`}
-              aria-label={elementNames[value] || value}
+              aria-label={t(`element.${value}`) === `element.${value}` ? (elementNames[value] || value) : t(`element.${value}`)}
               aria-pressed={filter.elements.includes(value)}
-              title={elementNames[value] || value}
+              title={t(`element.${value}`) === `element.${value}` ? (elementNames[value] || value) : t(`element.${value}`)}
               onClick={() =>
                 change({ elements: toggle(filter.elements, value) })
               }
@@ -218,30 +221,30 @@ export default function Catalog() {
         </div>
       </div>
       <details className="extra-filters">
-        <summary>Коллекция и места обитания</summary>
+        <summary>{t("catalog.habitat")}</summary>
         <div className="extra-filter-grid">
           <label>
-            Коллекция
+            {t("catalog.collection")}
             <Select
               value={filter.caught}
               onChange={(e) =>
                 change({ caught: e.target.value as CatalogFilter["caught"] })
               }
             >
-              <option value="all">Все мискриты</option>
-              <option value="caught">Пойманы</option>
-              <option value="missing">Не пойманы</option>
+              <option value="all">{t("catalog.allMiscrits")}</option>
+              <option value="caught">{t("catalog.caught")}</option>
+              <option value="missing">{t("catalog.missing")}</option>
             </Select>
           </label>
           <label>
-            День · UTC
+            {t("catalog.dayUtc")}
             <Select
               value={filter.day ?? ""}
               onChange={(e) =>
                 change({ day: e.target.value ? Number(e.target.value) : null })
               }
             >
-              <option value="">Все дни</option>
+              <option value="">{t("catalog.allDays")}</option>
               {dayNames.map((day, i) => (
                 <option value={i + 1} key={day}>
                   {day}
@@ -250,7 +253,7 @@ export default function Catalog() {
             </Select>
           </label>
           <label>
-            Место
+            {t("catalog.place")}
             <Select
               value={filter.locations[0] || ""}
               onChange={(e) =>
@@ -260,7 +263,7 @@ export default function Catalog() {
                 })
               }
             >
-              <option value="">Все места</option>
+              <option value="">{t("catalog.allPlaces")}</option>
               {locations
                 .filter((l) => l.kind === "world")
                 .map((l) => (
@@ -271,49 +274,49 @@ export default function Catalog() {
             </Select>
           </label>
           <label>
-            Получение
+            {t("catalog.acquisition")}
             <Select
               value={filter.acquisition[0] || ""}
               onChange={(e) =>
                 change({ acquisition: e.target.value ? [e.target.value] : [] })
               }
             >
-              <option value="">Все способы</option>
-              <option value="wild">Дикая природа</option>
-              <option value="shop">Магазин</option>
-              <option value="unknown">Неизвестно</option>
+              <option value="">{t("catalog.allSources")}</option>
+              <option value="wild">{t("catalog.wild")}</option>
+              <option value="shop">{t("catalog.shop")}</option>
+              <option value="unknown">{t("catalog.unknown")}</option>
             </Select>
           </label>
           <button
             aria-pressed={filter.favorite}
             onClick={() => change({ favorite: !filter.favorite })}
           >
-            <Icon name="favorite" /> Только избранные
+            <Icon name="favorite" /> {t("catalog.favorites")}
           </button>
         </div>
       </details>
-      <section className="catalog-results" aria-label="Результаты поиска">
+      <section className="catalog-results" aria-label={t("catalog.searchResults")}>
         <div className="results-head">
-          <strong aria-live="polite">Найдено: {results.length}</strong>
+          <strong aria-live="polite">{t("catalog.found", { count: results.length })}</strong>
           <div className="results-actions">
             {active && (
               <button
                 className="text-button"
                 onClick={() => change({ ...defaultFilter, q: filter.q })}
               >
-                Сбросить фильтры
+                {t("catalog.resetFilters")}
               </button>
             )}
             <Select
-              aria-label="Сортировка"
+              aria-label={t("catalog.sort")}
               value={filter.sort}
               onChange={(e) => change({ sort: e.target.value })}
             >
-              <option value="name-asc">Имя A–Z</option>
-              <option value="name-desc">Имя Z–A</option>
-              <option value="rarity-asc">Редкость ↑</option>
-              <option value="rarity-desc">Редкость ↓</option>
-              <option value="id">Исходный ID</option>
+              <option value="name-asc">{t("catalog.sortNameAsc")}</option>
+              <option value="name-desc">{t("catalog.sortNameDesc")}</option>
+              <option value="rarity-asc">{t("catalog.sortRarityAsc")}</option>
+              <option value="rarity-desc">{t("catalog.sortRarityDesc")}</option>
+              <option value="id">{t("catalog.sortId")}</option>
               {rankKeys.map((key) => (
                 <option key={key} value={`stat-${key}`}>
                   {key.toUpperCase()} ↓
@@ -334,15 +337,15 @@ export default function Catalog() {
                 className="load-more secondary-button"
                 onClick={() => setVisible(visible + 48)}
               >
-                Показать ещё · {results.length - visible}
+                {t("catalog.showMore", { count: results.length - visible })}
               </button>
             )}
           </>
         ) : (
           <div className="empty-state">
-            <h2>Ничего не найдено</h2>
-            <p>Измените запрос или снимите часть условий.</p>
-            <button onClick={() => change(defaultFilter)}>Сбросить всё</button>
+            <h2>{t("catalog.empty")}</h2>
+            <p>{t("catalog.emptyHint")}</p>
+            <button onClick={() => change(defaultFilter)}>{t("catalog.resetAll")}</button>
           </div>
         )}
       </section>

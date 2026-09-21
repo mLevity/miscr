@@ -622,6 +622,25 @@ button:disabled {
   display: flex;
   gap: 4px;
   margin-left: auto;
+  align-items: center;
+}
+.lang-toggle {
+  display: flex;
+  border: 1px solid #625737;
+  border-radius: 999px;
+  overflow: hidden;
+}
+.lang-toggle button {
+  min-height: 32px;
+  padding: 4px 10px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #b7b29e;
+}
+.lang-toggle button.active {
+  background: #3a3824;
+  color: #f0cc58;
 }
 .extra-link {
   min-height: 44px;

@@ -2,6 +2,7 @@ import { useEffect, useId, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import type { Ability } from "../data/static";
 import tags from "../data/generated/tags.json";
+import { useT } from "../i18n/Language";
 
 export function abilityIcon(ability: Ability): string {
   if (ability.kind === "attack")
@@ -19,6 +20,7 @@ export function AbilityTile({
   ability: Ability;
   enchanted: boolean;
 }) {
+  const { t } = useT();
   const [open, setOpen] = useState(false);
   const button = useRef<HTMLButtonElement>(null);
   const tooltip = useRef<HTMLDivElement>(null);
@@ -123,18 +125,18 @@ export function AbilityTile({
             style={position}
           >
             <strong>{ability.name}</strong>
-            <p>{ability.descriptionEn || "Описание не указано"}</p>
+            <p>{ability.descriptionEn || t("ability.noDesc")}</p>
             <dl>
               <div>
                 <dt>AP</dt>
                 <dd>{ap ?? "—"}</dd>
               </div>
               <div>
-                <dt>Точность</dt>
+                <dt>{t("ability.accuracy")}</dt>
                 <dd>{accuracy === null ? "Не указана" : `${accuracy}%`}</dd>
               </div>
               <div>
-                <dt>Удары</dt>
+                <dt>{t("ability.hits")}</dt>
                 <dd>{ability.hits ?? "—"}</dd>
               </div>
             </dl>
@@ -149,7 +151,7 @@ export function AbilityTile({
               <p
                 className={enchanted ? "enchant-active" : "enchant-description"}
               >
-                <b>Зачарование:</b> {ability.enchantDescriptionEn}
+                <b>{t("ability.enchant")}</b> {ability.enchantDescriptionEn}
               </p>
             )}
           </div>,

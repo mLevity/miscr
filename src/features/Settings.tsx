@@ -1,9 +1,11 @@
 import { Select, Checkbox } from '../ui/controls';
 import { useRef, useState } from "react";
 import { useProfile } from "../storage/profile";
+import { useT } from "../i18n/Language";
 import type { Preview } from "../domain/collection/profile";
 
 export default function Settings() {
+  const { t } = useT();
   const { status, exportProfile, previewImport, applyImport, quarantineCount } =
     useProfile();
   const fileInput = useRef<HTMLInputElement>(null);
@@ -15,18 +17,15 @@ export default function Settings() {
   const [busy, setBusy] = useState(false);
   return (
     <section className="content-panel data-backup">
-        <h2>Экспорт и импорт</h2>
+        <h2>{t("backup.title")}</h2>
+        <p>{t("backup.text")}</p>
         <p>
-          Для переноса на другое устройство или сохранения копии экспортируйте
-          JSON.
-        </p>
-        <p>
-          Состояние:{" "}
+          {t("backup.state")}{" "}
           {status === "ready"
-            ? "сохраняется на устройстве"
+            ? t("backup.ready")
             : status === "loading"
-              ? "загрузка"
-              : "в памяти; после закрытия изменения пропадут"}
+              ? t("backup.loading")
+              : t("backup.memory")}
           .
         </p>
         {quarantineCount > 0 && (
@@ -41,14 +40,14 @@ export default function Settings() {
             disabled={status === "loading" || busy}
             onClick={() => exportProfile()}
           >
-            Экспортировать JSON
+            {t("backup.export")}
           </button>
           <button
             className="secondary-button"
             disabled={status !== "ready" || busy}
             onClick={() => fileInput.current?.click()}
           >
-            Выбрать файл для импорта
+            {t("backup.import")}
           </button>
         </div>
         <input

@@ -4,6 +4,7 @@ import { type Family, formById } from "../data/static";
 import { capturesOf, type CaptureQuality } from "../domain/collection/profile";
 import { useProfile } from "../storage/profile";
 import { assetsForName, assetManifest } from "./assets";
+import { useT } from "../i18n/Language";
 
 export const elementNames: Record<string, string> = {
   fire: "Огонь",
@@ -31,6 +32,10 @@ export const rarityNames: Record<string, string> = {
   legendary: "Легендарный",
 };
 export const dayNames = ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"];
+export function useDays() {
+  const { t } = useT();
+  return [0, 1, 2, 3, 4, 5, 6].map((index) => t(`day.${index}`));
+}
 export const rankNames = ["", "Weak", "Moderate", "Strong", "Max", "Elite"];
 const navIcons: Record<string, string[]> = {
   book: [
@@ -92,6 +97,7 @@ export function Art({
   name: string;
   compact?: boolean;
 }) {
+  const { t } = useT();
   const record = assetsForName(name);
   const asset = record?.battlePath || record?.avatarPath;
   const [failed, setFailed] = useState("");
@@ -112,10 +118,10 @@ export function Art({
   return (
     <div
       className={`art-placeholder ${compact ? "compact" : ""}`}
-      aria-label={`Изображение ${name} не предоставлено`}
+      aria-label={t("art.missingNamed", { name })}
     >
       <span className="art-silhouette" aria-hidden="true" />
-      <small>Арт не предоставлен</small>
+      <small>{t("art.missing")}</small>
     </div>
   );
 }
@@ -131,6 +137,7 @@ export function elementIconSrc(items: string[]) {
     : "/assets/filters/elements/empty.png";
 }
 export function Elements({ items }: { items: string[] }) {
+  const { t } = useT();
   return (
     <div className="element-list">
       {items.map((item) => (
@@ -143,7 +150,9 @@ export function Elements({ items }: { items: string[] }) {
               height={18}
             />
           )}{" "}
-          {elementNames[item] || item}
+          {t(`element.${item}`) === `element.${item}`
+            ? elementNames[item] || item
+            : t(`element.${item}`)}
         </span>
       ))}
     </div>
@@ -161,6 +170,7 @@ export function CatchActions({
   family: Family;
   formId?: string;
 }) {
+  const { t } = useT();
   const { entries, patch } = useProfile();
   const [busy, setBusy] = useState(false);
   const [open, setOpen] = useState<number | null>(null);
@@ -210,7 +220,7 @@ export function CatchActions({
       <div
         ref={board}
         className="capture-board"
-        aria-label={`Поимки ${family.name}`}
+        aria-label={t("catch.captures", { name: family.name })}
       >
         {marks.map((quality, index) => (
           <div className="capture-mark-wrap" key={index}>
@@ -223,7 +233,7 @@ export function CatchActions({
               aria-label={
                 quality
                   ? `${family.name}: ${qualityShort[quality]}`
-                  : `Отметить поимку ${family.name}`
+                  : t("catch.mark", { name: family.name })
               }
               onClick={(event) => {
                 if (open === index) {
@@ -262,7 +272,7 @@ export function CatchActions({
                     className={`capture-pop-item quality-${item} ${quality === item ? "active" : ""}`}
                     onClick={() => setSlot(index, item)}
                   >
-                    {qualityShort[item]}
+                    {item === "any" ? t("catch.other") : qualityShort[item]}
                   </button>
                 ))}
               </div>
@@ -276,8 +286,8 @@ export function CatchActions({
         disabled={busy}
         aria-label={
           favorite
-            ? `Убрать ${family.name} из избранного`
-            : `Добавить ${family.name} в избранное`
+            ? t("catch.favOff", { name: family.name })
+            : t("catch.favOn", { name: family.name })
         }
         onClick={() => update({ favorite: !favorite })}
       >
@@ -293,6 +303,7 @@ export function FamilyCard({
   family: Family;
   match?: { formName?: string; formId?: string };
 }) {
+  const { t } = useT();
   const first = formById.get(family.formIds[0]);
   return (
     <article className="family-card">
@@ -316,9 +327,9 @@ export function FamilyCard({
           <strong>{family.name}</strong>
           {match?.formName && (
             <small className="match-note">
-              Совпадение: {match.formName}
+              {t("match.hit", { name: match.formName })}
               {match.formId
-                ? ` — ${formById.get(match.formId)?.stage}-я форма`
+                ? ` — ${t("match.stage", { n: formById.get(match.formId)?.stage || "" })}`
                 : ""}
             </small>
           )}

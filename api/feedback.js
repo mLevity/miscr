@@ -5,6 +5,12 @@ const SECTIONS = new Set([
   "Калькулятор урона",
   "Ребонус",
   "Другое",
+  "Catalog",
+  "World Map",
+  "Collection",
+  "Damage calculator",
+  "Rebonus",
+  "Other",
 ]);
 
 export default async function handler(req, res) {
