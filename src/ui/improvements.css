@@ -618,3 +618,42 @@ button:disabled {
     scroll-behavior: auto !important;
   }
 }
+.header-extra {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+}
+.extra-link {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  color: #b7b29e;
+  border-radius: 6px;
+}
+.extra-link.active,
+.extra-link:hover {
+  background: #292b20;
+  color: #f3eedb;
+}
+.feedback-form {
+  display: grid;
+  gap: 12px;
+  max-width: 640px;
+}
+.feedback-form textarea {
+  width: 100%;
+  resize: vertical;
+  min-height: 140px;
+}
+.roadmap-list {
+  display: grid;
+  gap: 10px;
+  padding: 0;
+  margin: 16px 0 0;
+  list-style: none;
+}
+.roadmap-list p {
+  margin: 6px 0 0;
+  color: #b7b29e;
+}

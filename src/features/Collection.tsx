@@ -5,6 +5,7 @@ import { isCaught } from "../domain/collection/profile";
 import { useProfile } from "../storage/profile";
 import { assetsForFormId } from "../ui/assets";
 import { FamilyCard } from "../ui/common";
+import DataBackup from "./Settings";
 
 function questFace(familyId: string) {
   const family = familyById.get(familyId);
@@ -31,7 +32,7 @@ export default function Collection() {
         <div>
           <p className="eyebrow">Личный прогресс</p>
           <h1>Моя коллекция</h1>
-          <Link to="/settings">Экспорт и импорт данных →</Link>
+          <a href="#data-backup">Экспорт и импорт данных</a>
         </div>
         <div className="collection-progress">
           <strong>{caught.length}</strong>
@@ -136,6 +137,9 @@ export default function Collection() {
             })}
         </div>
       </section>
+      <div id="data-backup">
+        <DataBackup />
+      </div>
     </div>
   );
 }

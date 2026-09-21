@@ -21,12 +21,17 @@ const Detail = lazy(() => import("./features/Detail"));
 const WorldMap = lazy(() => import("./features/WorldMap"));
 const Collection = lazy(() => import("./features/Collection"));
 const Tools = lazy(() => import("./features/Tools"));
-const Settings = lazy(() => import("./features/Settings"));
+const Feedback = lazy(() => import("./features/Feedback"));
+const Roadmap = lazy(() => import("./features/Roadmap"));
 const nav = [
   { to: "/", label: "Мискриты", icon: "book" },
   { to: "/map", label: "Карта мира", icon: "map" },
   { to: "/collection", label: "Моя коллекция", icon: "collection" },
   { to: "/tools", label: "Инструменты", icon: "tools" },
+];
+const extra = [
+  { to: "/roadmap", label: "Планы" },
+  { to: "/feedback", label: "Баги" },
 ];
 function Navigation({ mobile = false }: { mobile?: boolean }) {
   return (
@@ -73,14 +78,13 @@ function Shell() {
             Miscrits Helper
           </Link>
           <Navigation />
-          <Link
-            className="settings-link"
-            aria-label="Данные на устройстве"
-            to="/settings"
-          >
-            <Icon name="download" />
-            <span>Данные на устройстве</span>
-          </Link>
+          <div className="header-extra">
+            {extra.map((item) => (
+              <NavLink key={item.to} className="extra-link" to={item.to}>
+                {item.label}
+              </NavLink>
+            ))}
+          </div>
         </div>
       </header>
       {error && (
@@ -102,7 +106,9 @@ function Shell() {
             <Route path="/map" element={<WorldMap />} />
             <Route path="/collection" element={<Collection />} />
             <Route path="/tools/*" element={<Tools />} />
-            <Route path="/settings" element={<Settings />} />
+            <Route path="/feedback" element={<Feedback />} />
+            <Route path="/roadmap" element={<Roadmap />} />
+            <Route path="/settings" element={<Navigate to="/collection#data-backup" />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </Suspense>

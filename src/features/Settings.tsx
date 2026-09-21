@@ -1,6 +1,5 @@
 import { Select, Checkbox } from '../ui/controls';
 import { useRef, useState } from "react";
-import { Link } from "react-router-dom";
 import { useProfile } from "../storage/profile";
 import type { Preview } from "../domain/collection/profile";
 
@@ -15,10 +14,7 @@ export default function Settings() {
   const [backup, setBackup] = useState(false);
   const [busy, setBusy] = useState(false);
   return (
-    <div className="page settings-page">
-      <Link to="/">← Каталог</Link>
-      <h1>Настройки</h1>
-      <section className="content-panel">
+    <section className="content-panel data-backup">
         <h2>Экспорт и импорт</h2>
         <p>
           Для переноса на другое устройство или сохранения копии экспортируйте
@@ -175,7 +171,6 @@ export default function Settings() {
           </div>
         )}
         <p role="status">{busy ? "Обработка…" : message}</p>
-      </section>
-    </div>
+    </section>
   );
 }
