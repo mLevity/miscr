@@ -36960,6 +36960,406 @@
         "role": "battle",
         "sourcePath": "game/assets/miscrits/joltagon_back.png"
       }
+    },
+    "miscrit:751:form:1": {
+      "assetKey": "paco",
+      "name": "Paco",
+      "avatar": {
+        "path": "/assets/imported/863a6742b422f5c972b7.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "863a6742b422f5c972b741c859134ca8da10e082cfe744bf515a627555f72ccb",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/c3ac5f567c82d7371e4b.png",
+        "width": 106,
+        "height": 189,
+        "mediaType": "image/png",
+        "sha256": "c3ac5f567c82d7371e4b67bb9561e33f3cf20b8b0c83643c05351e9764997516",
+        "role": "battle"
+      }
+    },
+    "miscrit:751:form:2": {
+      "assetKey": "alpie",
+      "name": "Alpie",
+      "avatar": {
+        "path": "/assets/imported/35db9c4d6b1856e9abef.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "35db9c4d6b1856e9abef2d277cad1b66afab88cac6092b9d473ff715111157b8",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/c834502dea448541317d.png",
+        "width": 159,
+        "height": 236,
+        "mediaType": "image/png",
+        "sha256": "c834502dea448541317d8dba10693f4b5ef8f1a8337ee0de4d4b5032606b3b59",
+        "role": "battle"
+      }
+    },
+    "miscrit:751:form:3": {
+      "assetKey": "andeas",
+      "name": "Andeas",
+      "avatar": {
+        "path": "/assets/imported/3d7d86299d8cd288c780.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "3d7d86299d8cd288c780417300e71b7173eac8e8202d06f0f28714b3325f8fd3",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/1b36cf960b459db416e4.png",
+        "width": 232,
+        "height": 299,
+        "mediaType": "image/png",
+        "sha256": "1b36cf960b459db416e4696ba18ae87fc282c38306c0c81d26f088dfd3f04c35",
+        "role": "battle"
+      }
+    },
+    "miscrit:751:form:4": {
+      "assetKey": "himalama",
+      "name": "Himalama",
+      "avatar": {
+        "path": "/assets/imported/677be47d09ecc1efef45.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "677be47d09ecc1efef453385e22789a702265fa548e6616d2a48edcb203a60c1",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/986f7598310a4c2e5783.png",
+        "width": 306,
+        "height": 309,
+        "mediaType": "image/png",
+        "sha256": "986f7598310a4c2e5783cfe43516f66d08e6509f3a8b6c4a535e82aa70aa42cb",
+        "role": "battle"
+      }
+    },
+    "miscrit:752:form:1": {
+      "assetKey": "toro",
+      "name": "Toro",
+      "avatar": {
+        "path": "/assets/imported/dc3a9570cd847e09be04.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "dc3a9570cd847e09be040529ddb1469e698e0817f95dba56c9a66a93623cfdd6",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/0f68a0c9d57a3320e0f7.png",
+        "width": 164,
+        "height": 159,
+        "mediaType": "image/png",
+        "sha256": "0f68a0c9d57a3320e0f77066353405df78815e4ccfb3aabaeac505b224173118",
+        "role": "battle"
+      }
+    },
+    "miscrit:752:form:2": {
+      "assetKey": "buffalight",
+      "name": "Buffalight",
+      "avatar": {
+        "path": "/assets/imported/6514c7eec4c0860784e6.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "6514c7eec4c0860784e681b59bc99fd16d0057301e1078e6cc52ed19f2ebe895",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/15c789fcccbfec2383dd.png",
+        "width": 210,
+        "height": 292,
+        "mediaType": "image/png",
+        "sha256": "15c789fcccbfec2383ddf645039fcd4fc89d70b123d43f0d98e19c5de7607070",
+        "role": "battle"
+      }
+    },
+    "miscrit:752:form:3": {
+      "assetKey": "wisent",
+      "name": "Wisent",
+      "avatar": {
+        "path": "/assets/imported/511213fe31382156bf9a.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "511213fe31382156bf9afde562c62841f28c633715d78fab649a9af92640fad3",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/9efccc59d53b46879d88.png",
+        "width": 255,
+        "height": 288,
+        "mediaType": "image/png",
+        "sha256": "9efccc59d53b46879d883bbf247bc893535ce9d820a1ae565e617aaa17911ecc",
+        "role": "battle"
+      }
+    },
+    "miscrit:752:form:4": {
+      "assetKey": "bisonite",
+      "name": "Bisonite",
+      "avatar": {
+        "path": "/assets/imported/0b66db0fe6b620cf6a8a.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "0b66db0fe6b620cf6a8a80aac8d28eaf612e99bd1e9bb59a619a2ceb086726b3",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/ab68a85c4afc3550279d.png",
+        "width": 361,
+        "height": 310,
+        "mediaType": "image/png",
+        "sha256": "ab68a85c4afc3550279dd8c71e1254d3b4421815a9f1c0f6c89d0a2c773b443b",
+        "role": "battle"
+      }
+    },
+    "miscrit:753:form:1": {
+      "assetKey": "neolith",
+      "name": "Neolith",
+      "avatar": {
+        "path": "/assets/imported/2c24b0f4e881c7bb79fd.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "2c24b0f4e881c7bb79fdb329e9b9113254900b48e05a8fca34dde5886c02ef52",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/2a020fe5be40741db798.png",
+        "width": 206,
+        "height": 120,
+        "mediaType": "image/png",
+        "sha256": "2a020fe5be40741db7984d49e46d4ef25d4a42b76b7809b702d7e93820028fd8",
+        "role": "battle"
+      }
+    },
+    "miscrit:753:form:2": {
+      "assetKey": "aurigna",
+      "name": "Aurigna",
+      "avatar": {
+        "path": "/assets/imported/c0829ee8d92fd6f37cac.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "c0829ee8d92fd6f37cacc78e65fee6dde97d957e8b03e31fac6be259040d7fd0",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/fbdf05fcd0b178a33466.png",
+        "width": 333,
+        "height": 188,
+        "mediaType": "image/png",
+        "sha256": "fbdf05fcd0b178a334666025f0bae80b466765987701dbcb132d7ddacb7ac004",
+        "role": "battle"
+      }
+    },
+    "miscrit:753:form:3": {
+      "assetKey": "chauvet",
+      "name": "Chauvet",
+      "avatar": {
+        "path": "/assets/imported/b2c3e1bdcbe625faa4e3.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "b2c3e1bdcbe625faa4e39d63e49dd463f4411246083ee2a6e2513ecd2caf49f8",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/05aebfd8a5a522b1a62a.png",
+        "width": 271,
+        "height": 241,
+        "mediaType": "image/png",
+        "sha256": "05aebfd8a5a522b1a62ab8141b86708bad58d281a63f0d15b07bc5b8f9b44262",
+        "role": "battle"
+      }
+    },
+    "miscrit:753:form:4": {
+      "assetKey": "lauscaux",
+      "name": "Lauscaux",
+      "avatar": {
+        "path": "/assets/imported/ddcc393bfe4ee6805af6.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "ddcc393bfe4ee6805af6deb282dd6f43514e0d002e8dda9ebfeca6ec096cac9f",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/b8f8cd95bbe236768f1f.png",
+        "width": 367,
+        "height": 283,
+        "mediaType": "image/png",
+        "sha256": "b8f8cd95bbe236768f1f21b97bbea2e1bfa2b0ba90ae44ebce999ef8516b3ba9",
+        "role": "battle"
+      }
+    },
+    "miscrit:754:form:1": {
+      "assetKey": "goldigga",
+      "name": "Goldigga",
+      "avatar": {
+        "path": "/assets/imported/9302d4740bd46b6cf19f.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "9302d4740bd46b6cf19f504a86658ebb2530a9b73f27bf37d1567b7575a369c9",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/94ca4837904ecdadfb6a.png",
+        "width": 172,
+        "height": 154,
+        "mediaType": "image/png",
+        "sha256": "94ca4837904ecdadfb6a96cd836264b1a2924deceb93d3c76032bae394cedd5d",
+        "role": "battle"
+      }
+    },
+    "miscrit:754:form:2": {
+      "assetKey": "glistenel",
+      "name": "Glistenel",
+      "avatar": {
+        "path": "/assets/imported/180c8195b3b98b06c972.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "180c8195b3b98b06c972bf33e76dc5dac341c88ebe18e57d02108241da12a9ed",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/4426c07fe6365dee1f87.png",
+        "width": 193,
+        "height": 202,
+        "mediaType": "image/png",
+        "sha256": "4426c07fe6365dee1f876059859c1db8f822adc8d6f6e189acba4d65daca6c4c",
+        "role": "battle"
+      }
+    },
+    "miscrit:754:form:3": {
+      "assetKey": "whiskatooth",
+      "name": "Whiskatooth",
+      "avatar": {
+        "path": "/assets/imported/ee742d26c5cc2caf2fca.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "ee742d26c5cc2caf2fca6f8681c5add300d0f8881d149b6e6dbbcd20ef5d9c41",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/7af0120bc3ff2aa48777.png",
+        "width": 306,
+        "height": 231,
+        "mediaType": "image/png",
+        "sha256": "7af0120bc3ff2aa48777eeaf737fcacf9600b99e4ee1141391940d9d99f46286",
+        "role": "battle"
+      }
+    },
+    "miscrit:754:form:4": {
+      "assetKey": "aurous",
+      "name": "Aurous",
+      "avatar": {
+        "path": "/assets/imported/35620f9973207eec07c4.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "35620f9973207eec07c428fd09b7dc7b5aceaa9d0cb15b8754d9a665659193be",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/db1132ad9dd30bf1dda3.png",
+        "width": 308,
+        "height": 271,
+        "mediaType": "image/png",
+        "sha256": "db1132ad9dd30bf1dda3971281bb28cf32cbad938161c63d9e688d3106fff495",
+        "role": "battle"
+      }
+    },
+    "miscrit:755:form:1": {
+      "assetKey": "lizzile",
+      "name": "Lizzile",
+      "avatar": {
+        "path": "/assets/imported/313bae049e8868ebbde6.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "313bae049e8868ebbde612c29d1abab04d8e5e83353722d45fe71729180bbfbe",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/d6cfb5a9280909b76b26.png",
+        "width": 143,
+        "height": 204,
+        "mediaType": "image/png",
+        "sha256": "d6cfb5a9280909b76b26f041ba33442ea95a42d733fcd234724d7701fcc9f0b9",
+        "role": "battle"
+      }
+    },
+    "miscrit:755:form:2": {
+      "assetKey": "dronagon",
+      "name": "Dronagon",
+      "avatar": {
+        "path": "/assets/imported/d37ce17b4e7ce5ce76de.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "d37ce17b4e7ce5ce76de97f85eae981c7bf8df36b17fbf5af6554a77ed3ec3ec",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/501c2f94ece06d8d0e6e.png",
+        "width": 258,
+        "height": 224,
+        "mediaType": "image/png",
+        "sha256": "501c2f94ece06d8d0e6e9d0ceb59f159d2fa8844d490aebc29fd7de1229de5d7",
+        "role": "battle"
+      }
+    },
+    "miscrit:755:form:3": {
+      "assetKey": "jetwain",
+      "name": "Jetwain",
+      "avatar": {
+        "path": "/assets/imported/c7e4687032e07f35e878.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "c7e4687032e07f35e878f83a7c23670bf54147b8fef551fbcac5534a61fb5800",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/56f4fffe822be455a461.png",
+        "width": 393,
+        "height": 333,
+        "mediaType": "image/png",
+        "sha256": "56f4fffe822be455a4613455402a34af52ea8d5531a4848d3a47472036faac1d",
+        "role": "battle"
+      }
+    },
+    "miscrit:755:form:4": {
+      "assetKey": "skydra",
+      "name": "Skydra",
+      "avatar": {
+        "path": "/assets/imported/f9fd1aac766396beaff9.png",
+        "width": 50,
+        "height": 50,
+        "mediaType": "image/png",
+        "sha256": "f9fd1aac766396beaff9dac177f6085da2906299cede431dff18d2210bf75941",
+        "role": "avatar"
+      },
+      "battle": {
+        "path": "/assets/imported/d5af24f6203991e375b9.png",
+        "width": 511,
+        "height": 437,
+        "mediaType": "image/png",
+        "sha256": "d5af24f6203991e375b96dc69efb0a21ab54e570a3c7eeb889d3117e0ba6758b",
+        "role": "battle"
+      }
     }
   },
   "elements": {
