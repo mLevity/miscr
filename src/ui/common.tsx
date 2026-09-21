@@ -37,47 +37,67 @@ export function useDays() {
   return [0, 1, 2, 3, 4, 5, 6].map((index) => t(`day.${index}`));
 }
 export const rankNames = ["", "Weak", "Moderate", "Strong", "Max", "Elite"];
-const navIcons: Record<string, string[]> = {
+const navIcons: Record<string, { d: string; fill?: string }[]> = {
   book: [
-    "M12 7v14",
-    "M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z",
+    {
+      fill: "currentColor",
+      d: "M5.2 3.4h5.1c1.7 0 2.7.9 2.7 2.3v13.2c-1.2-.7-2.3-1-3.6-1H5.2c-.7 0-1.2-.5-1.2-1.1V4.5c0-.6.5-1.1 1.2-1.1Z",
+    },
+    {
+      fill: "currentColor",
+      d: "M13.7 3.4h5.1c.7 0 1.2.5 1.2 1.1v12.3c0 .6-.5 1.1-1.2 1.1h-4.2c-1.3 0-2.4.3-3.6 1V5.7c0-1.4 1-2.3 2.7-2.3Z",
+    },
+    { fill: "#11120f", d: "M8.2 7.2h2.1v1.3H8.2zm0 2.4h2.1v1.3H8.2z" },
   ],
   map: [
-    "M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z",
-    "M15 5.76v15",
-    "M9 3.24v15",
+    {
+      fill: "currentColor",
+      d: "M4.2 5.1 9.3 3.4l5.4 1.8 5.1-1.7v14.4l-5.1 1.7-5.4-1.8-5.1 1.7V5.1Z",
+    },
+    {
+      fill: "#11120f",
+      d: "M9.3 5.2v12.3l5.4 1.5V6.7L9.3 5.2Zm6.2 3.6 1.6 2.4-1.6 2.8-1.6-2.8 1.6-2.4Z",
+    },
   ],
   collection: [
-    "M4 10a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z",
-    "M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2",
-    "M8 21v-5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v5",
-    "M8 10h8",
+    {
+      fill: "currentColor",
+      d: "M4 9.2 12 5.4 20 9.2v8.4L12 21.4 4 17.6V9.2Z",
+    },
+    {
+      fill: "#11120f",
+      d: "M12 8.1 7.2 10.3v5.2L12 17.7l4.8-2.2v-5.2L12 8.1Zm0 2.1 2.3 1.1v2.3L12 14.7l-2.3-1.1v-2.3L12 10.2Z",
+    },
   ],
   tools: [
-    "M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z",
+    {
+      fill: "currentColor",
+      d: "M7.2 3.6h3.1l.8 2.3 2.3.8v3.1l-2.2 1.6.6 2.4-2.4.6-1.6 2.2H4.7l-.8-2.3-2.3-.8V8.4l2.2-1.6L3.2 4.4l2.4-.6L7.2 3.6Z",
+    },
+    { fill: "#11120f", d: "M7.4 8.2a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6Z" },
+    {
+      fill: "currentColor",
+      d: "M13.4 13.1h2.4l6.4 6.4-2.4 2.4-6.4-6.4v-2.4Z",
+    },
   ],
   download: [
-    "M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v3H3Z",
-    "M21 10v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7",
-    "M7 15h.01M17 15h.01",
+    {
+      fill: "currentColor",
+      d: "M5 4.2h14v4.2l-2.2.8H7.2L5 8.4V4.2Zm2.4 6.6h9.2v4.4h2.4L12 21.2 4.9 15.2h2.5V10.8Z",
+    },
   ],
 };
 export function Icon({ name }: { name: string }) {
-  const paths = navIcons[name];
-  if (paths)
+  const shapes = navIcons[name];
+  if (shapes)
     return (
       <svg
         className="icon nav-icon"
         viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.85"
-        strokeLinecap="round"
-        strokeLinejoin="round"
         aria-hidden="true"
       >
-        {paths.map((d) => (
-          <path key={d} d={d} />
+        {shapes.map((shape) => (
+          <path key={shape.d} d={shape.d} fill={shape.fill || "currentColor"} />
         ))}
       </svg>
     );
