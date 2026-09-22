@@ -235,6 +235,7 @@ export function rebonusProbabilities(deprioritized: Stat[]) {
   )
     throw new TypeError("Выберите от 0 до 5 разных статов");
   const d = deprioritized.length,
+    // Community stand-in only. Live deprio weights are unpublished and not flat.
     low = 1 / 6 - 0.02,
     high = d ? (1 - d * low) / (6 - d) : 1 / 6;
   return KEYS.map((key) => (d && deprioritized.includes(key) ? low : high));

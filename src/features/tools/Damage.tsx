@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { Link, useSearchParams } from "react-router-dom";
 import { useT } from "../../i18n/Language";
+import { Disclaimer } from "./Disclaimer";
 import {
   catalogRepository,
   families,
@@ -477,6 +478,7 @@ export default function Damage() {
         <div>
           <Link to="/tools">{t("tools.back")}</Link>
           <h1>Калькулятор урона</h1>
+          <Disclaimer>{t("damage.disclaimer")}</Disclaimer>
         </div>
         <button
           type="button"
@@ -551,7 +553,8 @@ export default function Damage() {
                 {result.min}–{result.max}
               </strong>
               <p>
-                Середина {result.midpoint} · стихии ×{result.multiplier}
+                Середина {result.midpoint} · стихии ×{result.multiplier} ·{" "}
+                {t("damage.rangeNote")}
               </p>
               <p>
                 До KO: {result.koMinHits ?? "—"}–{result.koGuaranteedHits ?? "—"}{" "}

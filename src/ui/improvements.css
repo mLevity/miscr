@@ -692,3 +692,4 @@ button:disabled {
   margin: 6px 0 0;
   color: #b7b29e;
 }
+.tool-disclaimer{margin:10px 0 16px;padding:10px 12px;max-width:720px;color:#d9c27a;background:#2a2718;border:1px solid #625737;border-radius:8px;font-size:13px;line-height:1.45}

@@ -2,6 +2,7 @@ import { Select, Checkbox } from '../../ui/controls';
 import { useEffect, useRef, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { useT } from "../../i18n/Language";
+import { Disclaimer } from "./Disclaimer";
 import { families, familyById } from "../../data/static";
 import {
   KEYS,
@@ -42,7 +43,7 @@ export default function Rebonus() {
   const [batchStatus, setBatchStatus] = useState("");
   const worker = useRef<Worker | null>(null);
   useEffect(() => () => worker.current?.terminate(), []);
-  const probabilities = rebonusProbabilities(deprioritized);
+  rebonusProbabilities(deprioritized);
   let price: number | null = null,
     inputError = "";
   try {
@@ -121,6 +122,7 @@ export default function Rebonus() {
     <div className="tool-page">
       <Link to="/tools">{t("tools.back")}</Link>
       <h1>Симулятор ребонуса</h1>
+      <Disclaimer>{t("rebonus.disclaimer")}</Disclaimer>
       <section className="content-panel">
         <label className="field-label">
           Мискрит
@@ -163,13 +165,15 @@ export default function Rebonus() {
                   setBatch(null);
                 }}
               />
-              {key.toUpperCase()} · {(probabilities[index] * 100).toFixed(2)}%
+              {key.toUpperCase()} ·{" "}
+              {deprioritized.includes(key)
+                ? t("rebonus.lower")
+                : t("rebonus.normal")}
             </label>
           ))}
         </div>
         <small>
-          Вероятности отдельного выбора до коррекции; не средняя доля итогового
-          пула.
+          {t("rebonus.weightHint")}
         </small>
         <div className="action-row">
           <label>
