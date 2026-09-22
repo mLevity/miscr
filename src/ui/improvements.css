@@ -17,12 +17,23 @@
   min-width: 0;
 }
 .icon {
-  filter: invert(86%) sepia(22%) saturate(341%) hue-rotate(4deg)
-    brightness(100%);
+  width: 18px;
+  height: 18px;
+  display: block;
+  flex: none;
+  filter: none;
 }
-.icon-button.is-favorite img {
-  filter: invert(83%) sepia(70%) saturate(550%) hue-rotate(355deg)
-    brightness(105%);
+.icon-button {
+  width: 32px;
+  height: 32px;
+  min-height: 32px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+}
+.icon-button.is-favorite {
+  color: #f0cc58;
+  border-color: #c7b15a;
 }
 .family-link {
   flex: 1;
@@ -59,6 +70,11 @@
   border: 1px solid #625737;
   color: #8a846f;
   border-radius: 8px;
+}
+.capture-mark .icon,
+.catch-actions .icon-button .icon {
+  width: 16px;
+  height: 16px;
 }
 .capture-mark.empty .icon {
   opacity: 0.55;
