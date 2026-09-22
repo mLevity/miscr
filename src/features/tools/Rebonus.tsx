@@ -20,7 +20,7 @@ import {
 import type { BatchRequest, BatchResult } from "../../workers/rebonus.worker";
 
 export default function Rebonus() {
-  const { t } = useT();
+  const { t, lang } = useT();
   const [params] = useSearchParams();
   const [familyId, setFamilyId] = useState(
     familyById.has(params.get("family") || "")
@@ -71,9 +71,7 @@ export default function Rebonus() {
     worker.current = null;
     setProgress(null);
     setBatch(null);
-    setBatchStatus(
-      "Серия отменена. Частичный прогон не сохранён как завершённый.",
-    );
+    setBatchStatus(t("rebonus.batchCancel"));
   };
   const runBatch = () => {
     try {
@@ -95,14 +93,23 @@ export default function Rebonus() {
           setProgress(null);
           if (response.kind === "complete") {
             setBatch(response);
-            setBatchStatus("Серия завершена.");
-          } else setBatchStatus(response.message);
+            setBatchStatus(t("rebonus.batchDone"));
+          } else
+            setBatchStatus(
+              response.message?.startsWith("rebonus.badGoal:")
+                ? t("rebonus.badGoal", {
+                    stat: response.message.split(":")[1],
+                  })
+                : response.message?.startsWith("rebonus.")
+                  ? t(response.message)
+                  : response.message,
+            );
           instance.terminate();
           worker.current = null;
         }
       };
       instance.onerror = () => {
-        setBatchStatus("Не удалось выполнить серию.");
+        setBatchStatus(t("rebonus.batchFail"));
         setProgress(null);
         instance.terminate();
         worker.current = null;
@@ -121,11 +128,11 @@ export default function Rebonus() {
   return (
     <div className="tool-page">
       <Link to="/tools">{t("tools.back")}</Link>
-      <h1>Симулятор ребонуса</h1>
+      <h1>{t("rebonus.title")}</h1>
       <Disclaimer>{t("rebonus.disclaimer")}</Disclaimer>
       <section className="content-panel">
         <label className="field-label">
-          Мискрит
+          {t("rebonus.miscrit")}
           <Select
             value={familyId}
             disabled={!!candidate || progress !== null}
@@ -138,14 +145,8 @@ export default function Rebonus() {
             ))}
           </Select>
         </label>
-        <p>
-          Пример начальных бонусов — 136 очков. Можно ввести свои значения,
-          сумма не больше 136.
-        </p>
-        <p>
-          Выберите до пяти статов с пониженной вероятностью. Хотя бы один стат
-          должен остаться без понижения.
-        </p>
+        <p>{t("rebonus.startHint")}</p>
+        <p>{t("rebonus.deprioHint")}</p>
         <div className="deprio-grid">
           {KEYS.map((key, index) => (
             <label key={key}>
@@ -199,12 +200,11 @@ export default function Rebonus() {
             }
             onClick={roll}
           >
-            Новая попытка
+            {t("rebonus.roll")}
           </button>
         </div>
         <p aria-live="polite">
-          Попыток: {session.attempts} · Потрачено в симуляции: {session.spent}{" "}
-          platinum · Следующая стоимость: {price ?? "—"}.
+          {t("rebonus.session", { n: session.attempts, spent: session.spent, price: price ?? "—" })}
         </p>
         {(error || inputError) && (
           <p className="danger-text" role="alert">
@@ -216,10 +216,10 @@ export default function Rebonus() {
         <table className="profile-table bonus-comparison">
           <thead>
             <tr>
-              <th>Стат</th>
-              <th>Текущее</th>
-              <th>Новая попытка</th>
-              <th>Разница</th>
+              <th>{t("rebonus.stat")}</th>
+              <th>{t("rebonus.current")}</th>
+              <th>{t("rebonus.next")}</th>
+              <th>{t("rebonus.delta")}</th>
             </tr>
           </thead>
           <tbody>
@@ -232,7 +232,7 @@ export default function Rebonus() {
                   <th>{key.toUpperCase()}</th>
                   <td>
                     <input
-                      aria-label={`Текущий бонус ${key.toUpperCase()}`}
+                      aria-label={t("rebonus.currentAria", { stat: key.toUpperCase() })}
                       type="number"
                       min={0}
                       max={136}
@@ -263,7 +263,7 @@ export default function Rebonus() {
           </tbody>
           <tfoot>
             <tr>
-              <th>Сумма</th>
+              <th>{t("rebonus.sum")}</th>
               <td>
                 {KEYS.reduce((sum, key) => sum + session.current[key], 0)}
               </td>
@@ -279,26 +279,26 @@ export default function Rebonus() {
             className="primary-button"
             onClick={() => setSession(decide(session, true))}
           >
-            Принять
+            {t("rebonus.accept")}
           </button>
           <button
             className="secondary-button"
             onClick={() => setSession(decide(session, false))}
           >
-            Оставить текущее
+            {t("rebonus.keep")}
           </button>
         </div>
       )}
       {session.history.length > 0 && (
         <details className="content-panel">
           <summary>
-            История · последние {session.history.length} попыток
+            {t("rebonus.history", { n: session.history.length })}
           </summary>
           <ol>
             {session.history.map((item) => (
               <li key={item.number}>
                 №{item.number}:{" "}
-                {item.decision === "accepted" ? "принята" : "отклонена"} ·{" "}
+                {item.decision === "accepted" ? t("rebonus.accepted") : t("rebonus.rejected")} ·{" "}
                 {item.cost} platinum ·{" "}
                 {KEYS.map(
                   (key) => `${key.toUpperCase()} ${item.bonuses[key]}`,
@@ -309,18 +309,15 @@ export default function Rebonus() {
         </details>
       )}
       <details className="content-panel batch-panel">
-        <summary>Серия попыток и цель</summary>
-        <p>
-          Независимые попытки с постоянными правилами. Серия не меняет текущий
-          профиль и расходы сессии.
-        </p>
+        <summary>{t("rebonus.batch")}</summary>
+        <p>{t("rebonus.batchHint")}</p>
         <div className="tool-grid">
           {KEYS.map((key) => (
             <label key={key}>
-              {key.toUpperCase()} · от / до
+              {t("rebonus.range", { stat: key.toUpperCase() })}
               <div className="goal-range">
                 <input
-                  aria-label={`${key} цель минимум`}
+                  aria-label={t("rebonus.minAria", { stat: key })}
                   type="number"
                   min={1}
                   max={136}
@@ -335,7 +332,7 @@ export default function Rebonus() {
                   }}
                 />
                 <input
-                  aria-label={`${key} цель максимум`}
+                  aria-label={t("rebonus.maxAria", { stat: key })}
                   type="number"
                   min={1}
                   max={136}
@@ -355,7 +352,7 @@ export default function Rebonus() {
         </div>
         <div className="action-row">
           <label>
-            Попытки
+            {t("rebonus.tries")}
             <Select
               disabled={progress !== null}
               value={count}
@@ -366,36 +363,40 @@ export default function Rebonus() {
             >
               {[100, 1000, 10000, 100000].map((n) => (
                 <option value={n} key={n}>
-                  {n.toLocaleString("ru")}
+                  {n.toLocaleString(lang === "ru" ? "ru-RU" : "en-US")}
                 </option>
               ))}
             </Select>
           </label>
           {progress === null ? (
             <button className="primary-button" onClick={runBatch}>
-              Запустить серию
+              {t("rebonus.run")}
             </button>
           ) : (
-            <button onClick={cancel}>Отменить серию</button>
+            <button onClick={cancel}>{t("rebonus.cancel")}</button>
           )}
         </div>
         <p role="status">
           {progress !== null
-            ? `Выполнено ${progress} из ${count}`
+            ? t("rebonus.progress", { done: progress, total: count })
             : batchStatus}
         </p>
         {batch && (
           <>
             <h2>
-              {batch.successes} из {batch.count} ·{" "}
+              {t("rebonus.of", { ok: batch.successes, total: batch.count })} ·{" "}
               {(batch.interval.p * 100).toFixed(2)}%
             </h2>
             <p>
-              95% интервал Уилсона: {(batch.interval.low * 100).toFixed(2)}–
-              {(batch.interval.high * 100).toFixed(2)}%.{" "}
+              {t("rebonus.wilson", {
+                low: (batch.interval.low * 100).toFixed(2),
+                high: (batch.interval.high * 100).toFixed(2),
+              })}{" "}
               {batch.successes === 0
-                ? "Ноль наблюдений не означает невозможность цели."
-                : `Оценка числа попыток до успеха: ${(1 / batch.interval.p).toFixed(1)}.`}
+                ? t("rebonus.zero")
+                : t("rebonus.eta", {
+                    n: (1 / batch.interval.p).toFixed(1),
+                  })}
             </p>
 
 
@@ -403,7 +404,10 @@ export default function Rebonus() {
               {KEYS.map((key) => (
                 <details key={key}>
                   <summary>
-                    {key.toUpperCase()} · среднее {batch.means[key].toFixed(2)}
+                    {t("rebonus.mean", {
+                      stat: key.toUpperCase(),
+                      n: batch.means[key].toFixed(2),
+                    })}
                   </summary>
                   <div className="histogram">
                     {batch.histograms[key].map((frequency, value) =>

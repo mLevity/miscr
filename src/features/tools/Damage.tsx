@@ -25,11 +25,6 @@ import {
 import { Elements } from "../../ui/common";
 import { assetsForFormId } from "../../ui/assets";
 import "../../ui/damage.css";
-const colorLabels: { id: Color; name: string }[] = [
-  { id: "green", name: "Зелёный" },
-  { id: "white", name: "Белый" },
-  { id: "red", name: "Красный" },
-];
 function fighterArt(familyId: string) {
   const family = familyById.get(familyId);
   const formId = family?.formIds[0];
@@ -90,6 +85,7 @@ function RelicPicker({
   options: typeof relics;
   onChange: (id: string) => void;
 }) {
+  const { t } = useT();
   const [open, setOpen] = useState(false);
   const wrap = useRef<HTMLDivElement>(null);
   const button = useRef<HTMLButtonElement>(null);
@@ -137,11 +133,11 @@ function RelicPicker({
           </span>
         )}
         <span className="relic-trigger-copy">
-          <strong>{selected ? selected.name : "Пустой слот"}</strong>
+          <strong>{selected ? selected.name : t("damage.emptySlot")}</strong>
           {selected ? (
             <RelicMods mods={selected.statModifiers} />
           ) : (
-            <em>Выбрать реликвию</em>
+            <em>{t("damage.pickRelic")}</em>
           )}
         </span>
       </button>
@@ -165,8 +161,8 @@ function RelicPicker({
             >
               <span className="relic-empty-icon">–</span>
               <span className="relic-option-copy">
-                <strong>Без реликвии</strong>
-                <em>Слот свободен</em>
+                <strong>{t("damage.noRelic")}</strong>
+                <em>{t("damage.slotFree")}</em>
               </span>
             </button>
             {options.map((item) => (
@@ -214,7 +210,7 @@ function statsFor(build: Build) {
       build.level < slots[index] ||
       relic.requiredSlotLevel !== slots[index]
     )
-      throw Error("Реликвия не соответствует открытому слоту");
+      throw Error("damage.relicSlot");
     return [relic];
   });
   const stats = totalStats(
@@ -228,7 +224,7 @@ function statsFor(build: Build) {
     const manual = build.overrides[key];
     if (manual !== undefined) {
       if (!Number.isFinite(manual) || manual < 1 || manual > 100000)
-        throw Error(`Ручное значение ${key.toUpperCase()}: от 1 до 100000`);
+        throw Error(`damage.manualRange:${key.toUpperCase()}`);
       stats[key] = manual;
     }
   }
@@ -243,12 +239,18 @@ function ProfileEditor({
   build: Build;
   onChange: (value: Build) => void;
 }) {
+  const { t } = useT();
   let computed: Stats | null = null,
     error = "";
   try {
     computed = statsFor(build);
   } catch (e) {
-    error = (e as Error).message;
+    const raw = (e as Error).message;
+    error = raw.startsWith("damage.manualRange:")
+      ? t("damage.manualRange", { stat: raw.split(":")[1] })
+      : raw.startsWith("damage.")
+        ? t(raw)
+        : raw;
   }
   const art = fighterArt(build.familyId);
   return (
@@ -274,9 +276,9 @@ function ProfileEditor({
       </div>
       <div className="fighter-meta">
         <label>
-          Уровень
+          {t("damage.level")}
           <input
-            aria-label={`${title}: уровень`}
+            aria-label={t("damage.levelAria", { title })}
             type="number"
             min={1}
             max={35}
@@ -321,8 +323,8 @@ function ProfileEditor({
             <button
               type="button"
               className={`stat-row-key color-${build.colors[key]}`}
-              title={`${colorLabels.find((item) => item.id === build.colors[key])?.name}. Нажмите, чтобы сменить цвет`}
-              aria-label={`${title}: ${key} цвет ${build.colors[key]}`}
+              title={t("damage.colorHint", { color: t(`damage.color.${build.colors[key]}`) })}
+              aria-label={t("damage.colorAria", { title, stat: key, color: t(`damage.color.${build.colors[key]}`) })}
               onClick={() =>
                 onChange({
                   ...build,
@@ -337,7 +339,7 @@ function ProfileEditor({
               {key.toUpperCase()}
             </button>
             <input
-              aria-label={`${title}: ${key} бонус`}
+              aria-label={t("damage.bonusAria", { title, stat: key })}
               type="number"
               min={0}
               max={136}
@@ -360,7 +362,7 @@ function ProfileEditor({
         {slots.map((slot, index) => (
           <RelicPicker
             key={slot}
-            label={`Слот ${slot}`}
+            label={t("damage.slot", { level: slot })}
             disabled={build.level < slot || !Number.isFinite(build.level)}
             value={build.relicIds[index]}
             options={relics.filter((item) => item.requiredSlotLevel === slot)}
@@ -376,14 +378,14 @@ function ProfileEditor({
         ))}
       </div>
       <details className="manual-block">
-        <summary>Ручные значения</summary>
+        <summary>{t("damage.manual")}</summary>
         <div className="manual-grid">
           {KEYS.map((key) => (
             <label key={key}>
               {key.toUpperCase()}
-              {build.overrides[key] !== undefined ? " · вручную" : ""}
+              {build.overrides[key] !== undefined ? t("damage.manualMark") : ""}
               <input
-                aria-label={`${title}: ${key} вручную`}
+                aria-label={t("damage.manualAria", { title, stat: key })}
                 type="number"
                 min={1}
                 max={100000}
@@ -399,7 +401,7 @@ function ProfileEditor({
           ))}
         </div>
         <button type="button" className="preset-btn" onClick={() => onChange({ ...build, overrides: {} })}>
-          Сбросить
+          {t("damage.reset")}
         </button>
       </details>
       {error && (
@@ -447,7 +449,7 @@ export default function Damage() {
       })
       .catch(() => {
         if (active)
-          setLoadError("Не удалось загрузить навыки. Обновите страницу.");
+          setLoadError(t("damage.loadError"));
       });
     return () => {
       active = false;
@@ -469,7 +471,16 @@ export default function Damage() {
         negate,
       );
   } catch (e) {
-    error = (e as Error).message;
+    const raw = (e as Error).message;
+    error = raw.startsWith("damage.manualRange:")
+      ? t("damage.manualRange", { stat: raw.split(":")[1] })
+      : raw.startsWith("damage.")
+        ? t(raw)
+        : raw.includes("отдельный обработчик")
+          ? t("damage.partial")
+          : raw.includes("не указаны")
+            ? t("damage.apUnknown")
+            : raw;
   }
   const resolved = ability ? resolveAbility(ability, enchanted) : null;
   return (
@@ -477,7 +488,7 @@ export default function Damage() {
       <div className="tool-heading">
         <div>
           <Link to="/tools">{t("tools.back")}</Link>
-          <h1>Калькулятор урона</h1>
+          <h1>{t("damage.title")}</h1>
           <Disclaimer>{t("damage.disclaimer")}</Disclaimer>
         </div>
         <button
@@ -489,26 +500,26 @@ export default function Damage() {
             setAbilityId("");
           }}
         >
-          Поменять стороны
+          {t("damage.swap")}
         </button>
       </div>
       <div className="damage-arena">
         <ProfileEditor
-          title="Атакует"
+          title={t("damage.attacker")}
           build={attacker}
           onChange={setAttacker}
         />
         <section className="damage-center">
-          <h2>Навык</h2>
+          <h2>{t("damage.skill")}</h2>
           <Select
-            aria-label="Навык атакующего"
+            aria-label={t("damage.skill")}
             value={abilityId}
             onChange={(event) => setAbilityId(event.target.value)}
           >
             {bindings.length === 0 && <option value="">{t("damage.loading")}</option>}
             {bindings.map(({ ability, binding }) => (
               <option value={ability.id} key={ability.id}>
-                {ability.name} · ур. {binding.unlockLevel ?? "?"}
+                {ability.name} · {binding.unlockLevel ?? "?"}
               </option>
             ))}
           </Select>
@@ -518,7 +529,7 @@ export default function Damage() {
                 checked={enchanted}
                 onChange={(event) => setEnchanted(event.target.checked)}
               />
-              Зачарование
+              {t("damage.enchant")}
             </label>
             <label className="checkbox-line">
               <Checkbox
@@ -530,11 +541,14 @@ export default function Damage() {
           </div>
           {resolved && (
             <p className="skill-meta">
-              AP {resolved.ap ?? "не указан"} · {resolved.hits ?? "?"} удар(ов) ·
-              точность{" "}
-              {resolved.accuracyPercent === null
-                ? "не указана"
-                : `${resolved.accuracyPercent}%`}
+              {t("damage.skillMeta", {
+                ap: resolved.ap ?? t("damage.apUnknown"),
+                hits: resolved.hits ?? "?",
+                acc:
+                  resolved.accuracyPercent === null
+                    ? t("damage.accUnknown")
+                    : `${resolved.accuracyPercent}%`,
+              })}
               {ability?.descriptionEn ? `. ${ability.descriptionEn}` : ""}
               {enchanted && ability?.enchantDescriptionEn
                 ? ` ${ability.enchantDescriptionEn}`
@@ -548,34 +562,39 @@ export default function Damage() {
           )}
           {result && (
             <section className="damage-result-card" aria-live="polite">
-              <p className="eyebrow">Прямой урон</p>
+              <p className="eyebrow">{t("damage.direct")}</p>
               <strong>
                 {result.min}–{result.max}
               </strong>
               <p>
-                Середина {result.midpoint} · стихии ×{result.multiplier} ·{" "}
-                {t("damage.rangeNote")}
+                {t("damage.mid", {
+                  mid: result.midpoint,
+                  mult: result.multiplier,
+                })}{" "}
+                · {t("damage.rangeNote")}
               </p>
               <p>
-                До KO: {result.koMinHits ?? "—"}–{result.koGuaranteedHits ?? "—"}{" "}
-                приёмов
+                {t("damage.ko", {
+                  min: result.koMinHits ?? "—",
+                  max: result.koGuaranteedHits ?? "—",
+                })}
               </p>
               {result.partial && (
                 <p className="danger-text">
-                  Посчитан только прямой удар. Доп. эффекты не учтены.
+                  {t("damage.partial")}
                 </p>
               )}
               {[...attacker.relicIds, ...defender.relicIds].some(
                 (id) =>
                   relics.find((item) => item.id === id)?.specialEffectsText
                     .length,
-              ) && <p>Спецэффекты реликвий не учтены.</p>}
-              <small>Без промахов, критов, щитов и лечения</small>
+              ) && <p>{t("damage.relicSpecial")}</p>}
+              <small>{t("damage.noExtras")}</small>
             </section>
           )}
         </section>
         <ProfileEditor
-          title="Цель"
+          title={t("damage.defender")}
           build={defender}
           onChange={setDefender}
         />

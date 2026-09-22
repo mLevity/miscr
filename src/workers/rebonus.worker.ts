@@ -24,7 +24,7 @@ self.onmessage = (event: MessageEvent<BatchRequest>) => {
   try {
     const { count, seed, deprioritized, goals } = event.data;
     if (!Number.isInteger(count) || count < 1 || count > 100000)
-      throw Error("Серия: от 1 до 100000 попыток");
+      throw Error("rebonus.batchRange");
     for (const key of KEYS) {
       const { min, max } = goals[key];
       if (
@@ -34,7 +34,7 @@ self.onmessage = (event: MessageEvent<BatchRequest>) => {
         max > 136 ||
         min > max
       )
-        throw Error(`Неверная цель ${key.toUpperCase()}`);
+        throw Error(`rebonus.badGoal:${key.toUpperCase()}`);
     }
     const rng = seededRandom(seed);
     const histograms = Object.fromEntries(
@@ -69,7 +69,7 @@ self.onmessage = (event: MessageEvent<BatchRequest>) => {
   } catch (error) {
     self.postMessage({
       kind: "error",
-      message: error instanceof Error ? error.message : "Ошибка серии",
+      message: error instanceof Error ? error.message : "rebonus.batchError",
     });
   }
 };
