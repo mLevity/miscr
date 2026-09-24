@@ -3,7 +3,8 @@ import { useEffect, useRef, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { useT } from "../../i18n/Language";
 import { Disclaimer } from "./Disclaimer";
-import { families, familyById } from "../../data/static";
+import { FamilySearch } from "./FamilySearch";
+import { familyById } from "../../data/static";
 import {
   KEYS,
   bonusTotal,
@@ -133,17 +134,11 @@ export default function Rebonus() {
       <section className="content-panel">
         <label className="field-label">
           {t("rebonus.miscrit")}
-          <Select
+          <FamilySearch
             value={familyId}
             disabled={!!candidate || progress !== null}
-            onChange={(event) => setFamilyId(event.target.value)}
-          >
-            {families.map((f) => (
-              <option key={f.id} value={f.id}>
-                {f.name}
-              </option>
-            ))}
-          </Select>
+            onChange={setFamilyId}
+          />
         </label>
         <p>{t("rebonus.startHint")}</p>
         <p>{t("rebonus.deprioHint")}</p>

@@ -693,3 +693,78 @@ button:disabled {
   color: #b7b29e;
 }
 .tool-disclaimer{margin:10px 0 16px;padding:10px 12px;max-width:720px;color:#d9c27a;background:#2a2718;border:1px solid #625737;border-radius:8px;font-size:13px;line-height:1.45}
+.family-search {
+  position: relative;
+  min-width: 220px;
+}
+.family-search-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #292b20;
+  border: 1px solid #625737;
+  border-radius: 6px;
+  padding: 0 10px;
+  min-height: 44px;
+}
+.family-search-field img,
+.family-search-dot,
+.family-search-list img,
+.family-search-list span:empty {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  object-fit: contain;
+  background: #16170f;
+  flex: none;
+}
+.family-search-field input {
+  border: 0;
+  background: transparent;
+  min-height: 42px;
+  padding: 0;
+  width: 100%;
+  outline: none;
+}
+.family-search-list {
+  position: absolute;
+  z-index: 30;
+  left: 0;
+  right: 0;
+  top: calc(100% + 4px);
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  max-height: 320px;
+  overflow: auto;
+  background: #16170f;
+  border: 1px solid #a09257;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px #000a;
+}
+.family-search-list button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 6px 8px;
+  border: 0;
+  background: transparent;
+  text-align: left;
+}
+.family-search-list button.active,
+.family-search-list button:hover {
+  background: #292b20;
+}
+.family-search-list span {
+  display: flex;
+  flex-direction: column;
+}
+.family-search-list small {
+  color: #b7b29e;
+}
+.family-search-empty {
+  padding: 10px 8px;
+  color: #b7b29e;
+}

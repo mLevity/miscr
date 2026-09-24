@@ -4,9 +4,9 @@ import { createPortal } from "react-dom";
 import { Link, useSearchParams } from "react-router-dom";
 import { useT } from "../../i18n/Language";
 import { Disclaimer } from "./Disclaimer";
+import { FamilySearch } from "./FamilySearch";
 import {
   catalogRepository,
-  families,
   familyById,
   type Ability,
   type AbilityBinding,
@@ -259,18 +259,10 @@ function ProfileEditor({
         {art ? <img className="fighter-avatar" src={art} alt="" /> : <span className="fighter-avatar" />}
         <div>
           <h2>{title}</h2>
-          <Select
+          <FamilySearch
             value={build.familyId}
-            onChange={(event) =>
-              onChange({ ...build, familyId: event.target.value })
-            }
-          >
-            {families.map((f) => (
-              <option key={f.id} value={f.id}>
-                {f.name}
-              </option>
-            ))}
-          </Select>
+            onChange={(familyId) => onChange({ ...build, familyId })}
+          />
           <Elements items={familyById.get(build.familyId)!.elements} />
         </div>
       </div>
