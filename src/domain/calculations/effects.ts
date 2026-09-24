@@ -1,5 +1,4 @@
-import type { MechanicalAbility } from "./core";
-import type { Stat, Stats } from "./core";
+import type { MechanicalAbility, Stat, Stats } from "./core";
 
 export type ExtraHeal = {
   kind: "heal" | "lifesteal" | "hot";
@@ -25,6 +24,21 @@ export type ExtraStat = {
 export type ExtraNote = { kind: "note"; name: string };
 export type Extra = ExtraHeal | ExtraDot | ExtraStat | ExtraNote;
 
+const COMBAT_STATS: Stat[] = ["hp", "spd", "ea", "pa", "ed", "pd"];
+const ALL_KEYS = ["ea", "pa", "ed", "pd", "spd", "acc"];
+
+type NamedBuff = {
+  keys: string[];
+  amount: number;
+  target: "self" | "foe";
+};
+
+const NAMED_BUFFS: Record<string, NamedBuff> = {
+  "stats chaos": { keys: ALL_KEYS, amount: -5, target: "foe" },
+  "stats surge": { keys: ALL_KEYS, amount: 5, target: "self" },
+  "stats pacific": { keys: ALL_KEYS, amount: 5, target: "self" },
+};
+
 const STAT_WORDS: Record<string, string[]> = {
   "physical attack": ["pa"],
   "elemental attack": ["ea"],
@@ -38,143 +52,178 @@ const STAT_WORDS: Record<string, string[]> = {
   hp: ["hp"],
 };
 
+type RawEffect = Record<string, unknown>;
+
+function textOf(ability: MechanicalAbility, enchanted: boolean) {
+  return `${ability.descriptionEn || ""} ${enchanted ? ability.enchantDescriptionEn || "" : ""}`;
+}
+
 function chanceOf(text: string) {
   const m = text.match(/(\d+)\s*%\s*chance/i);
   return m ? Number(m[1]) : undefined;
 }
 
-function flattenEffects(ability: MechanicalAbility, enchanted: boolean) {
+function rawList(ability: MechanicalAbility, enchanted: boolean): RawEffect[] {
   const extra = enchanted ? ability.enchant ?? {} : {};
   return [
-    ...((ability.rawEffects as Record<string, unknown>[]) ?? []),
-    ...((Array.isArray(extra.additional) ? extra.additional : []) as Record<
-      string,
-      unknown
-    >[]),
+    ...((ability.rawEffects as RawEffect[]) ?? []),
+    ...((Array.isArray(extra.additional) ? extra.additional : []) as RawEffect[]),
   ];
 }
 
-function amountFromText(text: string, patterns: RegExp[]) {
+function num(value: unknown) {
+  return typeof value === "number" && Number.isFinite(value) ? value : null;
+}
+
+function firstNumber(text: string, patterns: RegExp[]) {
   for (const pattern of patterns) {
     const m = text.match(pattern);
     if (!m) continue;
-    const n = m.slice(1).map(Number).find((v) => Number.isFinite(v) && v > 0);
-    if (n) return n;
+    const n = m.slice(1).map(Number).find((v) => Number.isFinite(v) && v !== 0);
+    if (n != null) return n;
   }
   return null;
 }
+
+function namedBuff(name: string | undefined): NamedBuff | null {
+  if (!name) return null;
+  return NAMED_BUFFS[name.trim().toLowerCase()] || null;
+}
+
+function handleHeal(effect: RawEffect, text: string, chance?: number): Extra {
+  const amount =
+    num(effect.ap) ??
+    firstNumber(text, [/heals? yourself by (\d+)/i, /replenishes (\d+) health/i]);
+  return amount
+    ? { kind: "heal", amount, chance }
+    : { kind: "note", name: "Heal" };
+}
+
+function handleLifeSteal(effect: RawEffect, text: string, chance?: number): Extra {
+  const amount = num(effect.ap) ?? firstNumber(text, [/steals? (\d+) HP/i]);
+  return amount
+    ? { kind: "lifesteal", amount, chance }
+    : { kind: "note", name: "LifeSteal" };
+}
+
+function handleHot(effect: RawEffect, text: string, chance?: number): Extra {
+  const hot = text.match(/(\d+) healing for (\d+) turns/i);
+  const amount = num(effect.ap) ?? (hot ? Number(hot[1]) : null);
+  const turns = num(effect.turns) ?? (hot ? Number(hot[2]) : null);
+  return amount
+    ? { kind: "hot", amount, turns: turns || undefined, chance }
+    : { kind: "note", name: "HoT" };
+}
+
+function handleDot(effect: RawEffect, text: string, chance?: number): Extra {
+  const type = String(effect.type || "Dot");
+  const parsed = text.match(
+    /(\d+)\s*AP\s+[\w/]+\s+(?:DoT|Poison|Bleed|Disease)(?: on (?:the )?foe)? for (\d+)/i,
+  );
+  const namedTurns = text.match(
+    /inflicts (Bleed|Poison|Disease)(?: and [A-Za-z-]+)? for (\d+) turns/i,
+  );
+  return {
+    kind: "dot",
+    name: type,
+    amount: num(effect.ap) ?? (parsed ? Number(parsed[1]) : null),
+    turns:
+      num(effect.turns) ??
+      (parsed ? Number(parsed[2]) : namedTurns ? Number(namedTurns[2]) : null),
+    chance,
+  };
+}
+
+function handleBuff(effect: RawEffect, text: string, chance?: number): Extra {
+  const named = namedBuff(String(effect.name || ""));
+  const keys = Array.isArray(effect.keys)
+    ? [...(effect.keys as string[])]
+    : [...(named?.keys || [])];
+  let amount = num(effect.ap);
+  let target: "self" | "foe" =
+    String(effect.target || "").toLowerCase() === "foe" ? "foe" : "self";
+  if (named) {
+    amount = amount ?? named.amount;
+    if (!effect.target) target = named.target;
+  }
+  const move = text.match(
+    /(raises?|lowers?)\s+(?:your foe's|the user's|foe's|your)\s*(Physical Attack|Elemental Attack|Physical Defense|Elemental Defense|Defenses|Attacks|Speed|Accuracy|Health)\s+by\s+(\d+)/i,
+  );
+  if (move) {
+    const word = move[2].toLowerCase();
+    if (!keys.length) keys.push(...(STAT_WORDS[word] || []));
+    if (amount == null)
+      amount = move[1].toLowerCase().startsWith("lower")
+        ? -Number(move[3])
+        : Number(move[3]);
+    if (/foe's/.test(move[0])) target = "foe";
+    if (/the user's/.test(move[0])) target = "self";
+  }
+  if (amount != null && keys.length)
+    return {
+      kind: "stat",
+      keys,
+      amount,
+      target,
+      chance,
+      name: String(effect.name || "Buff"),
+    };
+  return { kind: "note", name: String(effect.name || effect.type || "Buff") };
+}
+
+function handleTrueHit(effect: RawEffect, text: string, chance?: number): Extra {
+  const flat =
+    num(effect.ap) ??
+    firstNumber(text, [
+      /additional attack with (\d+) fixed damage/i,
+      /(\d+) fixed damage/i,
+    ]);
+  return flat
+    ? { kind: "dot", name: "true", amount: flat, turns: 1, chance }
+    : { kind: "note", name: "true damage" };
+}
+
+const HANDLERS: Record<string, (effect: RawEffect, text: string, chance?: number) => Extra> = {
+  Heal: handleHeal,
+  LifeSteal: handleLifeSteal,
+  Hot: handleHot,
+  Dot: handleDot,
+  Poison: handleDot,
+  Bleed: handleDot,
+  Disease: handleDot,
+  Buff: handleBuff,
+  StatSteal: handleBuff,
+  Attack: handleTrueHit,
+};
 
 export function parseAbilityExtras(
   ability: MechanicalAbility,
   enchanted = false,
 ): Extra[] {
-  const text = `${ability.descriptionEn || ""} ${enchanted ? ability.enchantDescriptionEn || "" : ""}`;
+  const text = textOf(ability, enchanted);
   const chance = chanceOf(text);
   const extras: Extra[] = [];
   const seen = new Set<string>();
-  const push = (item: Extra) => {
-    const key = JSON.stringify(item);
-    if (seen.has(key)) return;
-    seen.add(key);
-    extras.push(item);
-  };
-
-  for (const effect of flattenEffects(ability, enchanted)) {
+  for (const effect of rawList(ability, enchanted)) {
     const type = String(effect.type || "");
-    const keys = Array.isArray(effect.keys) ? (effect.keys as string[]) : [];
-    const ap = typeof effect.ap === "number" ? effect.ap : null;
-    const turns = typeof effect.turns === "number" ? effect.turns : null;
-    const target =
-      String(effect.target || "").toLowerCase() === "foe" ? "foe" : "self";
-
-    if (type === "Heal") {
-      const amount =
-        ap ??
-        amountFromText(text, [
-          /heals? yourself by (\d+)/i,
-          /replenishes (\d+) health/i,
-        ]);
-      if (amount) push({ kind: "heal", amount, chance });
-      else push({ kind: "note", name: "Heal" });
-    } else if (type === "LifeSteal") {
-      const amount = ap ?? amountFromText(text, [/steals? (\d+) HP/i]);
-      if (amount) push({ kind: "lifesteal", amount, chance });
-      else push({ kind: "note", name: "LifeSteal" });
-    } else if (type === "Hot") {
-      const amount =
-        ap ??
-        amountFromText(text, [
-          /grants (\d+) healing for (\d+) turns/i,
-          /(\d+) healing for (\d+) turns/i,
-        ]);
-      const hotTurns =
-        turns ??
-        Number(text.match(/healing for (\d+) turns/i)?.[1] || 0) ||
-        null;
-      if (amount) push({ kind: "hot", amount, turns: hotTurns || undefined, chance });
-      else push({ kind: "note", name: "HoT" });
-    } else if (["Dot", "Poison", "Bleed", "Disease"].includes(type)) {
-      const parsed = text.match(
-        /(\d+)\s*AP\s+[\w/]+\s+(?:DoT|Poison|Bleed|Disease)(?: on (?:the )?foe)? for (\d+)/i,
-      );
-      const namedTurns = text.match(
-        /inflicts (Bleed|Poison|Disease)(?: and [A-Za-z-]+)? for (\d+) turns/i,
-      );
-      push({
-        kind: "dot",
-        name: type,
-        amount: ap ?? (parsed ? Number(parsed[1]) : null),
-        turns:
-          turns ??
-          (parsed ? Number(parsed[2]) : namedTurns ? Number(namedTurns[2]) : null),
-        chance,
-      });
-    } else if (type === "Buff" || type === "StatSteal") {
-      let amount = ap;
-      let foundKeys = keys;
-      let foundTarget = target;
-      const move = text.match(
-        /(raises?|lowers?)\s+(?:your foe's|the user's|foe's|your)\s*(Physical Attack|Elemental Attack|Physical Defense|Elemental Defense|Defenses|Attacks|Speed|Accuracy|Health)\s+by\s+(\d+)/i,
-      );
-      if (move) {
-        const word = move[2].toLowerCase();
-        foundKeys = foundKeys.length ? foundKeys : STAT_WORDS[word] || [];
-        amount = amount ?? (move[1].toLowerCase().startsWith("lower") ? -Number(move[3]) : Number(move[3]));
-        if (/foe|user/.test(move[0]) && /foe/.test(move[0])) foundTarget = "foe";
-        if (/the user's/.test(move[0])) foundTarget = "self";
-      }
-      if (String(effect.name || "").toLowerCase().includes("chaos") && amount == null) {
-        amount = -5;
-        if (!effect.target) foundTarget = "foe";
-      }
-      if (amount != null && foundKeys.length)
-        push({
-          kind: "stat",
-          keys: foundKeys,
-          amount,
-          target:
-            /foe's/.test(text) ? "foe" : /the user's/.test(text) ? "self" : foundTarget,
-          chance,
-          name: String(effect.name || type),
-        });
-      else push({ kind: "note", name: String(effect.name || type) });
-    } else if (type === "Attack" && effect.true_dmg) {
-      const flat = amountFromText(text, [
-        /additional attack with (\d+) fixed damage/i,
-        /(\d+) fixed damage/i,
-      ]);
-      if (flat) push({ kind: "dot", name: "true", amount: flat, turns: 1, chance });
-      else push({ kind: "note", name: "true damage" });
-    } else if (type) {
-      push({ kind: "note", name: type });
-    }
+    const handler = HANDLERS[type] || ((_e, _t) => ({ kind: "note" as const, name: type || "effect" }));
+    const extra =
+      type === "Attack" && !effect.true_dmg
+        ? { kind: "note" as const, name: "Attack" }
+        : handler(effect, text, chance);
+    const key = JSON.stringify(extra);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    extras.push(extra);
   }
   return extras;
 }
 
-const COMBAT_STATS: Stat[] = ["hp", "spd", "ea", "pa", "ed", "pd"];
-
-export function applyStatExtras(base: Stats, extras: Extra[], side: "self" | "foe"): Stats {
+export function applyStatExtras(
+  base: Stats,
+  extras: Extra[],
+  side: "self" | "foe",
+): Stats {
   const next = { ...base };
   for (const extra of extras) {
     if (extra.kind !== "stat" || extra.target !== side) continue;
@@ -184,4 +233,24 @@ export function applyStatExtras(base: Stats, extras: Extra[], side: "self" | "fo
     }
   }
   return next;
+}
+
+export function applyFlatHealth(
+  attackerHp: number,
+  defenderHp: number,
+  extras: Extra[],
+) {
+  let self = attackerHp;
+  let foe = defenderHp;
+  for (const extra of extras) {
+    if (extra.kind === "heal" || extra.kind === "hot")
+      self += extra.amount * (extra.kind === "hot" ? extra.turns || 1 : 1);
+    if (extra.kind === "lifesteal") {
+      self += extra.amount;
+      foe -= extra.amount;
+    }
+    if (extra.kind === "dot" && extra.amount)
+      foe -= extra.amount * (extra.turns || 1);
+  }
+  return { attackerHp: self, defenderHp: foe };
 }
