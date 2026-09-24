@@ -1,4 +1,5 @@
 // Pure implementation of the supplied snapshot. No browser, storage or React dependencies.
+import { applyStatExtras, parseAbilityExtras } from "./effects";
 export const KEYS = ["hp", "spd", "ea", "pa", "ed", "pd"] as const;
 export type Stat = (typeof KEYS)[number];
 export type Stats = Record<Stat, number>;
@@ -150,6 +151,8 @@ export type MechanicalAbility = {
   calculationSupport: string;
   rawEffects?: unknown[];
   enchant: Record<string, unknown> | null;
+  descriptionEn?: string;
+  enchantDescriptionEn?: string;
 };
 export function resolveAbility(ability: MechanicalAbility, enchanted = false) {
   const e = enchanted ? (ability.enchant ?? {}) : {};
@@ -184,28 +187,46 @@ export function abilityDamage(
   negate = false,
 ) {
   const resolved = resolveAbility(ability, enchanted);
-  if (
-    resolved.kind !== "attack" ||
-    resolved.calculationSupport === "requires-effect-handler"
-  )
-    throw new Error(
-      "Для этого навыка нужен отдельный обработчик эффекта. Прямой урон не рассчитывается.",
-    );
+  if (resolved.kind !== "attack")
+    throw new Error("damage.notAttack");
   if (resolved.ap === null || resolved.hits === null)
-    throw new Error("AP или число ударов не указаны в источнике");
+    throw new Error("damage.missingAp");
   const physical = resolved.element === "physical";
+  const extras = parseAbilityExtras(ability, enchanted);
+  const hit = directDamage({
+    ap: resolved.ap,
+    attack: attacker[physical ? "pa" : "ea"],
+    defense: defender[physical ? "pd" : "ed"],
+    hp: defender.hp,
+    element: resolved.element,
+    defenderElements,
+    hits: resolved.hits,
+    negate,
+  });
+  const nextAttacker = applyStatExtras(attacker, extras, "self");
+  const nextDefender = applyStatExtras(defender, extras, "foe");
+  const nextChanged =
+    nextAttacker[physical ? "pa" : "ea"] !== attacker[physical ? "pa" : "ea"] ||
+    nextDefender[physical ? "pd" : "ed"] !== defender[physical ? "pd" : "ed"];
+  const nextHit = nextChanged
+    ? directDamage({
+        ap: resolved.ap,
+        attack: nextAttacker[physical ? "pa" : "ea"],
+        defense: nextDefender[physical ? "pd" : "ed"],
+        hp: nextDefender.hp,
+        element: resolved.element,
+        defenderElements,
+        hits: resolved.hits,
+        negate,
+      })
+    : null;
   return {
-    ...directDamage({
-      ap: resolved.ap,
-      attack: attacker[physical ? "pa" : "ea"],
-      defense: defender[physical ? "pd" : "ed"],
-      hp: defender.hp,
-      element: resolved.element,
-      defenderElements,
-      hits: resolved.hits,
-      negate,
-    }),
-    partial: resolved.calculationSupport === "direct-component-only",
+    ...hit,
+    extras,
+    nextHit,
+    nextAttacker,
+    nextDefender,
+    partial: extras.some((item) => item.kind === "note"),
     accuracyPercent: resolved.accuracyPercent,
   };
 }

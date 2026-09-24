@@ -468,11 +468,7 @@ export default function Damage() {
       ? t("damage.manualRange", { stat: raw.split(":")[1] })
       : raw.startsWith("damage.")
         ? t(raw)
-        : raw.includes("отдельный обработчик")
-          ? t("damage.partial")
-          : raw.includes("не указаны")
-            ? t("damage.apUnknown")
-            : raw;
+        : raw;
   }
   const resolved = ability ? resolveAbility(ability, enchanted) : null;
   return (
@@ -571,6 +567,82 @@ export default function Damage() {
                   max: result.koGuaranteedHits ?? "—",
                 })}
               </p>
+              {result.extras?.length ? (
+                <ul className="damage-extras">
+                  {result.extras.map((extra, index) => {
+                    const chance =
+                      "chance" in extra && extra.chance
+                        ? ` · ${t("damage.chance", { n: extra.chance })}`
+                        : "";
+                    if (extra.kind === "heal")
+                      return (
+                        <li key={index}>
+                          {t("damage.heal", { n: extra.amount })}
+                          {chance}
+                        </li>
+                      );
+                    if (extra.kind === "lifesteal")
+                      return (
+                        <li key={index}>
+                          {t("damage.lifesteal", { n: extra.amount })}
+                          {chance}
+                        </li>
+                      );
+                    if (extra.kind === "hot")
+                      return (
+                        <li key={index}>
+                          {t("damage.hot", {
+                            n: extra.amount,
+                            turns: extra.turns ?? "?",
+                          })}
+                          {chance}
+                        </li>
+                      );
+                    if (extra.kind === "dot")
+                      return (
+                        <li key={index}>
+                          {extra.amount != null
+                            ? t("damage.dot", {
+                                name: extra.name,
+                                n: extra.amount,
+                                turns: extra.turns ?? "?",
+                              })
+                            : t("damage.dotOnly", {
+                                name: extra.name,
+                                turns: extra.turns ?? "?",
+                              })}
+                          {chance}
+                        </li>
+                      );
+                    if (extra.kind === "stat")
+                      return (
+                        <li key={index}>
+                          {t(
+                            extra.target === "foe"
+                              ? "damage.statFoe"
+                              : "damage.statSelf",
+                            {
+                              stats: extra.keys.join("/").toUpperCase(),
+                              n: `${extra.amount > 0 ? "+" : ""}${extra.amount}`,
+                            },
+                          )}
+                          {chance}
+                        </li>
+                      );
+                    return (
+                      <li key={index}>{t("damage.extraNote", { name: extra.name })}</li>
+                    );
+                  })}
+                </ul>
+              ) : null}
+              {result.nextHit && (
+                <p>
+                  {t("damage.nextHit", {
+                    min: result.nextHit.min,
+                    max: result.nextHit.max,
+                  })}
+                </p>
+              )}
               {result.partial && (
                 <p className="danger-text">
                   {t("damage.partial")}
