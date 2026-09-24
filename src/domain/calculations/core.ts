@@ -151,8 +151,8 @@ export type MechanicalAbility = {
   calculationSupport: string;
   rawEffects?: unknown[];
   enchant: Record<string, unknown> | null;
-  descriptionEn?: string;
-  enchantDescriptionEn?: string;
+  descriptionEn?: string | null;
+  enchantDescriptionEn?: string | null;
 };
 export function resolveAbility(ability: MechanicalAbility, enchanted = false) {
   const e = enchanted ? (ability.enchant ?? {}) : {};

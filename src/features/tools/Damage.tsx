@@ -629,9 +629,13 @@ export default function Damage() {
                           {chance}
                         </li>
                       );
-                    return (
-                      <li key={index}>{t("damage.extraNote", { name: extra.name })}</li>
-                    );
+                    if (extra.kind === "note")
+                      return (
+                        <li key={index}>
+                          {t("damage.extraNote", { name: extra.name })}
+                        </li>
+                      );
+                    return null;
                   })}
                 </ul>
               ) : null}
